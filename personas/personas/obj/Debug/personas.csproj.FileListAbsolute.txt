@@ -1,0 +1,7 @@
+C:\Users\Alumno\Desktop\muriel\personas\personas\bin\Debug\personas.exe.config
+C:\Users\Alumno\Desktop\muriel\personas\personas\bin\Debug\personas.exe
+C:\Users\Alumno\Desktop\muriel\personas\personas\bin\Debug\personas.pdb
+C:\Users\Alumno\Desktop\muriel\personas\personas\obj\Debug\personas.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\muriel\personas\personas\obj\Debug\personas.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\muriel\personas\personas\obj\Debug\personas.exe
+C:\Users\Alumno\Desktop\muriel\personas\personas\obj\Debug\personas.pdb
