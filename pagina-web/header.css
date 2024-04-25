@@ -1,0 +1,38 @@
+body{
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(221, 251, 210);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+}
+.logo{
+    padding-left: 10px;
+    display: inline;
+}
+.links{
+    padding-top: 10px;
+    width: 50%;
+}
+ul{
+    justify-content: space-around;
+    list-style-type:none;
+    display: flex;
+}
+.links a{
+    margin-right: 15px;
+    text-decoration: none;
+}
+.redes{
+    width: 10%;
+    padding-top: 10px;
+    margin-right: 2%;
+}
+i{
+    margin-right: 10px;
+    font-size: 20px;
+}
