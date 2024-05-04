@@ -1,5 +1,5 @@
 function loadHeader() {
-    fetch('header.html')
+    fetch('headerB.html')
       .then(response => response.text())
       .then(data => {
         // Encuentra el elemento donde se mostrará el header
