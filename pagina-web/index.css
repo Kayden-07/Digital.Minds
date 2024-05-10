@@ -18,6 +18,9 @@ body{
 .proceso{
 min-height: 80%;
 }
+.unPocoSobreNosotros{
+    min-height: 80%;
+}
 .blanco{
     color: white;
 }
@@ -29,4 +32,8 @@ min-height: 80%;
 }
 .verde-oscuro{
     background-color: rgba(116, 164, 99, 1);
+}
+.card-nosotros{
+    height: 150px;
+    width: 80%;
 }
