@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Muriel\\Desktop\\Nueva carpeta\\animacion2\\animacion2\\animacion2.csproj": {}
+    "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\animacion2\\animacion2\\animacion2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Muriel\\Desktop\\Nueva carpeta\\animacion2\\animacion2\\animacion2.csproj": {
+    "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\animacion2\\animacion2\\animacion2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muriel\\Desktop\\Nueva carpeta\\animacion2\\animacion2\\animacion2.csproj",
+        "projectUniqueName": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\animacion2\\animacion2\\animacion2.csproj",
         "projectName": "animacion2",
-        "projectPath": "C:\\Users\\Muriel\\Desktop\\Nueva carpeta\\animacion2\\animacion2\\animacion2.csproj",
+        "projectPath": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\animacion2\\animacion2\\animacion2.csproj",
         "packagesPath": "C:\\Users\\Muriel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muriel\\Desktop\\Nueva carpeta\\animacion2\\animacion2\\obj\\",
+        "outputPath": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\animacion2\\animacion2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Muriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
