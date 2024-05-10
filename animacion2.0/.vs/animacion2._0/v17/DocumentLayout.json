@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Muriel\\Desktop\\Nueva carpeta\\animacion2.0\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F051DFE8-6E1B-49BB-9EEF-296B5668F581}|animacion2.0\\animacion2.0.csproj|C:\\Users\\Muriel\\Desktop\\Nueva carpeta\\animacion2.0\\animacion2.0\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F051DFE8-6E1B-49BB-9EEF-296B5668F581}|animacion2.0\\animacion2.0.csproj|solutionrelative:animacion2.0\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F051DFE8-6E1B-49BB-9EEF-296B5668F581}|animacion2.0\\animacion2.csproj|c:\\users\\muriel\\desktop\\nueva carpeta\\animacion2.0\\animacion2.0\\animacion2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F051DFE8-6E1B-49BB-9EEF-296B5668F581}|animacion2.0\\animacion2.csproj|solutionrelative:animacion2.0\\animacion2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F051DFE8-6E1B-49BB-9EEF-296B5668F581}|animacion2.0\\animacion2.csproj|c:\\users\\muriel\\desktop\\nueva carpeta\\animacion2.0\\animacion2.0\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F051DFE8-6E1B-49BB-9EEF-296B5668F581}|animacion2.0\\animacion2.csproj|solutionrelative:animacion2.0\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F051DFE8-6E1B-49BB-9EEF-296B5668F581}|animacion2.0\\animacion2.0.csproj|c:\\users\\muriel\\desktop\\nueva carpeta\\animacion2.0\\animacion2.0\\animationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F051DFE8-6E1B-49BB-9EEF-296B5668F581}|animacion2.0\\animacion2.0.csproj|solutionrelative:animacion2.0\\animationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "animacion2",
+              "DocumentMoniker": "C:\\Users\\Muriel\\Desktop\\Nueva carpeta\\animacion2.0\\animacion2.0\\animacion2.csproj",
+              "RelativeDocumentMoniker": "animacion2.0\\animacion2.csproj",
+              "ToolTip": "C:\\Users\\Muriel\\Desktop\\Nueva carpeta\\animacion2.0\\animacion2.0\\animacion2.csproj",
+              "RelativeToolTip": "animacion2.0\\animacion2.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-08T03:54:03.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\Muriel\\Desktop\\Nueva carpeta\\animacion2.0\\animacion2.0\\app.manifest",
+              "RelativeDocumentMoniker": "animacion2.0\\app.manifest",
+              "ToolTip": "C:\\Users\\Muriel\\Desktop\\Nueva carpeta\\animacion2.0\\animacion2.0\\app.manifest",
+              "RelativeToolTip": "animacion2.0\\app.manifest",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2024-05-08T03:52:44.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AnimationManager.cs",
+              "DocumentMoniker": "C:\\Users\\Muriel\\Desktop\\Nueva carpeta\\animacion2.0\\animacion2.0\\AnimationManager.cs",
+              "RelativeDocumentMoniker": "animacion2.0\\AnimationManager.cs",
+              "ToolTip": "C:\\Users\\Muriel\\Desktop\\Nueva carpeta\\animacion2.0\\animacion2.0\\AnimationManager.cs",
+              "RelativeToolTip": "animacion2.0\\AnimationManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T03:49:50.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\Muriel\\Desktop\\Nueva carpeta\\animacion2.0\\animacion2.0\\Game1.cs",
+              "RelativeDocumentMoniker": "animacion2.0\\Game1.cs",
+              "ToolTip": "C:\\Users\\Muriel\\Desktop\\Nueva carpeta\\animacion2.0\\animacion2.0\\Game1.cs",
+              "RelativeToolTip": "animacion2.0\\Game1.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAowE0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T03:03:01.47Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

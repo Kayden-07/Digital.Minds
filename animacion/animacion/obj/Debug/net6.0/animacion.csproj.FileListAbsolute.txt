@@ -1,0 +1,71 @@
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\Content\D01.xnb
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\Content\D05.xnb
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\Content\D07.xnb
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\Content\D24.xnb
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\Content\D28.xnb
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\Content\D29.xnb
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\animacion.exe
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\animacion.deps.json
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\animacion.runtimeconfig.json
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\animacion.dll
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\animacion.pdb
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\MonoGame.Framework.dll
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\runtimes\osx\native\libSDL2.dylib
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\runtimes\osx\native\libopenal.1.dylib
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\runtimes\win-x64\native\soft_oal.dll
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\runtimes\win-x86\native\SDL2.dll
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\runtimes\win-x86\native\soft_oal.dll
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\obj\Debug\net6.0\animacion.csproj.AssemblyReference.cache
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\obj\Debug\net6.0\animacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\obj\Debug\net6.0\animacion.AssemblyInfoInputs.cache
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\obj\Debug\net6.0\animacion.AssemblyInfo.cs
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\obj\Debug\net6.0\animacion.csproj.CoreCompileInputs.cache
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\obj\Debug\net6.0\animacion.csproj.Up2Date
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\obj\Debug\net6.0\animacion.dll
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\obj\Debug\net6.0\refint\animacion.dll
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\obj\Debug\net6.0\animacion.pdb
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\obj\Debug\net6.0\animacion.genruntimeconfig.cache
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\obj\Debug\net6.0\ref\animacion.dll
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\Content\D26.xnb
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\Content\D27.xnb
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\Content\D30.xnb
+C:\Users\Muriel\Desktop\Nueva carpeta\animacion\animacion\bin\Debug\net6.0\Content\D31.xnb
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\Content\D01.xnb
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\Content\D05.xnb
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\Content\D07.xnb
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\Content\D24.xnb
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\Content\D26.xnb
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\Content\D27.xnb
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\Content\D28.xnb
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\Content\D29.xnb
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\Content\D30.xnb
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\Content\D31.xnb
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\animacion.exe
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\animacion.deps.json
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\animacion.runtimeconfig.json
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\animacion.dll
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\animacion.pdb
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\MonoGame.Framework.dll
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\runtimes\osx\native\libSDL2.dylib
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\runtimes\osx\native\libopenal.1.dylib
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\runtimes\win-x64\native\soft_oal.dll
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\runtimes\win-x86\native\SDL2.dll
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\bin\Debug\net6.0\runtimes\win-x86\native\soft_oal.dll
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\obj\Debug\net6.0\animacion.csproj.AssemblyReference.cache
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\obj\Debug\net6.0\animacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\obj\Debug\net6.0\animacion.AssemblyInfoInputs.cache
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\obj\Debug\net6.0\animacion.AssemblyInfo.cs
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\obj\Debug\net6.0\animacion.csproj.CoreCompileInputs.cache
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\obj\Debug\net6.0\animacion.sourcelink.json
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\obj\Debug\net6.0\animacion.csproj.Up2Date
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\obj\Debug\net6.0\animacion.dll
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\obj\Debug\net6.0\refint\animacion.dll
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\obj\Debug\net6.0\animacion.pdb
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\obj\Debug\net6.0\animacion.genruntimeconfig.cache
+C:\Users\Muriel\Desktop\github\Digital.Minds\animacion\animacion\obj\Debug\net6.0\ref\animacion.dll
