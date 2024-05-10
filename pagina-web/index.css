@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,500;1,12..72,500&display=swap');
 body{
-    background-color: rgba(200, 255, 180, 1);
-    margin: 0;
-    padding: 0;
-    font-family: 'Passero One';
+    background-color: rgba(200, 255, 180, 1) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Passero One' !important;
 }
 .text-2{
     font-family: "Texturina", serif;
 }
 .alto{
-    height: 100vh;
+    height: 85vh;
+}
+.nose{
+    height: 150px !important;
+}
+.proceso{
+min-height: 80%;
 }
 .blanco{
     color: white;
@@ -19,7 +25,7 @@ body{
     width: 100%;
 }
 .container-fluid{
-    padding:0;
+    padding:0 !important;
 }
 .verde-oscuro{
     background-color: rgba(116, 164, 99, 1);
