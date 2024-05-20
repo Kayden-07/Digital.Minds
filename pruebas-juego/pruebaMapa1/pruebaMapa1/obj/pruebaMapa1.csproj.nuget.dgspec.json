@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebaMapa1\\pruebaMapa1\\pruebaMapa1.csproj": {}
+    "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\pruebaMapa1\\pruebaMapa1\\pruebaMapa1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebaMapa1\\pruebaMapa1\\pruebaMapa1.csproj": {
+    "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\pruebaMapa1\\pruebaMapa1\\pruebaMapa1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebaMapa1\\pruebaMapa1\\pruebaMapa1.csproj",
+        "projectUniqueName": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\pruebaMapa1\\pruebaMapa1\\pruebaMapa1.csproj",
         "projectName": "pruebaMapa1",
-        "projectPath": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebaMapa1\\pruebaMapa1\\pruebaMapa1.csproj",
+        "projectPath": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\pruebaMapa1\\pruebaMapa1\\pruebaMapa1.csproj",
         "packagesPath": "C:\\Users\\Muriel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebaMapa1\\pruebaMapa1\\obj\\",
+        "outputPath": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\pruebaMapa1\\pruebaMapa1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Muriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
