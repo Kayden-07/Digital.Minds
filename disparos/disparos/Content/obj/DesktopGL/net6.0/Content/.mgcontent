@@ -4,11 +4,13 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Users/Muriel/Desktop/github/Digital.Minds/disparos/disparos/Content/flecha1.png</File>
     <File>C:/Users/Muriel/Desktop/github/Digital.Minds/disparos/disparos/Content/red-ball.png</File>
     <File>C:/Users/Muriel/Desktop/github/Digital.Minds/disparos/disparos/Content/red-balls.png</File>
     <File>C:/Users/Muriel/Desktop/github/Digital.Minds/disparos/disparos/Content/Skeletuschiquito.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

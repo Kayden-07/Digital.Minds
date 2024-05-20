@@ -76,9 +76,9 @@ namespace disparos2
 
             _spriteBatch.Begin();
 
-            _spriteBatch.Draw(flecha, _positionFlecha, null, Color.White, _rotation, Origin, 1, SpriteEffects.None, 0);
+            
             _spriteBatch.Draw(_esqueleto, new Rectangle((int)_positionEsqueleto.X, (int)_positionEsqueleto.Y, widthEsqueleto, heightEsqueleto), Color.White);
-
+            _spriteBatch.Draw(flecha, _positionFlecha, null, Color.White, _rotation, Origin, 1, SpriteEffects.None, 0);
             _spriteBatch.End(); 
             // TODO: Add your drawing code here
 

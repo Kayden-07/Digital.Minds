@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|solutionrelative:disparos\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\disparos\\disparos\\sprites\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\disparos\\disparos\\sprites\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|solutionrelative:disparos\\sprites\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\disparos\\disparos\\sprites\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\disparos\\disparos\\sprites\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|solutionrelative:disparos\\sprites\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\disparos\\disparos\\sprites\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\disparos\\disparos\\sprites\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|solutionrelative:disparos\\sprites\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,8 +38,7 @@
               "RelativeToolTip": "disparos\\sprites\\Ship.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T17:35:57.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T17:35:57.044Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "disparos\\sprites\\Bullet.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T17:06:25.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T17:06:25.303Z"
             },
             {
               "$type": "Document",
@@ -64,8 +62,7 @@
               "RelativeToolTip": "disparos\\sprites\\Sprite.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAAwBoAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T16:41:02.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T16:41:02.251Z"
             },
             {
               "$type": "Document",
@@ -75,7 +72,7 @@
               "RelativeDocumentMoniker": "disparos\\Game1.cs",
               "ToolTip": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\disparos\\disparos\\Game1.cs",
               "RelativeToolTip": "disparos\\Game1.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwDUAAABEAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwC4AAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T16:20:14.485Z",
               "EditorCaption": ""

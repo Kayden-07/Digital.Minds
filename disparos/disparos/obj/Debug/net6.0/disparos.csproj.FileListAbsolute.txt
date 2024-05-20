@@ -27,3 +27,4 @@ C:\Users\Muriel\Desktop\github\Digital.Minds\disparos\disparos\obj\Debug\net6.0\
 C:\Users\Muriel\Desktop\github\Digital.Minds\disparos\disparos\obj\Debug\net6.0\ref\disparos.dll
 C:\Users\Muriel\Desktop\github\Digital.Minds\disparos\disparos\bin\Debug\net6.0\Content\red-ball.xnb
 C:\Users\Muriel\Desktop\github\Digital.Minds\disparos\disparos\bin\Debug\net6.0\Content\red-balls.xnb
+C:\Users\Muriel\Desktop\github\Digital.Minds\disparos\disparos\bin\Debug\net6.0\Content\flecha1.xnb

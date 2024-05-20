@@ -44,7 +44,7 @@ namespace disparos
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            var shipTexture = Content.Load<Texture2D>("Skeletuschiquito");
+            var shipTexture = Content.Load<Texture2D>("flecha1");
 
             _sprites = new List<Sprite>()
       {
