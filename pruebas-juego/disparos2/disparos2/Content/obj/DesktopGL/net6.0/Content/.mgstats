@@ -1,0 +1,5 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/Muriel/Desktop/disparos2/disparos2/Content/esqueleto.png","C:/Users/Muriel/Desktop/disparos2/disparos2/Content/bin/DesktopGL/Content/esqueleto.xnb","TextureProcessor","Texture2DContent",23810,750085,0,2461605
+"C:/Users/Muriel/Desktop/disparos2/disparos2/Content/flecha.png","C:/Users/Muriel/Desktop/disparos2/disparos2/Content/bin/DesktopGL/Content/flecha.xnb","TextureProcessor","Texture2DContent",7573,1048661,0,0512156
+"C:/Users/Muriel/Desktop/disparos2/disparos2/Content/flecha1.png","C:/Users/Muriel/Desktop/disparos2/disparos2/Content/bin/DesktopGL/Content/flecha1.xnb","TextureProcessor","Texture2DContent",407,3685,0,003352
+"C:/Users/Muriel/Desktop/disparos2/disparos2/Content/red-balls.png","C:/Users/Muriel/Desktop/disparos2/disparos2/Content/bin/DesktopGL/Content/red-balls.xnb","TextureProcessor","Texture2DContent",1503,19285,0,0031306

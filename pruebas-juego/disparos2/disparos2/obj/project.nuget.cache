@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "pwj9Ala2hH4szUobo9vwIcrZc1hyYqlGJdqMOUwTP3JIdH5OQ1G7VxU31H+kccIf1gax5CtKbRnBKypfWORuFw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Muriel\\Desktop\\disparos2\\disparos2\\disparos2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Muriel\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\Muriel\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+  ],
+  "logs": []
+}
