@@ -4,10 +4,10 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Muriel/Desktop/disparos2/disparos2/Content/esqueleto.png</File>
-    <File>C:/Users/Muriel/Desktop/disparos2/disparos2/Content/flecha.png</File>
-    <File>C:/Users/Muriel/Desktop/disparos2/disparos2/Content/flecha1.png</File>
-    <File>C:/Users/Muriel/Desktop/disparos2/disparos2/Content/red-balls.png</File>
+    <File>C:/Users/Muriel/Desktop/github/Digital.Minds/pruebas-juego/disparos2/disparos2/Content/esqueleto.png</File>
+    <File>C:/Users/Muriel/Desktop/github/Digital.Minds/pruebas-juego/disparos2/disparos2/Content/flecha.png</File>
+    <File>C:/Users/Muriel/Desktop/github/Digital.Minds/pruebas-juego/disparos2/disparos2/Content/flecha1.png</File>
+    <File>C:/Users/Muriel/Desktop/github/Digital.Minds/pruebas-juego/disparos2/disparos2/Content/red-balls.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

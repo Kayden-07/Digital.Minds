@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\animacion\\animacion\\animacion.csproj": {}
+    "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\animacion\\animacion\\animacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\animacion\\animacion\\animacion.csproj": {
+    "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\animacion\\animacion\\animacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\animacion\\animacion\\animacion.csproj",
+        "projectUniqueName": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\animacion\\animacion\\animacion.csproj",
         "projectName": "animacion",
-        "projectPath": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\animacion\\animacion\\animacion.csproj",
+        "projectPath": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\animacion\\animacion\\animacion.csproj",
         "packagesPath": "C:\\Users\\Muriel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\animacion\\animacion\\obj\\",
+        "outputPath": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\animacion\\animacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Muriel\\AppData\\Roaming\\NuGet\\NuGet.Config",

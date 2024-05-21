@@ -4,9 +4,13 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Muriel/Desktop/github/Digital.Minds/pruebaMapa2/pruebaMapa2/Content/mapa.png</File>
+    <File>C:/Users/Muriel/Desktop/github/Digital.Minds/pruebas-juego/pruebaMapa2/pruebaMapa2/Content/cuadraro.png</File>
+    <File>C:/Users/Muriel/Desktop/github/Digital.Minds/pruebas-juego/pruebaMapa2/pruebaMapa2/Content/mapa.png</File>
+    <File>C:/Users/Muriel/Desktop/github/Digital.Minds/pruebas-juego/pruebaMapa2/pruebaMapa2/Content/Skeletuschiquito.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

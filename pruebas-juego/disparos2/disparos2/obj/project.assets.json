@@ -107,11 +107,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Muriel\\Desktop\\disparos2\\disparos2\\disparos2.csproj",
+      "projectUniqueName": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\disparos2\\disparos2\\disparos2.csproj",
       "projectName": "disparos2",
-      "projectPath": "C:\\Users\\Muriel\\Desktop\\disparos2\\disparos2\\disparos2.csproj",
+      "projectPath": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\disparos2\\disparos2\\disparos2.csproj",
       "packagesPath": "C:\\Users\\Muriel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Muriel\\Desktop\\disparos2\\disparos2\\obj\\",
+      "outputPath": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\disparos2\\disparos2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Muriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
