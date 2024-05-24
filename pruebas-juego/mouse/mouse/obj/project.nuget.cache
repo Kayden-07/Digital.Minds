@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "graR8jnDj4zNgZnW+8zHvWG328Hsh6HRAbcYZePQuMKueS8A+6t28zUkB7/oJXpNGBADhmUvzHmYAX1rx6D19w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alumno\\Desktop\\muriel\\POO\\mouse\\mouse\\mouse.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alumno\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\Alumno\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+  ],
+  "logs": []
+}

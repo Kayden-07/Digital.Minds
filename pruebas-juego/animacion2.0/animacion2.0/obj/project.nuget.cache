@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "iLv0rj7rraL4TdONt8GnoXTBsJSsV0tBdrX/d1+SzUrpoC42XLKUq+GcAxZPPH3Yv4C0W4SpCI2ir6HuHRTM/g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\animacion2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Muriel\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\Muriel\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+  ],
+  "logs": []
+}
