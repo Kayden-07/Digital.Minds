@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,500;1,12..72,500&display=swap');
+body{
+    background-color: rgba(200, 255, 180, 1) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Passero One' !important;
+}
+/* --------------header------------------- */
+header{
+    background-color: #5cf64a;
+    font-family: 'Passero One';
+}
+header li{
+    font-size: 22px;
+    
+}
+header img{
+    width: 70px;
+}
+header h3{
+    font-size: 20px;
+}
+header i{
+    font-size: 20px;
+}
+
+.header-btn{
+    font-size: 30px;
+}
+
+/* --------------Foes and Bones------------------- */
+
+.blancoF{
+    background-color: white;
+}
+.puntos{
+    background-image: url(img/patron.webp);
+    background-size: 400px;
+    background-repeat:repeat;
+}
+.rosaF{
+    background-color: #ff75cc;
+}
+.alto{
+    height: 40vh;
+}
+.text-2{
+    font-family: "Texturina", serif;
+}
+.titulo{
+    font-size: 5em;
+}
+.sombra{
+    box-shadow: 10px 10px hsl(0, 0%, 0%);
+}
+.sombra:hover{
+    box-shadow: 10px 10px hsl(104, 96%, 65%);
+}
+.letra{
+    font-size: 4em;
+}
+.blanco{
+    color: white;
+    text-shadow: 4px 4px hsl(104, 96%, 65%);
+}
+
+
+
+.nose{
+    height: 150px !important;
+}
+.proceso{
+min-height: 80%;
+}
+.unPocoSobreNosotros{
+    min-height: 80%;
+}
+
+
+.container-xxl img{
+    width: 100%;
+}
+.container-fluid{
+    padding:0 !important;
+}
+.verde-oscuro{
+    background-color: rgba(116, 164, 99, 1);
+}
+.card-nosotros{
+    height: 150px;
+    width: 80%;
+}
