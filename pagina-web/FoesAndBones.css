@@ -13,7 +13,7 @@ header{
 }
 header li{
     font-size: 22px;
-    
+
 }
 header img{
     width: 70px;
@@ -42,6 +42,10 @@ header i{
 .rosaF{
     background-color: #ff75cc;
 }
+.rosa{
+    border-radius: 5px !important;
+    background-color: #ff4dbe;
+}
 .alto{
     height: 40vh;
 }
@@ -51,11 +55,27 @@ header i{
 .titulo{
     font-size: 5em;
 }
-.sombra{
+.sombra, .sombraR{
     box-shadow: 10px 10px hsl(0, 0%, 0%);
+    transition: all 0.3s;
 }
 .sombra:hover{
+    box-shadow: 8px 8px hsl(104, 96%, 65%);
+}
+.sombraV{
     box-shadow: 10px 10px hsl(104, 96%, 65%);
+    transition: all 0.3s;
+}
+.verde{
+    background-color: #87ff7a;
+}
+.sombraR:hover, .sombraV:hover{
+    box-shadow: 8px 8px #ff4dbe;
+}
+.rosa:hover{
+    color: white;
+    background-color: #49de39;
+    box-shadow: 4px 4px #ff4dbe;
 }
 .letra{
     font-size: 4em;
@@ -66,28 +86,23 @@ header i{
 }
 
 
+.pe-auto{
+    cursor: pointer;
 
-.nose{
-    height: 150px !important;
 }
-.proceso{
-min-height: 80%;
+.altaFoto{
+    /* object-fit: cover; */
+    height: 50vw;
 }
-.unPocoSobreNosotros{
-    min-height: 80%;
-}
-
-
-.container-xxl img{
-    width: 100%;
-}
-.container-fluid{
-    padding:0 !important;
-}
-.verde-oscuro{
-    background-color: rgba(116, 164, 99, 1);
-}
-.card-nosotros{
+@media (min-width: 768px) {
+.altura{
     height: 150px;
-    width: 80%;
+}
+.altaFoto{
+    /* object-fit: cover; */
+    height: 30vw;
+}
+}
+.negro{
+    background-color: black;
 }

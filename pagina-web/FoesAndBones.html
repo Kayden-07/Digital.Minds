@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="FoesAndBones.css">
+  <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </head>
 <body>
     <header class="ps-4 pe-4 d-flex flex-wrap align-items-center  justify-content-center justify-content-lg-between pt-2 mb-4 border-bottom">
@@ -22,7 +29,7 @@
       </div>
       
         <ul class="d-none d-md-flex nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-3 text-body-secondary">Inicio</a></li>
+          <li><a href="index.html" class="nav-link px-3 text-body-secondary">Inicio</a></li>
           <li><a href="#" class="nav-link px-3 text-body-secondary">Sobre nosotros</a></li>
           <li><a href="#" class="nav-link px-3 text-body-secondary">Foes and Bones</a></li>
           <li><a href="#" class="nav-link px-3 text-body-secondary">Preguntas frecuentes</a></li>
@@ -47,14 +54,14 @@
           <p>FOES AND BONES</p>
         </div>
     </div>
-<div class="blancoF pb-4">
+<div class="negro pb-4">
     <div class="container py-4">
         <div class="pt-4"></div>
     <div class="row featurette pt-4">
-        <div class="blancoF col-md-5 order-md-2 shadow p-4">
+        <div class="blancoF col-md-5 order-md-2  p-4 sombraV">
           <h1 class="mb-3">La travesia del esqueleto</h1>
           <p class="lead text-2">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
-        </div>
+        </div> 
         <div class="col-md-7 order-md-1">
           <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="700" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"/><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">700x400</text></svg>
         </div>
@@ -66,25 +73,138 @@
         <h1 class="blanco letra">Caracteristicas</h1>
         <div class="py-4"></div>
         <div class="d-flex flex-wrap flex-column flex-md-row justify-content-center justify-content-md-between">
-            <div class="col-md-5 my-4 py-4  sombra blancoF px-4">
+            <div class="col-md-5 my-4 py-4  sombra blancoF px-4" data-aos="fade-up">
                 <h2>Escapa de la mazmorra</h2>
                 <h5 class="text-2">Tu controlas a Felix el esqueleto, el cual tiene que escapar de la mazmorra para al fin concer el mundo exterior y poder cumplir el trato que hizo con su amigo</h5>
             </div>
-            <div class="col-md-5 my-4 py-4 mb-3 sombra blancoF px-4">
+            <div class="col-md-5 my-4 py-4 mb-3 sombra blancoF px-4" data-aos="fade-up">
                 <h2>Ayuda a los personas que estan dentro</h2>
                 <h5 class="text-2">A lo largo de la historia te encontras otras personajes que estan en una situacion parecida a la tuya y les vendria bien que les dieran una mano.</h5>
             </div>
-            <div class="col-md-5 my-4 py-4 mb-3 sombra blancoF px-4">
+            <div class="col-md-5 my-4 py-4 mb-3 sombra blancoF px-4" data-aos="fade-up">
                 <h2>Has amigos</h2>
                 <h5 class="text-2">No todos los que estan en la mazmorra son malos, más de uno podria llegar a ser tu amigo si le das la oportunidad.</h5>
             </div>
-            <div class="col-md-5 my-4 py-4 mb-3 sombra blancoF px-4">
+            <div class="col-md-5 my-4 py-4 mb-3 sombra blancoF px-4" data-aos="fade-up">
                 <h2>No tengas piedad con los enemigos</h2>
                 <h5 class="text-2">No todos son malos pero muchos si, y a esos no hay que tenerles ninguna piedad. Matalos, descuertizalos y utiliza sus cadaveres como armas, que al verte acercarte tiemblen de miedo tus enemigos y todo el que se te ponga en tu camino.</h5>
             </div>
         </div>
     </div>
 </div>
+<!-- -----------------Media--------------- -->
+<div class="media negro">
+  <div class="container d-flex  flex-wrap align-items-center justify-content-center">
+      <div class="py-4"></div>
+      <div class="col-12 mt-4 py-4 text-center">
+        <h1 class="letra text-light">Media</h1>
+      </div>
+        <div class="col-md-9 col-11 sombraR">
+        <img src="img/foesAndBones/esquelito.webp" class="pe-auto w-100 altaFoto" alt="" data-toggle="modal" data-target="#exampleModal">
+        </div>
+        
+        <div class="col-md-9 col-11 mb-4 pb-4 altura d-flex flex-wrap align-items-center justify-content-between">
+            <div class="col-md col-12 mt-3 me-4 h-100  sombraR">
+            <img src="img/foesAndBones/enojado.jpeg" class="pe-auto w-100 h-100 " alt="" data-toggle="modal" data-target="#exampleModalImg1">
+            </div>
+            
+            <div class="col-md col-12 mt-3 me-4 h-100 sombraR">
+              <img src="img/foesAndBones/oficina.jpg" class="pe-auto w-100 h-100" alt="" data-toggle="modal" data-target="#exampleModalImg2">
+            </div>
+            <div class="col-md col-12 mt-3 me-2 h-100 sombraR">
+                <img src="img/foesAndBones/ira.jpg" class="pe-auto w-100 h-100" alt="" data-toggle="modal" data-target="#exampleModalImg3">
+            </div>
+            <div class="col-md col-12 mt-3 ms-2 h-100 sombraR">
+              <img src="img/foesAndBones/playa.avif" class="pe-auto w-100 h-100" alt="" data-toggle="modal" data-target="#exampleModalImg4">
+          </div>
+        </div>
+        <!-- Modales -->
+        <div class="modal fade bd-example-modal-lg " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content  w-100  verde px-3 ">
+              <div class="modal-header border-bottom border-dark p-1  pt-2">
+                <h2 class="modal-title" id="exampleModalLabel">Foes and Bones</h2>
+              </div>
+              <div class="modal-body p-0 py-3">
+                <img src="img/foesAndBones/esquelito.webp" alt="" class="w-100">
+              </div>
+              <div class="modal-footer border-top border-dark">
+                <button type="button" class="btn rosa rounded-0" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade bd-example-modal-lg " id="exampleModalImg1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content  w-100  verde px-3 ">
+              <div class="modal-header border-bottom border-dark p-1  pt-2">
+                <h2 class="modal-title" id="exampleModalLabel">Foes and Bones</h2>
+              </div>
+              <div class="modal-body p-0 py-3">
+                <img src="img/foesAndBones/enojado.jpeg" alt="" class="w-100">
+              </div>
+              <div class="modal-footer border-top border-dark">
+                <button type="button" class="btn rosa rounded-0" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade bd-example-modal-lg " id="exampleModalImg2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content  w-100  verde px-3 ">
+              <div class="modal-header border-bottom border-dark p-1  pt-2">
+                <h2 class="modal-title" id="exampleModalLabel">Foes and Bones</h2>
+              </div>
+              <div class="modal-body p-0 py-3">
+                <img src="img/foesAndBones/oficina.jpg" alt="" class="w-100">
+              </div>
+              <div class="modal-footer border-top border-dark">
+                <button type="button" class="btn rosa rounded-0" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade bd-example-modal-lg " id="exampleModalImg3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content  w-100  verde px-3 ">
+              <div class="modal-header border-bottom border-dark p-1  pt-2">
+                <h2 class="modal-title" id="exampleModalLabel">Foes and Bones</h2>
+              </div>
+              <div class="modal-body p-0 py-3">
+                <img src="img/foesAndBones/ira.jpg" alt="" class="w-100">
+              </div>
+              <div class="modal-footer border-top border-dark">
+                <button type="button" class="btn rosa rounded-0" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade bd-example-modal-lg " id="exampleModalImg4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content  w-100  verde px-3 ">
+              <div class="modal-header border-bottom border-dark p-1  pt-2">
+                <h2 class="modal-title" id="exampleModalLabel">Foes and Bones</h2>
+              </div>
+              <div class="modal-body p-0 py-3">
+                <img src="img/foesAndBones/playa.avif" alt="" class="w-100">
+              </div>
+              <div class="modal-footer border-top border-dark">
+                <button type="button" class="btn rosa rounded-0" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+  </div>
+</div>
 <script src="header.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

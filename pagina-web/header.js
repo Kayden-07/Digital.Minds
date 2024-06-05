@@ -10,3 +10,6 @@ header_btn.addEventListener('click',() => {
     links.className = 'links d-none d-md-flex col-12 col-md-1 text-end'
 }
 })
+$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })

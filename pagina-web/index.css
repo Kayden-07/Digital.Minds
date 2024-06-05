@@ -1,16 +1,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,500;1,12..72,500&display=swap');
 body{
-    background-color: rgba(200, 255, 180, 1) !important;
+    background-color:#a2e29f !important;
     margin: 0 !important;
     padding: 0 !important;
     font-family: 'Passero One' !important;
 }
+/* --------header---------- */
+header{
+    background-color: #5cf64a;
+    font-family: 'Passero One';
+}
+header li{
+    font-size: 22px;
+
+}
+header img{
+    width: 70px;
+}
+header h3{
+    font-size: 20px;
+}
+header i{
+    font-size: 20px;
+}
+
+.header-btn{
+    font-size: 30px;
+}
+
+
+/* -------------main------------ */
+@media (min-width: 768px) {
+    .w-md-25 {
+        left: 0 !important;
+        width: 25% !important;
+    }
+}
+.plano-0, .plano-1,.plano-1-2,.plano-2,.plano-3,.plano-4,.plano-5,.plano-6{
+    position: absolute;
+    z-index: -1;
+}
+.plano-0{
+    height: 100vh;
+}
+.plano-4{
+    width: 80%;
+    top:20%;
+}
+.plano-3{
+    top:42%;
+    /* width: 90%; */
+    right: 0;
+}
+.plano-2{
+    width: 85%;
+    top:40%;
+}
+.plano-1{
+    width: 100%;
+    /* top:25%; */
+    bottom: -35%;
+    
+}
+.plano-1-2{
+    width: 100%;
+    /* top:25%; */
+    bottom: -25%;
+    
+}
+.plano-0{
+    width: 100%;
+}
+.plano-5{
+    right: 0;
+    width: 80%;
+    /* top:68%; */
+    bottom: -35%;
+}
+.plano-6{
+    top:50%;
+    right: 0;
+}
+/* .cesped{
+    background-image: url(img/cesped-sinfondo.png);
+} */
+.cajita{
+    background-color: rgba(0, 0, 0, 0.242);
+}
+/* .cajita{
+    background-color: rgba(0, 0, 0, 0.596);
+    background-image: url(img/portada_pagina_sintrazos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
 .text-2{
     font-family: "Texturina", serif;
 }
 .alto{
-    height: 85vh;
+    height: 90vh;
 }
 .nose{
     height: 150px !important;
@@ -30,8 +120,15 @@ min-height: 80%;
 .container-fluid{
     padding:0 !important;
 }
+.verde-fondo{
+    background-color:#a2e29f;
+    background-color: rgba(0, 0, 0, 0.242);
+    /* background-color: rgba(0, 0, 0, 0.308); */
+}
 .verde-oscuro{
-    background-color: rgba(116, 164, 99, 1);
+    background-color:#a2e29f ;
+    /* background-color: rgba(116, 164, 99, 1); */
+    background-color: rgba(0, 0, 0, 0.242);
 }
 .card-nosotros{
     height: 150px;
