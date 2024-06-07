@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/Muriel/Desktop/github/Digital.Minds/pruebas-juego/MenuInicioJuego/MenuInicioJuego/Content/Controles/boton.png","C:/Users/Muriel/Desktop/github/Digital.Minds/pruebas-juego/MenuInicioJuego/MenuInicioJuego/Content/bin/DesktopGL/Controles/boton.xnb","TextureProcessor","Texture2DContent",461,74101,0,2230429
+"C:/Users/Muriel/Desktop/github/Digital.Minds/pruebas-juego/MenuInicioJuego/MenuInicioJuego/Content/Fuentes/fuente.spritefont","C:/Users/Muriel/Desktop/github/Digital.Minds/pruebas-juego/MenuInicioJuego/MenuInicioJuego/Content/bin/DesktopGL/Fuentes/fuente.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21535,0,1458837
