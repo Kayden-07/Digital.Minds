@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MenuInicioJuego.Vistas
 {
-    public abstract class Vistas
+    public abstract class Vista
     {
         // ---------Variables----------
         protected ContentManager _content;
@@ -22,7 +22,7 @@ namespace MenuInicioJuego.Vistas
 
         public abstract void PosUpdate(GameTime gameTime);
 
-        public Vistas(Game1 game, GraphicsDevice graphicsDevice, ContentManager contenedor)
+        public Vista(Game1 game, GraphicsDevice graphicsDevice, ContentManager contenedor)
         {
             _content = contenedor;
             _graphicsDevice = graphicsDevice;

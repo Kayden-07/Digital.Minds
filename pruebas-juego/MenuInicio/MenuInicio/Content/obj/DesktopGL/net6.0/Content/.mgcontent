@@ -4,8 +4,8 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Muriel/Desktop/github/Digital.Minds/pruebas-juego/MenuInicio/MenuInicio/Content/Controls/boton.png</File>
-    <File>C:/Users/Muriel/Desktop/github/Digital.Minds/pruebas-juego/MenuInicio/MenuInicio/Content/Fonts/Font.spritefont</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/MenuInicio/MenuInicio/Content/Controls/boton.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/MenuInicio/MenuInicio/Content/Fonts/Font.spritefont</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

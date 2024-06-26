@@ -26,3 +26,9 @@ C:\Users\Muriel\Desktop\github\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuI
 C:\Users\Muriel\Desktop\github\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\obj\Debug\net6.0\MenuInicioJuego.pdb
 C:\Users\Muriel\Desktop\github\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\obj\Debug\net6.0\MenuInicioJuego.genruntimeconfig.cache
 C:\Users\Muriel\Desktop\github\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\obj\Debug\net6.0\ref\MenuInicioJuego.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\bin\Debug\net6.0\Content\Tiles-SandstoneDungeons.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\bin\Debug\net6.0\Content\Felix\abajo_felix.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\bin\Debug\net6.0\Content\Felix\arriba_felix.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\bin\Debug\net6.0\Content\Felix\derecha.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\bin\Debug\net6.0\Content\Felix\izquierda_felix.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\bin\Debug\net6.0\Content\Felix\Risas_felix.xnb
