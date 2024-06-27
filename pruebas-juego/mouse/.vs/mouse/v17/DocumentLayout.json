@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alumno\\Desktop\\muriel\\POO\\mouse\\",
+  "WorkspaceRootPath": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\mouse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B318B5AA-F57C-4747-8BF3-1BF75EC2B6CC}|mouse\\mouse.csproj|c:\\users\\alumno\\desktop\\muriel\\poo\\mouse\\mouse\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B318B5AA-F57C-4747-8BF3-1BF75EC2B6CC}|mouse\\mouse.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\mouse\\mouse\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B318B5AA-F57C-4747-8BF3-1BF75EC2B6CC}|mouse\\mouse.csproj|solutionrelative:mouse\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\POO\\mouse\\mouse\\Game1.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\mouse\\mouse\\Game1.cs",
               "RelativeDocumentMoniker": "mouse\\Game1.cs",
-              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\POO\\mouse\\mouse\\Game1.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\mouse\\mouse\\Game1.cs",
               "RelativeToolTip": "mouse\\Game1.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAkwF8AAABTAAAA",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAYwH0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T16:17:47.263Z",
               "EditorCaption": ""

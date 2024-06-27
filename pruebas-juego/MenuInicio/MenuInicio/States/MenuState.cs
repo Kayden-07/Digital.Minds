@@ -16,7 +16,7 @@ namespace MenuInicio.States
         private List<Component> _components;
         public MenuState(Game1 game, GraphicsDevice graphicsDevice, ContentManager content) : base(game, graphicsDevice, content)
         {
-            var buttonTexture = _content.Load<Texture2D>("Control/boton");
+            var buttonTexture = _content.Load<Texture2D>("Controls/boton");
             var buttonFont = _content.Load<SpriteFont>("Fonts/Font");
 
             var newGameButton = new Button(buttonTexture, buttonFont)

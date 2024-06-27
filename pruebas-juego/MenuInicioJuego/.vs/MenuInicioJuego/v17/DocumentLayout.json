@@ -1,25 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\",
+  "WorkspaceRootPath": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{014B7C1F-2E1E-4B67-A344-FF11AD207A58}|MenuInicioJuego\\MenuInicioJuego.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\menuiniciojuego\\menuiniciojuego\\vistas\\vistamenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{014B7C1F-2E1E-4B67-A344-FF11AD207A58}|MenuInicioJuego\\MenuInicioJuego.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\menuiniciojuego\\menuiniciojuego\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014B7C1F-2E1E-4B67-A344-FF11AD207A58}|MenuInicioJuego\\MenuInicioJuego.csproj|solutionrelative:menuiniciojuego\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014B7C1F-2E1E-4B67-A344-FF11AD207A58}|MenuInicioJuego\\MenuInicioJuego.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\menuiniciojuego\\menuiniciojuego\\vistas\\vistamenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{014B7C1F-2E1E-4B67-A344-FF11AD207A58}|MenuInicioJuego\\MenuInicioJuego.csproj|solutionrelative:menuiniciojuego\\vistas\\vistamenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{014B7C1F-2E1E-4B67-A344-FF11AD207A58}|MenuInicioJuego\\MenuInicioJuego.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\menuiniciojuego\\menuiniciojuego\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{014B7C1F-2E1E-4B67-A344-FF11AD207A58}|MenuInicioJuego\\MenuInicioJuego.csproj|solutionrelative:menuiniciojuego\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{014B7C1F-2E1E-4B67-A344-FF11AD207A58}|MenuInicioJuego\\MenuInicioJuego.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\menuiniciojuego\\menuiniciojuego\\controles\\boton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{014B7C1F-2E1E-4B67-A344-FF11AD207A58}|MenuInicioJuego\\MenuInicioJuego.csproj|solutionrelative:menuiniciojuego\\controles\\boton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{014B7C1F-2E1E-4B67-A344-FF11AD207A58}|MenuInicioJuego\\MenuInicioJuego.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\menuiniciojuego\\menuiniciojuego\\vistas\\vistas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{014B7C1F-2E1E-4B67-A344-FF11AD207A58}|MenuInicioJuego\\MenuInicioJuego.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\menuiniciojuego\\menuiniciojuego\\vistas\\vistas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{014B7C1F-2E1E-4B67-A344-FF11AD207A58}|MenuInicioJuego\\MenuInicioJuego.csproj|solutionrelative:menuiniciojuego\\vistas\\vistas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{014B7C1F-2E1E-4B67-A344-FF11AD207A58}|MenuInicioJuego\\MenuInicioJuego.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\menuiniciojuego\\menuiniciojuego\\componentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{014B7C1F-2E1E-4B67-A344-FF11AD207A58}|MenuInicioJuego\\MenuInicioJuego.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\menuiniciojuego\\menuiniciojuego\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014B7C1F-2E1E-4B67-A344-FF11AD207A58}|MenuInicioJuego\\MenuInicioJuego.csproj|solutionrelative:menuiniciojuego\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014B7C1F-2E1E-4B67-A344-FF11AD207A58}|MenuInicioJuego\\MenuInicioJuego.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\menuiniciojuego\\menuiniciojuego\\controles\\boton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014B7C1F-2E1E-4B67-A344-FF11AD207A58}|MenuInicioJuego\\MenuInicioJuego.csproj|solutionrelative:menuiniciojuego\\controles\\boton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014B7C1F-2E1E-4B67-A344-FF11AD207A58}|MenuInicioJuego\\MenuInicioJuego.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\menuiniciojuego\\menuiniciojuego\\componentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{014B7C1F-2E1E-4B67-A344-FF11AD207A58}|MenuInicioJuego\\MenuInicioJuego.csproj|solutionrelative:menuiniciojuego\\componentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,72 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Game1.cs",
+              "RelativeDocumentMoniker": "MenuInicioJuego\\Game1.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Game1.cs",
+              "RelativeToolTip": "MenuInicioJuego\\Game1.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:23:09.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Vistas.cs",
-              "DocumentMoniker": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Vistas\\Vistas.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Vistas\\Vistas.cs",
               "RelativeDocumentMoniker": "MenuInicioJuego\\Vistas\\Vistas.cs",
-              "ToolTip": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Vistas\\Vistas.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Vistas\\Vistas.cs",
               "RelativeToolTip": "MenuInicioJuego\\Vistas\\Vistas.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAIwBkAAAAJAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwCEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T17:09:45.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "VistaMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Vistas\\VistaMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Vistas\\VistaMenu.cs",
               "RelativeDocumentMoniker": "MenuInicioJuego\\Vistas\\VistaMenu.cs",
-              "ToolTip": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Vistas\\VistaMenu.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Vistas\\VistaMenu.cs",
               "RelativeToolTip": "MenuInicioJuego\\Vistas\\VistaMenu.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABcAAAAjAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABcAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T17:09:20.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "VistaJuego.cs",
-              "DocumentMoniker": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Vistas\\VistaJuego.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Vistas\\VistaJuego.cs",
               "RelativeDocumentMoniker": "MenuInicioJuego\\Vistas\\VistaJuego.cs",
-              "ToolTip": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Vistas\\VistaJuego.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Vistas\\VistaJuego.cs",
               "RelativeToolTip": "MenuInicioJuego\\Vistas\\VistaJuego.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T17:09:06.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Boton.cs",
-              "DocumentMoniker": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Controles\\Boton.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Controles\\Boton.cs",
               "RelativeDocumentMoniker": "MenuInicioJuego\\Controles\\Boton.cs",
-              "ToolTip": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Controles\\Boton.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Controles\\Boton.cs",
               "RelativeToolTip": "MenuInicioJuego\\Controles\\Boton.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAAwFIAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T16:35:59.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T16:35:59.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Componentes.cs",
-              "DocumentMoniker": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Componentes.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Componentes.cs",
               "RelativeDocumentMoniker": "MenuInicioJuego\\Componentes.cs",
-              "ToolTip": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Componentes.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\Componentes.cs",
               "RelativeToolTip": "MenuInicioJuego\\Componentes.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T16:26:54.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T16:26:54.882Z"
             }
           ]
         }

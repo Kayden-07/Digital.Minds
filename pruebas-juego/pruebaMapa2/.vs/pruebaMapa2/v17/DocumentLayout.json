@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{AC668D15-82F4-4CD8-A5B5-5C19C788089B}|pruebaMapa2\\pruebaMapa2.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\pruebamapa2\\pruebamapa2\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC668D15-82F4-4CD8-A5B5-5C19C788089B}|pruebaMapa2\\pruebaMapa2.csproj|solutionrelative:pruebamapa2\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC668D15-82F4-4CD8-A5B5-5C19C788089B}|pruebaMapa2\\pruebaMapa2.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\pruebamapa2\\pruebamapa2\\content\\mapa.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{AC668D15-82F4-4CD8-A5B5-5C19C788089B}|pruebaMapa2\\pruebaMapa2.csproj|solutionrelative:pruebamapa2\\content\\mapa.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC668D15-82F4-4CD8-A5B5-5C19C788089B}|pruebaMapa2\\pruebaMapa2.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\pruebamapa2\\pruebamapa2\\data\\mapa_cap1.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AC668D15-82F4-4CD8-A5B5-5C19C788089B}|pruebaMapa2\\pruebaMapa2.csproj|solutionrelative:pruebamapa2\\data\\mapa_cap1.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mapa.png",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\pruebaMapa2\\pruebaMapa2\\Content\\mapa.png",
+              "RelativeDocumentMoniker": "pruebaMapa2\\Content\\mapa.png",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\pruebaMapa2\\pruebaMapa2\\Content\\mapa.png",
+              "RelativeToolTip": "pruebaMapa2\\Content\\mapa.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-24T19:01:56.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "mapa_Cap1.csv",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\pruebaMapa2\\pruebaMapa2\\Data\\mapa_Cap1.csv",
+              "RelativeDocumentMoniker": "pruebaMapa2\\Data\\mapa_Cap1.csv",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\pruebaMapa2\\pruebaMapa2\\Data\\mapa_Cap1.csv",
+              "RelativeToolTip": "pruebaMapa2\\Data\\mapa_Cap1.csv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-05-24T19:01:37.558Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +57,7 @@
               "RelativeDocumentMoniker": "pruebaMapa2\\Game1.cs",
               "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\pruebaMapa2\\pruebaMapa2\\Game1.cs",
               "RelativeToolTip": "pruebaMapa2\\Game1.cs",
-              "ViewState": "AQIAAP8AAAAAAAAAAAAAAAoBAAAMAAAA",
+              "ViewState": "AQIAAFoAAAAAAAAAAADwvxAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T03:22:53.013Z",
               "EditorCaption": ""

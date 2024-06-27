@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\animacion2.csproj": {}
+    "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\animacion2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\animacion2.csproj": {
+    "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\animacion2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\animacion2.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\animacion2.csproj",
         "projectName": "animacion2",
-        "projectPath": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\animacion2.csproj",
-        "packagesPath": "C:\\Users\\Muriel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\obj\\",
+        "projectPath": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\animacion2.csproj",
+        "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Muriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

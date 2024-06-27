@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "yACxehkRAPwmgs5e5egi4DRjSFIxlrevg4rbcRFwMnQYwCgHbBSMya+HYUEWzsZKHfFENF+GnXJBDZnkhR9/7A==",
+  "dgSpecHash": "2O68zhKQCA4EGiZtvP5pmQztfs9HvPFyJIbliz7b44wB6RcXKFpQ2s579swaAVFAgVkPLYbrCFitBvZa8DyKaQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\MenuInicioJuego.csproj",
+  "projectFilePath": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\MenuInicioJuego\\MenuInicioJuego\\MenuInicioJuego.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Muriel\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
-    "C:\\Users\\Muriel\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+    "C:\\Users\\Alumno\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\Alumno\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
   ],
   "logs": []
 }
