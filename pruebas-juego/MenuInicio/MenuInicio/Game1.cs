@@ -12,7 +12,7 @@ namespace MenuInicio
 
         private State _currentState;
         private State _nextState;
-
+        
         public void ChangeState(State state)
         {
             _nextState = state;
@@ -20,7 +20,11 @@ namespace MenuInicio
         }
         public Game1()
         {
-            _graphics = new GraphicsDeviceManager(this);
+            int w = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
+            int h = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
+           _graphics = new GraphicsDeviceManager(this);
+            _graphics.PreferredBackBufferWidth = w;
+            _graphics.PreferredBackBufferHeight = h;
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
         }

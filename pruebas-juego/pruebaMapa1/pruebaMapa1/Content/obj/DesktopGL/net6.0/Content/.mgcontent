@@ -4,7 +4,11 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+<<<<<<< HEAD
     <File>C:/Users/Alumno/Desktop/muriel/Digital.Minds/pruebas-juego/pruebaMapa1/pruebaMapa1/Content/atlas1.png</File>
+=======
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/pruebaMapa1/pruebaMapa1/Content/atlas1.png</File>
+>>>>>>> 7b2cf0ef7d9dd65f1c7356dc5730d744fab5d32a
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

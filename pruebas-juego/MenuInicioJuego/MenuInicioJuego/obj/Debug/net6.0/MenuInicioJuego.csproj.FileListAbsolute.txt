@@ -26,6 +26,7 @@ C:\Users\Muriel\Desktop\github\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuI
 C:\Users\Muriel\Desktop\github\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\obj\Debug\net6.0\MenuInicioJuego.pdb
 C:\Users\Muriel\Desktop\github\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\obj\Debug\net6.0\MenuInicioJuego.genruntimeconfig.cache
 C:\Users\Muriel\Desktop\github\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\obj\Debug\net6.0\ref\MenuInicioJuego.dll
+<<<<<<< HEAD
 C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\bin\Debug\net6.0\Content\Controles\boton.xnb
 C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\bin\Debug\net6.0\Content\Fuentes\fuente.xnb
 C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\bin\Debug\net6.0\MenuInicioJuego.exe
@@ -54,3 +55,11 @@ C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuI
 C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\obj\Debug\net6.0\MenuInicioJuego.pdb
 C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\obj\Debug\net6.0\MenuInicioJuego.genruntimeconfig.cache
 C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\obj\Debug\net6.0\ref\MenuInicioJuego.dll
+=======
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\bin\Debug\net6.0\Content\Tiles-SandstoneDungeons.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\bin\Debug\net6.0\Content\Felix\abajo_felix.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\bin\Debug\net6.0\Content\Felix\arriba_felix.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\bin\Debug\net6.0\Content\Felix\derecha.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\bin\Debug\net6.0\Content\Felix\izquierda_felix.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\bin\Debug\net6.0\Content\Felix\Risas_felix.xnb
+>>>>>>> 7b2cf0ef7d9dd65f1c7356dc5730d744fab5d32a

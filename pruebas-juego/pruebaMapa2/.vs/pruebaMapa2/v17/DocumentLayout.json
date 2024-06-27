@@ -1,18 +1,23 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\pruebaMapa2\\",
+  "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\pruebaMapa2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC668D15-82F4-4CD8-A5B5-5C19C788089B}|pruebaMapa2\\pruebaMapa2.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\pruebamapa2\\pruebamapa2\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC668D15-82F4-4CD8-A5B5-5C19C788089B}|pruebaMapa2\\pruebaMapa2.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\pruebamapa2\\pruebamapa2\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC668D15-82F4-4CD8-A5B5-5C19C788089B}|pruebaMapa2\\pruebaMapa2.csproj|solutionrelative:pruebamapa2\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{AC668D15-82F4-4CD8-A5B5-5C19C788089B}|pruebaMapa2\\pruebaMapa2.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\pruebamapa2\\pruebamapa2\\content\\mapa.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{AC668D15-82F4-4CD8-A5B5-5C19C788089B}|pruebaMapa2\\pruebaMapa2.csproj|solutionrelative:pruebamapa2\\content\\mapa.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC668D15-82F4-4CD8-A5B5-5C19C788089B}|pruebaMapa2\\pruebaMapa2.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\pruebamapa2\\pruebamapa2\\data\\mapa_cap1.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{AC668D15-82F4-4CD8-A5B5-5C19C788089B}|pruebaMapa2\\pruebaMapa2.csproj|solutionrelative:pruebamapa2\\data\\mapa_cap1.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+=======
+      "AbsoluteMoniker": "D:0:0:{AC668D15-82F4-4CD8-A5B5-5C19C788089B}|pruebaMapa2\\pruebaMapa2.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\pruebamapa2\\pruebamapa2\\data\\mapa_colligions.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AC668D15-82F4-4CD8-A5B5-5C19C788089B}|pruebaMapa2\\pruebaMapa2.csproj|solutionrelative:pruebamapa2\\data\\mapa_colligions.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+>>>>>>> 7b2cf0ef7d9dd65f1c7356dc5730d744fab5d32a
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +27,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 2,
+=======
+          "SelectedChildIndex": 1,
+>>>>>>> 7b2cf0ef7d9dd65f1c7356dc5730d744fab5d32a
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "mapa.png",
               "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\pruebaMapa2\\pruebaMapa2\\Content\\mapa.png",
               "RelativeDocumentMoniker": "pruebaMapa2\\Content\\mapa.png",
@@ -47,17 +57,31 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
               "WhenOpened": "2024-05-24T19:01:37.558Z",
+=======
+              "Title": "mapa_colligions.csv",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\pruebaMapa2\\pruebaMapa2\\Data\\mapa_colligions.csv",
+              "RelativeDocumentMoniker": "pruebaMapa2\\Data\\mapa_colligions.csv",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\pruebaMapa2\\pruebaMapa2\\Data\\mapa_colligions.csv",
+              "RelativeToolTip": "pruebaMapa2\\Data\\mapa_colligions.csv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-06-26T22:34:26.23Z",
+>>>>>>> 7b2cf0ef7d9dd65f1c7356dc5730d744fab5d32a
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\pruebaMapa2\\pruebaMapa2\\Game1.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\pruebaMapa2\\pruebaMapa2\\Game1.cs",
               "RelativeDocumentMoniker": "pruebaMapa2\\Game1.cs",
-              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\pruebaMapa2\\pruebaMapa2\\Game1.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\pruebaMapa2\\pruebaMapa2\\Game1.cs",
               "RelativeToolTip": "pruebaMapa2\\Game1.cs",
+<<<<<<< HEAD
               "ViewState": "AQIAAFoAAAAAAAAAAADwvxAAAAAAAAAA",
+=======
+              "ViewState": "AQIAAHIAAAAAAAAAAAAAAHsAAAAkAAAA",
+>>>>>>> 7b2cf0ef7d9dd65f1c7356dc5730d744fab5d32a
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T03:22:53.013Z",
               "EditorCaption": ""

@@ -1,12 +1,17 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\animacion2.0\\",
+=======
+  "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\animacion2.0\\",
+>>>>>>> 7b2cf0ef7d9dd65f1c7356dc5730d744fab5d32a
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{F051DFE8-6E1B-49BB-9EEF-296B5668F581}|animacion2.0\\animacion2.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\animacion2.0\\animacion2.0\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F051DFE8-6E1B-49BB-9EEF-296B5668F581}|animacion2.0\\animacion2.csproj|solutionrelative:animacion2.0\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{F051DFE8-6E1B-49BB-9EEF-296B5668F581}|animacion2.0\\animacion2.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\animacion2.0\\animacion2.0\\animacion2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F051DFE8-6E1B-49BB-9EEF-296B5668F581}|animacion2.0\\animacion2.csproj|solutionrelative:animacion2.0\\animacion2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -16,6 +21,17 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{F051DFE8-6E1B-49BB-9EEF-296B5668F581}|animacion2.0\\animacion2.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\animacion2.0\\animacion2.0\\animationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{F051DFE8-6E1B-49BB-9EEF-296B5668F581}|animacion2.0\\animacion2.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\animacion2.0\\animacion2.0\\animacion2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F051DFE8-6E1B-49BB-9EEF-296B5668F581}|animacion2.0\\animacion2.csproj|solutionrelative:animacion2.0\\animacion2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F051DFE8-6E1B-49BB-9EEF-296B5668F581}|animacion2.0\\animacion2.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\animacion2.0\\animacion2.0\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F051DFE8-6E1B-49BB-9EEF-296B5668F581}|animacion2.0\\animacion2.csproj|solutionrelative:animacion2.0\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F051DFE8-6E1B-49BB-9EEF-296B5668F581}|animacion2.0\\animacion2.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\animacion2.0\\animacion2.0\\animationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 7b2cf0ef7d9dd65f1c7356dc5730d744fab5d32a
       "RelativeMoniker": "D:0:0:{F051DFE8-6E1B-49BB-9EEF-296B5668F581}|animacion2.0\\animacion2.csproj|solutionrelative:animacion2.0\\animationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,9 +48,15 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "animacion2.csproj",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\animacion2.csproj",
               "RelativeDocumentMoniker": "animacion2.0\\animacion2.csproj",
               "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\animacion2.csproj",
+=======
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\animacion2.csproj",
+              "RelativeDocumentMoniker": "animacion2.0\\animacion2.csproj",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\animacion2.csproj",
+>>>>>>> 7b2cf0ef7d9dd65f1c7356dc5730d744fab5d32a
               "RelativeToolTip": "animacion2.0\\animacion2.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -44,9 +66,15 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "app.manifest",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\app.manifest",
               "RelativeDocumentMoniker": "animacion2.0\\app.manifest",
               "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\app.manifest",
+=======
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\app.manifest",
+              "RelativeDocumentMoniker": "animacion2.0\\app.manifest",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\app.manifest",
+>>>>>>> 7b2cf0ef7d9dd65f1c7356dc5730d744fab5d32a
               "RelativeToolTip": "animacion2.0\\app.manifest",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
@@ -56,9 +84,15 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "AnimationManager.cs",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\AnimationManager.cs",
               "RelativeDocumentMoniker": "animacion2.0\\AnimationManager.cs",
               "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\AnimationManager.cs",
+=======
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\AnimationManager.cs",
+              "RelativeDocumentMoniker": "animacion2.0\\AnimationManager.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\AnimationManager.cs",
+>>>>>>> 7b2cf0ef7d9dd65f1c7356dc5730d744fab5d32a
               "RelativeToolTip": "animacion2.0\\AnimationManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -68,11 +102,19 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Game1.cs",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\Game1.cs",
               "RelativeDocumentMoniker": "animacion2.0\\Game1.cs",
               "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\Game1.cs",
               "RelativeToolTip": "animacion2.0\\Game1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAAJAAAA",
+=======
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\Game1.cs",
+              "RelativeDocumentMoniker": "animacion2.0\\Game1.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\animacion2.0\\animacion2.0\\Game1.cs",
+              "RelativeToolTip": "animacion2.0\\Game1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAnAAAA",
+>>>>>>> 7b2cf0ef7d9dd65f1c7356dc5730d744fab5d32a
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T03:03:01.47Z",
               "EditorCaption": ""

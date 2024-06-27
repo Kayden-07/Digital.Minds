@@ -18,18 +18,20 @@ namespace MenuInicio.States
         {
             var buttonTexture = _content.Load<Texture2D>("Controls/boton");
             var buttonFont = _content.Load<SpriteFont>("Fonts/Font");
+            int x = (GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width / 2) - (buttonTexture.Width / 2);
+            int y = (GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height / 2) - 300;
+            
 
             var newGameButton = new Button(buttonTexture, buttonFont)
             {
-                Position = new Vector2(300, 200),
+                Position = new Vector2(x,y + 200),
                 Text = "New Game",
             };
-
             newGameButton.Click += NewGameButton_Click;
             
             var loadGameButton = new Button(buttonTexture, buttonFont)
             {
-                Position = new Vector2(300, 250),
+                Position = new Vector2(x, y + 250),
                 Text = "Load Game",
             };
 
@@ -37,7 +39,7 @@ namespace MenuInicio.States
 
             var quitGameButton = new Button(buttonTexture, buttonFont)
             {
-                Position = new Vector2(300, 300),
+                Position = new Vector2(x, y + 300),
                 Text = "Quit",
             };
 

@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pruebaMapa2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1d655b774b165a7347bc7a06e186e0d9ee06f18")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+338b1c62ea50e37d3dac3a6673780e890ddc2a74")]
+>>>>>>> 7b2cf0ef7d9dd65f1c7356dc5730d744fab5d32a
 [assembly: System.Reflection.AssemblyProductAttribute("pruebaMapa2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pruebaMapa2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

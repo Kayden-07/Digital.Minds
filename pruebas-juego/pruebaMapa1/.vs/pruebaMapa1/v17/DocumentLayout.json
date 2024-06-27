@@ -1,13 +1,21 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\pruebaMapa1\\",
+=======
+  "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\pruebaMapa1\\",
+>>>>>>> 7b2cf0ef7d9dd65f1c7356dc5730d744fab5d32a
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{4202A43D-3AAD-4B19-BEC7-2ECA5B9AF96C}|pruebaMapa1\\pruebaMapa1.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\pruebamapa1\\pruebamapa1\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4202A43D-3AAD-4B19-BEC7-2ECA5B9AF96C}|pruebaMapa1\\pruebaMapa1.csproj|solutionrelative:pruebamapa1\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{4202A43D-3AAD-4B19-BEC7-2ECA5B9AF96C}|pruebaMapa1\\pruebaMapa1.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\pruebamapa1\\pruebamapa1\\data\\mapa_prueba.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+=======
+      "AbsoluteMoniker": "D:0:0:{4202A43D-3AAD-4B19-BEC7-2ECA5B9AF96C}|pruebaMapa1\\pruebaMapa1.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\pruebamapa1\\pruebamapa1\\data\\mapa_prueba.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+>>>>>>> 7b2cf0ef7d9dd65f1c7356dc5730d744fab5d32a
       "RelativeMoniker": "D:0:0:{4202A43D-3AAD-4B19-BEC7-2ECA5B9AF96C}|pruebaMapa1\\pruebaMapa1.csproj|solutionrelative:pruebamapa1\\data\\mapa_prueba.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
@@ -40,9 +48,15 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "mapa_prueba.csv",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\pruebaMapa1\\pruebaMapa1\\Data\\mapa_prueba.csv",
               "RelativeDocumentMoniker": "pruebaMapa1\\Data\\mapa_prueba.csv",
               "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\pruebaMapa1\\pruebaMapa1\\Data\\mapa_prueba.csv",
+=======
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\pruebaMapa1\\pruebaMapa1\\Data\\mapa_prueba.csv",
+              "RelativeDocumentMoniker": "pruebaMapa1\\Data\\mapa_prueba.csv",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\pruebaMapa1\\pruebaMapa1\\Data\\mapa_prueba.csv",
+>>>>>>> 7b2cf0ef7d9dd65f1c7356dc5730d744fab5d32a
               "RelativeToolTip": "pruebaMapa1\\Data\\mapa_prueba.csv",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
@@ -53,11 +67,19 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Game1.cs",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\pruebaMapa1\\pruebaMapa1\\Game1.cs",
               "RelativeDocumentMoniker": "pruebaMapa1\\Game1.cs",
               "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\pruebaMapa1\\pruebaMapa1\\Game1.cs",
               "RelativeToolTip": "pruebaMapa1\\Game1.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAIAAAA",
+=======
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\pruebaMapa1\\pruebaMapa1\\Game1.cs",
+              "RelativeDocumentMoniker": "pruebaMapa1\\Game1.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\pruebaMapa1\\pruebaMapa1\\Game1.cs",
+              "RelativeToolTip": "pruebaMapa1\\Game1.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAowFkAAAAAAAAA",
+>>>>>>> 7b2cf0ef7d9dd65f1c7356dc5730d744fab5d32a
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T23:13:10.84Z",
               "EditorCaption": ""

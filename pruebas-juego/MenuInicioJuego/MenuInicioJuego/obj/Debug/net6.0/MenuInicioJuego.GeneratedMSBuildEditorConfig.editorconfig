@@ -8,6 +8,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MenuInicioJuego
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\
+=======
+build_property.ProjectDir = C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\MenuInicioJuego\MenuInicioJuego\
+>>>>>>> 7b2cf0ef7d9dd65f1c7356dc5730d744fab5d32a
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
