@@ -89,3 +89,7 @@ C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\Beta
 C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.pdb
 C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.genruntimeconfig.cache
 C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\ref\BetaFoesAndBones.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\arriba_felix_v2.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\abajo_V2.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\derecha_Felix_v2.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\izquierda_felix_v2.xnb

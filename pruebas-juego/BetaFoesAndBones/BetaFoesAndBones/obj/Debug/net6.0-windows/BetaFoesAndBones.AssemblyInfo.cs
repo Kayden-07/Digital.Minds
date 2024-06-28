@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BetaFoesAndBones")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06eb35b6079ce2910719bc425bd6064f33bc084b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2218adc46aa49c3ecad1b65a0721107645cee778")]
 [assembly: System.Reflection.AssemblyProductAttribute("BetaFoesAndBones")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BetaFoesAndBones")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

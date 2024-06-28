@@ -26,11 +26,11 @@ namespace BetaFoesAndBones.Personajes
             this.size = size;
 
             counter = 0;
-            activeFrame = 1;
+            activeFrame = 0;
             interval = 4;
 
             rowPos = 0;
-            colPos = 1;
+            colPos = 0;
         }
         public void Update()
         {

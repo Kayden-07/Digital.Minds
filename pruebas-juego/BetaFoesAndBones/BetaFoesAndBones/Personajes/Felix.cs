@@ -20,6 +20,7 @@ namespace BetaFoesAndBones.Personajes
         public Vector2 _velocity;
         public Vector2 _tamaño;
         AnimationManager am;
+        AnimationManager pm;
         private int activo;
 
         private List<Rectangle> intersections;
@@ -35,10 +36,10 @@ namespace BetaFoesAndBones.Personajes
             _content = contenedor;
             felix = new Texture2D[5];
 
-            felix[0] = _content.Load<Texture2D>("Felix/derecha");
-            felix[1] = _content.Load<Texture2D>("Felix/izquierda_felix");
-            felix[2] = _content.Load<Texture2D>("Felix/arriba_felix");
-            felix[3] = _content.Load<Texture2D>("Felix/abajo_felix");
+            felix[0] = _content.Load<Texture2D>("Felix/derecha_Felix_v2");
+            felix[1] = _content.Load<Texture2D>("Felix/izquierda_felix_v2");
+            felix[2] = _content.Load<Texture2D>("Felix/arriba_felix_v2");
+            felix[3] = _content.Load<Texture2D>("Felix/abajo_v2");
             felix[4] = _content.Load<Texture2D>("Felix/Risas_felix");
             //_position = posicion;
             //_tamaño = tamaño;
@@ -46,27 +47,36 @@ namespace BetaFoesAndBones.Personajes
             _position = new Vector2(240, 240);
             _velocity = new Vector2(40, 40);
 
-            am = new(11, 4, new System.Numerics.Vector2(325, 215));
+            am = new(7, 7, new System.Numerics.Vector2(310, 215));
+            pm = new(7, 7, new System.Numerics.Vector2(315, 215));
 
             intersections = new List<Rectangle>();
         }
         public override void Draw(GameTime gameTime, SpriteBatch sprite)
         {
-            foreach (var reac in intersections)
-            {
-                sprite.Draw(cuadrado, new Rectangle(
-                    reac.X * tilesTamaño,
-                    reac.Y * tilesTamaño,
-                    tilesTamaño,
-                    tilesTamaño
-                    ), Color.Red
-                    );
-            }
-            sprite.Draw(cuadrado,new Rectangle((int)_position.X, (int)_position.Y, 200, 150),Color.White);
-            sprite.Draw(felix[activo],
+            //foreach (var reac in intersections)
+            //{
+            //    sprite.Draw(cuadrado, new Rectangle(
+            //        reac.X * tilesTamaño,
+            //        reac.Y * tilesTamaño,
+            //        tilesTamaño,
+            //        tilesTamaño
+            //        ), Color.Red
+            //        );
+            //}
+            //sprite.Draw(cuadrado,new Rectangle((int)_position.X, (int)_position.Y, 200, 150),Color.White);
+            if (activo <= 1) { sprite.Draw(felix[activo],
                 new Rectangle((int)_position.X, (int)_position.Y, 200, 150),
                 am.GetFrame(),
                 Color.White);
+            }
+            else
+            {
+                sprite.Draw(felix[activo],
+                new Rectangle((int)_position.X, (int)_position.Y, 200, 150),
+                pm.GetFrame(),
+                Color.White);
+            }
         }
 
         public override void Update(GameTime gameTime)
@@ -77,28 +87,33 @@ namespace BetaFoesAndBones.Personajes
                 _velocity.Y = -5;
                 activo = 2;
                 am.Update();
+                pm.Update();
             }
             if (Keyboard.GetState().IsKeyDown(Keys.S))
             {
                 _velocity.Y = 5;
                 activo = 3;
                 am.Update();
+                pm.Update();
             }
             if (Keyboard.GetState().IsKeyDown(Keys.A))
             {
                 _velocity.X = -5;
                 activo = 1;
+                pm.Update();
                 am.Update();
             }
             if (Keyboard.GetState().IsKeyDown(Keys.D))
             {
                 _velocity.X = 5;
                 activo = 0;
+                pm.Update();
                 am.Update();
             }
             if (Keyboard.GetState().IsKeyDown(Keys.E))
             {
-                activo = 0;
+                activo = 4;
+                pm.Update();
                 am.Update();
             }
             // Intersicciones

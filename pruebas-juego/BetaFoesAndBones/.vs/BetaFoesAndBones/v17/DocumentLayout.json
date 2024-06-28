@@ -7,16 +7,8 @@
       "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\betafoesandbones\\betafoesandbones\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\BetaFoesAndBones\\betafoesandbones\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\betafoesandbones\\betafoesandbones\\data\\colisiones.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\data\\colisiones.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\betafoesandbones\\betafoesandbones\\controles\\mapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\controles\\mapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,34 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "colisiones.csv",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\BetaFoesAndBones\\BetaFoesAndBones\\Data\\colisiones.csv",
-              "RelativeDocumentMoniker": "BetaFoesAndBones\\Data\\colisiones.csv",
-              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\BetaFoesAndBones\\BetaFoesAndBones\\Data\\colisiones.csv",
-              "RelativeToolTip": "BetaFoesAndBones\\Data\\colisiones.csv",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2024-06-27T17:10:19.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Mapa.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\BetaFoesAndBones\\BetaFoesAndBones\\Controles\\Mapa.cs",
-              "RelativeDocumentMoniker": "BetaFoesAndBones\\Controles\\Mapa.cs",
-              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\BetaFoesAndBones\\BetaFoesAndBones\\Controles\\Mapa.cs",
-              "RelativeToolTip": "BetaFoesAndBones\\Controles\\Mapa.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwDEAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T15:16:45.423Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -62,9 +28,10 @@
               "RelativeDocumentMoniker": "BetaFoesAndBones\\Personajes\\Felix.cs",
               "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\BetaFoesAndBones\\BetaFoesAndBones\\Personajes\\Felix.cs",
               "RelativeToolTip": "BetaFoesAndBones\\Personajes\\Felix.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAgwCsAAAAdAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAxwDAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T03:27:07.171Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
