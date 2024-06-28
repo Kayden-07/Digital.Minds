@@ -4,11 +4,9 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Alumno/Desktop/muriel/POO/mouse/mouse/Content/../../../../../../Pictures/Mocaso.png</File>
-    <File>C:/Users/Alumno/Desktop/muriel/POO/mouse/mouse/Content/Skeletuschiquito.png</File>
+    <File>C:/Users/Alumno/Desktop/muriel/Digital.Minds/pruebas-juego/mouse/mouse/Content/Skeletuschiquito.png</File>
   </SourceFiles>
   <DestFiles>
-    <File>Mocaso.png</File>
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

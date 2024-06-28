@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "s4uyBiNjvqF8n1cnnLNm1t0yQhhrcTJt2fKPwCvdNUjNxqyEbse4XikmV97+EQNI2cmZMF38JjNnhNIEKPX8lw==",
+  "dgSpecHash": "f/n/l2neQhzaP+G2YRMOJw2DYYjI5pI3Hco1Yb8xxJ8Auous+/jUhp/X8xKnPoGPUyB2sZPr2tZtaEMRUHvAxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\pruebas-juego\\disparos2\\disparos2\\disparos2.csproj",
+  "projectFilePath": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\disparos2\\disparos2\\disparos2.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Muriel\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
-    "C:\\Users\\Muriel\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+    "C:\\Users\\Alumno\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\Alumno\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
   ],
   "logs": []
 }

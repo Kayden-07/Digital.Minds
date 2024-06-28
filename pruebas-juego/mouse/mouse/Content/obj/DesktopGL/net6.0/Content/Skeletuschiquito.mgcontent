@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/Alumno/Desktop/muriel/POO/mouse/mouse/Content/Skeletuschiquito.png</SourceFile>
+  <SourceFile>C:/Users/Alumno/Desktop/muriel/Digital.Minds/pruebas-juego/mouse/mouse/Content/Skeletuschiquito.png</SourceFile>
   <SourceTime>2024-05-24T13:24:15.3566064-03:00</SourceTime>
-  <DestFile>C:/Users/Alumno/Desktop/muriel/POO/mouse/mouse/Content/bin/DesktopGL/Content/Skeletuschiquito.xnb</DestFile>
-  <DestTime>2024-05-24T13:25:09.6102948-03:00</DestTime>
+  <DestFile>C:/Users/Alumno/Desktop/muriel/Digital.Minds/pruebas-juego/mouse/mouse/Content/bin/DesktopGL/Content/Skeletuschiquito.xnb</DestFile>
+  <DestTime>2024-06-28T17:17:07.4603814-03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T08:44:56-03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

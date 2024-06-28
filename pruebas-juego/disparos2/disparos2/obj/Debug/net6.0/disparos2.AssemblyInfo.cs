@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("disparos2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e323a812c4871536870e75a0e83dc1ff00b77d5e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+253c933b3d3a79cebc5e980ec18ca206ff7661da")]
 [assembly: System.Reflection.AssemblyProductAttribute("disparos2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("disparos2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

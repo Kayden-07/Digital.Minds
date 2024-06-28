@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using BetaFoesAndBones.Controles;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -13,7 +14,7 @@ namespace BetaFoesAndBones.Personajes
 {
     internal class Felix : Componentes
     {
-
+        private Disparo disparo;
         private Texture2D[] felix;
 
         public Vector2 _position;
@@ -51,6 +52,8 @@ namespace BetaFoesAndBones.Personajes
             pm = new(7, 7, new System.Numerics.Vector2(315, 215));
 
             intersections = new List<Rectangle>();
+
+            disparo = new Disparo(contenedor, _position);
         }
         public override void Draw(GameTime gameTime, SpriteBatch sprite)
         {
@@ -77,6 +80,7 @@ namespace BetaFoesAndBones.Personajes
                 pm.GetFrame(),
                 Color.White);
             }
+            disparo.Draw(gameTime, sprite);
         }
 
         public override void Update(GameTime gameTime)
@@ -154,6 +158,7 @@ namespace BetaFoesAndBones.Personajes
                     }
                 }
             }
+            disparo.Update(gameTime);
         }
         public List<Rectangle> getIntersectingTilesHorizontal(Rectangle target)
         {
