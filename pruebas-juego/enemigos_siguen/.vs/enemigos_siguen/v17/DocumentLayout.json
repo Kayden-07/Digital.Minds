@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kluni\\Desktop\\Digital.Minds\\pruebas-juego\\enemigos_siguen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1118BCA5-71BE-4239-9B2B-B44ED13900CA}|enemigos_siguen\\enemigos_siguen.csproj|c:\\users\\kluni\\desktop\\digital.minds\\pruebas-juego\\enemigos_siguen\\enemigos_siguen\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1118BCA5-71BE-4239-9B2B-B44ED13900CA}|enemigos_siguen\\enemigos_siguen.csproj|solutionrelative:enemigos_siguen\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\kluni\\Desktop\\Digital.Minds\\pruebas-juego\\enemigos_siguen\\enemigos_siguen\\Game1.cs",
+              "RelativeDocumentMoniker": "enemigos_siguen\\Game1.cs",
+              "ToolTip": "C:\\Users\\kluni\\Desktop\\Digital.Minds\\pruebas-juego\\enemigos_siguen\\enemigos_siguen\\Game1.cs",
+              "RelativeToolTip": "enemigos_siguen\\Game1.cs",
+              "ViewState": "AQIAADMBAAAAAAAAAAAAAFkBAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T15:43:00.237Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
