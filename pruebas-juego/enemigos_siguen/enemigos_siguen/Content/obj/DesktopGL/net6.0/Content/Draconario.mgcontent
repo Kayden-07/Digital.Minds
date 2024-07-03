@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/User/Desktop/Digital/Digital.Minds/pruebas-juego/enemigos_siguen/enemigos_siguen/Content/Draconario.png</SourceFile>
-  <SourceTime>2024-06-26T18:13:34.6650702-03:00</SourceTime>
-  <DestFile>C:/Users/User/Desktop/Digital/Digital.Minds/pruebas-juego/enemigos_siguen/enemigos_siguen/Content/bin/DesktopGL/Content/Draconario.xnb</DestFile>
-  <DestTime>2024-06-29T13:21:31.8711514-03:00</DestTime>
+  <SourceFile>C:/Users/kluni/Desktop/Digital.Minds/pruebas-juego/enemigos_siguen/enemigos_siguen/Content/Draconario.png</SourceFile>
+  <SourceTime>2024-04-09T00:30:22.1812985-03:00</SourceTime>
+  <DestFile>C:/Users/kluni/Desktop/Digital.Minds/pruebas-juego/enemigos_siguen/enemigos_siguen/Content/bin/DesktopGL/Content/Draconario.xnb</DestFile>
+  <DestTime>2024-07-02T22:44:53.2271781-03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T08:44:56-03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("enemigos_siguen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5d64faf16b39a0eacfb4aa5c581d0329852d9b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("enemigos_siguen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("enemigos_siguen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

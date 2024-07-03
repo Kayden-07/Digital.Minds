@@ -4,6 +4,8 @@ using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.PortableExecutable;
+using static enemigos_siguen.Game1;
 
 namespace enemigos_siguen
 {
@@ -17,6 +19,7 @@ namespace enemigos_siguen
         Texture2D bacterianoTextura;
         Texture2D draconanioTextura;
         Texture2D magia_textura;
+        Texture2D magia_fuerte_textura;
 
         Vector2 felix_posicion;
 
@@ -28,7 +31,7 @@ namespace enemigos_siguen
 
         List<Enemigo> enemigos = new List<Enemigo>();
         List<Magia> proyectiles = new List<Magia>();
-
+       
         MouseState estadoRaton;
         bool disparoRealizado = false;
 
@@ -38,7 +41,8 @@ namespace enemigos_siguen
             private Vector2 direccion;
             private float velocidad;
             private Texture2D textura;
-
+            private float daño;
+            
             public Vector2 Posicion
             {
                 get { return posicion; }
@@ -59,18 +63,30 @@ namespace enemigos_siguen
                 get { return textura; }
                 set { textura = value; }
             }
-            public Magia(Vector2 posicion, Vector2 direccion, float velocidad, Texture2D textura)
+            public float Daño
+            {
+                get { return daño; }
+                set { daño = value; }
+            }
+    public Magia(Vector2 posicion, Vector2 direccion, float velocidad, Texture2D textura, float daño)
             {
                 Posicion = posicion;
                 Direccion = direccion;
                 Velocidad = velocidad;
                 Textura = textura;
+                Daño = daño;
+               
             }
 
             public void Actualizar(GameTime gameTime)
             {
                 Posicion += Direccion * Velocidad * (float)gameTime.ElapsedGameTime.TotalSeconds;
+                
             }
+
+          
+            
+
         }
 
         public abstract class Enemigo
@@ -79,6 +95,8 @@ namespace enemigos_siguen
             private Vector2 posicion;
             private float velocidad;
             private float tiempoAparicion;
+            private float hp; 
+            
             public Texture2D Textura
             {
                 get { return textura; }
@@ -99,15 +117,24 @@ namespace enemigos_siguen
                 get { return tiempoAparicion; }
                 set { tiempoAparicion = value; }
             }
+            public float HP
+            {
+                get { return hp; }
+                set { hp = value; }
+            }
 
-            public Enemigo(Texture2D textura, Vector2 posicion, float velocidad, float tiempoAparicion)
+          
+
+            public Enemigo(Texture2D textura, Vector2 posicion, float velocidad, float tiempoAparicion,float hp)
             {
                 Textura = textura;
                 Posicion = posicion;
                 Velocidad = velocidad;
                 TiempoAparicion = tiempoAparicion;
+                HP = hp;
+              
             }
-
+          
             public void Update(GameTime gameTime, Vector2 felix_posicion, int windowWidth, int windowHeight)
             {
                 var distancia = felix_posicion - Posicion;
@@ -116,14 +143,18 @@ namespace enemigos_siguen
                 Posicion = new Vector2(
                     MathHelper.Clamp(Posicion.X, 0, windowWidth - Textura.Width),
                     MathHelper.Clamp(Posicion.Y, 0, windowHeight - Textura.Height)
+
+
                 );
             }
+            
         }
+       
 
         public class Slime : Enemigo
         {
             public Slime(Texture2D textura, Vector2 posicion)
-                : base(textura, posicion, 120f, 3f)
+                : base(textura, posicion, 120f, 3f, 20)
             {
             }
         }
@@ -131,7 +162,7 @@ namespace enemigos_siguen
         public class Bacteriano : Enemigo
         {
             public Bacteriano(Texture2D textura, Vector2 posicion)
-                : base(textura, posicion, 100f, 9f)
+                : base(textura, posicion, 100f, 9f,60)
             {
             }
         }
@@ -139,7 +170,7 @@ namespace enemigos_siguen
         public class Draconario : Enemigo
         {
             public Draconario(Texture2D textura, Vector2 posicion)
-                : base(textura, posicion, 80f, 20f)
+                : base(textura, posicion, 80f, 20f, 100)
             {
             }
         }
@@ -154,7 +185,7 @@ namespace enemigos_siguen
         protected override void Initialize()
         {
             felix_posicion = new Vector2(Window.ClientBounds.Width / 2, Window.ClientBounds.Height / 2);
-            felix_velocidad = 200f;
+            felix_velocidad = 350f;
             tiempoTranscurridoSlime = 0f;
             tiempoTranscurridoBacteriano = 0f;
             tiempoTranscurridoDraconiano = 0f;
@@ -164,11 +195,12 @@ namespace enemigos_siguen
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-            felix_textura = Content.Load<Texture2D>("Skeletuschiquito");
-            magia_textura = Content.Load<Texture2D>("magia");
-            slimeTextura = Content.Load<Texture2D>("Mocaso");
-            bacterianoTextura = Content.Load<Texture2D>("Bacteriano");
-            draconanioTextura = Content.Load<Texture2D>("Draconario");
+            felix_textura = Content.Load<Texture2D>("Felixp");
+            magia_textura = Content.Load<Texture2D>("Disparito");
+            magia_fuerte_textura = Content.Load<Texture2D>("magia");
+            slimeTextura = Content.Load<Texture2D>("Slimep");
+            bacterianoTextura = Content.Load<Texture2D>("Viruseanop");
+            draconanioTextura = Content.Load<Texture2D>("Draconariop");
         }
 
         protected override void Update(GameTime gameTime)
@@ -197,7 +229,16 @@ namespace enemigos_siguen
             {
                 felix_posicion.X += felix_velocidad * (float)gameTime.ElapsedGameTime.TotalSeconds;
             }
+          /*  if (tecla.IsKeyDown(Keys.E))
+            {
+                Vector2 direccion = new Vector2(estadoRaton.X, estadoRaton.Y) - felix_posicion;
+                direccion.Normalize();
 
+                Magia nuevoProyectil = new Magia(felix_posicion, direccion, 80f, magia_textura, /*daño*//*100);
+                proyectiles.Add(nuevoProyectil);
+                disparoRealizado = true;
+        }
+        */
             tiempoTranscurridoSlime += (float)gameTime.ElapsedGameTime.TotalSeconds;
             tiempoTranscurridoBacteriano += (float)gameTime.ElapsedGameTime.TotalSeconds;
             tiempoTranscurridoDraconiano += (float)gameTime.ElapsedGameTime.TotalSeconds;
@@ -251,7 +292,7 @@ namespace enemigos_siguen
                 Vector2 direccion = new Vector2(estadoRaton.X, estadoRaton.Y) - felix_posicion;
                 direccion.Normalize();
 
-                Magia nuevoProyectil = new Magia(felix_posicion, direccion, 200f, magia_textura);
+                Magia nuevoProyectil = new Magia(felix_posicion, direccion, 200f, magia_textura, /*daño*/20);
                 proyectiles.Add(nuevoProyectil);
                 disparoRealizado = true;
             }
@@ -270,11 +311,40 @@ namespace enemigos_siguen
                 {
                     proyectiles.Remove(proyectil);
                 }
+                
+            }
+          
+            List<Enemigo> muertos = new List<Enemigo>(); 
+            List<Magia> impacto = new List<Magia>();
+
+
+        foreach ( Enemigo enemy in enemigos.ToList())
+        {
+                foreach (Magia p in proyectiles.ToList())
+                {
+                    if (enemy.Posicion.X < p.Posicion.X + p.Textura.Width &&
+                        enemy.Posicion.X + enemy.Textura.Width > p.Posicion.X &&
+                        enemy.Posicion.Y < p.Posicion.Y + p.Textura.Height &&
+                        enemy.Posicion.Y + enemy.Textura.Height > p.Posicion.Y)
+                    {
+                        proyectiles.Remove(p);
+                        enemy.HP -= p.Daño;
+                    }
+                    if ( enemy.HP < 0 || enemy.HP == 0) {
+                     
+                       enemigos.Remove(enemy);
+                    }
+                }
             }
 
-            base.Update(gameTime);
-        }
 
+            base.Update(gameTime) ;
+            
+
+
+        }
+        
+      
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
@@ -297,5 +367,6 @@ namespace enemigos_siguen
 
             base.Draw(gameTime);
         }
+        
     }
 }
