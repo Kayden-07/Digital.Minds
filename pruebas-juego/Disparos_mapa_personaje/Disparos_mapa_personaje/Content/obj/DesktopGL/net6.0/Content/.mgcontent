@@ -4,10 +4,10 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Alumno/Desktop/muriel/POO/Disparos_mapa_personaje/Disparos_mapa_personaje/Content/cuadraro.png</File>
-    <File>C:/Users/Alumno/Desktop/muriel/POO/Disparos_mapa_personaje/Disparos_mapa_personaje/Content/mapa.png</File>
-    <File>C:/Users/Alumno/Desktop/muriel/POO/Disparos_mapa_personaje/Disparos_mapa_personaje/Content/Mocaso.png</File>
-    <File>C:/Users/Alumno/Desktop/muriel/POO/Disparos_mapa_personaje/Disparos_mapa_personaje/Content/Skeletuschiquito.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/Disparos_mapa_personaje/Disparos_mapa_personaje/Content/cuadraro.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/Disparos_mapa_personaje/Disparos_mapa_personaje/Content/mapa.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/Disparos_mapa_personaje/Disparos_mapa_personaje/Content/Mocaso.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/Disparos_mapa_personaje/Disparos_mapa_personaje/Content/Skeletuschiquito.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

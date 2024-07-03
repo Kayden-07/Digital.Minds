@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\Disparos_mapa_personaje\\",
+  "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\Disparos_mapa_personaje\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BB48FBB-E0DA-4F10-865B-BBC7D384B4AA}|Disparos_mapa_personaje\\Disparos_mapa_personaje.csproj|c:\\users\\alumno\\desktop\\muriel\\digital.minds\\pruebas-juego\\disparos_mapa_personaje\\disparos_mapa_personaje\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9BB48FBB-E0DA-4F10-865B-BBC7D384B4AA}|Disparos_mapa_personaje\\Disparos_mapa_personaje.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\disparos_mapa_personaje\\disparos_mapa_personaje\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BB48FBB-E0DA-4F10-865B-BBC7D384B4AA}|Disparos_mapa_personaje\\Disparos_mapa_personaje.csproj|solutionrelative:disparos_mapa_personaje\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BB48FBB-E0DA-4F10-865B-BBC7D384B4AA}|Disparos_mapa_personaje\\Disparos_mapa_personaje.csproj|C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\Disparos_mapa_personaje\\disparos_mapa_personaje\\data\\mapa_cap1.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{9BB48FBB-E0DA-4F10-865B-BBC7D384B4AA}|Disparos_mapa_personaje\\Disparos_mapa_personaje.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\disparos_mapa_personaje\\disparos_mapa_personaje\\data\\mapa_cap1.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{9BB48FBB-E0DA-4F10-865B-BBC7D384B4AA}|Disparos_mapa_personaje\\Disparos_mapa_personaje.csproj|solutionrelative:disparos_mapa_personaje\\data\\mapa_cap1.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "mapa_Cap1.csv",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\Disparos_mapa_personaje\\Disparos_mapa_personaje\\Data\\mapa_Cap1.csv",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\Disparos_mapa_personaje\\Disparos_mapa_personaje\\Data\\mapa_Cap1.csv",
               "RelativeDocumentMoniker": "Disparos_mapa_personaje\\Data\\mapa_Cap1.csv",
-              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\Disparos_mapa_personaje\\Disparos_mapa_personaje\\Data\\mapa_Cap1.csv",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\Disparos_mapa_personaje\\Disparos_mapa_personaje\\Data\\mapa_Cap1.csv",
               "RelativeToolTip": "Disparos_mapa_personaje\\Data\\mapa_Cap1.csv",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
@@ -36,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\Disparos_mapa_personaje\\Disparos_mapa_personaje\\Game1.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\Disparos_mapa_personaje\\Disparos_mapa_personaje\\Game1.cs",
               "RelativeDocumentMoniker": "Disparos_mapa_personaje\\Game1.cs",
-              "ToolTip": "C:\\Users\\Alumno\\Desktop\\muriel\\Digital.Minds\\pruebas-juego\\Disparos_mapa_personaje\\Disparos_mapa_personaje\\Game1.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\Disparos_mapa_personaje\\Disparos_mapa_personaje\\Game1.cs",
               "RelativeToolTip": "Disparos_mapa_personaje\\Game1.cs",
-              "ViewState": "AQIAAHsAAAAAAAAAAADwv40AAABWAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAApwEAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T18:34:10.147Z",
               "EditorCaption": ""

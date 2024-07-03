@@ -53,7 +53,7 @@ namespace BetaFoesAndBones.Personajes
 
             intersections = new List<Rectangle>();
 
-            disparo = new Disparo(contenedor, _position);
+            disparo = new Disparo(contenedor, _position, _game);
         }
         public override void Draw(GameTime gameTime, SpriteBatch sprite)
         {
@@ -159,6 +159,7 @@ namespace BetaFoesAndBones.Personajes
                 }
             }
             disparo.Update(gameTime);
+            disparo.Posicion = _position;
         }
         public List<Rectangle> getIntersectingTilesHorizontal(Rectangle target)
         {

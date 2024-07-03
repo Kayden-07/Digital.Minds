@@ -50,9 +50,9 @@ namespace BetaFoesAndBones.Controles
                 Rectangle dest = new(
 
                     ((int)item.Key.X * 93) + 93,
-                    ((int)item.Key.Y * 93),
+                    ((int)item.Key.Y * 97),
                     93,
-                    93
+                    97
                  );
                 int x = item.Value % num_tiles_per_row;
                 int y = item.Value / num_tiles_per_row;
@@ -70,9 +70,9 @@ namespace BetaFoesAndBones.Controles
                 Rectangle dest = new(
 
                     ((int)item.Key.X * 93) + 93,
-                    ((int)item.Key.Y * 93),
+                    ((int)item.Key.Y * 97),
                     93,
-                    93
+                    97
                 );
                 int x = item.Value % num_tiles_per_row;
                 int y = item.Value / num_tiles_per_row;

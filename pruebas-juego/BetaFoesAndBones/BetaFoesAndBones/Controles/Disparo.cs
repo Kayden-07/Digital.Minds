@@ -14,7 +14,8 @@ namespace BetaFoesAndBones.Controles
 {
     internal class Disparo : Componentes
     {
-        Vector2 felix_posicion;
+        private Vector2 felix_posicion;
+        public Vector2 Posicion { get { return felix_posicion; } set { felix_posicion = value; } }
         float felix_velocidad;
 
         Texture2D magia_textura;
@@ -24,11 +25,15 @@ namespace BetaFoesAndBones.Controles
         MouseState estadoRaton;
         bool disparoRealizado = false;
 
-        public Disparo(ContentManager contenedor, Vector2 posicion)
+        public Disparo(ContentManager contenedor, Vector2 posicion , Game1 game1)
         {
             _content = contenedor;
-
+            _game = game1;
             magia_textura = _content.Load<Texture2D>("Controles/boton");
+            magia_velocidad = 400f;
+            felix_posicion = posicion;
+
+            proyectiles = new List<Magia>();
         }
         public class Magia
         {
@@ -54,12 +59,12 @@ namespace BetaFoesAndBones.Controles
             foreach (Magia proyectil in proyectiles)
             {
                 //_spriteBatch.Draw(magia_textura, (proyectil.Posicion.X, proyectil.Posicion.Y), Color.White);
-                sprite.Draw(magia_textura, new Rectangle((int)proyectil.Posicion.X, (int)proyectil.Posicion.Y + 25, 50, 50), Color.White);
+                sprite.Draw(magia_textura, new Rectangle((int)proyectil.Posicion.X + 25, (int)proyectil.Posicion.Y + 25, 50, 50), Color.White);
             }
         }
-
         public override void Update(GameTime gameTime)
         {
+            
             estadoRaton = Mouse.GetState();
             if (estadoRaton.LeftButton == ButtonState.Pressed && !disparoRealizado)
             {
