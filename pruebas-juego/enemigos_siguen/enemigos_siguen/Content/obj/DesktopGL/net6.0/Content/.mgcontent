@@ -4,11 +4,11 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/User/Desktop/Digital/Digital.Minds/pruebas-juego/enemigos_siguen/enemigos_siguen/Content/Bacteriano.png</File>
-    <File>C:/Users/User/Desktop/Digital/Digital.Minds/pruebas-juego/enemigos_siguen/enemigos_siguen/Content/Draconario.png</File>
-    <File>C:/Users/User/Desktop/Digital/Digital.Minds/pruebas-juego/enemigos_siguen/enemigos_siguen/Content/magia.png</File>
-    <File>C:/Users/User/Desktop/Digital/Digital.Minds/pruebas-juego/enemigos_siguen/enemigos_siguen/Content/Mocaso.png</File>
-    <File>C:/Users/User/Desktop/Digital/Digital.Minds/pruebas-juego/enemigos_siguen/enemigos_siguen/Content/Skeletuschiquito.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/enemigos_siguen/enemigos_siguen/Content/Bacteriano.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/enemigos_siguen/enemigos_siguen/Content/Draconario.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/enemigos_siguen/enemigos_siguen/Content/magia.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/enemigos_siguen/enemigos_siguen/Content/Mocaso.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/enemigos_siguen/enemigos_siguen/Content/Skeletuschiquito.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

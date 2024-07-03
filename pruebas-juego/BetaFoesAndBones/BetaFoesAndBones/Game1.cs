@@ -12,6 +12,9 @@ namespace BetaFoesAndBones
 
         private Vista _vistaActual;
         private Vista _proximaVista;
+
+        public int w = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
+        public int h = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
         public void ChangeState(Vista vista)
         {
             _proximaVista = vista;
@@ -19,8 +22,6 @@ namespace BetaFoesAndBones
         }
         public Game1()
         {
-            int w = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
-            int h = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
             _graphics = new GraphicsDeviceManager(this);
             _graphics.PreferredBackBufferWidth = w;
             _graphics.PreferredBackBufferHeight = h;
