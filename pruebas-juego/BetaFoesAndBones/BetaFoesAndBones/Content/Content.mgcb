@@ -25,7 +25,7 @@
 /processorParam:TextureFormat=Color
 /build:Controles/boton.png
 
-#begin Felix/abajo_felix.png
+#begin Disparos/Disparito.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -35,7 +35,55 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Felix/abajo_felix.png
+/build:Disparos/Disparito.png
+
+#begin Enemigos/Draconariop.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Enemigos/Draconariop.png
+
+#begin Enemigos/explosion.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Enemigos/explosion.png
+
+#begin Enemigos/Slimep.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Enemigos/Slimep.png
+
+#begin Enemigos/Viruseanop.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Enemigos/Viruseanop.png
 
 #begin Felix/abajo_V2.png
 /importer:TextureImporter
@@ -61,18 +109,6 @@
 /processorParam:TextureFormat=Color
 /build:Felix/arriba_felix_v2.png
 
-#begin Felix/arriba_felix.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Felix/arriba_felix.png
-
 #begin Felix/derecha_Felix_v2.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -85,7 +121,7 @@
 /processorParam:TextureFormat=Color
 /build:Felix/derecha_Felix_v2.png
 
-#begin Felix/derecha.png
+#begin Felix/felix_v2.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -95,7 +131,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Felix/derecha.png
+/build:Felix/felix_v2.png
 
 #begin Felix/izquierda_felix_v2.png
 /importer:TextureImporter
@@ -109,18 +145,6 @@
 /processorParam:TextureFormat=Color
 /build:Felix/izquierda_felix_v2.png
 
-#begin Felix/izquierda_felix.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Felix/izquierda_felix.png
-
 #begin Felix/Risas_felix.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -132,6 +156,13 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Felix/Risas_felix.png
+
+#begin Fuentes/arial.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fuentes/arial.spritefont
 
 #begin Fuentes/fuente.spritefont
 /importer:FontDescriptionImporter

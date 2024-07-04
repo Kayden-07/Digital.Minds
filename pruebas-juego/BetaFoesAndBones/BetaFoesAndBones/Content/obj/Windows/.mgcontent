@@ -4,20 +4,26 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Alumno/Desktop/muriel/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Controles/boton.png</File>
-    <File>C:/Users/Alumno/Desktop/muriel/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Felix/abajo_felix.png</File>
-    <File>C:/Users/Alumno/Desktop/muriel/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Felix/abajo_V2.png</File>
-    <File>C:/Users/Alumno/Desktop/muriel/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Felix/arriba_felix_v2.png</File>
-    <File>C:/Users/Alumno/Desktop/muriel/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Felix/arriba_felix.png</File>
-    <File>C:/Users/Alumno/Desktop/muriel/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Felix/derecha_Felix_v2.png</File>
-    <File>C:/Users/Alumno/Desktop/muriel/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Felix/derecha.png</File>
-    <File>C:/Users/Alumno/Desktop/muriel/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Felix/izquierda_felix_v2.png</File>
-    <File>C:/Users/Alumno/Desktop/muriel/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Felix/izquierda_felix.png</File>
-    <File>C:/Users/Alumno/Desktop/muriel/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Felix/Risas_felix.png</File>
-    <File>C:/Users/Alumno/Desktop/muriel/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Fuentes/fuente.spritefont</File>
-    <File>C:/Users/Alumno/Desktop/muriel/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Tiles-SandstoneDungeons.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Controles/boton.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Disparos/Disparito.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Enemigos/Draconariop.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Enemigos/explosion.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Enemigos/Slimep.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Enemigos/Viruseanop.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Felix/abajo_V2.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Felix/arriba_felix_v2.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Felix/derecha_Felix_v2.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Felix/felix_v2.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Felix/izquierda_felix_v2.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Felix/Risas_felix.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Fuentes/arial.spritefont</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Fuentes/fuente.spritefont</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Tiles-SandstoneDungeons.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

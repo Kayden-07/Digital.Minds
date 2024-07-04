@@ -162,7 +162,7 @@ namespace enemigos_siguen
         public class Bacteriano : Enemigo
         {
             public Bacteriano(Texture2D textura, Vector2 posicion)
-                : base(textura, posicion, 100f, 9f,60)
+                : base(textura, posicion, 100f, 9f, 60)
             {
             }
         }

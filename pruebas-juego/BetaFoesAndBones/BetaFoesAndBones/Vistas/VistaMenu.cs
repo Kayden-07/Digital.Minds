@@ -26,7 +26,7 @@ namespace BetaFoesAndBones.Vistas
             var botonNuevoJuego = new Boton(botonTexture, botonFuente)
             {
                 Posicion = new Vector2(x,y + 200),
-                Texto = "New Game",
+                Texto = "Nuevo Juego",
             };
             botonNuevoJuego.Click += BotonNuevoJuego_Click;
 
