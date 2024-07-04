@@ -44,10 +44,6 @@ C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-
 C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.genruntimeconfig.cache
 C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\ref\BetaFoesAndBones.dll
 C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Controles\boton.xnb
-C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\abajo_felix.xnb
-C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\arriba_felix.xnb
-C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\derecha.xnb
-C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\izquierda_felix.xnb
 C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\Risas_felix.xnb
 C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Fuentes\fuente.xnb
 C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Tiles-SandstoneDungeons.xnb
@@ -146,3 +142,13 @@ C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\Beta
 C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\felix_v2.xnb
 C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\explosion.xnb
 C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Fuentes\arial.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Disparos\Disparito.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\bacte_movimiento.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Draconariop.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\explosion.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\slim-derecha-removebg-preview.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Slimep.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Slime_movimiento.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Viruseanop.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\felix_v2.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Fuentes\arial.xnb

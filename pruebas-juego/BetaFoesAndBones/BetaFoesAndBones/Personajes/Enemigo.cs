@@ -21,8 +21,13 @@ namespace BetaFoesAndBones.Personajes
         private int puntos;
         private Color colorE;
         public Vector2 temp;
-        public Vector2 temp1;
+        private Vector2 tamaño;
 
+        public Vector2 Tamaño
+        {
+            get { return tamaño; }
+            set { tamaño = value; }
+        }
         public Color ColorE
         {
             get { return colorE; }
@@ -59,7 +64,7 @@ namespace BetaFoesAndBones.Personajes
             set { hp = value; }
         }
 
-        public Enemigo(Texture2D textura, Vector2 posicion, float velocidad, float tiempoAparicion, float hp, int puntos)
+        public Enemigo(Texture2D textura, Vector2 posicion, float velocidad, float tiempoAparicion, float hp, int puntos, Vector2 tamaño)
         {
             ColorE = Color.White;
             Textura = textura;
@@ -68,6 +73,7 @@ namespace BetaFoesAndBones.Personajes
             TiempoAparicion = tiempoAparicion;
             HP = hp;
             Puntos = puntos;
+            Tamaño = tamaño;
         }
 
         public void Update(GameTime gameTime, Vector2 felix_posicion, int windowWidth, int windowHeight)
@@ -78,8 +84,8 @@ namespace BetaFoesAndBones.Personajes
             Posicion += direccion * Velocidad * (float)gameTime.ElapsedGameTime.TotalSeconds;
             temp = Posicion - (direccion * Velocidad * (float)0.5);
             Posicion = new Vector2(
-                MathHelper.Clamp(Posicion.X, 0, windowWidth - Textura.Width),
-                MathHelper.Clamp(Posicion.Y, 0, windowHeight - Textura.Height)
+                MathHelper.Clamp(Posicion.X, 0, windowWidth - Tamaño.X),
+                MathHelper.Clamp(Posicion.Y, 0, windowHeight - Tamaño.Y)
             );
         }
     }
@@ -88,7 +94,7 @@ namespace BetaFoesAndBones.Personajes
     public class Slime : Enemigo
     {
         public Slime(Texture2D textura, Vector2 posicion)
-            : base(textura, posicion, 120f, 3f, 20, 100)
+            : base(textura, posicion, 120f, 3f, 20, 100,new Vector2(100,100))
         {
         }
     }
@@ -96,7 +102,7 @@ namespace BetaFoesAndBones.Personajes
     public class Bacteriano : Enemigo
     {
         public Bacteriano(Texture2D textura, Vector2 posicion)
-            : base(textura, posicion, 100f, 9f, 60, 300)
+            : base(textura, posicion, 100f, 9f, 60, 300, new Vector2(150, 230))
         {
 
         }
@@ -105,7 +111,7 @@ namespace BetaFoesAndBones.Personajes
     public class Draconario : Enemigo
     {
         public Draconario(Texture2D textura, Vector2 posicion)
-            : base(textura, posicion, 80f, 20f, 100, 500)
+            : base(textura, posicion, 80f, 20f, 100, 500, new Vector2(165, 230))
         {
         }
     }

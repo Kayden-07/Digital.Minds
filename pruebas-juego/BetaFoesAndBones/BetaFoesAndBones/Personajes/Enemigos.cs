@@ -31,12 +31,13 @@ namespace BetaFoesAndBones.Personajes
         Texture2D bacterianoTextura;
         Texture2D draconanioTextura;
         Texture2D explosion;
+        AnimationManager ab;
 
         public Enemigos(Game1 game,ContentManager contenedor) {
             _game = game;
             _content = contenedor;
             slimeTextura = _content.Load<Texture2D>("Enemigos/Slimep");
-            bacterianoTextura = _content.Load<Texture2D>("Enemigos/Viruseanop");
+            bacterianoTextura = _content.Load<Texture2D>("Enemigos/bacte_movimiento");
             draconanioTextura = _content.Load<Texture2D>("Enemigos/Draconariop");
             explosion = _content.Load<Texture2D>("Enemigos/explosion");
             tiempoTranscurridoSlime = 0f;
@@ -44,12 +45,19 @@ namespace BetaFoesAndBones.Personajes
             tiempoTranscurridoDraconiano = 0f;
             felix_posicion = new Vector2(300,300);
             puntos = 0;
+
+            ab = new(5, 5, new System.Numerics.Vector2(165, 230));
         }
         public override void Draw(GameTime gameTime, SpriteBatch sprite)
         {
             foreach (var enemigo in enemigos)
             {
-                sprite.Draw(enemigo.Textura, enemigo.Posicion, enemigo.ColorE);
+                if (enemigo.HP == 60) 
+                    sprite.Draw(enemigo.Textura, enemigo.Posicion, ab.GetFrame(), enemigo.ColorE);
+                else 
+                {
+                    sprite.Draw(enemigo.Textura, enemigo.Posicion, enemigo.ColorE);
+                }
             }
             if(murio == 1)
             {
@@ -64,6 +72,7 @@ namespace BetaFoesAndBones.Personajes
 
         public override void Update(GameTime gameTime)
         {
+            ab.Update();
             tiempoTranscurridoSlime += (float)gameTime.ElapsedGameTime.TotalSeconds;
             tiempoTranscurridoBacteriano += (float)gameTime.ElapsedGameTime.TotalSeconds;
             tiempoTranscurridoDraconiano += (float)gameTime.ElapsedGameTime.TotalSeconds;
@@ -112,10 +121,7 @@ namespace BetaFoesAndBones.Personajes
                 }
                 foreach (Magia p in proyectilesE.ToList())
                 {
-                    if (enemy.Posicion.X < p.Posicion.X + p.Textura.Width &&
-                        enemy.Posicion.X + enemy.Textura.Width > p.Posicion.X &&
-                        enemy.Posicion.Y < p.Posicion.Y + p.Textura.Height &&
-                        enemy.Posicion.Y + enemy.Textura.Height > p.Posicion.Y)
+                    if (new Rectangle((int)p.Posicion.X, (int)p.Posicion.Y, (int)p.Textura.Width, (int)p.Textura.Height).Intersects(new Rectangle((int)enemy.Posicion.X, (int)enemy.Posicion.Y, (int)enemy.Tamaño.X, (int)enemy.Tamaño.X)))
                     {
                         proyectilesE.Remove(p);
                         daño = 0f;

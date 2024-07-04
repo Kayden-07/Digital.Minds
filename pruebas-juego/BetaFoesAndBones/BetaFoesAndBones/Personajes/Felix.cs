@@ -180,18 +180,11 @@ namespace BetaFoesAndBones.Personajes
 
             foreach (Enemigo enemy in enemigoList.ToList())
             {
-                if (rCuerpo.Intersects(new Rectangle((int)enemy.Posicion.X, (int)enemy.Posicion.Y, enemy.Textura.Width, enemy.Textura.Height)))
+                if (rCuerpo.Intersects(new Rectangle((int)enemy.Posicion.X, (int)enemy.Posicion.Y, 100, 100)))
                 {
                     vida -= 10;
                     enemy.Posicion = enemy.temp;
                 }
-                //if (enemy.Posicion.X < _position.X + felix[activo].Width &&
-                //    enemy.Posicion.X + enemy.Textura.Width > _position.X &&
-                //    enemy.Posicion.Y < _position.Y + felix[activo].Height &&
-                //    enemy.Posicion.Y + enemy.Textura.Height > _position.Y)
-                //{
-                //    vida -= 10;
-                //}
                 if (vida == 0)
                 {
 
