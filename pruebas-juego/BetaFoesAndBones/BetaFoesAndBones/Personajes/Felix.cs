@@ -19,6 +19,7 @@ namespace BetaFoesAndBones.Personajes
         private Texture2D[] felix;
         private Rectangle rFelix;
         private Rectangle rCuerpo;
+        private Color colorF;
 
         public Vector2 _position;
         public Vector2 _velocity;
@@ -30,6 +31,7 @@ namespace BetaFoesAndBones.Personajes
         AnimationManager am;
         AnimationManager pm;
         private int activo;
+        private float daño;
 
         private List<Rectangle> intersections;
 
@@ -64,6 +66,10 @@ namespace BetaFoesAndBones.Personajes
             intersections = new List<Rectangle>();
 
             disparo = new Disparo(contenedor, _position, _game);
+
+            colorF = Color.White;
+            daño = 0f;
+
         }
         public override void Draw(GameTime gameTime, SpriteBatch sprite)
         {
@@ -80,15 +86,15 @@ namespace BetaFoesAndBones.Personajes
             //sprite.Draw(cuadrado, rFelix, Color.White);
             //sprite.Draw(cuadrado, new Rectangle((int)_position.X + 15, (int)_position.Y, 50, 120), Color.Red);
             if (activo <= 0)
-                sprite.Draw(felix[activo], new Rectangle(rFelix.X-70,rFelix.Y,rFelix.Width,rFelix.Height), am.GetFrame(),Color.White);
+                sprite.Draw(felix[activo], new Rectangle(rFelix.X-70,rFelix.Y,rFelix.Width,rFelix.Height), am.GetFrame(), colorF);
             else if(activo == 1)
-                sprite.Draw(felix[activo], new Rectangle((int)_position.X, (int)_position.Y, 200, 150), am.GetFrame(), Color.White);
+                sprite.Draw(felix[activo], new Rectangle((int)_position.X, (int)_position.Y, 200, 150), am.GetFrame(), colorF);
             else if (activo == 2)
-                sprite.Draw(felix[activo], new Rectangle((int)_position.X - 20, (int)_position.Y, 200, 150), pm.GetFrame(),Color.White);
+                sprite.Draw(felix[activo], new Rectangle((int)_position.X - 20, (int)_position.Y, 200, 150), pm.GetFrame(),colorF);
             else if (activo == 3)
-                sprite.Draw(felix[activo], new Rectangle((int)_position.X - 20, (int)_position.Y, 200, 150), pm.GetFrame(),Color.White);
+                sprite.Draw(felix[activo], new Rectangle((int)_position.X - 20, (int)_position.Y, 200, 150), pm.GetFrame(),colorF);
             else if (activo == 5)
-                sprite.Draw(felix[activo], new Rectangle((int)_position.X, (int)_position.Y, 100, 130), Color.White);
+                sprite.Draw(felix[activo], new Rectangle((int)_position.X, (int)_position.Y, 100, 130), colorF);
 
             disparo.Draw(gameTime, sprite);
         }
@@ -97,6 +103,7 @@ namespace BetaFoesAndBones.Personajes
         {
             rFelix = new Rectangle((int)_position.X, (int)_position.Y, 200, 150);
             rCuerpo = new Rectangle((int)_position.X + 15, (int)_position.Y, 50, 120);
+            daño += (float)gameTime.ElapsedGameTime.TotalSeconds;
 
             _velocity = Vector2.Zero;
             if (Keyboard.GetState().IsKeyDown(Keys.W))
@@ -177,13 +184,19 @@ namespace BetaFoesAndBones.Personajes
             }
             disparo.Update(gameTime);
             disparo.Posicion = _position;
-
+            if (daño >=0.2 && colorF == Color.Red)
+            {
+                daño = 0;
+                colorF = Color.White;
+            }
             foreach (Enemigo enemy in enemigoList.ToList())
             {
                 if (rCuerpo.Intersects(new Rectangle((int)enemy.Posicion.X, (int)enemy.Posicion.Y, 100, 100)))
                 {
+                    daño = 0f;
                     vida -= 10;
                     enemy.Posicion = enemy.temp;
+                    colorF = Color.Red;
                 }
                 if (vida == 0)
                 {

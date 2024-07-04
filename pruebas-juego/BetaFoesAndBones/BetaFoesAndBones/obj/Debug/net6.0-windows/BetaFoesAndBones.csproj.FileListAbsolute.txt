@@ -152,3 +152,6 @@ C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\Beta
 C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Viruseanop.xnb
 C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\felix_v2.xnb
 C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Fuentes\arial.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\bacte_movimiento.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\slim-derecha-removebg-preview.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Slime_movimiento.xnb

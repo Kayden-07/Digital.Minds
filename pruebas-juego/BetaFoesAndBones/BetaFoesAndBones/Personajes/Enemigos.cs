@@ -52,7 +52,7 @@ namespace BetaFoesAndBones.Personajes
         {
             foreach (var enemigo in enemigos)
             {
-                if (enemigo.HP == 60) 
+                if (enemigo.TiempoAparicion == 9f) 
                     sprite.Draw(enemigo.Textura, enemigo.Posicion, ab.GetFrame(), enemigo.ColorE);
                 else 
                 {
