@@ -1,4 +1,5 @@
 ﻿using BetaFoesAndBones.Controles;
+using BetaFoesAndBones.Vistas;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
@@ -40,8 +41,10 @@ namespace BetaFoesAndBones.Personajes
         private int tilesTamaño = 93;
 
         private Dictionary<Vector2, int> coli;
-        public Felix(Game1 game, GraphicsDevice graphicsDevice, ContentManager contenedor, Dictionary<Vector2, int> _coli) 
+        public Felix(Game1 game, GraphicsDevice graphicsDevice, ContentManager contenedor, Dictionary<Vector2, int> _coli)
         {
+            _game = game;
+            _graphicsDevice = graphicsDevice;
             coli = _coli;
             _content = contenedor;
             felix = new Texture2D[6];
@@ -198,9 +201,9 @@ namespace BetaFoesAndBones.Personajes
                     enemy.Posicion = enemy.temp;
                     colorF = Color.Red;
                 }
-                if (vida == 0)
+                if (vida <= 0)
                 {
-
+                    _game.ChangeState(new VistaPerdiste(_game, _graphicsDevice, _content));
                 }
             }
         }

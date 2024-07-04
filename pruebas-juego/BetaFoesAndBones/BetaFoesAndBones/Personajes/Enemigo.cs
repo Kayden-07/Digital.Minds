@@ -78,14 +78,13 @@ namespace BetaFoesAndBones.Personajes
 
         public void Update(GameTime gameTime, Vector2 felix_posicion, int windowWidth, int windowHeight)
         {
-            
             var distancia = felix_posicion - Posicion;
             Vector2 direccion = Vector2.Normalize(distancia);
             Posicion += direccion * Velocidad * (float)gameTime.ElapsedGameTime.TotalSeconds;
             temp = Posicion - (direccion * Velocidad * (float)0.5);
             Posicion = new Vector2(
-                MathHelper.Clamp(Posicion.X, 0, windowWidth - Tamaño.X),
-                MathHelper.Clamp(Posicion.Y, 0, windowHeight - Tamaño.Y)
+                MathHelper.Clamp(Posicion.X, 150, windowWidth - 150 - Tamaño.X),
+                MathHelper.Clamp(Posicion.Y, 50, windowHeight - 100 - Tamaño.Y)
             );
         }
     }
@@ -94,7 +93,7 @@ namespace BetaFoesAndBones.Personajes
     public class Slime : Enemigo
     {
         public Slime(Texture2D textura, Vector2 posicion)
-            : base(textura, posicion, 120f, 3f, 20, 100,new Vector2(100,100))
+            : base(textura, posicion, 160f, 3f, 20, 100,new Vector2(100,100))
         {
         }
     }

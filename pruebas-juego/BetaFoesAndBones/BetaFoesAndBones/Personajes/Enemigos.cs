@@ -78,7 +78,7 @@ namespace BetaFoesAndBones.Personajes
             tiempoTranscurridoDraconiano += (float)gameTime.ElapsedGameTime.TotalSeconds;
             daño += (float)gameTime.ElapsedGameTime.TotalSeconds;
 
-            if (tiempoTranscurridoSlime >= 3f) 
+            if (tiempoTranscurridoSlime >= 2f) 
             {
                 Enemigo nuevoSlime = null;
                 do
@@ -88,7 +88,7 @@ namespace BetaFoesAndBones.Personajes
                 enemigos.Add(nuevoSlime);
                 tiempoTranscurridoSlime = 0f;
             }        
-            if (tiempoTranscurridoBacteriano >= 7f) 
+            if (tiempoTranscurridoBacteriano >= 5f) 
             {
                 Enemigo nuevoBacteriano = null;
                 do
@@ -98,7 +98,7 @@ namespace BetaFoesAndBones.Personajes
                 enemigos.Add(nuevoBacteriano);
                 tiempoTranscurridoBacteriano = 0f;
             }        
-            if (tiempoTranscurridoDraconiano >= 20f) 
+            if (tiempoTranscurridoDraconiano >= 15f) 
             {
                 Enemigo nuevoDraconario = null;
                 do
@@ -137,6 +137,18 @@ namespace BetaFoesAndBones.Personajes
                     }
                 }
             }
+            //foreach (Enemigo e in enemigos.ToList())
+            //{
+            //    foreach (Enemigo enemy in enemigos.ToList())
+            //    {
+            //        if(e != enemy) {
+            //            if (new Rectangle((int)e.Posicion.X, (int)e.Posicion.Y, (int)enemy.Tamaño.X, (int)enemy.Tamaño.Y).Intersects(new Rectangle((int)enemy.Posicion.X, (int)enemy.Posicion.Y, (int)enemy.Tamaño.X, (int)enemy.Tamaño.Y)))
+            //            {
+            //                e.Posicion = e.temp1;
+            //            } 
+            //        }
+            //    }
+            //}
 
         }
     }
