@@ -31,12 +31,12 @@ namespace BetaFoesAndBones.Personajes
         Texture2D bacterianoTextura;
         Texture2D draconanioTextura;
         Texture2D explosion;
-        AnimationManager ab;
+        AnimationManager ab, slime_ab;
 
         public Enemigos(Game1 game,ContentManager contenedor) {
             _game = game;
             _content = contenedor;
-            slimeTextura = _content.Load<Texture2D>("Enemigos/Slimep");
+            slimeTextura = _content.Load<Texture2D>("Enemigos/Slime_movimiento");
             bacterianoTextura = _content.Load<Texture2D>("Enemigos/bacte_movimiento");
             draconanioTextura = _content.Load<Texture2D>("Enemigos/Draconariop");
             explosion = _content.Load<Texture2D>("Enemigos/explosion");
@@ -47,6 +47,7 @@ namespace BetaFoesAndBones.Personajes
             puntos = 0;
 
             ab = new(5, 5, new System.Numerics.Vector2(165, 230));
+            slime_ab = new(7, 7, new System.Numerics.Vector2(146, 190));
         }
         public override void Draw(GameTime gameTime, SpriteBatch sprite)
         {
@@ -54,7 +55,11 @@ namespace BetaFoesAndBones.Personajes
             {
                 if (enemigo.TiempoAparicion == 9f) 
                     sprite.Draw(enemigo.Textura, enemigo.Posicion, ab.GetFrame(), enemigo.ColorE);
-                else 
+                else if (enemigo.TiempoAparicion == 3f)
+                {
+                    sprite.Draw(enemigo.Textura, enemigo.Posicion, slime_ab.GetFrame(), enemigo.ColorE);
+                }
+                else if (enemigo.TiempoAparicion == 20f)
                 {
                     sprite.Draw(enemigo.Textura, enemigo.Posicion, enemigo.ColorE);
                 }
@@ -73,6 +78,7 @@ namespace BetaFoesAndBones.Personajes
         public override void Update(GameTime gameTime)
         {
             ab.Update();
+            slime_ab.Update();
             tiempoTranscurridoSlime += (float)gameTime.ElapsedGameTime.TotalSeconds;
             tiempoTranscurridoBacteriano += (float)gameTime.ElapsedGameTime.TotalSeconds;
             tiempoTranscurridoDraconiano += (float)gameTime.ElapsedGameTime.TotalSeconds;
