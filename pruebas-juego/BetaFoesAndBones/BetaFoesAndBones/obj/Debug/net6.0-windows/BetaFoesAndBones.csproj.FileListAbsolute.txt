@@ -214,3 +214,4 @@ C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBo
 C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\portada_inicio.xnb
 C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\HUD\Corazon.xnb
 C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\HUD\Guita.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Controles\felix_sticker.xnb

@@ -14,21 +14,32 @@ namespace BetaFoesAndBones.Vistas
     public class VistaPerdiste : Vista
     {
         private SpriteFont _fuen;
+        private Texture2D felix;
         private string texto;
+        private int w;
+        private int h;
         private int y;
         private int x;
+        private int felixX;
+        private int felixY;
         public VistaPerdiste(Game1 game, GraphicsDevice graphicsDevice, ContentManager contenedor) : base(game, graphicsDevice, contenedor)
         {
             _fuen = _content.Load<SpriteFont>("Fuentes/arial");
+            felix = _content.Load<Texture2D>("Controles/felix_sticker");
             texto = "Perdiste";
-            x = (GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width / 2) - texto.Length ;
-            y = (GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height / 2);
+            w = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
+            h = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
+            felixX = (w / 2) - (felix.Width / 2);
+            felixY = (h / 2) - (felix.Height / 2) + 100;
+            x = (w/ 2) - texto.Length -100;
+            y = (h / 2) - 150;
         }
 
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             _game.GraphicsDevice.Clear(Color.Black);
             spriteBatch.Begin();
+            spriteBatch.Draw(felix,new Rectangle(felixX,felixY,500,300), Color.White); 
             spriteBatch.DrawString(_fuen, texto, new Vector2(x, y), Color.White);
             spriteBatch.End();
         }

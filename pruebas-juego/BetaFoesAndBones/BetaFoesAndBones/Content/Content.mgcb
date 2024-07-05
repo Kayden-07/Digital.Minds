@@ -25,6 +25,18 @@
 /processorParam:TextureFormat=Color
 /build:Controles/boton.png
 
+#begin Controles/felix_sticker.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Controles/felix_sticker.png
+
 #begin Disparos/Disparito.png
 /importer:TextureImporter
 /processor:TextureProcessor

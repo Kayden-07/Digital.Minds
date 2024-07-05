@@ -25,8 +25,8 @@ namespace BetaFoesAndBones
             _graphics = new GraphicsDeviceManager(this);
             _graphics.PreferredBackBufferWidth = w;
             _graphics.PreferredBackBufferHeight = h;
-            //_graphics.IsFullScreen = true;
-            //_graphics.ApplyChanges();
+            _graphics.IsFullScreen = true;
+            _graphics.ApplyChanges();
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
         }
@@ -66,7 +66,7 @@ namespace BetaFoesAndBones
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Black);
 
             _vistaActual.Draw(gameTime, _spriteBatch);
 
