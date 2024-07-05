@@ -28,6 +28,9 @@ namespace BetaFoesAndBones.Vistas
 
         private SpriteFont _fuente;
         private SpriteFont _fuen;
+        private Texture2D _corazon;
+        private Texture2D cuadro;
+        private Texture2D _guita;
         public VistaJuego(Game1 game, GraphicsDevice graphicsDevice, ContentManager contenedor) : base(game, graphicsDevice, contenedor)
         {
             Mapa = new Mapa(contenedor);
@@ -35,6 +38,9 @@ namespace BetaFoesAndBones.Vistas
             enemigo = new Enemigos(game, contenedor);
             _fuente = _content.Load<SpriteFont>("Fuentes/fuente");
             _fuen = _content.Load<SpriteFont>("Fuentes/arial");
+            _corazon = _content.Load<Texture2D>("HUD/corazon");
+            _guita = _content.Load<Texture2D>("HUD/Guita");
+            cuadro = _content.Load<Texture2D>("Controles/boton");
         }
 
         
@@ -46,8 +52,11 @@ namespace BetaFoesAndBones.Vistas
             Mapa.Draw(gameTime, spriteBatch);
             enemigo.Draw(gameTime, spriteBatch);
             felix.Draw(gameTime, spriteBatch);
-            spriteBatch.DrawString(_fuen, pt, new Vector2(100, 100), Color.White);
-            spriteBatch.DrawString(_fuen, felix.vida.ToString(), new Vector2(100, 150), Color.White);
+            spriteBatch.Draw(_guita, new Rectangle(50, 100, 40, 40), Color.White);
+            spriteBatch.DrawString(_fuen, puntos.ToString(), new Vector2(100, 100), Color.White);
+            spriteBatch.Draw(_corazon,new Rectangle(50,150, 40, 40), Color.White);
+            spriteBatch.Draw(cuadro,new Rectangle(100,150,( felix.vida * 2), 40), Color.Red);
+            //spriteBatch.DrawString(_fuen, felix.vida.ToString(), new Vector2(100, 150), Color.White);
             spriteBatch.End();
         }
 

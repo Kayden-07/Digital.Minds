@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/Alumno/Desktop/muriel/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Felix/Risas_felix.png</SourceFile>
-  <SourceTime>2024-06-27T13:55:33.2021277-03:00</SourceTime>
-  <DestFile>C:/Users/Alumno/Desktop/muriel/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/bin/Windows/Felix/Risas_felix.xnb</DestFile>
-  <DestTime>2024-07-04T14:08:15.9104453-03:00</DestTime>
+  <SourceFile>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/Felix/Risas_felix.png</SourceFile>
+  <SourceTime>2024-06-17T20:21:01.0603411-03:00</SourceTime>
+  <DestFile>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/BetaFoesAndBones/BetaFoesAndBones/Content/bin/Windows/Felix/Risas_felix.xnb</DestFile>
+  <DestTime>2024-07-04T21:08:03.4743459-03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T08:44:56-03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
