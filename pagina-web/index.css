@@ -1,27 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,500;1,12..72,500&display=swap');
 body{
-    background-color:#a2e29f !important;
+    /* background-color:#F985C6 !important; */
+    background-color:#ff4dbe !important;
+
+    /* background-color:#a2e29f !important; */
     margin: 0 !important;
     padding: 0 !important;
     font-family: 'Passero One' !important;
 }
 /* --------header---------- */
 header{
-    background-color: #5cf64a;
+    /* background-color: #b3f1b0; */
+    background-color: #7ED957;
     font-family: 'Passero One';
+    min-height: 10vh;
+}
+a{
+    color: white !important;
+}
+a:hover{
+    color: #000000 !important;
+    text-shadow: 3px 3px #ffffff60;
+    font-size: 25px;
+    transition: all 0.3s;
+}
+.text-2 a:hover{
+    color: #000000 !important;
+    text-shadow: 3px 3px #ffffff60;
+    font-size: 10px !important;
+    transition: all 0.3s;
 }
 header li{
     font-size: 22px;
-
+    color: white;
 }
 header img{
-    width: 70px;
+    width: 60px;
 }
 header h3{
     font-size: 20px;
 }
 header i{
+    color: white !important;
     font-size: 20px;
 }
 
@@ -37,36 +58,20 @@ header i{
         width: 25% !important;
     }
 }
-.plano-0, .plano-1,.plano-1-2,.plano-2,.plano-3,.plano-4,.plano-5,.plano-6{
+.plano-0,.plano-1-2,.plano-4,.plano-5{
     position: absolute;
     z-index: -1;
 }
 .plano-0{
-    height: 100vh;
+    height: 90vh;
 }
 .plano-4{
-    width: 80%;
-    top:20%;
-}
-.plano-3{
-    top:42%;
-    /* width: 90%; */
-    right: 0;
-}
-.plano-2{
-    width: 85%;
-    top:40%;
-}
-.plano-1{
-    width: 100%;
-    /* top:25%; */
-    bottom: -35%;
-    
+    height: 90vh;
 }
 .plano-1-2{
     width: 100%;
     /* top:25%; */
-    bottom: -25%;
+    bottom: -5%;
     
 }
 .plano-0{
@@ -76,31 +81,17 @@ header i{
     right: 0;
     width: 80%;
     /* top:68%; */
-    bottom: -35%;
+    bottom: 2%;
 }
-.plano-6{
-    top:50%;
-    right: 0;
-}
-/* .cesped{
-    background-image: url(img/cesped-sinfondo.png);
-} */
 .cajita{
-    background-color: rgba(0, 0, 0, 0.242);
+    background-color: rgba(0, 0, 0, 0.118);
 }
-/* .cajita{
-    background-color: rgba(0, 0, 0, 0.596);
-    background-image: url(img/portada_pagina_sintrazos.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-} */
 .text-2{
     font-family: "Texturina", serif;
 }
-.alto{
+.alto{ 
     height: 90vh;
+
 }
 .nose{
     height: 150px !important;
@@ -108,11 +99,9 @@ header i{
 .proceso{
 min-height: 80%;
 }
-.unPocoSobreNosotros{
-    min-height: 80%;
-}
+
 .blanco{
-    color: white;
+    color: white !important;
 }
 .container-xxl img{
     width: 100%;
@@ -122,15 +111,54 @@ min-height: 80%;
 }
 .verde-fondo{
     background-color:#a2e29f;
-    background-color: rgba(0, 0, 0, 0.242);
+    /* background-color: rgba(0, 0, 0, 0.242); */
     /* background-color: rgba(0, 0, 0, 0.308); */
 }
 .verde-oscuro{
-    background-color:#a2e29f ;
-    /* background-color: rgba(116, 164, 99, 1); */
-    background-color: rgba(0, 0, 0, 0.242);
+    background-color:#212121 ;
+}
+.verde{
+    background-color:#7ED957 ;
 }
 .card-nosotros{
     height: 150px;
     width: 80%;
+}
+/* -------------Proceso de creacion---------------- */
+.carousel img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    box-shadow: 10px 15px #7efb50;
+}
+.carousel img:hover{
+    box-shadow: 5px 10px #ff4dbe;
+    transition: all 0.3s;
+}
+/* -------------Nuestros Juegos---------------- */
+
+.molde{
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+    border: solid #ffffff 10px;
+    box-shadow: 41px 25px #000000;
+    transition: all 0.3s;
+}
+.molde:hover{
+    border: solid #ffffff 10px;
+    width: 95%;
+    height: 45%;
+    box-shadow: 15px 15px hsl(104, 96%, 65%);
+}
+/* --------------------------Nosotros-------------------- */
+.unPocoSobreNosotros{
+    min-height: 77%;
+}
+.unPocoSobreNosotros .card{
+    box-shadow: 15px 15px  black ;
+}
+.unPocoSobreNosotros .card:hover{
+    box-shadow: 10px 10px #ff4dbe;
+    transition: all 0.3s;
 }

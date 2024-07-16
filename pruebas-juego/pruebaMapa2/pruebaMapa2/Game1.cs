@@ -31,6 +31,7 @@ namespace pruebaMapa2
         private int tilesTamaño = 32;
 
         private List<Rectangle> intersections;
+        private Rectangle pared;
 
         public Game1()
         {
@@ -93,8 +94,8 @@ namespace pruebaMapa2
             _position = new Vector2(40, 40);
             _velocity = new Vector2(40, 40);
 
-            
 
+            pared = new Rectangle(200, 200, 40, 40);
             // TODO: use this.Content to load your game content here
         }
 
@@ -111,9 +112,10 @@ namespace pruebaMapa2
             if (Keyboard.GetState().IsKeyDown(Keys.A)) { _velocity.X = -3; }
             if (Keyboard.GetState().IsKeyDown(Keys.D)) { _velocity.X = 3; }
 
+
             _position.X += _velocity.X;
             intersections = getIntersectingTilesHorizontal(new Rectangle((int)_position.X, (int)_position.Y, 40, 40));
-
+            
             foreach (var reac in intersections)
             {
                 if (coli.TryGetValue(new Vector2(reac.X, reac.Y), out int _val))
@@ -137,6 +139,11 @@ namespace pruebaMapa2
             }
 
             _position.Y += _velocity.Y;
+            
+            //if(pared.Intersects(new Rectangle((int)_position.X, (int)_position.Y, 40, 40)){
+                
+            //}
+            
             intersections = getIntersectingTilesVertical(new Rectangle((int)_position.X, (int)_position.Y, 40, 40));
             
             foreach (var reac in intersections)
@@ -262,6 +269,7 @@ namespace pruebaMapa2
                     );
 
                 _spriteBatch.Draw(textureAtlas, dest, src, Color.White);
+
             }
 
             foreach(var reac in intersections)
@@ -275,6 +283,7 @@ namespace pruebaMapa2
                     );
             }
             _spriteBatch.Draw(felix, new Rectangle((int)_position.X, (int)_position.Y, 40,40), Color.White);
+            _spriteBatch.Draw(cuadrado,pared, Color.Red);
             
             _spriteBatch.End();
             // TODO: Add your drawing code here

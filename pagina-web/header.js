@@ -1,6 +1,6 @@
-const header_btn = document.querySelector('.header-btn')
-const header_menu = document.querySelector(".d-none")
-const links = document.querySelector(".links")
+var header_menu = document.querySelector(".d-none")
+var header_btn = document.querySelector('.header-btn')
+var links = document.querySelector(".links")
 header_btn.addEventListener('click',() => {
     if(header_menu.className != 'd-block d-md-flex nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 border-top border-dark'){
     header_menu.className = 'd-block d-md-flex nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 border-top border-dark'

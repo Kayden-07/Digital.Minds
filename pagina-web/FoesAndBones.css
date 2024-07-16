@@ -1,22 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,500;1,12..72,500&display=swap');
 body{
-    background-color: rgba(200, 255, 180, 1) !important;
+    /* background-color: rgba(200, 255, 180, 1) !important; */
+    background-color:#ff4dbe !important;
     margin: 0 !important;
     padding: 0 !important;
     font-family: 'Passero One' !important;
 }
 /* --------------header------------------- */
 header{
-    background-color: #5cf64a;
+    background-color: #7ED957;
     font-family: 'Passero One';
+    min-height: 10vh;
+}
+a{
+    color: white !important;
+}
+header a:hover{
+    color: #000000 !important;
+    text-shadow: 3px 3px #ffffff60;
+    font-size: 25px;
+    transition: all 0.3s;
 }
 header li{
     font-size: 22px;
-
 }
 header img{
-    width: 70px;
+    width: 60px;
 }
 header h3{
     font-size: 20px;
@@ -24,13 +34,21 @@ header h3{
 header i{
     font-size: 20px;
 }
-
 .header-btn{
     font-size: 30px;
 }
-
 /* --------------Foes and Bones------------------- */
-
+.fondo-sobren{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/sobreNosotros/stickers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+.molde{
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
 .blancoF{
     background-color: white;
 }
@@ -40,14 +58,14 @@ header i{
     background-repeat:repeat;
 }
 .rosaF{
-    background-color: #ff75cc;
+    background-color: #ff4dbe;
 }
 .rosa{
     border-radius: 5px !important;
     background-color: #ff4dbe;
 }
 .alto{
-    height: 40vh;
+    height: 50vh;
 }
 .text-2{
     font-family: "Texturina", serif;
@@ -82,9 +100,11 @@ header i{
 }
 .blanco{
     color: white;
+    
+}
+.sombraVerde{
     text-shadow: 4px 4px hsl(104, 96%, 65%);
 }
-
 
 .pe-auto{
     cursor: pointer;
@@ -105,4 +125,11 @@ header i{
 }
 .negro{
     background-color: black;
+}
+/* ------------------footer----------------- */
+footer a:hover{
+    color: #000000 !important;
+    text-shadow: 3px 3px #ffffff60;
+    font-size: 20px;
+    transition: all 0.3s;
 }

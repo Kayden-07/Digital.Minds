@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,500;1,12..72,500&display=swap');
+body{
+    background-color:#ff4dbe !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Passero One' !important;
+}
+/* --------------general------------------- */
+.negro{
+    color: #000 !important;;
+}
+.text-2{
+    font-family: "Texturina", serif;
+}
+.rosa{
+    color: #ff4dbe;
+}
+.rosaF{
+    background-color: #ff4dbe;
+}
+.titulo{
+    font-size: 5em;
+}
+.sombra{
+    box-shadow: 8px 8px hsl(0, 0%, 0%);
+    transition: all 0.3s;
+}
+.sombraN{
+    box-shadow: 8px 8px hsl(0, 0%, 0%);
+    transition: all 0.3s;
+}
+.sombra:hover{
+    box-shadow: 5px 5px hsl(104, 96%, 65%);
+}
+.sombraV{
+    box-shadow: 10px 10px hsl(104, 96%, 65%);
+    transition: all 0.3s;
+}
+.verde{
+    background-color: #7ED957;
+}
+.sombraV:hover{
+    box-shadow: 8px 8px #ff4dbe;
+}
+.blanco{
+    color: white;
+}
+.blancoF{
+    background-color: white !important;
+}
+/* --------------header------------------- */
+header{
+    background-color: #7ED957;
+    font-family: 'Passero One';
+    min-height: 10vh;
+}
+a{
+    color: white !important;
+}
+header a:hover{
+    color: #000000 !important;
+    text-shadow: 3px 3px #ffffff60;
+    font-size: 25px;
+    transition: all 0.3s;
+}
+header li{
+    font-size: 22px;
+}
+header img{
+    width: 60px;
+}
+header h3{
+    font-size: 20px;
+}
+header i{
+    font-size: 20px;
+}
+.header-btn{
+    font-size: 30px;
+}
+/* --------------quienes somos------------------- */
+.fondo-sobren{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/sobreNosotros/stickers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+.titulo{
+    font-size: 5em;
+}
+.alto{
+    height: 50vh;
+}
+.alto2{
+    min-height: 40vh;
+}
+/* --------------preguntas------------------- */
+.juego{
+    object-fit: cover;
+    width: 100%;
+}
+.preguntas p{
+    font-size: 18px;
+}
+/* --------------social------------------- */
+.social i{
+    font-size: 20px;
+}
+.social a{
+    font-size: 20px;
+}
+.social p{
+    font-size: 23px;
+}
+.social{
+    height: min-content;
+}
+/* ------------footer---------- */
+footer{
+    background-color: #ff4dbe;
+}
+footer a:hover{
+    color: #000000 !important;
+    text-shadow: 3px 3px #ffffff60;
+    font-size: 20px;
+    transition: all 0.3s;
+}

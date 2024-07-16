@@ -46,8 +46,7 @@
               "RelativeToolTip": "BetaFoesAndBones\\Vistas\\VistaPerdiste.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAAwCEAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T00:31:34.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T00:31:34.538Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "BetaFoesAndBones\\Vistas\\VistaJuego.cs",
               "ViewState": "AQIAADAAAAAAAAAAAAAYwEwAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T00:19:03.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T00:19:03.151Z"
             },
             {
               "$type": "Document",
@@ -70,7 +68,7 @@
               "RelativeDocumentMoniker": "BetaFoesAndBones\\Game1.cs",
               "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\BetaFoesAndBones\\BetaFoesAndBones\\Game1.cs",
               "RelativeToolTip": "BetaFoesAndBones\\Game1.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAowEQAAAAsAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T00:15:15.982Z",
               "EditorCaption": ""
@@ -85,8 +83,7 @@
               "RelativeToolTip": "BetaFoesAndBones\\Personajes\\Enemigo.cs",
               "ViewState": "AQIAAEAAAAAAAAAAAADwvxYAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T20:03:38.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T20:03:38.093Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "BetaFoesAndBones\\Vistas\\VistaMenu.cs",
               "ViewState": "AQIAAEEAAAAAAAAAAAAmwBIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T02:58:00.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T02:58:00.103Z"
             }
           ]
         }
