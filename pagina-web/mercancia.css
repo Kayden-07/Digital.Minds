@@ -9,6 +9,9 @@
  height: 250px; 
  margin: 5px;
  padding: 40px;
+ border-radius: 80%;
+ border-color: black;
+
 }
 
       
