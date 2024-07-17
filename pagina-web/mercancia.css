@@ -1,6 +1,9 @@
-.index{
-    background-color: rgb(21, 21, 21);
+.fondo-mercancia{
+    background-color: rgb(211, 202, 202) !important;
+    
+    
 }
+
 .productos{
     display: flex;
     flex-direction: row;
@@ -8,19 +11,38 @@
     align-items: center;
     background-color: hsl(104, 96%, 65%);
     border-radius: 20px;
-    margin: 10%;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    box-shadow: 0 0 20px 20px white;
 
 }
 .producto img{
- width: 300px;
- height: 300px; 
- padding: 40px;
+ width: 200px;
+ height: 200px; 
  border-radius: 80%;
+ align-items: center;
+ justify-content: center;
+ margin: 30px;
+ transition: transform 1.5s;
 
+}
+.producto img:hover{
+    box-shadow: 0px 0px 15px 15px #ffffff;
+    transform: scale(1.1)
 }
 .titulo col-10 col-md-6 p-0 , p{
     background-color: hsl(104, 96%, 65%);
     border-color: black;
     border-radius: 10px;
     margin-bottom: auto;
+    
+}
+
+.cosas{
+    margin-left: 108px;
+    margin-top: 30px;
+
+    
 }
