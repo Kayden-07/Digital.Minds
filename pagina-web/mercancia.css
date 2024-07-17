@@ -1,3 +1,6 @@
+.index{
+    background-color: rgb(21, 21, 21);
+}
 .productos{
     display: flex;
     flex-direction: row;
@@ -6,7 +9,6 @@
     background-color: hsl(104, 96%, 65%);
     border-radius: 20px;
     margin: 10%;
-    margin-bottom: 1500px;
 
 }
 .producto img{
@@ -15,4 +17,10 @@
  padding: 40px;
  border-radius: 80%;
 
+}
+.titulo col-10 col-md-6 p-0 , p{
+    background-color: hsl(104, 96%, 65%);
+    border-color: black;
+    border-radius: 10px;
+    margin-bottom: auto;
 }

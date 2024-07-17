@@ -72,6 +72,7 @@ header i{
 }
 .alto{
     height: 50vh;
+    
 }
 .alto2{
     min-height: 40vh;
@@ -86,7 +87,7 @@ header i{
     height: 100%;
 }
 .blancoF{
-    background-color: white !important;
+    background-color: rgb(223, 211, 211) !important;
 }
 .rosaF{
     background-color: #ff4dbe;
