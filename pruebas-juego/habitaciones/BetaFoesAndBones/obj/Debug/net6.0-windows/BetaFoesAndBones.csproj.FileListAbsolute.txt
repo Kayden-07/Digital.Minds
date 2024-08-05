@@ -1,0 +1,341 @@
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Controles\boton.xnb
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\abajo_felix.xnb
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\arriba_felix.xnb
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\derecha.xnb
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\izquierda_felix.xnb
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\Risas_felix.xnb
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Fuentes\fuente.xnb
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Tiles-SandstoneDungeons.xnb
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.exe
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.deps.json
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.runtimeconfig.json
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.dll
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.pdb
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\MonoGame.Framework.dll
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.dll
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Direct2D1.dll
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Direct3D11.dll
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Direct3D9.dll
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.DXGI.dll
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Mathematics.dll
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.MediaFoundation.dll
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.XAudio2.dll
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.XInput.dll
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\debian-x64\native\libuv.so
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\fedora-x64\native\libuv.so
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\opensuse-x64\native\libuv.so
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\osx\native\libuv.dylib
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\rhel-x64\native\libuv.so
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\win7-arm\native\libuv.dll
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\win7-x64\native\libuv.dll
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\win7-x86\native\libuv.dll
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.csproj.AssemblyReference.cache
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.AssemblyInfoInputs.cache
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.AssemblyInfo.cs
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.csproj.CoreCompileInputs.cache
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoes.47298BFA.Up2Date
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.dll
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\refint\BetaFoesAndBones.dll
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.pdb
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.genruntimeconfig.cache
+C:\Users\MURIEL\source\repos\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\ref\BetaFoesAndBones.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Controles\boton.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\Risas_felix.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Fuentes\fuente.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Tiles-SandstoneDungeons.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.exe
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.deps.json
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.runtimeconfig.json
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.pdb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\MonoGame.Framework.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Direct2D1.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Direct3D11.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Direct3D9.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.DXGI.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Mathematics.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.MediaFoundation.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.XAudio2.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.XInput.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\debian-x64\native\libuv.so
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\fedora-x64\native\libuv.so
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\opensuse-x64\native\libuv.so
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\osx\native\libuv.dylib
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\rhel-x64\native\libuv.so
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\win7-arm\native\libuv.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\win7-x64\native\libuv.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\win7-x86\native\libuv.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.AssemblyInfoInputs.cache
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.AssemblyInfo.cs
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.sourcelink.json
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoes.47298BFA.Up2Date
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\refint\BetaFoesAndBones.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.pdb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.genruntimeconfig.cache
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\ref\BetaFoesAndBones.dll
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\arriba_felix_v2.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\abajo_V2.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\derecha_Felix_v2.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\izquierda_felix_v2.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Controles\boton.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\abajo_V2.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\arriba_felix_v2.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\derecha_Felix_v2.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\izquierda_felix_v2.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\Risas_felix.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Fuentes\fuente.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Tiles-SandstoneDungeons.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.exe
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.deps.json
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.runtimeconfig.json
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.pdb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\MonoGame.Framework.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Direct2D1.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Direct3D11.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Direct3D9.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.DXGI.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Mathematics.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.MediaFoundation.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.XAudio2.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.XInput.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\debian-x64\native\libuv.so
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\fedora-x64\native\libuv.so
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\opensuse-x64\native\libuv.so
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\osx\native\libuv.dylib
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\rhel-x64\native\libuv.so
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\win7-arm\native\libuv.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\win7-x64\native\libuv.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\win7-x86\native\libuv.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.csproj.AssemblyReference.cache
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.AssemblyInfoInputs.cache
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.AssemblyInfo.cs
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.csproj.CoreCompileInputs.cache
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.sourcelink.json
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoes.47298BFA.Up2Date
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\refint\BetaFoesAndBones.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.pdb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.genruntimeconfig.cache
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\ref\BetaFoesAndBones.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Disparos\Disparito.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Draconariop.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Slimep.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Viruseanop.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\felix_v2.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\explosion.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Fuentes\arial.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Disparos\Disparito.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\bacte_movimiento.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Draconariop.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\explosion.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\slim-derecha-removebg-preview.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Slimep.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Slime_movimiento.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Viruseanop.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\felix_v2.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Fuentes\arial.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\bacte_movimiento.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\slim-derecha-removebg-preview.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Slime_movimiento.xnb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Controles\boton.xnb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Disparos\Disparito.xnb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\bacte_movimiento.xnb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Draconariop.xnb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\explosion.xnb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\slim-derecha-removebg-preview.xnb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Slimep.xnb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Slime_movimiento.xnb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Viruseanop.xnb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\abajo_V2.xnb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\arriba_felix_v2.xnb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\derecha_Felix_v2.xnb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\felix_v2.xnb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\izquierda_felix_v2.xnb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\Risas_felix.xnb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Fuentes\arial.xnb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Fuentes\fuente.xnb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Tiles-SandstoneDungeons.xnb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.exe
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.deps.json
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.runtimeconfig.json
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.dll
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.pdb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\MonoGame.Framework.dll
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.dll
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Direct2D1.dll
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Direct3D11.dll
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Direct3D9.dll
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.DXGI.dll
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Mathematics.dll
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.MediaFoundation.dll
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.XAudio2.dll
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.XInput.dll
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\debian-x64\native\libuv.so
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\fedora-x64\native\libuv.so
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\opensuse-x64\native\libuv.so
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\osx\native\libuv.dylib
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\rhel-x64\native\libuv.so
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\win7-arm\native\libuv.dll
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\win7-x64\native\libuv.dll
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\win7-x86\native\libuv.dll
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.AssemblyInfo.cs
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.sourcelink.json
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoes.47298BFA.Up2Date
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.dll
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\refint\BetaFoesAndBones.dll
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.pdb
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.genruntimeconfig.cache
+C:\Users\User\Desktop\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\obj\Debug\net6.0-windows\ref\BetaFoesAndBones.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\portada_inicio.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\HUD\Corazon.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\HUD\Guita.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Controles\felix_sticker.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Controles\felix_sticker.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\HUD\Corazon.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\HUD\Guita.xnb
+C:\Users\Alumno\Desktop\muriel\Digital.Minds\pruebas-juego\BetaFoesAndBones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\portada_inicio.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Controles\boton.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Controles\felix_sticker.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Disparos\Disparito.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\bacte_movimiento.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Draconariop.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\explosion.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\slim-derecha-removebg-preview.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Slimep.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Slime_movimiento.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Viruseanop.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\abajo_V2.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\arriba_felix_v2.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\derecha_Felix_v2.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\felix_v2.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\izquierda_felix_v2.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\Risas_felix.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Fuentes\arial.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Fuentes\fuente.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\HUD\Corazon.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\HUD\Guita.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\portada_inicio.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Tiles-SandstoneDungeons.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.exe
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.deps.json
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.runtimeconfig.json
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.pdb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\MonoGame.Framework.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Direct2D1.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Direct3D11.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Direct3D9.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.DXGI.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Mathematics.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.MediaFoundation.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.XAudio2.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.XInput.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\debian-x64\native\libuv.so
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\fedora-x64\native\libuv.so
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\opensuse-x64\native\libuv.so
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\osx\native\libuv.dylib
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\rhel-x64\native\libuv.so
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\win7-arm\native\libuv.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\win7-x64\native\libuv.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\win7-x86\native\libuv.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.csproj.AssemblyReference.cache
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.AssemblyInfoInputs.cache
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.AssemblyInfo.cs
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.csproj.CoreCompileInputs.cache
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.sourcelink.json
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoes.47298BFA.Up2Date
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\obj\Debug\net6.0-windows\refint\BetaFoesAndBones.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.pdb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.genruntimeconfig.cache
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\BetaFoesAndBones - copia\BetaFoesAndBones\obj\Debug\net6.0-windows\ref\BetaFoesAndBones.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Controles\boton.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Controles\felix_sticker.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Disparos\Disparito.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\bacte_movimiento.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Draconariop.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\explosion.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\slim-derecha-removebg-preview.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Slimep.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Slime_movimiento.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Viruseanop.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\abajo_V2.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\arriba_felix_v2.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\derecha_Felix_v2.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\felix_v2.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\izquierda_felix_v2.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Felix\Risas_felix.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Fuentes\arial.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Fuentes\fuente.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\HUD\Corazon.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\HUD\Guita.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\portada_inicio.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Tiles-SandstoneDungeons.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.exe
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.deps.json
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.runtimeconfig.json
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\BetaFoesAndBones.pdb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\MonoGame.Framework.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Direct2D1.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Direct3D11.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Direct3D9.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.DXGI.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.Mathematics.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.MediaFoundation.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.XAudio2.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\SharpDX.XInput.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\debian-x64\native\libuv.so
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\fedora-x64\native\libuv.so
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\opensuse-x64\native\libuv.so
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\osx\native\libuv.dylib
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\rhel-x64\native\libuv.so
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\win7-arm\native\libuv.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\win7-x64\native\libuv.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\bin\Debug\net6.0-windows\runtimes\win7-x86\native\libuv.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.csproj.AssemblyReference.cache
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.AssemblyInfoInputs.cache
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.AssemblyInfo.cs
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.csproj.CoreCompileInputs.cache
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.sourcelink.json
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoes.47298BFA.Up2Date
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\obj\Debug\net6.0-windows\refint\BetaFoesAndBones.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.pdb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.genruntimeconfig.cache
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\habitaciones\BetaFoesAndBones\obj\Debug\net6.0-windows\ref\BetaFoesAndBones.dll

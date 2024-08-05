@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/Controles/boton.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/Controles/felix_sticker.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/Disparos/Disparito.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/Enemigos/bacte_movimiento.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/Enemigos/Draconariop.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/Enemigos/explosion.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/Enemigos/slim-derecha-removebg-preview.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/Enemigos/Slime_movimiento.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/Enemigos/Slimep.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/Enemigos/Viruseanop.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/Felix/abajo_V2.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/Felix/arriba_felix_v2.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/Felix/derecha_Felix_v2.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/Felix/felix_v2.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/Felix/izquierda_felix_v2.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/Felix/Risas_felix.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/Fuentes/arial.spritefont</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/Fuentes/fuente.spritefont</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/HUD/Corazon.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/HUD/Guita.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/portada_inicio.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/habitaciones/BetaFoesAndBones/Content/Tiles-SandstoneDungeons.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
