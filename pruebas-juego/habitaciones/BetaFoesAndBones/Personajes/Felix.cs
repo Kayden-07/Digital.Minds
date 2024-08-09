@@ -19,7 +19,8 @@ namespace BetaFoesAndBones.Personajes
         //private Texture2D chocar;
         private Rectangle rChocar;
         public Rectangle cuadradoFelix;
-        private int cambio;
+        private int cambioH;
+        private int cambioV;
         public  int Mapa;
 
         public Disparo disparo;
@@ -51,7 +52,8 @@ namespace BetaFoesAndBones.Personajes
         {
             cuadradoFelix = new Rectangle((int)_position.X + 15, (int)_position.Y, 50, 120);
             rChocar = new Rectangle(1900, 500, 40, 200);
-            cambio = 0;
+            cambioH = 0;
+            cambioV = 0;
             Mapa = 0;
             //chocar = _content.Load<Texture2D>("Controles/boton");
 
@@ -176,18 +178,19 @@ namespace BetaFoesAndBones.Personajes
             
             foreach (var reac in intersections)
             {
-                if (coli.TryGetValue(new Vector2(reac.X - 1 + cambio, reac.Y ), out int _val))
+                if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioH, reac.Y + 1 + cambioV), out int _val))
                 {
                     _position = temp;
                 }
             }
+            // Cambio de habitacion horizontal
             foreach (var reac in intersections)
             {
-                if (coli.TryGetValue(new Vector2(reac.X - 1 + cambio, reac.Y), out int _val))
+                if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioH, reac.Y + 1 + cambioV), out int _val))
                 {
                     foreach (var col in coli)
                     {
-                        if (col.Key == new Vector2(reac.X - 1 + cambio, reac.Y))
+                        if (col.Key == new Vector2(reac.X - 1 + cambioH, reac.Y + 1 + cambioV))
                         {
 
                             if (col.Value == 1)
@@ -197,13 +200,13 @@ namespace BetaFoesAndBones.Personajes
                             }
                             if (col.Value == 0)
                             {
-                                cambio = 21;
+                                cambioH = 21;
                                 _position.X = 100;
                                 Mapa = 1;
                             }
                             if (col.Value == 1)
                             {
-                                cambio = 0;
+                                cambioH = 0;
                             }
                         }
                     }
@@ -214,7 +217,7 @@ namespace BetaFoesAndBones.Personajes
 
             foreach (var reac in intersections)
             {
-                if (coli.TryGetValue(new Vector2(reac.X - 1 + cambio, reac.Y ), out int _val))
+                if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioH, reac.Y + 1 + cambioV), out int _val))
                 {
                     Rectangle colisions = new Rectangle(
                         reac.X * tilesTamaño,
@@ -233,6 +236,32 @@ namespace BetaFoesAndBones.Personajes
                     }
                 }
             }
+            // Cambio de habitacion horizontal
+            foreach (var reac in intersections)
+            {
+                if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioH, reac.Y + 1 + cambioV), out int _val))
+                {
+                    foreach (var col in coli)
+                    {
+                        if (col.Key == new Vector2(reac.X - 1 + cambioH, reac.Y + 1 + cambioV))
+                        {
+                            if (col.Value == 3)
+                            {
+                                cambioV = 13;
+                                _position.Y = 100;
+                                Mapa = 3;
+                            }
+                            if (col.Value == 4)
+                            {
+                                cambioV = 0;
+                                _position.Y = 800;
+                                Mapa = 4;
+                            }
+                        }
+                    }
+                }
+            }
+
             disparo.Update(gameTime);
             disparo.Posicion = _position;
             if (daño >=0.2 && colorF == Color.Red)

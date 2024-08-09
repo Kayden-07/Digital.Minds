@@ -15,7 +15,8 @@ namespace BetaFoesAndBones.Controles
     internal class Mapa : Componentes
     {
         public int cambio;
-        public int numCambio;
+        public int numCambioH;
+        public int numCambioV;
 
         private Dictionary<Vector2, int> tilemap;
 
@@ -34,7 +35,8 @@ namespace BetaFoesAndBones.Controles
         public Mapa(ContentManager contenedor) 
         {
             cambio = 0;
-            numCambio = 0;
+            numCambioH = 0;
+            numCambioV = 0;
 
             _content = contenedor;
             textureAtlas = _content.Load<Texture2D>("Tiles-SandstoneDungeons");
@@ -54,8 +56,8 @@ namespace BetaFoesAndBones.Controles
             {
                 Rectangle dest = new(
 
-                    ((int)item.Key.X * 93) + 93 - numCambio,
-                    ((int)item.Key.Y * 97) ,
+                    ((int)item.Key.X * 93) + 93 - numCambioH,
+                    ((int)item.Key.Y * 97) - 97 + numCambioV,
                     93,
                     97
                  );
@@ -74,8 +76,8 @@ namespace BetaFoesAndBones.Controles
             {
                 Rectangle dest = new(
 
-                    ((int)item.Key.X * 93) + 93 - numCambio,
-                    ((int)item.Key.Y * 97) ,
+                    ((int)item.Key.X * 93) + 93 - numCambioH,
+                    ((int)item.Key.Y * 97) - 97 + numCambioV,
                     93,
                     97
                 );
@@ -95,13 +97,22 @@ namespace BetaFoesAndBones.Controles
 
         public override void Update(GameTime gameTime)
         {
+            // Cambio de habitaciones
             if (cambio == 1)
             {
-                numCambio = 21 * 93;
+                numCambioH = 21 * 93;
             }
             if (cambio == 2)
             {
-                numCambio = 0;
+                numCambioH = 0;
+            }
+            if (cambio == 3)
+            {
+                numCambioV = -13 * 97;
+            }
+            if (cambio == 4)
+            {
+                numCambioV = 0;
             }
             //_position = posicion;
             //_velocity = velocidad;
