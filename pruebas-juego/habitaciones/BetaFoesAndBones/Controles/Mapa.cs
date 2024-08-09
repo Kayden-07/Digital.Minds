@@ -100,7 +100,7 @@ namespace BetaFoesAndBones.Controles
             // Cambio de habitaciones
             if (cambio == 1)
             {
-                numCambioH = 21 * 93;
+                numCambioH += 21 * 93;
             }
             if (cambio == 2)
             {

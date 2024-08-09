@@ -81,10 +81,6 @@ namespace BetaFoesAndBones.Vistas
             felix.Update(gameTime);
             Mapa.Update(gameTime);
             Mapa.cambio = felix.Mapa;
-            //if (felix.cuadradoFelix.Intersects(rChocar))
-            //{
-            //    Mapa.cambio = true;
-            //}
         }
     }
 }

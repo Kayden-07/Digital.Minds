@@ -54,7 +54,7 @@ namespace BetaFoesAndBones.Personajes
             felix[0] = _content.Load<Texture2D>("Felix/derecha_Felix_v2");
             felix[1] = _content.Load<Texture2D>("Felix/izquierda_felix_v2");
             felix[2] = _content.Load<Texture2D>("Felix/arriba_felix_v2");
-            felix[3] = _content.Load<Texture2D>("Felix/abajo_v2");
+            felix[3] = _content.Load<Texture2D>("Animacion_caminata_abajo_V4");
             felix[4] = _content.Load<Texture2D>("Felix/Risas_felix");
             felix[5] = _content.Load<Texture2D>("Felix/felix_v2");
             //_position = posicion;

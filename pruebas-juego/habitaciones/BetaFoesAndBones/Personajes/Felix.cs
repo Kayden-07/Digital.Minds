@@ -101,7 +101,7 @@ namespace BetaFoesAndBones.Personajes
             //        );
             //}
             //sprite.Draw(cuadrado, rFelix, Color.White);
-            sprite.Draw(cuadrado, new Rectangle((int)_position.X + 15, (int)_position.Y, 50, 120), Color.Red);
+            //sprite.Draw(cuadrado, new Rectangle((int)_position.X + 15, (int)_position.Y, 50, 120), Color.Red);
             if (activo <= 0)
                 sprite.Draw(felix[activo], new Rectangle(rFelix.X-70,rFelix.Y,rFelix.Width,rFelix.Height), am.GetFrame(), colorF);
             else if(activo == 1)

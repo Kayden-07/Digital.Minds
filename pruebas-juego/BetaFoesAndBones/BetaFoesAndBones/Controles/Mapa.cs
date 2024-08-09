@@ -49,8 +49,8 @@ namespace BetaFoesAndBones.Controles
             {
                 Rectangle dest = new(
 
-                    ((int)item.Key.X * 93) + 93 + 1000,
-                    ((int)item.Key.Y * 97) + 1000,
+                    ((int)item.Key.X * 93) + 93,
+                    ((int)item.Key.Y * 97),
                     93,
                     97
                  );
@@ -69,8 +69,8 @@ namespace BetaFoesAndBones.Controles
             {
                 Rectangle dest = new(
 
-                    ((int)item.Key.X * 93) + 93 + 1000,
-                    ((int)item.Key.Y * 97) + 1000,
+                    ((int)item.Key.X * 93) + 93,
+                    ((int)item.Key.Y * 97),
                     93,
                     97
                 );
