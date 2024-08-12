@@ -22,6 +22,8 @@ namespace BetaFoesAndBones.Controles
 
         public Dictionary<Vector2, int> coli;
 
+        public Dictionary<Vector2, int> habitaciones;
+
         private List<Rectangle> textureStore;
 
         private Texture2D textureAtlas;
@@ -40,8 +42,9 @@ namespace BetaFoesAndBones.Controles
 
             _content = contenedor;
             textureAtlas = _content.Load<Texture2D>("Tiles-SandstoneDungeons");
-            tilemap = loadMap("../../../Data/Capa-1.csv");
-            coli = loadMap("../../../Data/capa-colisiones.csv");
+            tilemap = loadMap("../../../Data/MazCapa1.csv");
+            coli = loadMap("../../../Data/MazColisiones.csv");
+            habitaciones = loadMap("../../../Data/MazHabitaciones.csv");
             textureStore = new() {
                 new Rectangle(0,0,8,8),
                 new Rectangle(0,8,8,8),
@@ -57,7 +60,7 @@ namespace BetaFoesAndBones.Controles
                 Rectangle dest = new(
 
                     ((int)item.Key.X * 93) + 93 - numCambioH,
-                    ((int)item.Key.Y * 97) - 97 + numCambioV,
+                    ((int)item.Key.Y * 97) + numCambioV,
                     93,
                     97
                  );
@@ -77,7 +80,7 @@ namespace BetaFoesAndBones.Controles
                 Rectangle dest = new(
 
                     ((int)item.Key.X * 93) + 93 - numCambioH,
-                    ((int)item.Key.Y * 97) - 97 + numCambioV,
+                    ((int)item.Key.Y * 97) + numCambioV,
                     93,
                     97
                 );
@@ -100,7 +103,7 @@ namespace BetaFoesAndBones.Controles
             // Cambio de habitaciones
             if (cambio == 1)
             {
-                numCambioH += 21 * 93;
+                numCambioH = 21 * 93;
             }
             if (cambio == 2)
             {
@@ -108,7 +111,7 @@ namespace BetaFoesAndBones.Controles
             }
             if (cambio == 3)
             {
-                numCambioV = -13 * 97;
+                numCambioV = -14 * 97;
             }
             if (cambio == 4)
             {

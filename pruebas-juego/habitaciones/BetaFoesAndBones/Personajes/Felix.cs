@@ -22,6 +22,7 @@ namespace BetaFoesAndBones.Personajes
         private int cambioH;
         private int cambioV;
         public  int Mapa;
+        public int habitacion;
 
         public Disparo disparo;
         private Texture2D[] felix;
@@ -48,13 +49,15 @@ namespace BetaFoesAndBones.Personajes
         private int tilesTamaño = 93;
 
         private Dictionary<Vector2, int> coli;
-        public Felix(Game1 game, GraphicsDevice graphicsDevice, ContentManager contenedor, Dictionary<Vector2, int> _coli)
+        private Dictionary<Vector2, int> habitacines;
+        public Felix(Game1 game, GraphicsDevice graphicsDevice, ContentManager contenedor, Dictionary<Vector2, int> _coli, Dictionary<Vector2, int> habitacines)
         {
             cuadradoFelix = new Rectangle((int)_position.X + 15, (int)_position.Y, 50, 120);
             rChocar = new Rectangle(1900, 500, 40, 200);
             cambioH = 0;
             cambioV = 0;
             Mapa = 0;
+            habitacion = 1;
             //chocar = _content.Load<Texture2D>("Controles/boton");
 
             _game = game;
@@ -86,7 +89,7 @@ namespace BetaFoesAndBones.Personajes
 
             colorF = Color.White;
             daño = 0f;
-
+            this.habitacines = habitacines;
         }
         public override void Draw(GameTime gameTime, SpriteBatch sprite)
         {
@@ -178,7 +181,7 @@ namespace BetaFoesAndBones.Personajes
             
             foreach (var reac in intersections)
             {
-                if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioH, reac.Y + 1 + cambioV), out int _val))
+                if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioH, reac.Y + cambioV), out int _val))
                 {
                     _position = temp;
                 }
@@ -186,11 +189,11 @@ namespace BetaFoesAndBones.Personajes
             // Cambio de habitacion horizontal
             foreach (var reac in intersections)
             {
-                if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioH, reac.Y + 1 + cambioV), out int _val))
+                if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioH, reac.Y + cambioV), out int _val))
                 {
                     foreach (var col in coli)
                     {
-                        if (col.Key == new Vector2(reac.X - 1 + cambioH, reac.Y + 1 + cambioV))
+                        if (col.Key == new Vector2(reac.X - 1 + cambioH, reac.Y + cambioV))
                         {
 
                             if (col.Value == 1)
@@ -211,13 +214,21 @@ namespace BetaFoesAndBones.Personajes
                         }
                     }
                 }
+                if (habitacines.TryGetValue(new Vector2(reac.X - 1 + cambioH, reac.Y + cambioV), out int _vali))
+                {
+                    foreach (var hab in habitacines)
+                    {
+                        if (hab.Key == new Vector2(reac.X - 1 + cambioH, reac.Y + cambioV))
+                            habitacion = hab.Value - 3;
+                    }
+                }
             }
             _position.Y += _velocity.Y;
             intersections = getIntersectingTilesVertical(new Rectangle((int)_position.X, (int)_position.Y, 120, 120));
 
             foreach (var reac in intersections)
             {
-                if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioH, reac.Y + 1 + cambioV), out int _val))
+                if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioH, reac.Y + cambioV), out int _val))
                 {
                     Rectangle colisions = new Rectangle(
                         reac.X * tilesTamaño,
@@ -236,18 +247,18 @@ namespace BetaFoesAndBones.Personajes
                     }
                 }
             }
-            // Cambio de habitacion horizontal
+            // Cambio de habitacion vertical
             foreach (var reac in intersections)
             {
-                if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioH, reac.Y + 1 + cambioV), out int _val))
+                if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioH, reac.Y + cambioV), out int _val))
                 {
                     foreach (var col in coli)
                     {
-                        if (col.Key == new Vector2(reac.X - 1 + cambioH, reac.Y + 1 + cambioV))
+                        if (col.Key == new Vector2(reac.X - 1 + cambioH, reac.Y + cambioV))
                         {
                             if (col.Value == 3)
                             {
-                                cambioV = 13;
+                                cambioV = 14;
                                 _position.Y = 100;
                                 Mapa = 3;
                             }
@@ -258,6 +269,14 @@ namespace BetaFoesAndBones.Personajes
                                 Mapa = 4;
                             }
                         }
+                    }
+                }
+                if (habitacines.TryGetValue(new Vector2(reac.X - 1 + cambioH, reac.Y + cambioV), out int _vali))
+                {
+                    foreach (var hab in habitacines)
+                    {
+                        if (hab.Key == new Vector2(reac.X - 1 + cambioH, reac.Y + cambioV))
+                            habitacion = hab.Value - 3;
                     }
                 }
             }

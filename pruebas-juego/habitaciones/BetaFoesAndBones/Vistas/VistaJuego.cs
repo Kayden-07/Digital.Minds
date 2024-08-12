@@ -37,7 +37,7 @@ namespace BetaFoesAndBones.Vistas
         public VistaJuego(Game1 game, GraphicsDevice graphicsDevice, ContentManager contenedor) : base(game, graphicsDevice, contenedor)
         {
             Mapa = new Mapa(contenedor);
-            felix = new Felix(game, graphicsDevice, contenedor, Mapa.coli);
+            felix = new Felix(game, graphicsDevice, contenedor, Mapa.coli, Mapa.habitaciones);
             //enemigo = new Enemigos(game, contenedor);
             _fuente = _content.Load<SpriteFont>("Fuentes/fuente");
             _fuen = _content.Load<SpriteFont>("Fuentes/arial");
@@ -59,6 +59,7 @@ namespace BetaFoesAndBones.Vistas
             felix.Draw(gameTime, spriteBatch);
             spriteBatch.Draw(_guita, new Rectangle(50, 100, 40, 40), Color.White);
             spriteBatch.DrawString(_fuen, puntos.ToString(), new Vector2(100, 100), Color.White);
+            spriteBatch.DrawString(_fuen, pt, new Vector2(100, 50), Color.White);
             spriteBatch.Draw(_corazon,new Rectangle(50,150, 40, 40), Color.White);
             spriteBatch.Draw(cuadro,new Rectangle(100,150,( felix.vida * 2), 40), Color.Red);
             //spriteBatch.DrawString(_fuen, felix.vida.ToString(), new Vector2(100, 150), Color.White);
@@ -76,7 +77,8 @@ namespace BetaFoesAndBones.Vistas
             //enemigo.felix_posicion = felix._position;
             //felix.enemigoList = enemigo.enemigos;
             //puntos = enemigo.puntos;
-            pt = "puntos: " + puntos.ToString();
+            //pt = "puntos: " + puntos.ToString();
+            pt = "Habitacion: " + felix.habitacion;
             //enemigo.Update(gameTime);
             felix.Update(gameTime);
             Mapa.Update(gameTime);
