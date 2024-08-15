@@ -23,6 +23,12 @@ namespace BetaFoesAndBones.Personajes
         private int cambioV;
         public  int Mapa;
         public int habitacion;
+        private int cambioHab;
+        public int habAnterior;
+        private bool derecha;
+        private bool izquierda;
+        private bool arriba;
+        private bool abajo;
 
         public Disparo disparo;
         private Texture2D[] felix;
@@ -58,6 +64,13 @@ namespace BetaFoesAndBones.Personajes
             cambioV = 0;
             Mapa = 0;
             habitacion = 1;
+            cambioHab = 0;
+            habAnterior = 0;
+            derecha = false;
+            izquierda = false;
+            arriba = false;
+            abajo = false;
+
             //chocar = _content.Load<Texture2D>("Controles/boton");
 
             _game = game;
@@ -193,27 +206,26 @@ namespace BetaFoesAndBones.Personajes
                 {
                     foreach (var col in coli)
                     {
+                        habAnterior = col.Value;
                         if (col.Key == new Vector2(reac.X - 1 + cambioH, reac.Y + cambioV))
                         {
 
                             if (col.Value == 1)
                             {
+                                izquierda = true;
                                 _position.X = 1750;
                                 Mapa = 2;
                             }
-                            if (col.Value == 0)
+                            if (col.Value == 6)
                             {
-                                cambioH = 21;
+                                derecha = true;
                                 _position.X = 100;
                                 Mapa = 1;
-                            }
-                            if (col.Value == 1)
-                            {
-                                cambioH = 0;
                             }
                         }
                     }
                 }
+                
                 if (habitacines.TryGetValue(new Vector2(reac.X - 1 + cambioH, reac.Y + cambioV), out int _vali))
                 {
                     foreach (var hab in habitacines)
@@ -222,6 +234,19 @@ namespace BetaFoesAndBones.Personajes
                             habitacion = hab.Value - 3;
                     }
                 }
+            }
+            // Esto sirve para que felix se pueda mover entre habitaciones (no lo hago dentro de foreach ya que como interesciona mas de una vez
+            // cada vez que toca una puerta hace que mueva el mapa por lo menos dos veces)
+            if (derecha)
+            {
+                cambioH += 21;
+                derecha = false;
+
+            }
+            if (izquierda)
+            {
+                cambioH -= 21;
+                izquierda = false;
             }
             _position.Y += _velocity.Y;
             intersections = getIntersectingTilesVertical(new Rectangle((int)_position.X, (int)_position.Y, 120, 120));
@@ -258,13 +283,15 @@ namespace BetaFoesAndBones.Personajes
                         {
                             if (col.Value == 3)
                             {
-                                cambioV = 14;
+                                abajo = true;
+                                
                                 _position.Y = 100;
                                 Mapa = 3;
                             }
                             if (col.Value == 4)
                             {
-                                cambioV = 0;
+                                arriba = true;
+                                
                                 _position.Y = 800;
                                 Mapa = 4;
                             }
@@ -280,7 +307,19 @@ namespace BetaFoesAndBones.Personajes
                     }
                 }
             }
+            // Esto sirve para que felix se pueda mover entre habitaciones (no lo hago dentro de foreach ya que como interesciona mas de una vez
+            // cada vez que toca una puerta hace que mueva el mapa por lo menos dos veces)
+            if (abajo)
+            {
+                cambioV += 14;
+                abajo = false;
 
+            }
+            if (arriba)
+            {
+                cambioV -= 14;
+                arriba = false;
+            }
             disparo.Update(gameTime);
             disparo.Posicion = _position;
             if (daño >=0.2 && colorF == Color.Red)

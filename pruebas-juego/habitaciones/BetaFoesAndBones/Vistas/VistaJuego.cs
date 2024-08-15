@@ -59,7 +59,7 @@ namespace BetaFoesAndBones.Vistas
             felix.Draw(gameTime, spriteBatch);
             spriteBatch.Draw(_guita, new Rectangle(50, 100, 40, 40), Color.White);
             spriteBatch.DrawString(_fuen, puntos.ToString(), new Vector2(100, 100), Color.White);
-            spriteBatch.DrawString(_fuen, pt, new Vector2(100, 50), Color.White);
+            spriteBatch.DrawString(_fuen, pt +" "+ Mapa.numCambioH + " " + Mapa.cambio + " " + felix.habAnterior, new Vector2(100, 50), Color.White);
             spriteBatch.Draw(_corazon,new Rectangle(50,150, 40, 40), Color.White);
             spriteBatch.Draw(cuadro,new Rectangle(100,150,( felix.vida * 2), 40), Color.Red);
             //spriteBatch.DrawString(_fuen, felix.vida.ToString(), new Vector2(100, 150), Color.White);
@@ -82,6 +82,12 @@ namespace BetaFoesAndBones.Vistas
             //enemigo.Update(gameTime);
             felix.Update(gameTime);
             Mapa.Update(gameTime);
+
+            if (Mapa.cam)
+            {
+                felix.Mapa = 0;
+                Mapa.cam = false;
+            }
             Mapa.cambio = felix.Mapa;
         }
     }

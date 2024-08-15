@@ -14,6 +14,7 @@ namespace BetaFoesAndBones.Controles
 {
     internal class Mapa : Componentes
     {
+        public bool cam;
         public int cambio;
         public int numCambioH;
         public int numCambioV;
@@ -37,6 +38,7 @@ namespace BetaFoesAndBones.Controles
         public Mapa(ContentManager contenedor) 
         {
             cambio = 0;
+            cam = false;
             numCambioH = 0;
             numCambioV = 0;
 
@@ -103,19 +105,23 @@ namespace BetaFoesAndBones.Controles
             // Cambio de habitaciones
             if (cambio == 1)
             {
-                numCambioH = 21 * 93;
+                numCambioH += 21 * 93;
+                cam = true;
             }
             if (cambio == 2)
             {
-                numCambioH = 0;
+                numCambioH -= 21 * 93;
+                cam = true;
             }
             if (cambio == 3)
             {
-                numCambioV = -14 * 97;
+                numCambioV -= 14 * 97;
+                cam = true;
             }
             if (cambio == 4)
             {
-                numCambioV = 0;
+                numCambioV += 14 * 97;
+                cam = true;
             }
             //_position = posicion;
             //_velocity = velocidad;
