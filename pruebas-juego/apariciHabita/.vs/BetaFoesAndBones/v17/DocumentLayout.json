@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\apariciHabita\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\user\\desktop\\aparicihabita\\betafoesandbones\\personajes\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\user\\desktop\\aparicihabita\\betafoesandbones\\personajes\\enemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\enemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\user\\desktop\\aparicihabita\\betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\user\\desktop\\aparicihabita\\betafoesandbones\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\user\\desktop\\aparicihabita\\betafoesandbones\\controles\\mapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\controles\\mapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\user\\desktop\\aparicihabita\\betafoesandbones\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enemigo.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\apariciHabita\\BetaFoesAndBones\\Personajes\\Enemigo.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Personajes\\Enemigo.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\apariciHabita\\BetaFoesAndBones\\Personajes\\Enemigo.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Personajes\\Enemigo.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T23:42:51.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enemigos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\apariciHabita\\BetaFoesAndBones\\Personajes\\Enemigos.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Personajes\\Enemigos.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\apariciHabita\\BetaFoesAndBones\\Personajes\\Enemigos.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Personajes\\Enemigos.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAADcAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T23:05:45.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VistaJuego.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\apariciHabita\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\apariciHabita\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAwwEwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T00:19:03.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Felix.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\apariciHabita\\BetaFoesAndBones\\Personajes\\Felix.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Personajes\\Felix.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\apariciHabita\\BetaFoesAndBones\\Personajes\\Felix.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Personajes\\Felix.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAAAIwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T03:27:07.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\apariciHabita\\BetaFoesAndBones\\Game1.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Game1.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\apariciHabita\\BetaFoesAndBones\\Game1.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Game1.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T18:46:17.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Mapa.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\apariciHabita\\BetaFoesAndBones\\Controles\\Mapa.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Controles\\Mapa.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\apariciHabita\\BetaFoesAndBones\\Controles\\Mapa.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Controles\\Mapa.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAuwHoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T19:02:09.599Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
