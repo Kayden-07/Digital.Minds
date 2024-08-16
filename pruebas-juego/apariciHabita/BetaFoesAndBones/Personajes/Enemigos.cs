@@ -10,6 +10,9 @@ namespace BetaFoesAndBones.Personajes
 {
     internal class Enemigos : Componentes
     {
+        private int nose = 0;
+        private Random r = new Random();
+
         private float daño;
         public Vector2 felix_posicion;
         private Vector2 muerte;
@@ -50,27 +53,66 @@ namespace BetaFoesAndBones.Personajes
 
         private void InicializarEnemigosPorHabitacion()
         {
-            mapaHabitaciones[1] = new List<Enemigo> //accedo a la entrada del diccionario 1 y creo lista vacía de tipo Enemigo
+            mapaHabitaciones[2] = new List<Enemigo> //accedo a la entrada del diccionario 1 y creo lista vacía de tipo Enemigo
             {
-                new Slime(slimeTextura, new Vector2(500, 500)),
-                new Bacteriano(bacterianoTextura, new Vector2(400, 450)),
-                new Draconario(draconanioTextura, new Vector2(300, 300)),
+                new Slime(slimeTextura, new Vector2(500, 100)),
+                new Bacteriano(bacterianoTextura, new Vector2(1000, 100)),
+                new Slime(slimeTextura, new Vector2(1400, 100)),
+
+                new Slime(slimeTextura, new Vector2(750, 350)),
+
+                new Slime(slimeTextura, new Vector2(500, 800)),
+                new Slime(slimeTextura, new Vector2(1000, 800)),
+                new Bacteriano(bacterianoTextura, new Vector2(1400, 800)),
             };
 
-            mapaHabitaciones[2] = new List<Enemigo>
+            mapaHabitaciones[3] = new List<Enemigo>
             {
-                new Draconario(draconanioTextura, new Vector2(300, 300)),
-                new Slime(slimeTextura, new Vector2(400, 350)),
-                new Bacteriano(bacterianoTextura, new Vector2(250, 200))
+                new Slime(slimeTextura, new Vector2(500, 100)),
+                new Slime(slimeTextura, new Vector2(1000, 100)),
+                new Slime(slimeTextura, new Vector2(1400, 100)),
+
+                new Slime(slimeTextura, new Vector2(750, 350)),
+
+                new Slime(slimeTextura, new Vector2(500, 800)),
+                new Slime(slimeTextura, new Vector2(1000, 800)),
+                new Slime(slimeTextura, new Vector2(1400, 800)),
             };
-        }
+
+            mapaHabitaciones[4] = new List<Enemigo>
+            {
+             
+
+                new Draconario(draconanioTextura, new Vector2(750, 350)),
+
+                new Bacteriano(bacterianoTextura, new Vector2(500, 800)),
+                new Bacteriano(bacterianoTextura, new Vector2(1000, 800)),
+                new Bacteriano(bacterianoTextura, new Vector2(1400, 800)),
+            };
+        }
 
         public void PonerEnemigos(int habitacion)
         {
+            nose = 0;
             if (mapaHabitaciones.ContainsKey(habitacion)) //verificar si existe una clave específica dentro del diccionario
             {
-                enemigos.AddRange(mapaHabitaciones[habitacion]); //agrega los enemigos de la habitación específica a la lista de enemigos
-                habitacionesVisitadas.Add(habitacion); //la habitacion ingresada se mete en las ya visitadas
+                if (habitacionesVisitadas.Count > 0) { 
+                    foreach(var hab in habitacionesVisitadas) { 
+                        if (habitacion == hab) {
+                            nose = 1;
+                        }
+                    }
+                    if (nose != 1)
+                    {
+                        enemigos.AddRange(mapaHabitaciones[habitacion]); //agrega los enemigos de la habitación específica a la lista de enemigos
+                        habitacionesVisitadas.Add(habitacion); //la habitacion ingresada se mete en las ya visitadas 
+                    }
+                }
+                else
+                {
+                    enemigos.AddRange(mapaHabitaciones[habitacion]); //agrega los enemigos de la habitación específica a la lista de enemigos
+                    habitacionesVisitadas.Add(habitacion); //la habitacion ingresada se mete en las ya visitadas  
+                }
             }
         }
 
@@ -140,7 +182,7 @@ namespace BetaFoesAndBones.Personajes
                 }
             }
 
-            foreach (Enemigo e in enemigos.ToList())
+           /*foreach (Enemigo e in enemigos.ToList())
             {
                 foreach (Enemigo enemy in enemigos.ToList())
                 {
@@ -152,7 +194,7 @@ namespace BetaFoesAndBones.Personajes
                         }
                     }
                 }
-            }
+            }*/
         }
     }
 }

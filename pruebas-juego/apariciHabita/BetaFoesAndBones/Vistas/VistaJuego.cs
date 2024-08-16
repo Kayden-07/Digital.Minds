@@ -39,7 +39,7 @@ namespace BetaFoesAndBones.Vistas
             Mapa = new Mapa(contenedor);
             felix = new Felix(game, graphicsDevice, contenedor, Mapa.coli, Mapa.habitaciones);
             enemigo = new Enemigos(game, contenedor);
-            enemigo.PonerEnemigos(felix.habitacion);
+            
             _fuente = _content.Load<SpriteFont>("Fuentes/fuente");
             _fuen = _content.Load<SpriteFont>("Fuentes/arial");
             _corazon = _content.Load<Texture2D>("HUD/corazon");
@@ -90,6 +90,7 @@ namespace BetaFoesAndBones.Vistas
                 Mapa.cam = false;
             }
             Mapa.cambio = felix.Mapa;
+            enemigo.PonerEnemigos(felix.habitacion);
         }
     }
 }
