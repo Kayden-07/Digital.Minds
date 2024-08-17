@@ -1,0 +1,127 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\bloqueoPuertas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\bloqueopuertas\\betafoesandbones\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\bloqueopuertas\\betafoesandbones\\controles\\mapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\controles\\mapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\bloqueopuertas\\betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\bloqueopuertas\\betafoesandbones\\data\\colipuerta.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\data\\colipuerta.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\bloqueopuertas\\betafoesandbones\\data\\habitaciones.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\data\\habitaciones.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\bloqueopuertas\\betafoesandbones\\data\\piso.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\data\\piso.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Felix.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\bloqueoPuertas\\BetaFoesAndBones\\Personajes\\Felix.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Personajes\\Felix.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\bloqueoPuertas\\BetaFoesAndBones\\Personajes\\Felix.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Personajes\\Felix.cs",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAkwMoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T03:27:07.171Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "piso.csv",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\bloqueoPuertas\\BetaFoesAndBones\\Data\\piso.csv",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Data\\piso.csv",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\bloqueoPuertas\\BetaFoesAndBones\\Data\\piso.csv",
+              "RelativeToolTip": "BetaFoesAndBones\\Data\\piso.csv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAC9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-08-17T16:25:29.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "habitaciones.csv",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\bloqueoPuertas\\BetaFoesAndBones\\Data\\habitaciones.csv",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Data\\habitaciones.csv",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\bloqueoPuertas\\BetaFoesAndBones\\Data\\habitaciones.csv",
+              "RelativeToolTip": "BetaFoesAndBones\\Data\\habitaciones.csv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAACuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-08-17T16:25:28.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "coliPuerta.csv",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\bloqueoPuertas\\BetaFoesAndBones\\Data\\coliPuerta.csv",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Data\\coliPuerta.csv",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\bloqueoPuertas\\BetaFoesAndBones\\Data\\coliPuerta.csv",
+              "RelativeToolTip": "BetaFoesAndBones\\Data\\coliPuerta.csv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAB9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-08-17T16:25:27.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VistaJuego.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\bloqueoPuertas\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\bloqueoPuertas\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAYwFYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:15:39.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mapa.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\bloqueoPuertas\\BetaFoesAndBones\\Controles\\Mapa.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Controles\\Mapa.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\bloqueoPuertas\\BetaFoesAndBones\\Controles\\Mapa.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Controles\\Mapa.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAAGYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T19:02:09.599Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
