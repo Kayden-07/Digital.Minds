@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "BetaFoesAndBones\\Personajes\\Felix.cs",
               "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\habitaciones\\BetaFoesAndBones\\Personajes\\Felix.cs",
               "RelativeToolTip": "BetaFoesAndBones\\Personajes\\Felix.cs",
-              "ViewState": "AQIAADABAAAAAAAAAAAowEABAAAfAAAA",
+              "ViewState": "AQIAAMoAAAAAAAAAAAAowEABAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T03:27:07.171Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "BetaFoesAndBones\\Game1.cs",
               "ViewState": "AQIAAC8AAAAAAAAAAAAIwAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T18:46:17.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-09T18:46:17.965Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "BetaFoesAndBones\\Controles\\Mapa.cs",
               "ViewState": "AQIAADIAAAAAAAAAAAAuwHoAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T19:02:09.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-03T19:02:09.599Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "BetaFoesAndBones\\Vistas\\VistaJuego.cs",
               "ViewState": "AQIAACsAAAAAAAAAAAAAAFQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T00:19:03.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T00:19:03.151Z"
             }
           ]
         }

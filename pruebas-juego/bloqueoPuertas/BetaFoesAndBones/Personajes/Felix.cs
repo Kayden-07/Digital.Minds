@@ -16,8 +16,6 @@ namespace BetaFoesAndBones.Personajes
 {
     internal class Felix : Componentes
     {
-        //private Texture2D chocar;
-        private Rectangle rChocar;
         public Rectangle cuadradoFelix;
         private int cambioH;
         private int cambioV;
@@ -59,7 +57,6 @@ namespace BetaFoesAndBones.Personajes
         public Felix(Game1 game, GraphicsDevice graphicsDevice, ContentManager contenedor, Dictionary<Vector2, int> _coli, Dictionary<Vector2, int> habitacines)
         {
             cuadradoFelix = new Rectangle((int)_position.X + 15, (int)_position.Y, 50, 120);
-            rChocar = new Rectangle(1900, 500, 40, 200);
             cambioH = 0;
             cambioV = 0;
             Mapa = 0;
@@ -134,56 +131,17 @@ namespace BetaFoesAndBones.Personajes
 
         public override void Update(GameTime gameTime)
         {
-            // codigo para que felix colisione con el cuadrado
-                cuadradoFelix = new Rectangle((int)_position.X + 15, (int)_position.Y, 50, 120);
-            if (cuadradoFelix.Intersects(rChocar))
-            {
-                vida -= 10;
-            _position.X = 100;
-            }
+            cuadradoFelix = new Rectangle((int)_position.X + 15, (int)_position.Y, 50, 120);
+            
             rFelix = new Rectangle((int)_position.X, (int)_position.Y, 200, 150);
             rCuerpo = new Rectangle((int)_position.X + 15, (int)_position.Y, 50, 120);
             daño += (float)gameTime.ElapsedGameTime.TotalSeconds;
 
             _velocity = Vector2.Zero;
-            if (Keyboard.GetState().IsKeyDown(Keys.W))
-            {
-                _velocity.Y = -5;
-                activo = 2;
-                am.Update();
-                pm.Update();
-            }
-            else if (Keyboard.GetState().IsKeyDown(Keys.S))
-            {
-                _velocity.Y = 5;
-                activo = 3;
-                am.Update();
-                pm.Update();
-            }
-            else if(Keyboard.GetState().IsKeyDown(Keys.A))
-            {
-                _velocity.X = -5;
-                activo = 1;
-                pm.Update();
-                am.Update();
-            }
-            else if(Keyboard.GetState().IsKeyDown(Keys.D))
-            {
-                _velocity.X = 5;
-                activo = 0;
-                pm.Update();
-                am.Update();
-            }
-            else if(Keyboard.GetState().IsKeyDown(Keys.E))
-            {
-                activo = 4;
-                pm.Update();
-                am.Update();
-            }
-            else
-            {
-                activo = 5;
-            }
+
+            //---------------Aca esta la función que hace que felix se mueva --------------
+            movimientoYanimaciones();
+
             // Intersicciones
             Vector2 temp = _position;
 
@@ -195,14 +153,14 @@ namespace BetaFoesAndBones.Personajes
             {
                 if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioH, reac.Y + cambioV), out int _val))
                 {
-                    if(enemigoList.Count > 0)
+                    if(enemigoList.Count > 0 || (enemigoList.Count <= 0 && _val != 5 && _val != 4 && _val != 57))
                     {
                         _position = temp;
                     }
-                    else if (_val != 5 && _val != 4 && _val != 57)
-                        _position = temp;
                 }
             }
+
+            //---------------Aca esta la función que permite el cambio de habitacion de forma horizontal --------------
 
             CambioDeHabitacionesHorrizontal();
 
@@ -213,7 +171,7 @@ namespace BetaFoesAndBones.Personajes
             {
                 if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioH, reac.Y + cambioV), out int _val))
                 {
-                    if (enemigoList.Count > 0) 
+                    if (enemigoList.Count > 0 || (enemigoList.Count <= 0 && _val != 5 && _val != 4 && _val != 57)) 
                     {
                         Rectangle colisions = new Rectangle(
                         reac.X * tilesTamaño,
@@ -231,45 +189,64 @@ namespace BetaFoesAndBones.Personajes
                             _position.Y = colisions.Bottom;
                         }
                     }
-                    else
-                    {
-                        if (_val != 5 && _val != 4 && _val != 57)
-                        {
-                            Rectangle colisions = new Rectangle(
-                                reac.X * tilesTamaño,
-                                reac.Y * tilesTamaño,
-                                tilesTamaño,
-                                tilesTamaño
-                                );
-
-                            if (_velocity.Y > 0.0f)
-                            {
-                                _position.Y = colisions.Top - 93;
-                            }
-                            else if (_velocity.Y < 0.0f)
-                            {
-                                _position.Y = colisions.Bottom;
-                            }
-                        }
-
-                    }
-                }
-                
-                if (habitacines.TryGetValue(new Vector2(reac.X - 1 + cambioH, reac.Y + cambioV), out int _vali))
-                {
-                    foreach (var hab in habitacines)
-                    {
-                        if (hab.Key == new Vector2(reac.X - 1 + cambioH, reac.Y + cambioV))
-                            habitacion = hab.Value - 3;
-                    }
                 }
             }
+
+            //---------------Aca esta la función que permite el cambio de habitacion de forma Vertical --------------
 
             CambioDeHabitacionesVertical();
             
             disparo.Update(gameTime);
             disparo.Posicion = _position;
-            if (daño >=0.2 && colorF == Color.Red)
+
+            //---------------Aca esta la función que hace que felix pierda vida si lo golpean los enemigos --------------
+
+            dañoEnemigos();
+        }
+        private void movimientoYanimaciones()
+        {
+            if (Keyboard.GetState().IsKeyDown(Keys.W))
+            {
+                _velocity.Y = -5;
+                activo = 2;
+                am.Update();
+                pm.Update();
+            }
+            else if (Keyboard.GetState().IsKeyDown(Keys.S))
+            {
+                _velocity.Y = 5;
+                activo = 3;
+                am.Update();
+                pm.Update();
+            }
+            else if (Keyboard.GetState().IsKeyDown(Keys.A))
+            {
+                _velocity.X = -5;
+                activo = 1;
+                pm.Update();
+                am.Update();
+            }
+            else if (Keyboard.GetState().IsKeyDown(Keys.D))
+            {
+                _velocity.X = 5;
+                activo = 0;
+                pm.Update();
+                am.Update();
+            }
+            else if (Keyboard.GetState().IsKeyDown(Keys.E))
+            {
+                activo = 4;
+                pm.Update();
+                am.Update();
+            }
+            else
+            {
+                activo = 5;
+            }
+        }
+        private void dañoEnemigos()
+        {
+            if (daño >= 0.2 && colorF == Color.Red)
             {
                 daño = 0;
                 colorF = Color.White;
@@ -289,7 +266,6 @@ namespace BetaFoesAndBones.Personajes
                 }
             }
         }
-
         private void CambioDeHabitacionesHorrizontal()
         {
             if (enemigoList.Count <= 0) { 
@@ -316,11 +292,6 @@ namespace BetaFoesAndBones.Personajes
                                 habitacion = hab.Value - 3;
                         }
                     }
-                        //foreach (var hab in habitacines)
-                        //{
-                        //    if (hab.Key == new Vector2(reac.X - 1 + cambioH, reac.Y + cambioV))
-                                
-                        //}
                 }
             }
             if (derecha)
@@ -336,7 +307,6 @@ namespace BetaFoesAndBones.Personajes
             }
            }
         }
-
         private void CambioDeHabitacionesVertical()
         {
             if (enemigoList.Count <= 0)
@@ -364,6 +334,7 @@ namespace BetaFoesAndBones.Personajes
                                     _position.Y = 800;
                                     Mapa = 4;
                                 }
+                                habitacion = hab.Value - 3;
                             }
                         }
                     }
@@ -383,7 +354,7 @@ namespace BetaFoesAndBones.Personajes
                 }
             }
         }
-           private List<Rectangle> getIntersectingTilesHorizontal(Rectangle target)
+        private List<Rectangle> getIntersectingTilesHorizontal(Rectangle target)
         {
 
             List<Rectangle> intersections = new List<Rectangle>();
