@@ -30,6 +30,8 @@ namespace BetaFoesAndBones.Personajes
         private bool arriba;
         private bool abajo;
 
+        public float top;
+
         public Disparo disparo;
         private Texture2D[] felix;
         private Rectangle rFelix;
@@ -45,6 +47,7 @@ namespace BetaFoesAndBones.Personajes
 
         AnimationManager am;
         AnimationManager pm;
+        AnimationManager pp;
         private int activo;
         private float daño;
 
@@ -63,6 +66,9 @@ namespace BetaFoesAndBones.Personajes
             cambioH = 0;
             cambioV = 0;
             Mapa = 0;
+
+            top = 0;
+
             habitacion = 1;
             cambioHab = 0;
             habAnterior = 0;
@@ -83,9 +89,9 @@ namespace BetaFoesAndBones.Personajes
 
             felix[0] = _content.Load<Texture2D>("Felix/derecha_Felix_v2");
             felix[1] = _content.Load<Texture2D>("Felix/izquierda_felix_v2");
-            felix[2] = _content.Load<Texture2D>("Felix/arriba_felix_v2");
-            felix[3] = _content.Load<Texture2D>("Felix/abajo_v2");
-            felix[4] = _content.Load<Texture2D>("Felix/Risas_felix");
+            felix[2] = _content.Load<Texture2D>("Felix/Animacion_caminata_arriba_V4");
+            felix[3] = _content.Load<Texture2D>("Felix/Animacion_caminata_abajo_V4");
+            felix[4] = _content.Load<Texture2D>("Felix/Iddle_felix");
             felix[5] = _content.Load<Texture2D>("Felix/felix_v2");
             //_position = posicion;
             //_tamaño = tamaño;
@@ -94,7 +100,8 @@ namespace BetaFoesAndBones.Personajes
             _velocity = new Vector2(40, 40);
 
             am = new(7, 7, new System.Numerics.Vector2(310, 215));
-            pm = new(7, 7, new System.Numerics.Vector2(315, 215));
+            pm = new(7, 7, new System.Numerics.Vector2(198, 225));
+            pp = new(7, 7, new System.Numerics.Vector2(249, 225));
 
             intersections = new List<Rectangle>();
 
@@ -123,11 +130,14 @@ namespace BetaFoesAndBones.Personajes
             else if(activo == 1)
                 sprite.Draw(felix[activo], new Rectangle((int)_position.X, (int)_position.Y, 200, 150), am.GetFrame(), colorF);
             else if (activo == 2)
-                sprite.Draw(felix[activo], new Rectangle((int)_position.X - 20, (int)_position.Y, 200, 150), pm.GetFrame(),colorF);
+                sprite.Draw(felix[activo], new Rectangle((int)_position.X - 20, (int)_position.Y, 140, 150), pm.GetFrame(),colorF);
             else if (activo == 3)
-                sprite.Draw(felix[activo], new Rectangle((int)_position.X - 20, (int)_position.Y, 200, 150), pm.GetFrame(),colorF);
-            else if (activo == 5)
+                sprite.Draw(felix[activo], new Rectangle((int)_position.X - 20, (int)_position.Y, 120, 140), pm.GetFrame(),colorF);
+            else if (activo == 4)
+                sprite.Draw(felix[activo], new Rectangle((int)_position.X - 20, (int)_position.Y, 130, 140 ), pp.GetFrame(), colorF);
+             else if (activo == 5)
                 sprite.Draw(felix[activo], new Rectangle((int)_position.X, (int)_position.Y, 100, 130), colorF);
+
 
             disparo.Draw(gameTime, sprite);
         }
@@ -150,6 +160,7 @@ namespace BetaFoesAndBones.Personajes
             {
                 _velocity.Y = -5;
                 activo = 2;
+                top = 0;
                 am.Update();
                 pm.Update();
             }
@@ -157,6 +168,7 @@ namespace BetaFoesAndBones.Personajes
             {
                 _velocity.Y = 5;
                 activo = 3;
+                top = 0;
                 am.Update();
                 pm.Update();
             }
@@ -164,6 +176,7 @@ namespace BetaFoesAndBones.Personajes
             {
                 _velocity.X = -5;
                 activo = 1;
+                top = 0;
                 pm.Update();
                 am.Update();
             }
@@ -171,19 +184,35 @@ namespace BetaFoesAndBones.Personajes
             {
                 _velocity.X = 5;
                 activo = 0;
+                top = 0;
                 pm.Update();
                 am.Update();
             }
             else if(Keyboard.GetState().IsKeyDown(Keys.E))
             {
                 activo = 4;
+                top = 0;
                 pm.Update();
                 am.Update();
             }
             else
             {
                 activo = 5;
+                top += (float)gameTime.ElapsedGameTime.TotalSeconds;
+                if (top > 5 && top < 10)
+                {
+                  
+                    activo = 4;
+                    pp.Update();
+                    
+
+                }
+                if (top > 10)
+                {
+                    top = 0;
+                }
             }
+           
             // Intersicciones
             Vector2 temp = _position;
 
