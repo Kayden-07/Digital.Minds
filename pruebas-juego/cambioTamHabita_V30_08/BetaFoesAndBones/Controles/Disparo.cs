@@ -14,6 +14,8 @@ namespace BetaFoesAndBones.Controles
 {
     internal class Disparo : Componentes
     {
+        private Keys ultimaTecla = Keys.A;
+
         private Dictionary<Vector2, int> coli;
         private int tilesTamaño = 93;
         private List<Rectangle> intersections;
@@ -110,19 +112,52 @@ namespace BetaFoesAndBones.Controles
         }
         public override void Update(GameTime gameTime)
         {
-            
-            estadoRaton = Mouse.GetState();
-            if (estadoRaton.LeftButton == ButtonState.Pressed && !disparoRealizado)
-            {
-                Vector2 direccion = new Vector2(estadoRaton.X, estadoRaton.Y) - felix_posicion; // Calculo dirección de Felix hasta la posición del mouse
-                direccion.Normalize();
 
-                Magia nuevoProyectil = new Magia(felix_posicion, direccion, magia_velocidad,magia_textura, 20); // Crea un nuevo objeto Magia
-                proyectiles.Add(nuevoProyectil);
-                disparoRealizado = true;
+            if (Keyboard.GetState().IsKeyDown(Keys.W)) ultimaTecla = Keys.W;
+
+            else if (Keyboard.GetState().IsKeyDown(Keys.S)) ultimaTecla = Keys.S;
+
+            else if (Keyboard.GetState().IsKeyDown(Keys.A)) ultimaTecla = Keys.A;
+
+            else if (Keyboard.GetState().IsKeyDown(Keys.D)) ultimaTecla = Keys.D;
+
+            if (Keyboard.GetState().IsKeyDown(Keys.Space) && !disparoRealizado)
+            {
+                if (ultimaTecla == Keys.W)
+                {
+                    Vector2 direccion = new Vector2(felix_posicion.X, felix_posicion.Y - 10000) - felix_posicion;
+                    direccion.Normalize();
+                    Magia nuevoProyectil = new Magia(felix_posicion, direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
+                    proyectiles.Add(nuevoProyectil);
+                    disparoRealizado = true;
+                }
+                else if (ultimaTecla == Keys.S)
+                {
+                    Vector2 direccion = new Vector2(felix_posicion.X, felix_posicion.Y + 10000) - felix_posicion;
+                    direccion.Normalize();
+                    Magia nuevoProyectil = new Magia(felix_posicion, direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
+                    proyectiles.Add(nuevoProyectil);
+                    disparoRealizado = true;
+                }
+                else if (ultimaTecla == Keys.A)
+                {
+                    Vector2 direccion = new Vector2(felix_posicion.X - 10000, felix_posicion.Y) - felix_posicion;
+                    direccion.Normalize();
+                    Magia nuevoProyectil = new Magia(felix_posicion, direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
+                    proyectiles.Add(nuevoProyectil);
+                    disparoRealizado = true;
+                }
+                else if (ultimaTecla == Keys.D)
+                {
+                    Vector2 direccion = new Vector2(felix_posicion.X + 10000, felix_posicion.Y) - felix_posicion;
+                    direccion.Normalize();
+                    Magia nuevoProyectil = new Magia(felix_posicion, direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
+                    proyectiles.Add(nuevoProyectil);
+                    disparoRealizado = true;
+                }
             }
 
-            if (estadoRaton.LeftButton == ButtonState.Released)
+            if (Keyboard.GetState().IsKeyUp(Keys.Space))
             {
                 disparoRealizado = false;
             }
