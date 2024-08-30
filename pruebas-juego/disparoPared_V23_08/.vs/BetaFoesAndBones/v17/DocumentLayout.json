@@ -1,29 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\",
+  "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\a-04\\desktop\\muriel\\digital.minds\\pruebas-juego\\disparopared_v23_08\\betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\disparopared_v23_08\\betafoesandbones\\data\\habitaciones.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\data\\habitaciones.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\a-04\\desktop\\muriel\\digital.minds\\pruebas-juego\\disparopared_v23_08\\betafoesandbones\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\disparopared_v23_08\\betafoesandbones\\data\\colipuerta.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\data\\colipuerta.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\a-04\\desktop\\muriel\\digital.minds\\pruebas-juego\\disparopared_v23_08\\betafoesandbones\\controles\\disparo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\controles\\disparo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\a-04\\desktop\\muriel\\digital.minds\\pruebas-juego\\disparopared_v23_08\\betafoesandbones\\data\\piso.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\disparopared_v23_08\\betafoesandbones\\data\\piso.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\data\\piso.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\a-04\\desktop\\muriel\\digital.minds\\pruebas-juego\\disparopared_v23_08\\betafoesandbones\\personajes\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\disparopared_v23_08\\betafoesandbones\\personajes\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\a-04\\desktop\\muriel\\digital.minds\\pruebas-juego\\disparopared_v23_08\\betafoesandbones\\controles\\mapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\disparopared_v23_08\\betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\disparopared_v23_08\\betafoesandbones\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\disparopared_v23_08\\betafoesandbones\\controles\\disparo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\controles\\disparo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\disparopared_v23_08\\betafoesandbones\\controles\\mapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\controles\\mapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,15 +42,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Felix.cs",
-              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Personajes\\Felix.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Personajes\\Felix.cs",
               "RelativeDocumentMoniker": "BetaFoesAndBones\\Personajes\\Felix.cs",
-              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Personajes\\Felix.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Personajes\\Felix.cs",
               "RelativeToolTip": "BetaFoesAndBones\\Personajes\\Felix.cs",
               "ViewState": "AQIAANMAAAAAAAAAAAAqwOMAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -52,11 +60,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "habitaciones.csv",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Data\\habitaciones.csv",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Data\\habitaciones.csv",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Data\\habitaciones.csv",
+              "RelativeToolTip": "BetaFoesAndBones\\Data\\habitaciones.csv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-08-29T23:03:23.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "coliPuerta.csv",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Data\\coliPuerta.csv",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Data\\coliPuerta.csv",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Data\\coliPuerta.csv",
+              "RelativeToolTip": "BetaFoesAndBones\\Data\\coliPuerta.csv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-08-29T22:47:17.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "piso.csv",
-              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Data\\piso.csv",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Data\\piso.csv",
               "RelativeDocumentMoniker": "BetaFoesAndBones\\Data\\piso.csv",
-              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Data\\piso.csv",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Data\\piso.csv",
               "RelativeToolTip": "BetaFoesAndBones\\Data\\piso.csv",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAC9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
@@ -65,11 +103,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Enemigos.cs",
-              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Personajes\\Enemigos.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Personajes\\Enemigos.cs",
               "RelativeDocumentMoniker": "BetaFoesAndBones\\Personajes\\Enemigos.cs",
-              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Personajes\\Enemigos.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Personajes\\Enemigos.cs",
               "RelativeToolTip": "BetaFoesAndBones\\Personajes\\Enemigos.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -78,37 +116,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Disparo.cs",
-              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Controles\\Disparo.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Controles\\Disparo.cs",
               "RelativeDocumentMoniker": "BetaFoesAndBones\\Controles\\Disparo.cs",
-              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Controles\\Disparo.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Controles\\Disparo.cs",
               "RelativeToolTip": "BetaFoesAndBones\\Controles\\Disparo.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAiwCEAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T15:11:08.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VistaJuego.cs",
-              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
-              "RelativeDocumentMoniker": "BetaFoesAndBones\\Vistas\\VistaJuego.cs",
-              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
-              "RelativeToolTip": "BetaFoesAndBones\\Vistas\\VistaJuego.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAD4AAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T16:15:39.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-18T15:11:08.65Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "VistaJuego.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAD4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T16:15:39.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Mapa.cs",
-              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Controles\\Mapa.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Controles\\Mapa.cs",
               "RelativeDocumentMoniker": "BetaFoesAndBones\\Controles\\Mapa.cs",
-              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Controles\\Mapa.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparoPared_V23_08\\BetaFoesAndBones\\Controles\\Mapa.cs",
               "RelativeToolTip": "BetaFoesAndBones\\Controles\\Mapa.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAAAGYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
