@@ -25,7 +25,7 @@ namespace BetaFoesAndBones
             _graphics = new GraphicsDeviceManager(this);
             _graphics.PreferredBackBufferWidth = w;
             _graphics.PreferredBackBufferHeight = h;
-            //_graphics.IsFullScreen = true;
+            _graphics.IsFullScreen = true;
             _graphics.ApplyChanges();
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
