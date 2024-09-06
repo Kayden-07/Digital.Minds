@@ -135,7 +135,7 @@ namespace BetaFoesAndBones.Controles
             if (cambio == 5)
             {
                 H += 7;
-                if (H >= 90 && H <= 99)
+                if (H >= 90 )
                 {
                     numCambioH += 93;
                     H = 0;
@@ -144,15 +144,21 @@ namespace BetaFoesAndBones.Controles
             }
             if (cambio == 6)
             {
-                H += 7;
-                if (H >= 90 && H <= 99)
+                H -= 7;
+                if (H <= -90 && H >= -99)
                 {
                     numCambioH -= 93;
                     H = 0;
                 }
                 cam = true;
             }
-
+            if(cambio == 9)
+            {
+                if (H <= 45)
+                {
+                    H = 0;
+                }
+            }
             //_position = posicion;
             //_velocity = velocidad;
 

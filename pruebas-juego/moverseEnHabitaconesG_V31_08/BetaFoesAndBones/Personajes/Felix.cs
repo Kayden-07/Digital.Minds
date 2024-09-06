@@ -318,16 +318,22 @@ namespace BetaFoesAndBones.Personajes
                     if(a != 1 && _position.X >= ((w/2) / 93) * 93 && izq)
                     {
                     centro = true;
+                    b += 3;
                     Mapa = 5;
-                    b+= 3;
                         if (b >= 300)
                         {
                             cambioH++;
                             b = 0;
                         }
                     }
+                    else if(a == 1 && _position.X >= (((w / 2) / 93) * 93) - 5 )
+                    {
+                    Mapa = 9;
+                    centro = false;
+                    }
                     else
-                        centro = false;
+                    centro=false;
+                        
                 }
             foreach (var reac in intersections)
             {
@@ -338,15 +344,16 @@ namespace BetaFoesAndBones.Personajes
                         a = 2;
                     }
                 }
-                if (a != 2 && _position.X >= ((w / 2) / 93) * 93 - 93 && der)
+                if (a != 2 && _position.X <= ((w / 2) / 93) * 93 - 93 && der)
                 {
+                    Mapa = 0;
                     centro2 = true;
-                    Mapa = 6;
                     b += 3;
                     if (b >= 300)
                     {
                         cambioH--;
                         b = 0;
+                        Mapa = 6;
                     }
                 }
                 else
