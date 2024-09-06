@@ -19,6 +19,9 @@ namespace BetaFoesAndBones.Personajes
         private int w;
         private int b = 0;
         private bool centro = false;
+        private bool centro2 = false;
+        private bool izq = false;
+        private bool der = false;
 
         public Rectangle cuadradoFelix;
         public int cambioH;
@@ -134,6 +137,8 @@ namespace BetaFoesAndBones.Personajes
 
         public override void Update(GameTime gameTime)
         {
+            izq = false;
+            der = false;
             cuadradoFelix = new Rectangle((int)_position.X + 15, (int)_position.Y, 50, 120);
             
             rFelix = new Rectangle((int)_position.X, (int)_position.Y, 200, 150);
@@ -234,11 +239,12 @@ namespace BetaFoesAndBones.Personajes
             }
             else if (Keyboard.GetState().IsKeyDown(Keys.A))
             {
-                _velocity.X = -5;
+                if (!centro2) _velocity.X = -5;
                 activo = 1;
                 top = 0;
                 pm.Update();
                 am.Update();
+                der = true;
             }
             else if (Keyboard.GetState().IsKeyDown(Keys.D))
             {
@@ -247,6 +253,7 @@ namespace BetaFoesAndBones.Personajes
                 top = 0;
                 pm.Update();
                 am.Update();
+                izq = true;
             }
             else if (Keyboard.GetState().IsKeyDown(Keys.E))
             {
@@ -308,23 +315,43 @@ namespace BetaFoesAndBones.Personajes
                             a = 1;
                         }
                     }
-                    if(a != 1 && _position.X >= ((w/2) / 93) * 93 )
+                    if(a != 1 && _position.X >= ((w/2) / 93) * 93 && izq)
                     {
                     centro = true;
                     Mapa = 5;
                     b+= 3;
+                        if (b >= 300)
+                        {
+                            cambioH++;
+                            b = 0;
+                        }
+                    }
+                    else
+                        centro = false;
+                }
+            foreach (var reac in intersections)
+            {
+                for (int i = 9; i > 0; i--)
+                {
+                    if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioH - i, reac.Y + cambioV), out int _val))
+                    {
+                        a = 2;
+                    }
+                }
+                if (a != 2 && _position.X >= ((w / 2) / 93) * 93 - 93 && der)
+                {
+                    centro2 = true;
+                    Mapa = 6;
+                    b += 3;
                     if (b >= 300)
                     {
-                        cambioH++;
+                        cambioH--;
                         b = 0;
                     }
                 }
-                    else
-                    {
-                        centro = false;
-                    }
-                    
-                }
+                else
+                    centro2 = false;
+            }
         }
         private void CambioDeHabitacionesHorrizontal()
         {
