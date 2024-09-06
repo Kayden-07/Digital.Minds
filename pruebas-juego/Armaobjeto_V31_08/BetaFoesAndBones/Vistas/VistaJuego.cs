@@ -1,4 +1,5 @@
-﻿using BetaFoesAndBones.Controles;
+﻿using BetaFoesAndBones.Armas;
+using BetaFoesAndBones.Controles;
 using BetaFoesAndBones.Personajes;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;

@@ -24,7 +24,6 @@ namespace BetaFoesAndBones.Controles
 
         private Vector2 felix_posicion;
         public Vector2 Posicion { get { return felix_posicion; } set { felix_posicion = value; } }
-        float felix_velocidad;
 
         public Texture2D magia_textura;
         public List<Magia> proyectiles;
@@ -48,7 +47,6 @@ namespace BetaFoesAndBones.Controles
 
             proyectiles = new List<Magia>();
         }
-        public Texture2D Textura { get { return magia_textura; } set { magia_textura = value; } }
         public class Magia
         {
             private Vector2 posicion;
