@@ -11,14 +11,15 @@ using SpriteBatch = Microsoft.Xna.Framework.Graphics.SpriteBatch;
 using BetaFoesAndBones.Vistas;
 
 
-namespace BetaFoesAndBones.Armas
+namespace BetaFoesAndBones.ArmasUniversal
 {
     internal class Armas : Componentes
     {
         private Texture2D garroteTextura;
-        public Armas(ContentManager contenedor)
+        public Armas(Game1 game, ContentManager contenedor)
         {
             _content = contenedor;
+            _game = game;
             garroteTextura = _content.Load<Texture2D>("garrote");
         }
 

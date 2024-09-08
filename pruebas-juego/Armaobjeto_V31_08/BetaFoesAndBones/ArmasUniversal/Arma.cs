@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
-namespace BetaFoesAndBones.Armas
+namespace BetaFoesAndBones.ArmasUniversal
 {
     public abstract class Arma
     {
