@@ -22,6 +22,7 @@ namespace BetaFoesAndBones.Personajes
         private bool centro2 = false;
         private bool izq = false;
         private bool der = false;
+        private bool estabaEnElMedio = false;
 
         public Rectangle cuadradoFelix;
         public int cambioH;
@@ -100,7 +101,7 @@ namespace BetaFoesAndBones.Personajes
             //_position = posicion;
             //_tamaño = tamaño;
             cuadrado = _content.Load<Texture2D>("Controles/boton");
-            _position = new Vector2(240, 240);
+            _position = new Vector2(740, 440);
             _velocity = new Vector2(40, 40);
 
 
@@ -307,9 +308,10 @@ namespace BetaFoesAndBones.Personajes
         {
             int a = 0;
             
+            
                 foreach (var reac in intersections)
                 {
-                    for(int i = 9 ;i> 0; i--) { 
+                    for(int i = 8 ;i> 0; i--) { 
                         if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioH + i , reac.Y + cambioV), out int _val))
                         {
                             a = 1;
@@ -320,9 +322,10 @@ namespace BetaFoesAndBones.Personajes
                     centro = true;
                     b += 3;
                     Mapa = 5;
-                        if (b >= 300)
+                        if (b >= 323)
                         {
-                            cambioH++;
+                        Mapa = 11;
+                        cambioH++;
                             b = 0;
                         }
                     }
@@ -335,9 +338,11 @@ namespace BetaFoesAndBones.Personajes
                     centro=false;
                         
                 }
+            a = 0;
+
             foreach (var reac in intersections)
             {
-                for (int i = 9; i > 0; i--)
+                for (int i = 8; i >= 0; i--)
                 {
                     if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioH - i, reac.Y + cambioV), out int _val))
                     {
@@ -346,15 +351,20 @@ namespace BetaFoesAndBones.Personajes
                 }
                 if (a != 2 && _position.X <= ((w / 2) / 93) * 93 - 93 && der)
                 {
-                    Mapa = 0;
                     centro2 = true;
                     b += 3;
-                    if (b >= 300)
+                    Mapa = 6;
+                    if (b >= 323)
                     {
+                        Mapa = 12;
                         cambioH--;
                         b = 0;
-                        Mapa = 6;
                     }
+                }
+                else if (a == 2 && _position.X <= (((w / 2) / 93) * 93) - 93 + 5)
+                {
+                    Mapa = 10;
+                    centro2 = false;
                 }
                 else
                     centro2 = false;

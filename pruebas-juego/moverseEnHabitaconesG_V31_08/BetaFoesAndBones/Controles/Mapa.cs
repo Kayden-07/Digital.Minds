@@ -135,36 +135,102 @@ namespace BetaFoesAndBones.Controles
             if (cambio == 5)
             {
                 H += 7;
-                if (H >= 90 )
+                if (H >= 90)
                 {
                     numCambioH += 93;
                     H = 0;
                 }
                 cam = true;
             }
+            //if (cambio == 0)
+            //{
+            //    H -= 7;
+            //    if (H <= 10)
+            //    {
+            //        numCambioH -= 93;
+            //        H = 93;
+            //    }
+            //    cam = true;
+            //}
             if (cambio == 6)
             {
                 H -= 7;
-                if (H <= -90 && H >= -99)
+                if (H <= 5 )
                 {
                     numCambioH -= 93;
-                    H = 0;
+                    H = 93;
                 }
                 cam = true;
             }
-            if(cambio == 9)
+            if (cambio == 9)
             {
-                if (H <= 45)
+                if (H <= 20)
                 {
                     H = 0;
                 }
+                else
+                {
+                    numCambioH += 93;
+                    H = 0;
+                }
+                if((numCambioH / 93) % 2 != 0)
+                {
+                    if (H <= 20)
+                    {
+                       numCambioH += 93;
+                    }
+                    else
+                    {
+                        numCambioH -= 93;
+                    }
+                }
             }
+            //if (cambio == 12)
+            //{
+            //    numCambioH -= 93;
+            //    H = 93;
+            //    cam = true;
+
+            //}
+            if (cambio == 11)
+            {
+                numCambioH += 93;
+                H = 0;
+            }
+            if (cambio == 10)
+            {
+                if (H != 0) 
+                {
+                    if (H >= 50)
+                    {
+                        H = 0;
+                    }
+                    else
+                    {
+                        numCambioH -= 93;
+                        H = 0;
+                    }
+                    if ((numCambioH / 93) % 2 == 0)
+                    {
+                        if (H <= 15)
+                        {
+                            numCambioH -= 93;
+                        }
+                        else
+                        {
+                            numCambioH += 93;
+                        }
+                    }
+                }
+            }
+            
+
             //_position = posicion;
             //_velocity = velocidad;
 
         }
 
-        
+
         private Dictionary<Vector2, int> loadMap(string filepath)
         {
             Dictionary<Vector2, int> result = new();
