@@ -1,4 +1,5 @@
-﻿using BetaFoesAndBones.Controles;
+﻿using BetaFoesAndBones.ArmasUniversal;
+using BetaFoesAndBones.Controles;
 using BetaFoesAndBones.Vistas;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
@@ -16,6 +17,10 @@ namespace BetaFoesAndBones.Personajes
 {
     internal class Felix : Componentes
     {
+        private string numArma = "a";
+        bool tieneArma = false;
+        private Keys ultimaTecla = Keys.A;
+
         private int w;
         private int b = 0;
         private bool centro = false;
@@ -48,6 +53,7 @@ namespace BetaFoesAndBones.Personajes
         public Vector2 _tamaño;
 
         public List<Enemigo> enemigoList;
+        public List<Arma> armasPiso;
         public int vida = 100;
 
         AnimationManager am;
@@ -138,6 +144,7 @@ namespace BetaFoesAndBones.Personajes
 
         public override void Update(GameTime gameTime)
         {
+            AgarrarArmaPiso();
             izq = false;
             der = false;
             cuadradoFelix = new Rectangle((int)_position.X + 15, (int)_position.Y, 50, 120);
@@ -256,7 +263,7 @@ namespace BetaFoesAndBones.Personajes
                 am.Update();
                 izq = true;
             }
-            else if (Keyboard.GetState().IsKeyDown(Keys.E))
+            else if (Keyboard.GetState().IsKeyDown(Keys.J))
             {
                 activo = 4;
                 top = 0;
@@ -303,7 +310,25 @@ namespace BetaFoesAndBones.Personajes
                 }
             }
         }
+        private void AgarrarArmaPiso()
+        {
+            if (numArma != "a")
+                armasPiso[int.Parse(numArma)].PosicionArma = new Vector2(rCuerpo.X, rCuerpo.Y);
+            //foreach (Arma arm in armasPiso.ToList())
+            for (int i = 0; i < armasPiso.Count; i++)
+            {
+                if (rCuerpo.Intersects(new Rectangle((int)armasPiso[i].PosicionArma.X, (int)armasPiso[i].PosicionArma.Y, 100, 100)) && Keyboard.GetState().IsKeyDown(Keys.E))
+                {
+                    numArma = i.ToString();
+                    tieneArma = true;
+                    //armaPiso.PosicionArma = new Vector2(rCuerpo.X, rCuerpo.Y);
+                }
+            }
+        }
+        private void LanzarArma()
+        {
 
+        }
         private void moverseHabitacionesHorrizontal()
         {
             int a = 0;

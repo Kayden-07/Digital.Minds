@@ -9,6 +9,8 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
 using SharpDX.Direct2D1;
 using SpriteBatch = Microsoft.Xna.Framework.Graphics.SpriteBatch;
+using BetaFoesAndBones.Personajes;
+using static BetaFoesAndBones.Personajes.Felix;
 
 namespace BetaFoesAndBones.Controles
 {
@@ -127,7 +129,7 @@ namespace BetaFoesAndBones.Controles
                 {
                     Vector2 direccion = new Vector2(felix_posicion.X, felix_posicion.Y - 10000) - felix_posicion;
                     direccion.Normalize();
-                    Magia nuevoProyectil = new Magia(felix_posicion, direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
+                    Magia nuevoProyectil = new Magia(new Vector2(felix_posicion.X - 5, felix_posicion.Y - 65), direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
                     proyectiles.Add(nuevoProyectil);
                     disparoRealizado = true;
                 }
@@ -135,7 +137,7 @@ namespace BetaFoesAndBones.Controles
                 {
                     Vector2 direccion = new Vector2(felix_posicion.X, felix_posicion.Y + 10000) - felix_posicion;
                     direccion.Normalize();
-                    Magia nuevoProyectil = new Magia(felix_posicion, direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
+                    Magia nuevoProyectil = new Magia(new Vector2(felix_posicion.X - 5, felix_posicion.Y + 100), direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
                     proyectiles.Add(nuevoProyectil);
                     disparoRealizado = true;
                 }
@@ -143,7 +145,7 @@ namespace BetaFoesAndBones.Controles
                 {
                     Vector2 direccion = new Vector2(felix_posicion.X - 10000, felix_posicion.Y) - felix_posicion;
                     direccion.Normalize();
-                    Magia nuevoProyectil = new Magia(felix_posicion, direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
+                    Magia nuevoProyectil = new Magia(new Vector2(felix_posicion.X - 50, felix_posicion.Y + 20), direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
                     proyectiles.Add(nuevoProyectil);
                     disparoRealizado = true;
                 }
@@ -151,7 +153,7 @@ namespace BetaFoesAndBones.Controles
                 {
                     Vector2 direccion = new Vector2(felix_posicion.X + 10000, felix_posicion.Y) - felix_posicion;
                     direccion.Normalize();
-                    Magia nuevoProyectil = new Magia(felix_posicion, direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
+                    Magia nuevoProyectil = new Magia(new Vector2(felix_posicion.X + 30, felix_posicion.Y + 20), direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
                     proyectiles.Add(nuevoProyectil);
                     disparoRealizado = true;
                 }

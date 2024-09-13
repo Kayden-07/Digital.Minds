@@ -1,4 +1,5 @@
-﻿using BetaFoesAndBones.Controles;
+﻿using BetaFoesAndBones.ArmasUniversal;
+using BetaFoesAndBones.Controles;
 using BetaFoesAndBones.Personajes;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
@@ -20,6 +21,7 @@ namespace BetaFoesAndBones.Vistas
         private Mapa Mapa;
         private Slime Slime;
         private Enemigos enemigo;
+        private Armas arma;
         public int puntos;
         public string pt;
 
@@ -39,7 +41,7 @@ namespace BetaFoesAndBones.Vistas
             Mapa = new Mapa(contenedor);
             felix = new Felix(game, graphicsDevice, contenedor, Mapa.coli, Mapa.habitaciones);
             enemigo = new Enemigos(game, contenedor);
-            
+            arma = new Armas(game, contenedor);
             _fuente = _content.Load<SpriteFont>("Fuentes/fuente");
             _fuen = _content.Load<SpriteFont>("Fuentes/arial");
             _corazon = _content.Load<Texture2D>("HUD/corazon");
@@ -58,6 +60,7 @@ namespace BetaFoesAndBones.Vistas
             Mapa.Draw(gameTime, spriteBatch);
             enemigo.Draw(gameTime, spriteBatch);
             felix.Draw(gameTime, spriteBatch);
+            arma.Draw(gameTime, spriteBatch);
             spriteBatch.Draw(_guita, new Rectangle(50, 100, 40, 40), Color.White);
             spriteBatch.DrawString(_fuen, puntos.ToString() + " "+ felix.cambioH + " " + (Mapa.numCambioH / 93) + " " + Mapa.H, new Vector2(100, 100), Color.White);
             spriteBatch.Draw(_corazon,new Rectangle(50,50, 40, 40), Color.White);
@@ -76,6 +79,8 @@ namespace BetaFoesAndBones.Vistas
             enemigo.proyectilesE = felix.disparo.proyectiles;
             enemigo.felix_posicion = felix._position;
             felix.enemigoList = enemigo.enemigos;
+            felix.armasPiso = arma.ArmasLista;
+            arma.ArmasLista = felix.armasPiso;
             puntos = enemigo.puntos;
             pt = "puntos: " + puntos.ToString();
             pt = "Habitacion: " + felix.habitacion;
