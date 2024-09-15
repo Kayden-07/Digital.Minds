@@ -1,0 +1,148 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\cooldownDisparo_V15_09\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\cooldowndisparo_v15_09\\betafoesandbones\\controles\\disparo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\controles\\disparo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\cooldowndisparo_v15_09\\betafoesandbones\\controles\\mapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\controles\\mapa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\cooldowndisparo_v15_09\\betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\cooldowndisparo_v15_09\\betafoesandbones\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\cooldowndisparo_v15_09\\betafoesandbones\\armasuniversal\\armas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\armasuniversal\\armas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\cooldowndisparo_v15_09\\betafoesandbones\\data\\colis_colis.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\data\\colis_colis.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\cooldowndisparo_v15_09\\betafoesandbones\\armasuniversal\\arma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\armasuniversal\\arma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Felix.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\cooldownDisparo_V15_09\\BetaFoesAndBones\\Personajes\\Felix.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Personajes\\Felix.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\cooldownDisparo_V15_09\\BetaFoesAndBones\\Personajes\\Felix.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Personajes\\Felix.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T03:27:07.171Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mapa.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\cooldownDisparo_V15_09\\BetaFoesAndBones\\Controles\\Mapa.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Controles\\Mapa.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\cooldownDisparo_V15_09\\BetaFoesAndBones\\Controles\\Mapa.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Controles\\Mapa.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAJEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-03T19:02:09.599Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "colis_colis.csv",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\cooldownDisparo_V15_09\\BetaFoesAndBones\\Data\\colis_colis.csv",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Data\\colis_colis.csv",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\cooldownDisparo_V15_09\\BetaFoesAndBones\\Data\\colis_colis.csv",
+              "RelativeToolTip": "BetaFoesAndBones\\Data\\colis_colis.csv",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAACeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-09-14T02:51:45.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Disparo.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\cooldownDisparo_V15_09\\BetaFoesAndBones\\Controles\\Disparo.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Controles\\Disparo.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\cooldownDisparo_V15_09\\BetaFoesAndBones\\Controles\\Disparo.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Controles\\Disparo.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAPQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T20:11:24.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Armas.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\cooldownDisparo_V15_09\\BetaFoesAndBones\\ArmasUniversal\\Armas.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\ArmasUniversal\\Armas.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\cooldownDisparo_V15_09\\BetaFoesAndBones\\ArmasUniversal\\Armas.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\ArmasUniversal\\Armas.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAcwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T19:42:28.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Arma.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\cooldownDisparo_V15_09\\BetaFoesAndBones\\ArmasUniversal\\Arma.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\ArmasUniversal\\Arma.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\cooldownDisparo_V15_09\\BetaFoesAndBones\\ArmasUniversal\\Arma.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\ArmasUniversal\\Arma.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAiwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T19:41:53.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VistaJuego.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\cooldownDisparo_V15_09\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\cooldownDisparo_V15_09\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAA3wEAAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T00:07:19.575Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

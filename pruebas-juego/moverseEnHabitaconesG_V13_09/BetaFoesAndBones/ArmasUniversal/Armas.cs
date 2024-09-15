@@ -34,7 +34,7 @@ namespace BetaFoesAndBones.ArmasUniversal
         public override void Draw(GameTime gameTime, SpriteBatch sprite)
         {
 
-            //sprite.Draw(ArmasLista[0].TexturaArma, new Rectangle((int)ArmasLista[0].PosicionArma.X, (int)ArmasLista[0].PosicionArma.Y, 130, 140), Color.White);
+            sprite.Draw(ArmasLista[0].TexturaArma, new Rectangle((int)ArmasLista[0].PosicionArma.X, (int)ArmasLista[0].PosicionArma.Y, 130, 140), Color.White);
 
         }
         public override void Update(GameTime gameTime)

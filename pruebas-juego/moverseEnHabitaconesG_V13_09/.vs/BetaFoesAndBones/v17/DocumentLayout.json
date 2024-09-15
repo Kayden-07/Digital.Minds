@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\moverseEnHabitaconesG_V13_09\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\moverseenhabitaconesg_v13_09\\betafoesandbones\\armasuniversal\\armas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\armasuniversal\\armas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\moverseenhabitaconesg_v13_09\\betafoesandbones\\data\\colis_colis.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\data\\colis_colis.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\moverseenhabitaconesg_v13_09\\betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\moverseenhabitaconesg_v13_09\\betafoesandbones\\armasuniversal\\armas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\armasuniversal\\armas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\moverseenhabitaconesg_v13_09\\betafoesandbones\\armasuniversal\\arma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Felix.cs",
               "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\moverseEnHabitaconesG_V13_09\\BetaFoesAndBones\\Personajes\\Felix.cs",
               "RelativeDocumentMoniker": "BetaFoesAndBones\\Personajes\\Felix.cs",
@@ -51,12 +51,11 @@
               "ViewState": "AQIAAE0BAAAAAAAAAAAewFQAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T03:27:07.171Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Mapa.cs",
               "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\moverseEnHabitaconesG_V13_09\\BetaFoesAndBones\\Controles\\Mapa.cs",
               "RelativeDocumentMoniker": "BetaFoesAndBones\\Controles\\Mapa.cs",
@@ -65,8 +64,7 @@
               "ViewState": "AQIAAIcAAAAAAAAAAAAAAJEAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-03T19:02:09.599Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -78,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "colis_colis.csv",
               "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\moverseEnHabitaconesG_V13_09\\BetaFoesAndBones\\Data\\colis_colis.csv",
               "RelativeDocumentMoniker": "BetaFoesAndBones\\Data\\colis_colis.csv",
@@ -103,15 +101,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Armas.cs",
               "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\moverseEnHabitaconesG_V13_09\\BetaFoesAndBones\\ArmasUniversal\\Armas.cs",
               "RelativeDocumentMoniker": "BetaFoesAndBones\\ArmasUniversal\\Armas.cs",
               "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\moverseEnHabitaconesG_V13_09\\BetaFoesAndBones\\ArmasUniversal\\Armas.cs",
               "RelativeToolTip": "BetaFoesAndBones\\ArmasUniversal\\Armas.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAcwCQAAAChAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAcwCQAAACfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T19:42:28.732Z"
+              "WhenOpened": "2024-09-13T19:42:28.732Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
