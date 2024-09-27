@@ -26,7 +26,9 @@ namespace BetaFoesAndBones.Controles
         private int tiempoCoolDown = 0;
         private bool terminoDeDisparar = false;
 
-        Felix felix;
+        public List<Arma> armasAlanzar;
+        private bool felixTieneArma;
+        public bool FelixTieneArma { get { return felixTieneArma; } set { felixTieneArma = value; } }
 
         private Dictionary<Vector2, int> coli;
         private int tilesTamaño = 93;
@@ -47,6 +49,7 @@ namespace BetaFoesAndBones.Controles
 
         public Disparo(ContentManager contenedor, Vector2 posicion , Game1 game1, Dictionary<Vector2, int> _coli)
         {
+            armasAlanzar = new List<Arma>();
             disparos = 3;
             tiemposDisparos = 0;
 
@@ -148,7 +151,7 @@ namespace BetaFoesAndBones.Controles
 
             //------------------------------ lanzar arma todavia ver
 
-            foreach (Arma ta in felix.armasPiso)
+            foreach (Arma ta in armasAlanzar)
             {
                 ta.Actualizar(gameTime);
             }
@@ -163,9 +166,9 @@ namespace BetaFoesAndBones.Controles
                     direccion.Normalize();
                     Magia nuevoProyectil = new Magia(new Vector2(felix_posicion.X - 5, felix_posicion.Y - 65), direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
                     proyectiles.Add(nuevoProyectil);
-                    if (felix.tieneArma && Keyboard.GetState().IsKeyDown(Keys.R))
+                    if (felixTieneArma && Keyboard.GetState().IsKeyDown(Keys.R))
                     {
-                        foreach (Arma ta in felix.armasPiso)
+                        foreach (Arma ta in armasAlanzar)
                         {
                             ta.DireccionArma = new Vector2(felix_posicion.X, felix_posicion.Y - 10000) - felix_posicion;
                             ta.DireccionArma.Normalize();
@@ -178,9 +181,9 @@ namespace BetaFoesAndBones.Controles
                     direccion.Normalize();
                     Magia nuevoProyectil = new Magia(new Vector2(felix_posicion.X - 5, felix_posicion.Y + 100), direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
                     proyectiles.Add(nuevoProyectil);
-                        if (felix.tieneArma && Keyboard.GetState().IsKeyDown(Keys.R))
+                        if (felixTieneArma && Keyboard.GetState().IsKeyDown(Keys.R))
                         {
-                            foreach (Arma ta in felix.armasPiso)
+                            foreach (Arma ta in armasAlanzar)
                             {
                                 ta.DireccionArma = new Vector2(felix_posicion.X, felix_posicion.Y + 10000) - felix_posicion;
                                 ta.DireccionArma.Normalize();
@@ -193,9 +196,9 @@ namespace BetaFoesAndBones.Controles
                     direccion.Normalize();
                     Magia nuevoProyectil = new Magia(new Vector2(felix_posicion.X - 50, felix_posicion.Y + 20), direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
                     proyectiles.Add(nuevoProyectil);
-                        if (felix.tieneArma && Keyboard.GetState().IsKeyDown(Keys.R))
+                        if (felixTieneArma && Keyboard.GetState().IsKeyDown(Keys.R))
                         {
-                            foreach (Arma ta in felix.armasPiso)
+                            foreach (Arma ta in armasAlanzar)
                             {
                                 ta.DireccionArma = new Vector2(felix_posicion.X - 10000, felix_posicion.Y) - felix_posicion;
                                 ta.DireccionArma.Normalize();
@@ -208,9 +211,9 @@ namespace BetaFoesAndBones.Controles
                     direccion.Normalize();
                     Magia nuevoProyectil = new Magia(new Vector2(felix_posicion.X + 30, felix_posicion.Y + 20), direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
                     proyectiles.Add(nuevoProyectil);
-                        if (felix.tieneArma && Keyboard.GetState().IsKeyDown(Keys.R))
+                        if (felixTieneArma && Keyboard.GetState().IsKeyDown(Keys.R))
                         {
-                            foreach (Arma ta in felix.armasPiso)
+                            foreach (Arma ta in armasAlanzar)
                             {
                                 ta.DireccionArma = new Vector2(felix_posicion.X + 10000, felix_posicion.Y) - felix_posicion;
                                 ta.DireccionArma.Normalize();

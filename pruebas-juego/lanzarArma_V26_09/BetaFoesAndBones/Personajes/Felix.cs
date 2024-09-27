@@ -230,6 +230,8 @@ namespace BetaFoesAndBones.Personajes
             disparo.Update(gameTime);
             disparo.Posicion = _position;
             disparo.Colisiones(cambioH, cambioV);
+            disparo.FelixTieneArma = tieneArma;
+            disparo.armasAlanzar = armasPiso;
             //---------------Aca esta la función que hace que felix pierda vida si lo golpean los enemigos --------------
 
             dañoEnemigos();

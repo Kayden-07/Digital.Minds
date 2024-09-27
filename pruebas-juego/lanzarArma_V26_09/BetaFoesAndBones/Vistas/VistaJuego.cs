@@ -81,6 +81,7 @@ namespace BetaFoesAndBones.Vistas
 
         public override void Update(GameTime gameTime)
         {
+            
             enemigo.proyectilesE = felix.disparo.proyectiles;
             enemigo.felix_posicion = felix._position;
             felix.enemigoList = enemigo.enemigos;
