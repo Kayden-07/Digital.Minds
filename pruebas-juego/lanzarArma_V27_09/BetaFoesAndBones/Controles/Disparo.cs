@@ -23,6 +23,7 @@ namespace BetaFoesAndBones.Controles
         public int TiempoDisparos { get { return tiemposDisparos; } }
 
         private Keys ultimaTecla = Keys.A;
+        private Keys ultimaTeclaAntesDeLanzarElArma = Keys.A;
         private int tiempoCoolDown = 0;
         private bool terminoDeDisparar = false;
 
@@ -32,11 +33,13 @@ namespace BetaFoesAndBones.Controles
         private bool felixTieneArma;
         private bool estoyLanzandoElArma;
         private Vector2 posicionDelArmaAntesDeLanzar = Vector2.Zero;
+        private bool elArmaColisiono = false;
         public bool FelixTieneArma { get { return felixTieneArma; } set { felixTieneArma = value; } }
 
         private Dictionary<Vector2, int> coli;
         private int tilesTamaño = 93;
         private List<Rectangle> intersections;
+        private List<Rectangle> intersection;
         private int cambioVertical;
         private int cambioHorizontal;
 
@@ -62,6 +65,7 @@ namespace BetaFoesAndBones.Controles
             cambioHorizontal = 0;
             cambioVertical = 0;
             intersections = new List<Rectangle>();
+            intersection = new List<Rectangle>();
             coli = _coli;
             _content = contenedor;
             _game = game1;
@@ -203,6 +207,7 @@ namespace BetaFoesAndBones.Controles
                 if(armalanzar != "a") numArmaLanzar = int.Parse(armalanzar);
                     if (Keyboard.GetState().IsKeyDown(Keys.R))
                     {
+                        ultimaTeclaAntesDeLanzarElArma = ultimaTecla;
                         posicionDelArmaAntesDeLanzar = armasAlanzar[numArmaLanzar].PosicionArma;
                         estoyLanzandoElArma = true;
                     }
@@ -210,87 +215,60 @@ namespace BetaFoesAndBones.Controles
             }
             if (estoyLanzandoElArma)
             {
-                felixTieneArma = false;
-                if (ultimaTecla == Keys.D)
-                {
-                    if (armasAlanzar[numArmaLanzar].PosicionArma.X < posicionDelArmaAntesDeLanzar.X + 500)
-                        armasAlanzar[numArmaLanzar].PosicionArma = new Vector2(armasAlanzar[numArmaLanzar].PosicionArma.X + 5, armasAlanzar[numArmaLanzar].PosicionArma.Y);
-                }
-                else if(ultimaTecla == Keys.W)
-                {
-                    if (armasAlanzar[numArmaLanzar].PosicionArma.Y < posicionDelArmaAntesDeLanzar.Y + 500)
-                        armasAlanzar[numArmaLanzar].PosicionArma = new Vector2(armasAlanzar[numArmaLanzar].PosicionArma.X, armasAlanzar[numArmaLanzar].PosicionArma.Y + 5);
-                }
-                estoyLanzandoElArma = false;
-                //else estoyLanzandoElArma = false;
+                intersection = getIntersectingTilesHorizontal(new Rectangle((int)armasAlanzar[numArmaLanzar].PosicionArma.X, (int)armasAlanzar[numArmaLanzar].PosicionArma.Y, 190, 150));
 
+                foreach (var reac in intersection)
+                {
+                    if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioHorizontal, reac.Y + cambioVertical), out int _val))
+                    {
+                        elArmaColisiono = true;
+                        return;
+                    }
+                    else elArmaColisiono = false;
+                }
+                intersection = getIntersectingTilesVertical(new Rectangle((int)armasAlanzar[numArmaLanzar].PosicionArma.X, (int)armasAlanzar[numArmaLanzar].PosicionArma.Y, 190, 150));
+
+                foreach (var reac in intersection)
+                {
+                    if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioHorizontal, reac.Y + cambioVertical), out int _val))
+                    {
+                        elArmaColisiono = true;
+                        return;
+                    }
+                    else elArmaColisiono = false;
+                }
+
+                felixTieneArma = false;
+                if (!elArmaColisiono)
+                {
+                    if (ultimaTeclaAntesDeLanzarElArma == Keys.D)
+                    {
+                        if (armasAlanzar[numArmaLanzar].PosicionArma.X < posicionDelArmaAntesDeLanzar.X + 500)
+                            armasAlanzar[numArmaLanzar].PosicionArma = new Vector2(armasAlanzar[numArmaLanzar].PosicionArma.X + 7, armasAlanzar[numArmaLanzar].PosicionArma.Y);
+                        else estoyLanzandoElArma = false;
+                    }
+                    else if (ultimaTeclaAntesDeLanzarElArma == Keys.A)
+                    {
+                        if (armasAlanzar[numArmaLanzar].PosicionArma.X > posicionDelArmaAntesDeLanzar.X - 500)
+                            armasAlanzar[numArmaLanzar].PosicionArma = new Vector2(armasAlanzar[numArmaLanzar].PosicionArma.X - 7, armasAlanzar[numArmaLanzar].PosicionArma.Y);
+                        else estoyLanzandoElArma = false;
+                    }
+                    else if (ultimaTeclaAntesDeLanzarElArma == Keys.W)
+                    {
+                        if (armasAlanzar[numArmaLanzar].PosicionArma.Y > posicionDelArmaAntesDeLanzar.Y - 500)
+                            armasAlanzar[numArmaLanzar].PosicionArma = new Vector2(armasAlanzar[numArmaLanzar].PosicionArma.X, armasAlanzar[numArmaLanzar].PosicionArma.Y - 7);
+                        else estoyLanzandoElArma = false;
+                    }
+                    else if (ultimaTeclaAntesDeLanzarElArma == Keys.S)
+                    {
+                        if (armasAlanzar[numArmaLanzar].PosicionArma.Y < posicionDelArmaAntesDeLanzar.Y + 500)
+                            armasAlanzar[numArmaLanzar].PosicionArma = new Vector2(armasAlanzar[numArmaLanzar].PosicionArma.X, armasAlanzar[numArmaLanzar].PosicionArma.Y + 7);
+                        else estoyLanzandoElArma = false;
+                    }
+                }
+                
+                
             }
-            //if (Keyboard.GetState().IsKeyDown(Keys.Space) && !disparoRealizado)
-            //{
-            //    if (ultimaTecla == Keys.W)
-            //    {
-            //        Vector2 direccion = new Vector2(felix_posicion.X, felix_posicion.Y - 10000) - felix_posicion;
-            //        direccion.Normalize();
-            //        Magia nuevoProyectil = new Magia(new Vector2(felix_posicion.X - 5, felix_posicion.Y - 65), direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
-            //        proyectiles.Add(nuevoProyectil);
-            //        if (felixTieneArma && Keyboard.GetState().IsKeyDown(Keys.R))
-            //        {
-            //            foreach (Arma ta in armasAlanzar)
-            //            {
-            //                ta.DireccionArma = new Vector2(felix_posicion.X, felix_posicion.Y - 10000) - felix_posicion;
-            //                ta.DireccionArma.Normalize();
-            //            }
-            //        }
-            //    }
-            //    else if (ultimaTecla == Keys.S)
-            //    {
-            //        Vector2 direccion = new Vector2(felix_posicion.X, felix_posicion.Y + 10000) - felix_posicion;
-            //        direccion.Normalize();
-            //        Magia nuevoProyectil = new Magia(new Vector2(felix_posicion.X - 5, felix_posicion.Y + 100), direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
-            //        proyectiles.Add(nuevoProyectil);
-            //        if (felixTieneArma && Keyboard.GetState().IsKeyDown(Keys.R))
-            //        {
-            //            foreach (Arma ta in armasAlanzar)
-            //            {
-            //                ta.DireccionArma = new Vector2(felix_posicion.X, felix_posicion.Y + 10000) - felix_posicion;
-            //                ta.DireccionArma.Normalize();
-            //            }
-            //        }
-            //    }
-            //    else if (ultimaTecla == Keys.A)
-            //    {
-            //        Vector2 direccion = new Vector2(felix_posicion.X - 10000, felix_posicion.Y) - felix_posicion;
-            //        direccion.Normalize();
-            //        Magia nuevoProyectil = new Magia(new Vector2(felix_posicion.X - 50, felix_posicion.Y + 20), direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
-            //        proyectiles.Add(nuevoProyectil);
-            //        if (felixTieneArma && Keyboard.GetState().IsKeyDown(Keys.R))
-            //        {
-            //            foreach (Arma ta in armasAlanzar)
-            //            {
-            //                ta.DireccionArma = new Vector2(felix_posicion.X - 10000, felix_posicion.Y) - felix_posicion;
-            //                ta.DireccionArma.Normalize();
-            //            }
-            //        }
-            //    }
-            //    else if (ultimaTecla == Keys.D)
-            //    {
-            //        Vector2 direccion = new Vector2(felix_posicion.X + 10000, felix_posicion.Y) - felix_posicion;
-            //        direccion.Normalize();
-            //        Magia nuevoProyectil = new Magia(new Vector2(felix_posicion.X + 30, felix_posicion.Y + 20), direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
-            //        proyectiles.Add(nuevoProyectil);
-            //        if (felixTieneArma && Keyboard.GetState().IsKeyDown(Keys.R))
-            //        {
-            //            foreach (Arma ta in armasAlanzar)
-            //            {
-            //                ta.DireccionArma = new Vector2(felix_posicion.X + 10000, felix_posicion.Y) - felix_posicion;
-            //                ta.DireccionArma.Normalize();
-            //            }
-            //        }
-            //    }
-            //    disparoRealizado = true;
-            //    disparos--;
-            //}
-            //-------------------------------------
 
             if (disparoRealizado)
             {
@@ -309,7 +287,7 @@ namespace BetaFoesAndBones.Controles
             }
             for(int i = proyectiles.Count - 1;  i >= 0; i--) {
 
-                intersections = getIntersectingTilesHorizontal(new Rectangle((int)proyectiles[i].Posicion.X, (int)proyectiles[i].Posicion.Y, 120, 120));
+                intersections = getIntersectingTilesHorizontal(new Rectangle((int)proyectiles[i].Posicion.X, (int)proyectiles[i].Posicion.Y, 50, 50));
 
                 foreach (var reac in intersections)
                 {
@@ -320,6 +298,21 @@ namespace BetaFoesAndBones.Controles
                     }
                 }
             }
+            for (int i = proyectiles.Count - 1; i >= 0; i--)
+            {
+
+                intersections = getIntersectingTilesVertical(new Rectangle((int)proyectiles[i].Posicion.X, (int)proyectiles[i].Posicion.Y, 50, 50));
+
+                foreach (var reac in intersections)
+                {
+                    if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioHorizontal, reac.Y + cambioVertical), out int _val))
+                    {
+                        proyectiles.RemoveAt(i);
+                        return;
+                    }
+                }
+            }
+            
         }
         private List<Rectangle> getIntersectingTilesHorizontal(Rectangle target)
         {
