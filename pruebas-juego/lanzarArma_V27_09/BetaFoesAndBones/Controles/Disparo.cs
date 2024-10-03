@@ -239,35 +239,36 @@ namespace BetaFoesAndBones.Controles
                 }
 
                 felixTieneArma = false;
+                if(elArmaColisiono) estoyLanzandoElArma = false;
                 if (!elArmaColisiono)
                 {
                     if (ultimaTeclaAntesDeLanzarElArma == Keys.D)
                     {
-                        if (armasAlanzar[numArmaLanzar].PosicionArma.X < posicionDelArmaAntesDeLanzar.X + 500)
-                            armasAlanzar[numArmaLanzar].PosicionArma = new Vector2(armasAlanzar[numArmaLanzar].PosicionArma.X + 7, armasAlanzar[numArmaLanzar].PosicionArma.Y);
+                        if (armasAlanzar[numArmaLanzar].PosicionArma.X < posicionDelArmaAntesDeLanzar.X + 600)
+                            armasAlanzar[numArmaLanzar].PosicionArma = new Vector2(armasAlanzar[numArmaLanzar].PosicionArma.X + 10, armasAlanzar[numArmaLanzar].PosicionArma.Y);
                         else estoyLanzandoElArma = false;
                     }
                     else if (ultimaTeclaAntesDeLanzarElArma == Keys.A)
                     {
-                        if (armasAlanzar[numArmaLanzar].PosicionArma.X > posicionDelArmaAntesDeLanzar.X - 500)
-                            armasAlanzar[numArmaLanzar].PosicionArma = new Vector2(armasAlanzar[numArmaLanzar].PosicionArma.X - 7, armasAlanzar[numArmaLanzar].PosicionArma.Y);
+                        if (armasAlanzar[numArmaLanzar].PosicionArma.X > posicionDelArmaAntesDeLanzar.X - 600)
+                            armasAlanzar[numArmaLanzar].PosicionArma = new Vector2(armasAlanzar[numArmaLanzar].PosicionArma.X - 10, armasAlanzar[numArmaLanzar].PosicionArma.Y);
                         else estoyLanzandoElArma = false;
                     }
                     else if (ultimaTeclaAntesDeLanzarElArma == Keys.W)
                     {
-                        if (armasAlanzar[numArmaLanzar].PosicionArma.Y > posicionDelArmaAntesDeLanzar.Y - 500)
-                            armasAlanzar[numArmaLanzar].PosicionArma = new Vector2(armasAlanzar[numArmaLanzar].PosicionArma.X, armasAlanzar[numArmaLanzar].PosicionArma.Y - 7);
+                        if (armasAlanzar[numArmaLanzar].PosicionArma.Y > posicionDelArmaAntesDeLanzar.Y - 600)
+                            armasAlanzar[numArmaLanzar].PosicionArma = new Vector2(armasAlanzar[numArmaLanzar].PosicionArma.X, armasAlanzar[numArmaLanzar].PosicionArma.Y - 10);
                         else estoyLanzandoElArma = false;
                     }
                     else if (ultimaTeclaAntesDeLanzarElArma == Keys.S)
                     {
-                        if (armasAlanzar[numArmaLanzar].PosicionArma.Y < posicionDelArmaAntesDeLanzar.Y + 500)
-                            armasAlanzar[numArmaLanzar].PosicionArma = new Vector2(armasAlanzar[numArmaLanzar].PosicionArma.X, armasAlanzar[numArmaLanzar].PosicionArma.Y + 7);
+                        if (armasAlanzar[numArmaLanzar].PosicionArma.Y < posicionDelArmaAntesDeLanzar.Y + 600)
+                            armasAlanzar[numArmaLanzar].PosicionArma = new Vector2(armasAlanzar[numArmaLanzar].PosicionArma.X, armasAlanzar[numArmaLanzar].PosicionArma.Y + 10);
                         else estoyLanzandoElArma = false;
                     }
                 }
-                
-                
+
+
             }
 
             if (disparoRealizado)
