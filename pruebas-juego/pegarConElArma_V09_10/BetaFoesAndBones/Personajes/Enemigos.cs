@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using SharpDX.Direct3D9;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,7 @@ namespace BetaFoesAndBones.Personajes
         public bool felixTieneArma;
         private int nose = 0;
         private bool hayEnemigos = true;
+        private bool vulne = false;
 
         private float daño;
         public Vector2 felix_posicion;
@@ -28,7 +30,8 @@ namespace BetaFoesAndBones.Personajes
         private Texture2D bacterianoTextura;
         private Texture2D draconanioTextura;
         private Texture2D explosion;
-        private AnimationManager ab, slime_ab;
+        private Texture2D vulne_bacteriano;
+        private AnimationManager ab, slime_ab, vulne_bacte,elvira_ab;
         private float segundosVulnerable = 0;
 
         private Dictionary<int, List<Enemigo>> mapaHabitaciones; //creo diccionario 
@@ -42,8 +45,9 @@ namespace BetaFoesAndBones.Personajes
             _content = contenedor;
             slimeTextura = _content.Load<Texture2D>("Enemigos/Slime_movimiento");
             bacterianoTextura = _content.Load<Texture2D>("Enemigos/bacte_movimiento");
-            draconanioTextura = _content.Load<Texture2D>("Enemigos/Draconariop");
+            draconanioTextura = _content.Load<Texture2D>("Enemigos/elvira_v1");
             explosion = _content.Load<Texture2D>("Enemigos/explosion");
+            vulne_bacteriano = _content.Load<Texture2D>("Enemigos/elvira_v1");
             felix_posicion = new Vector2(300, 300);
             puntos = 0;
 
@@ -51,6 +55,8 @@ namespace BetaFoesAndBones.Personajes
 
             ab = new(5, 5, new System.Numerics.Vector2(165, 230));
             slime_ab = new(7, 7, new System.Numerics.Vector2(146, 190));
+            vulne_bacte = new(7, 7, new System.Numerics.Vector2(330, 350));
+            elvira_ab = new(7, 7, new System.Numerics.Vector2(200, 400));
 
             mapaHabitaciones = new Dictionary<int, List<Enemigo>>(); //creo un diccionario que almacena relación entre las habitaciones y los enemigos 
             habitacionesVisitadas = new HashSet<int>(); //creo una colección de elementos únicos
@@ -131,18 +137,25 @@ namespace BetaFoesAndBones.Personajes
         {
             foreach (var enemigo in enemigos)
             {
-                if (enemigo.TiempoAparicion == 9f)
-                    sprite.Draw(enemigo.Textura, enemigo.Posicion, ab.GetFrame(), enemigo.ColorE);
-                else if (enemigo.TiempoAparicion == 3f)
+                if (!enemigo.EnemigoVulnerable)
                 {
-                    sprite.Draw(enemigo.Textura, enemigo.Posicion, slime_ab.GetFrame(), enemigo.ColorE);
+                    if (enemigo.TiempoAparicion == 9f)
+                        sprite.Draw(enemigo.Textura, enemigo.Posicion, ab.GetFrame(), enemigo.ColorE);
+                    else if (enemigo.TiempoAparicion == 3f)
+                    {
+                        sprite.Draw(enemigo.Textura, enemigo.Posicion, slime_ab.GetFrame(), enemigo.ColorE);
+                    }
+                    else if (enemigo.TiempoAparicion == 20f)
+                    {
+                        sprite.Draw(vulne_bacteriano, new Rectangle((int)enemigo.Posicion.X, (int)enemigo.Posicion.Y, 200, 180), vulne_bacte.GetFrame(), enemigo.ColorE);
+                    }
                 }
-                else if (enemigo.TiempoAparicion == 20f)
-                {
-                    sprite.Draw(enemigo.Textura, enemigo.Posicion, enemigo.ColorE);
-                }
+                else sprite.Draw(vulne_bacteriano, new Rectangle((int)enemigo.Posicion.X, (int)enemigo.Posicion.Y,150,120), vulne_bacte.GetFrame(), enemigo.ColorE);
+
+
             }
 
+            
             if (murio == 1)
             {
                 sprite.Draw(explosion, new Rectangle((int)muerte.X, (int)muerte.Y, 100, 100), Color.White);
@@ -152,6 +165,7 @@ namespace BetaFoesAndBones.Personajes
                 daño = 0;
                 murio = 0;
             }
+           
         }
 
         public override void Update(GameTime gameTime)
@@ -160,6 +174,7 @@ namespace BetaFoesAndBones.Personajes
 
             ab.Update();
             slime_ab.Update();
+            vulne_bacte.Update();
             daño += (float)gameTime.ElapsedGameTime.TotalSeconds;
 
             foreach (var enemigo in enemigos)
@@ -188,10 +203,13 @@ namespace BetaFoesAndBones.Personajes
                 }
                 if (enemy.HP <= 0)
                 {
-                    enemy.ColorE = Color.Yellow;
+                    
                     enemy.Velocidad = 0f;
                     enemy.DañoEnemigo = 0;
                     enemy.EnemigoVulnerable = true;
+                   
+                    
+                    
                 }
                 if (enemy.EnemigoVulnerable)
                 {

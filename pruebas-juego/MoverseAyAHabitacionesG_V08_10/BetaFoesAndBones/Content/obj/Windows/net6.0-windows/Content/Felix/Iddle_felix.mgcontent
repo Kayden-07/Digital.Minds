@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/MoverseAyAHabitacionesG_V08_10/BetaFoesAndBones/Content/Felix/Iddle_felix.png</SourceFile>
-  <SourceTime>2024-10-05T00:03:10.0379582-03:00</SourceTime>
-  <DestFile>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/MoverseAyAHabitacionesG_V08_10/BetaFoesAndBones/Content/bin/Windows/Content/Felix/Iddle_felix.xnb</DestFile>
-  <DestTime>2024-10-08T10:12:13.8642584-03:00</DestTime>
+  <SourceFile>C:/Users/A-03/Desktop/Digital.Minds/pruebas-juego/MoverseAyAHabitacionesG_V08_10/BetaFoesAndBones/Content/Felix/Iddle_felix.png</SourceFile>
+  <SourceTime>2024-10-10T13:42:44.0604724-03:00</SourceTime>
+  <DestFile>C:/Users/A-03/Desktop/Digital.Minds/pruebas-juego/MoverseAyAHabitacionesG_V08_10/BetaFoesAndBones/Content/bin/Windows/Content/Felix/Iddle_felix.xnb</DestFile>
+  <DestTime>2024-10-10T13:45:42.7487455-03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T08:44:56-03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
