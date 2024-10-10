@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\mapaMasGrande_V03_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj": {}
+    "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\mapaMasGrande_V03_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\mapaMasGrande_V03_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj": {
+    "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\mapaMasGrande_V03_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\mapaMasGrande_V03_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
+        "projectUniqueName": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\mapaMasGrande_V03_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
         "projectName": "BetaFoesAndBones",
-        "projectPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\mapaMasGrande_V03_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
-        "packagesPath": "C:\\Users\\MURIEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\mapaMasGrande_V03_10\\BetaFoesAndBones\\obj\\",
+        "projectPath": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\mapaMasGrande_V03_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
+        "packagesPath": "C:\\Users\\A-04\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\mapaMasGrande_V03_10\\BetaFoesAndBones\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MURIEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\A-04\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -66,24 +66,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.30, 6.0.30]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.30, 6.0.30]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.30, 6.0.30]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.30, 6.0.30]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -92,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -84,6 +84,26 @@ namespace BetaFoesAndBones.Controles
 
                 sprite.Draw(textureAtlas, dest, src, Color.White);
             }
+            foreach (var item in habitaciones)
+            {
+                Rectangle dest = new(
+
+                    ((int)item.Key.X * 93) + 93 - numCambioH - H,
+                    ((int)item.Key.Y * 97) + numCambioV - (11 * 97),
+                    93,
+                    97
+                 );
+                int x = item.Value % num_tiles_per_row;
+                int y = item.Value / num_tiles_per_row;
+                Rectangle src = new(
+                    x * pixel_tilesize,
+                    y * pixel_tilesize,
+                    pixel_tilesize,
+                    pixel_tilesize
+                );
+
+                sprite.Draw(textureAtlas, dest, src, Color.White);
+            }
             if (mostrarPuertas)
             {
                 foreach (var item in coli)
