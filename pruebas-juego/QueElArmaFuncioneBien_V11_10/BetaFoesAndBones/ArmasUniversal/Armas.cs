@@ -28,7 +28,7 @@ namespace BetaFoesAndBones.ArmasUniversal
             _content = contenedor;
             _game = game;
             garroteTextura = _content.Load<Texture2D>("espada");
-            garrote = new Garrote(garroteTextura, new Vector2(500, 100), new Vector2(0, 0));
+            garrote = new Garrote(garroteTextura, new Vector2(2000, 100), new Vector2(0, 0));
             ArmasLista.Add(garrote);
 
         }
