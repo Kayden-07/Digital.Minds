@@ -4,34 +4,40 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Controles/boton.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Controles/felix_sticker.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Disparos/Disparito.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Enemigos/bacte_movimiento.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Enemigos/Draconariop.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Enemigos/explosion.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Enemigos/slim-derecha-removebg-preview.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Enemigos/Slime_movimiento.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Enemigos/Slimep.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Enemigos/Viruseanop.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/espada.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Felix/abajo_V2.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Felix/Animacion_caminata_abajo_V4.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Felix/Animacion_caminata_arriba_V4.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Felix/arriba_felix_v2.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Felix/derecha_Felix_v2.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Felix/felix_v2.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Felix/Iddle_felix.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Felix/izquierda_felix_v2.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Felix/Risas_felix.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Fuentes/arial.spritefont</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Fuentes/fuente.spritefont</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/HUD/Corazon.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/HUD/Guita.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/portada_inicio.png</File>
-    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Tiles-SandstoneDungeons.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Controles/boton.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Controles/felix_sticker.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Disparos/Disparito.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Enemigos/bacte_movimiento.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Enemigos/Draconariop.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Enemigos/elvira_v1.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Enemigos/explosion.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Enemigos/slim-derecha-removebg-preview.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Enemigos/Slime_movimiento.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Enemigos/Slimep.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Enemigos/Viruseanop.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Enemigos/Vuln_slime.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Enemigos/Vulne_bacteriano.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/espada.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Felix/abajo_V2.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Felix/Animacion_caminata_abajo_V4.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Felix/Animacion_caminata_arriba_V4.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Felix/arriba_felix_v2.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Felix/derecha_Felix_v2.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Felix/felix_v2.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Felix/Iddle_felix.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Felix/izquierda_felix_v2.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Felix/Risas_felix.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Fuentes/arial.spritefont</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Fuentes/fuente.spritefont</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/HUD/Corazon.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/HUD/Guita.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/portada_inicio.png</File>
+    <File>C:/Users/kluni/Desktop/Digital.Minds/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Tiles-SandstoneDungeons.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
