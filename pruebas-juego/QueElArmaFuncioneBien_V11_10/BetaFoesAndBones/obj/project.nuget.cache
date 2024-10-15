@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vSx10v6atfFyt3oJEPQLRG+sYhNgXoQkRMmfRNSODj1pnL9l2X4Z36rQ9DGiS1BcOKONT0pCMyW6VXXsUYQ8VQ==",
+  "dgSpecHash": "vV9Ll97KxTK7iQNscnwGJFCudqXvxYZFffXr/gqbFaN3bXOC5Fox4ym/1fhCKAuoZjC/EfodoufJ6JO7FcwObA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kluni\\Desktop\\Digital.Minds\\Digital.Minds\\pruebas-juego\\QueElArmaFuncioneBien_V11_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
+  "projectFilePath": "C:\\Users\\kluni\\Desktop\\Digital.Minds\\pruebas-juego\\QueElArmaFuncioneBien_V11_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kluni\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\kluni\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",

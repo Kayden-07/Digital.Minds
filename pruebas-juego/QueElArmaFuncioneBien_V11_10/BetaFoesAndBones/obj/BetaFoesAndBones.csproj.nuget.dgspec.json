@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kluni\\Desktop\\Digital.Minds\\Digital.Minds\\pruebas-juego\\QueElArmaFuncioneBien_V11_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj": {}
+    "C:\\Users\\kluni\\Desktop\\Digital.Minds\\pruebas-juego\\QueElArmaFuncioneBien_V11_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kluni\\Desktop\\Digital.Minds\\Digital.Minds\\pruebas-juego\\QueElArmaFuncioneBien_V11_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj": {
+    "C:\\Users\\kluni\\Desktop\\Digital.Minds\\pruebas-juego\\QueElArmaFuncioneBien_V11_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kluni\\Desktop\\Digital.Minds\\Digital.Minds\\pruebas-juego\\QueElArmaFuncioneBien_V11_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
+        "projectUniqueName": "C:\\Users\\kluni\\Desktop\\Digital.Minds\\pruebas-juego\\QueElArmaFuncioneBien_V11_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
         "projectName": "BetaFoesAndBones",
-        "projectPath": "C:\\Users\\kluni\\Desktop\\Digital.Minds\\Digital.Minds\\pruebas-juego\\QueElArmaFuncioneBien_V11_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
+        "projectPath": "C:\\Users\\kluni\\Desktop\\Digital.Minds\\pruebas-juego\\QueElArmaFuncioneBien_V11_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
         "packagesPath": "C:\\Users\\kluni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kluni\\Desktop\\Digital.Minds\\Digital.Minds\\pruebas-juego\\QueElArmaFuncioneBien_V11_10\\BetaFoesAndBones\\obj\\",
+        "outputPath": "C:\\Users\\kluni\\Desktop\\Digital.Minds\\pruebas-juego\\QueElArmaFuncioneBien_V11_10\\BetaFoesAndBones\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
