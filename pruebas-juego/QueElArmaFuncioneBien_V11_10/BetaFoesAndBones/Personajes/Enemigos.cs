@@ -62,7 +62,7 @@ namespace BetaFoesAndBones.Personajes
             ab = new(5, 5, new System.Numerics.Vector2(165, 230));
             slime_ab = new(7, 7, new System.Numerics.Vector2(146, 190));
             vulne_bacte = new(7, 7, new System.Numerics.Vector2(200, 200));
-            elvira_ab = new(7, 7, new System.Numerics.Vector2(333, 380));
+            elvira_ab = new(7, 7, new System.Numerics.Vector2(200, 400));
 
             mapaHabitaciones = new Dictionary<int, List<Enemigo>>(); //creo un diccionario que almacena relación entre las habitaciones y los enemigos 
             habitacionesVisitadas = new HashSet<int>(); //creo una colección de elementos únicos
@@ -75,7 +75,7 @@ namespace BetaFoesAndBones.Personajes
         {
             mapaHabitaciones[2] = new List<Enemigo> //accedo a la entrada del diccionario 1 y creo lista vacía de tipo Enemigo
             {
-                 new Draconario(draconanioTextura, new Vector2(750, 350)),
+                new Slime(slimeTextura, new Vector2(500, 100)),
                 new Bacteriano(bacterianoTextura, new Vector2(1000, 100)),
                 new Slime(slimeTextura, new Vector2(1400, 100)),
 
@@ -153,10 +153,10 @@ namespace BetaFoesAndBones.Personajes
                     }
                     else if (enemigo.TiempoAparicion == 20f)
                     {
-                        sprite.Draw(draconanioTextura, new Rectangle((int)enemigo.Posicion.X, (int)enemigo.Posicion.Y, 200, 180), elvira_ab.GetFrame(), enemigo.ColorE);
+                        sprite.Draw(vulne_bacteriano, new Rectangle((int)enemigo.Posicion.X, (int)enemigo.Posicion.Y, 200, 180), vulne_bacte.GetFrame(), enemigo.ColorE);
                     }
                 }
-                else sprite.Draw(vulne_bacteriano, new Rectangle((int)enemigo.Posicion.X, (int)enemigo.Posicion.Y, 200, 200), vulne_bacte.GetFrame(), enemigo.ColorE);
+                else sprite.Draw(vulne_bacteriano, new Rectangle((int)enemigo.Posicion.X, (int)enemigo.Posicion.Y, 150, 120), vulne_bacte.GetFrame(), enemigo.ColorE);
 
 
             }
@@ -181,8 +181,6 @@ namespace BetaFoesAndBones.Personajes
             ab.Update();
             slime_ab.Update();
             vulne_bacte.Update();
-            elvira_ab.Update();
-
             daño += (float)gameTime.ElapsedGameTime.TotalSeconds;
 
             foreach (var enemigo in enemigos)
@@ -211,7 +209,7 @@ namespace BetaFoesAndBones.Personajes
                 }
                 if (enemy.HP <= 0)
                 {
-                   
+                    enemy.ColorE = Color.Yellow;
                     enemy.Velocidad = 0f;
                     enemy.DañoEnemigo = 0;
                     enemy.EnemigoVulnerable = true;
@@ -254,7 +252,7 @@ namespace BetaFoesAndBones.Personajes
                     if (areaAtaqueCortoAlcanze.Intersects(new Rectangle((int)enemy.Posicion.X, (int)enemy.Posicion.Y, (int)enemy.Tamaño.X, (int)enemy.Tamaño.Y)))
                     {
                         // Recordar despues cambiar el daño del arma a una variable
-                        enemy.HP -= daño;
+                        enemy.HP -= 10;
                         enemy.Posicion = enemy.temp;
                         enemy.ColorE = Color.Red;
                     }
