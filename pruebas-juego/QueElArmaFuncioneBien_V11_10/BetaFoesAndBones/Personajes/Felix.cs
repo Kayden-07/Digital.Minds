@@ -17,6 +17,8 @@ namespace BetaFoesAndBones.Personajes
 {
     internal class Felix : Componentes
     {
+        public int H;
+        private int Hsumando;
         private int procisionArmaHabitacionesGrandes;
         private Rectangle areaAtaqueCortoAlcanze;
 
@@ -93,6 +95,9 @@ namespace BetaFoesAndBones.Personajes
         private Dictionary<Vector2, int> habitacines;
         public Felix(Game1 game, GraphicsDevice graphicsDevice, ContentManager contenedor, Dictionary<Vector2, int> _coli, Dictionary<Vector2, int> habitacines)
         {
+            H = 0;
+            Hsumando = 0;
+
             posicionOriginalArma = new Vector2(500,100);   
             areaAtaqueCortoAlcanze = new Rectangle((int)_position.X + 15, (int)_position.Y, 50, 120);
 
@@ -177,6 +182,11 @@ namespace BetaFoesAndBones.Personajes
 
         public override void Update(GameTime gameTime)
         {
+            if (H > 90) 
+            {
+                Hsumando += 90;
+            }
+            
             tempCambioV = cambioV;
             tempCambioH = cambioH;
             
@@ -274,6 +284,7 @@ namespace BetaFoesAndBones.Personajes
             disparo.FelixTieneArma = tieneArma;
             disparo.armasAlanzar = armasPiso;
             disparo.armalanzar = numArma;
+            posicionOriginalArma = disparo.posicionPisoArma;
             //---------------Aca esta la función que hace que felix pierda vida si lo golpean los enemigos --------------
 
             dañoEnemigos();
@@ -452,14 +463,10 @@ namespace BetaFoesAndBones.Personajes
                     {
                     centro = true;
                     b += 3;
-                    if(armasPiso.Count > 0)
+                    if (armasPiso.Count > 0)
                     {
                         if (numArma == "a")
                         {
-                            foreach (var arma in armasPiso)
-                            {
-                                arma.PosicionArma = new Vector2(posicionOriginalArma.X + (cambioH * 93), posicionOriginalArma.Y + (cambioV * 97) - (11 * 97));
-                            }
                             foreach (Arma arma in armasPiso)
                             {
                                 arma.PosicionArma = new Vector2(arma.PosicionArma.X - 1, arma.PosicionArma.Y);

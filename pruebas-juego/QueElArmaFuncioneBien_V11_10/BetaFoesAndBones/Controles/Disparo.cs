@@ -33,6 +33,7 @@ namespace BetaFoesAndBones.Controles
         private bool felixTieneArma;
         public bool estoyLanzandoElArma;
         private Vector2 posicionDelArmaAntesDeLanzar = Vector2.Zero;
+        public Vector2 posicionPisoArma = Vector2.Zero;
         private bool elArmaColisiono = false;
         public bool FelixTieneArma { get { return felixTieneArma; } set { felixTieneArma = value; } }
 
@@ -265,6 +266,10 @@ namespace BetaFoesAndBones.Controles
                         if (armasAlanzar[numArmaLanzar].PosicionArma.Y < posicionDelArmaAntesDeLanzar.Y + 600)
                             armasAlanzar[numArmaLanzar].PosicionArma = new Vector2(armasAlanzar[numArmaLanzar].PosicionArma.X, armasAlanzar[numArmaLanzar].PosicionArma.Y + 10);
                         else estoyLanzandoElArma = false;
+                    }
+                    if(estoyLanzandoElArma == false)
+                    {
+                        posicionPisoArma = armasAlanzar[numArmaLanzar].PosicionArma;
                     }
                 }
 

@@ -118,6 +118,7 @@ namespace BetaFoesAndBones.Vistas
             Mapa.cambio = felix.Mapa;
             Mapa.cambioV = felix.MapaVertical;
             Mapa.cambioH = felix.MapaHorizontal;
+            felix.H = Mapa.H;
             enemigo.PonerEnemigos(felix.habitacion);
         }
     }
