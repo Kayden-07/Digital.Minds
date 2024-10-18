@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BFlGRmAiYpU=",
+  "dgSpecHash": "IlA+wHsvYuo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MURIEL\\Desktop\\archivosTXT\\QueElArmaFuncioneBien_V11_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
+  "projectFilePath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\QueElArmaFuncioneBien_V11_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MURIEL\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\MURIEL\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",

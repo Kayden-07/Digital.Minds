@@ -7537,11 +7537,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MURIEL\\Desktop\\archivosTXT\\QueElArmaFuncioneBien_V11_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
+      "projectUniqueName": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\QueElArmaFuncioneBien_V11_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
       "projectName": "BetaFoesAndBones",
-      "projectPath": "C:\\Users\\MURIEL\\Desktop\\archivosTXT\\QueElArmaFuncioneBien_V11_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
+      "projectPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\QueElArmaFuncioneBien_V11_10\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
       "packagesPath": "C:\\Users\\MURIEL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MURIEL\\Desktop\\archivosTXT\\QueElArmaFuncioneBien_V11_10\\BetaFoesAndBones\\obj\\",
+      "outputPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\QueElArmaFuncioneBien_V11_10\\BetaFoesAndBones\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MURIEL\\AppData\\Roaming\\NuGet\\NuGet.Config",

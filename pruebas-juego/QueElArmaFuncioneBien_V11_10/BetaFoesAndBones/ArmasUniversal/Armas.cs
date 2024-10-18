@@ -28,14 +28,14 @@ namespace BetaFoesAndBones.ArmasUniversal
             _content = contenedor;
             _game = game;
             garroteTextura = _content.Load<Texture2D>("espada");
-            garrote = new Garrote(garroteTextura, new Vector2(2000, 100), new Vector2(0, 0));
+            garrote = new Garrote(garroteTextura, new Vector2(200, 100), new Vector2(0, 0));
             ArmasLista.Add(garrote);
 
         }
 
         public override void Draw(GameTime gameTime, SpriteBatch sprite)
         {
-
+            if(ArmasLista.Count > 0)
             sprite.Draw(ArmasLista[0].TexturaArma, new Rectangle((int)ArmasLista[0].PosicionArma.X, (int)ArmasLista[0].PosicionArma.Y, 130, 140), Color.White);
 
         }

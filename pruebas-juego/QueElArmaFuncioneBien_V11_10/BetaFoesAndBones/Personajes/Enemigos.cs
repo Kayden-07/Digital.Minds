@@ -73,45 +73,45 @@ namespace BetaFoesAndBones.Personajes
 
         private void InicializarEnemigosPorHabitacion()
         {
-            mapaHabitaciones[2] = new List<Enemigo> //accedo a la entrada del diccionario 1 y creo lista vacía de tipo Enemigo
-            {
-                new Slime(slimeTextura, new Vector2(500, 100)),
-                new Bacteriano(bacterianoTextura, new Vector2(1000, 100)),
-                new Slime(slimeTextura, new Vector2(1400, 100)),
+            //mapaHabitaciones[2] = new List<Enemigo> //accedo a la entrada del diccionario 1 y creo lista vacía de tipo Enemigo
+            //{
+            //    new Slime(slimeTextura, new Vector2(500, 100)),
+            //    new Bacteriano(bacterianoTextura, new Vector2(1000, 100)),
+            //    new Slime(slimeTextura, new Vector2(1400, 100)),
 
-                new Slime(slimeTextura, new Vector2(750, 350)),
+            //    new Slime(slimeTextura, new Vector2(750, 350)),
 
-                new Slime(slimeTextura, new Vector2(500, 800)),
-                new Slime(slimeTextura, new Vector2(1000, 800)),
-                new Bacteriano(bacterianoTextura, new Vector2(1400, 800)),
-            };
+            //    new Slime(slimeTextura, new Vector2(500, 800)),
+            //    new Slime(slimeTextura, new Vector2(1000, 800)),
+            //    new Bacteriano(bacterianoTextura, new Vector2(1400, 800)),
+            //};
 
-            mapaHabitaciones[3] = new List<Enemigo>
-            {
-                new Slime(slimeTextura, new Vector2(500, 100)),
-                new Slime(slimeTextura, new Vector2(1000, 100)),
-                new Slime(slimeTextura, new Vector2(1400, 100)),
+            //mapaHabitaciones[3] = new List<Enemigo>
+            //{
+            //    new Slime(slimeTextura, new Vector2(500, 100)),
+            //    new Slime(slimeTextura, new Vector2(1000, 100)),
+            //    new Slime(slimeTextura, new Vector2(1400, 100)),
 
-                new Slime(slimeTextura, new Vector2(750, 350)),
+            //    new Slime(slimeTextura, new Vector2(750, 350)),
 
-                new Slime(slimeTextura, new Vector2(500, 800)),
-                new Slime(slimeTextura, new Vector2(1000, 800)),
-                new Slime(slimeTextura, new Vector2(1400, 800)),
-            };
+            //    new Slime(slimeTextura, new Vector2(500, 800)),
+            //    new Slime(slimeTextura, new Vector2(1000, 800)),
+            //    new Slime(slimeTextura, new Vector2(1400, 800)),
+            //};
 
-            mapaHabitaciones[4] = new List<Enemigo>
-            {
+            //mapaHabitaciones[4] = new List<Enemigo>
+            //{
 
 
-                new Draconario(draconanioTextura, new Vector2(750, 350)),
+            //    new Draconario(draconanioTextura, new Vector2(750, 350)),
 
-                new Bacteriano(bacterianoTextura, new Vector2(500, 800)),
-                new Bacteriano(bacterianoTextura, new Vector2(1000, 800)),
-                new Bacteriano(bacterianoTextura, new Vector2(1400, 800)),
-            };
-            //mapaHabitaciones[2] = new List<Enemigo>();
-            //mapaHabitaciones[3] = new List<Enemigo>();
-            //mapaHabitaciones[4] = new List<Enemigo>();
+            //    new Bacteriano(bacterianoTextura, new Vector2(500, 800)),
+            //    new Bacteriano(bacterianoTextura, new Vector2(1000, 800)),
+            //    new Bacteriano(bacterianoTextura, new Vector2(1400, 800)),
+            //};
+            mapaHabitaciones[2] = new List<Enemigo>();
+            mapaHabitaciones[3] = new List<Enemigo>();
+            mapaHabitaciones[4] = new List<Enemigo>();
         }
 
         public void PonerEnemigos(int habitacion)

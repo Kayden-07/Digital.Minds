@@ -17,6 +17,12 @@ namespace BetaFoesAndBones.ArmasUniversal
         private Vector2 direccionArma;
         private float dañoMelee;
         private float dañoDistancia;
+        private int tiempoAntesDeDesaparecer;
+        public int TiempoAntesDeDesaparecer
+        {
+            get { return tiempoAntesDeDesaparecer; }
+            set { tiempoAntesDeDesaparecer = value; }
+        }
         public Vector2 DireccionArma
         {
             get { return direccionArma; }
@@ -56,6 +62,7 @@ namespace BetaFoesAndBones.ArmasUniversal
             this.dañoMelee = dañoMelee;
             this.dañoDistancia = dañoDistancia;
             this.direccionArma = direccionArma;
+            tiempoAntesDeDesaparecer = 0;
         }
 
         public void Actualizar(GameTime gameTime)

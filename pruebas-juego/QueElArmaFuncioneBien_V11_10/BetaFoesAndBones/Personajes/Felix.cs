@@ -17,7 +17,7 @@ namespace BetaFoesAndBones.Personajes
 {
     internal class Felix : Componentes
     {
-
+        private int procisionArmaHabitacionesGrandes;
         private Rectangle areaAtaqueCortoAlcanze;
 
         private Vector2 posicionOriginalArma;
@@ -185,6 +185,7 @@ namespace BetaFoesAndBones.Personajes
 
             areaAtaqueCortoAlcanze = new Rectangle((int)_position.X - 45, (int)_position.Y - 25, 170, 180);
 
+            desaparecerArmas();
             AgarrarArmaPiso();
             izq = false;
             der = false;
@@ -263,6 +264,7 @@ namespace BetaFoesAndBones.Personajes
             cambioHab = habitacion;
             if (cambioHab != habAnterior) 
             {
+                if(numArma == "a") armasPiso.Clear();
                 disparo.Borrar();
                 habAnterior = cambioHab;
             }
@@ -276,13 +278,13 @@ namespace BetaFoesAndBones.Personajes
 
             dañoEnemigos();
 
-            if (tempCambioH != cambioH || tempCambioV != cambioV) 
-            {
-                foreach (var arma in armasPiso)
-                {
-                    arma.PosicionArma = new Vector2(posicionOriginalArma.X + (cambioH * 93), posicionOriginalArma.Y + (cambioV * 97) - (11 * 97));
-                }
-            }
+            //if (tempCambioH != cambioH || tempCambioV != cambioV) 
+            //{
+            //    foreach (var arma in armasPiso)
+            //    {
+            //        arma.PosicionArma = new Vector2(posicionOriginalArma.X + (cambioH * 93), posicionOriginalArma.Y + (cambioV * 97) - (11 * 97));
+            //    }
+            //}
 
             
 
@@ -386,6 +388,41 @@ namespace BetaFoesAndBones.Personajes
                 }
             }
         }
+        private void desaparecerArmas()
+        {
+            if(armasPiso.Count > 0)
+            {
+                if (numArma == "a")
+                {
+                    foreach (Arma i in armasPiso)
+                    {
+                        i.TiempoAntesDeDesaparecer += 1;
+                    }
+                }
+                else
+                {
+                    foreach(Arma i in armasPiso)
+                    {
+                        if(i == armasPiso[int.Parse(numArma)])
+                        {
+                            i.TiempoAntesDeDesaparecer = 0;
+                        }
+                        else
+                        {
+                            i.TiempoAntesDeDesaparecer += 1;
+                        }
+                    }
+                }
+                for (int i = armasPiso.Count - 1; i >= 0; i--)
+                {
+                        if (armasPiso[i].TiempoAntesDeDesaparecer > 1000)
+                        {
+                            armasPiso.Remove(armasPiso[i]);
+                        }
+                }
+            }
+            
+        }
         private void AgarrarArmaPiso()
         {
             if (numArma != "a")
@@ -415,6 +452,30 @@ namespace BetaFoesAndBones.Personajes
                     {
                     centro = true;
                     b += 3;
+                    if(armasPiso.Count > 0)
+                    {
+                        if (numArma == "a")
+                        {
+                            foreach (var arma in armasPiso)
+                            {
+                                arma.PosicionArma = new Vector2(posicionOriginalArma.X + (cambioH * 93), posicionOriginalArma.Y + (cambioV * 97) - (11 * 97));
+                            }
+                            foreach (Arma arma in armasPiso)
+                            {
+                                arma.PosicionArma = new Vector2(arma.PosicionArma.X - 1, arma.PosicionArma.Y);
+                            }
+                        }
+                        else
+                        {
+                            foreach (Arma arma in armasPiso)
+                            {
+                                if (arma != armasPiso[int.Parse(numArma)])
+                                {
+                                    arma.PosicionArma = new Vector2(arma.PosicionArma.X - 1, arma.PosicionArma.Y);
+                                }
+                            }
+                        }
+                    }
                     MapaHorizontal = 5;
                     if(b >= 323)
                     {
@@ -447,6 +508,26 @@ namespace BetaFoesAndBones.Personajes
                 {
                     centro2 = true;
                     b += 3;
+                    if (armasPiso.Count > 0)
+                    {
+                        if (numArma == "a")
+                        {
+                            foreach (Arma arma in armasPiso)
+                            {
+                                arma.PosicionArma = new Vector2(arma.PosicionArma.X + 1, arma.PosicionArma.Y);
+                            }
+                        }
+                        else
+                        {
+                            foreach (Arma arma in armasPiso)
+                            {
+                                if (arma != armasPiso[int.Parse(numArma)])
+                                {
+                                    arma.PosicionArma = new Vector2(arma.PosicionArma.X + 1, arma.PosicionArma.Y);
+                                }
+                            }
+                        }
+                    }
                     if (temp == true)
                     {
                         temp = false;
