@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/A-8/Desktop/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/Enemigos/Viruseanop.png</SourceFile>
-  <SourceTime>2024-10-18T16:38:17.9822881-03:00</SourceTime>
-  <DestFile>C:/Users/A-8/Desktop/Digital.Minds/pruebas-juego/QueElArmaFuncioneBien_V11_10/BetaFoesAndBones/Content/bin/Windows/Content/Enemigos/Viruseanop.xnb</DestFile>
-  <DestTime>2024-10-18T16:43:29.0888722-03:00</DestTime>
+  <SourceFile>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/Arreglaranimacionvulne_V18_10/BetaFoesAndBones/Content/Enemigos/Viruseanop.png</SourceFile>
+  <SourceTime>2024-10-18T20:37:38.4425557-03:00</SourceTime>
+  <DestFile>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/Arreglaranimacionvulne_V18_10/BetaFoesAndBones/Content/bin/Windows/Content/Enemigos/Viruseanop.xnb</DestFile>
+  <DestTime>2024-10-18T20:38:21.9194896-03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T08:44:56-03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
