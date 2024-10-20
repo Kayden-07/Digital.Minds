@@ -16,6 +16,7 @@ namespace BetaFoesAndBones.Vistas
 {
     internal class VistaJuego : Vista
     {
+        private float vidaCangrejo;
         
         private Felix felix;
         private Mapa Mapa;
@@ -38,6 +39,7 @@ namespace BetaFoesAndBones.Vistas
         private Rectangle rChocar;
         public VistaJuego(Game1 game, GraphicsDevice graphicsDevice, ContentManager contenedor) : base(game, graphicsDevice, contenedor)
         {
+            vidaCangrejo = 0;
             Mapa = new Mapa(contenedor);
             felix = new Felix(game, graphicsDevice, contenedor, Mapa.coli, Mapa.habitaciones);
             enemigo = new Enemigos(game, contenedor);
@@ -55,6 +57,7 @@ namespace BetaFoesAndBones.Vistas
 
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
+            
             _game.GraphicsDevice.Clear(Color.Black);
             spriteBatch.Begin(samplerState: SamplerState.PointClamp);
             Mapa.Draw(gameTime, spriteBatch);
@@ -67,15 +70,14 @@ namespace BetaFoesAndBones.Vistas
             spriteBatch.DrawString(_fuen, felix.disparo.Disparos.ToString(), new Vector2(400, 50), Color.White);
             //spriteBatch.DrawString(_fuen, puntos.ToString() + " "+ felix.cambioH + " " + (Mapa.numCambioH / 93) + " " + Mapa.H, new Vector2(100, 100), Color.White);
 
-            if(felix.armasPiso.Count > 0)
-            {
-                spriteBatch.DrawString(_fuen, puntos.ToString() + "  " + Mapa.cambio + "  " + Mapa.cambioV + "  " + felix.armasPiso[0].PosicionArma.X.ToString(), new Vector2(100, 100), Color.White);
-            }
-            else spriteBatch.DrawString(_fuen, puntos.ToString() + "  " + Mapa.cambio + "  " + Mapa.cambioV + "  " + Mapa.cambioH, new Vector2(100, 100), Color.White);
+            spriteBatch.DrawString(_fuen, puntos.ToString() + " " + vidaCangrejo, new Vector2(100, 100), Color.White);
 
             spriteBatch.Draw(_corazon,new Rectangle(50,50, 40, 40), Color.White);
             spriteBatch.Draw(cuadro,new Rectangle(100,50,( felix.vida * 2), 40), Color.Red);
-            //spriteBatch.DrawString(_fuen, felix.vida.ToString(), new Vector2(100, 150), Color.White);
+            if(felix.habitacion == 1)
+            {
+                spriteBatch.Draw(cuadro, new Rectangle(400, 850, (int)vidaCangrejo, 40), Color.Red);
+            }
             spriteBatch.End();
         }
 
@@ -86,6 +88,11 @@ namespace BetaFoesAndBones.Vistas
 
         public override void Update(GameTime gameTime)
         {
+            foreach (Enemigo e in enemigo.enemigos)
+            {
+                vidaCangrejo = e.HP;
+            }
+
             enemigo.felixTieneArma = felix.tieneArma;
             enemigo.felixLanzaArma = felix.lanzaArma;
             enemigo.armasPiso = felix.armasPiso;

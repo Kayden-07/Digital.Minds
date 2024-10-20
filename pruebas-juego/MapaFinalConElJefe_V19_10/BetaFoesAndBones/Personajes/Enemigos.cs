@@ -115,7 +115,7 @@ namespace BetaFoesAndBones.Personajes
                 new Bacteriano(bacterianoTextura, new Vector2(1000, 800)),
                 new Bacteriano(bacterianoTextura, new Vector2(1400, 800)),
             };
-            mapaHabitaciones[11] = new List<Enemigo>
+            mapaHabitaciones[1] = new List<Enemigo>
             {
 
                 new JefeCangrejo(cuerpoC,pinza1C,pinza2C, new Vector2(150, 100)),
@@ -211,6 +211,8 @@ namespace BetaFoesAndBones.Personajes
 
             foreach (Enemigo enemy in enemigos.ToList())
             {
+                if(enemy is not JefeCangrejo)
+                {
                 if (daño >= 0.2 && enemy.ColorE == Color.Red)
                 {
                     daño = 0f;
@@ -219,15 +221,15 @@ namespace BetaFoesAndBones.Personajes
 
                 foreach (Magia p in proyectilesE.ToList())
                 {
-                    if (new Rectangle((int)p.Posicion.X, (int)p.Posicion.Y, (int)p.Textura.Width, (int)p.Textura.Height).Intersects(new Rectangle((int)enemy.Posicion.X, (int)enemy.Posicion.Y, (int)enemy.Tamaño.X, (int)enemy.Tamaño.X)))
+                    if (new Rectangle((int)p.Posicion.X, (int)p.Posicion.Y, (int)p.Textura.Width, (int)p.Textura.Height).Intersects(new Rectangle((int)enemy.Posicion.X, (int)enemy.Posicion.Y, (int)enemy.Tamaño.X, (int)enemy.Tamaño.Y)))
                     {
                         proyectilesE.Remove(p);
                         daño = 0f;
                         enemy.HP -= p.Daño;
                         enemy.ColorE = Color.Red;
                     }
-
                 }
+                
                 if (enemy.HP <= 0)
                 {
                     enemy.ColorE = Color.Yellow;
@@ -245,6 +247,30 @@ namespace BetaFoesAndBones.Personajes
                     puntos += (int)enemy.Puntos;
                     muerte = enemy.Posicion;
                     enemigos.Remove(enemy);
+                }
+                }
+                else
+                {
+                    JefeCangrejo c = (JefeCangrejo)enemy;
+                    foreach(Enemigo pC in c.partesCangrejo)
+                    {
+                        if (daño >= 0.2 && pC.ColorE == Color.Red)
+                        {
+                            daño = 0f;
+                            pC.ColorE = Color.White;
+                        }
+                        foreach (Magia p in proyectilesE.ToList())
+                        {
+                            if (new Rectangle((int)p.Posicion.X, (int)p.Posicion.Y, (int)p.Textura.Width, (int)p.Textura.Height).Intersects(new Rectangle((int)pC.Posicion.X, (int)pC.Posicion.Y - (int)enemy.Posicion.Y, (int)pC.Tamaño.X, (int)pC.Tamaño.Y)))
+                            {
+                                proyectilesE.Remove(p);
+                                daño = 0f;
+                                pC.HP -= p.Daño;
+                                pC.ColorE = Color.Red;
+                            }
+                        }
+                    }
+                    
                 }
             }
             AtacarEnemigosConArmaCortoAlcance();

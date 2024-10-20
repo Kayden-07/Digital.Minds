@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\disparos\\",
+  "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\disparos\\disparos\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|solutionrelative:disparos\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\disparos\\disparos\\sprites\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\disparos\\disparos\\sprites\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|solutionrelative:disparos\\sprites\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\disparos\\disparos\\sprites\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\disparos\\disparos\\sprites\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|solutionrelative:disparos\\sprites\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\disparos\\disparos\\sprites\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|solutionrelative:disparos\\sprites\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\disparos\\disparos\\sprites\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|solutionrelative:disparos\\sprites\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\disparos\\disparos\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6FE6E5-6C81-4050-9D8C-A14D5DB025AE}|disparos\\disparos.csproj|solutionrelative:disparos\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,53 +26,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Ship.cs",
-              "DocumentMoniker": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\disparos\\disparos\\sprites\\Ship.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparos\\disparos\\sprites\\Ship.cs",
               "RelativeDocumentMoniker": "disparos\\sprites\\Ship.cs",
-              "ToolTip": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\disparos\\disparos\\sprites\\Ship.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparos\\disparos\\sprites\\Ship.cs",
               "RelativeToolTip": "disparos\\sprites\\Ship.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBsAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T17:35:57.044Z"
+              "WhenOpened": "2024-05-10T17:35:57.044Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Bullet.cs",
-              "DocumentMoniker": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\disparos\\disparos\\sprites\\Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparos\\disparos\\sprites\\Bullet.cs",
               "RelativeDocumentMoniker": "disparos\\sprites\\Bullet.cs",
-              "ToolTip": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\disparos\\disparos\\sprites\\Bullet.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparos\\disparos\\sprites\\Bullet.cs",
               "RelativeToolTip": "disparos\\sprites\\Bullet.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAZAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T17:06:25.303Z"
+              "WhenOpened": "2024-05-10T17:06:25.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sprite.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparos\\disparos\\sprites\\Sprite.cs",
+              "RelativeDocumentMoniker": "disparos\\sprites\\Sprite.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparos\\disparos\\sprites\\Sprite.cs",
+              "RelativeToolTip": "disparos\\sprites\\Sprite.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAnwDUAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T16:41:02.251Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Sprite.cs",
-              "DocumentMoniker": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\disparos\\disparos\\sprites\\Sprite.cs",
-              "RelativeDocumentMoniker": "disparos\\sprites\\Sprite.cs",
-              "ToolTip": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\disparos\\disparos\\sprites\\Sprite.cs",
-              "RelativeToolTip": "disparos\\sprites\\Sprite.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAAwBoAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T16:41:02.251Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\disparos\\disparos\\Game1.cs",
+              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparos\\disparos\\Game1.cs",
               "RelativeDocumentMoniker": "disparos\\Game1.cs",
-              "ToolTip": "C:\\Users\\Muriel\\Desktop\\github\\Digital.Minds\\disparos\\disparos\\Game1.cs",
+              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\disparos\\disparos\\Game1.cs",
               "RelativeToolTip": "disparos\\Game1.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwC4AAAA+AAAA",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAswDMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T16:20:14.485Z",
               "EditorCaption": ""

@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
+using SharpDX.Direct3D9;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -140,9 +141,13 @@ namespace BetaFoesAndBones.Personajes
     }
     public class Pinza : Enemigo
     {
-        public Pinza(Texture2D textura, Vector2 posicion)
-            : base(textura, posicion, 80f, 2f, 200, 500, new Vector2(700, 300), 30)
+        public System.Numerics.Vector2 Origin;
+        public float rotation;
+        public Pinza(Texture2D textura, Vector2 posicion, float _rotation)
+            : base(textura, posicion, 80f, 2f, 200, 500, new Vector2(500, 200), 30)
         {
+            Origin = new System.Numerics.Vector2(0, textura.Height / 2);
+            rotation = _rotation;
         }
     }
     public class CuerpoC : Enemigo
@@ -155,26 +160,30 @@ namespace BetaFoesAndBones.Personajes
 
     public class JefeCangrejo : Enemigo
     {
+        float rotacionPinza1;
+        float rotacionPinza2;
         Texture2D texCuerpo;
         Texture2D texPinza1;
         Texture2D texPinza2;
-        Pinza pinza1;
-        Pinza pinza2;
-        CuerpoC cuerpo;
+        public List<Enemigo> partesCangrejo;
+        public Pinza pinza1;
+        public Pinza pinza2;
+        public CuerpoC cuerpo;
         public JefeCangrejo(Texture2D cuerpo, Texture2D pinza1, Texture2D pinza2, Vector2 posicion) : base(cuerpo, posicion, 0f, 5f,500, 2000, new Vector2(565, 630), 20)
         {
-            this.pinza1 = new Pinza(pinza1, new Vector2((int)posicion.X + 100, (int)posicion.Y + 40));
-            this.pinza2 = new Pinza(pinza2, new Vector2((int)posicion.X + 100, (int)posicion.Y + 500));
+            rotacionPinza1 = MathHelper.ToRadians(40);
+            rotacionPinza2 = MathHelper.ToRadians(-40);
+            this.pinza1 = new Pinza(pinza1, new Vector2((int)posicion.X + 450, (int)posicion.Y),rotacionPinza1);
+            this.pinza2 = new Pinza(pinza2, new Vector2((int)posicion.X + 450, (int)posicion.Y + 700), rotacionPinza2);
             this.cuerpo = new CuerpoC(cuerpo, new Vector2((int)posicion.X, (int)posicion.Y));
-            this.texCuerpo = cuerpo;
-            this.texPinza1 = pinza1;
-            this.texPinza2 = pinza2;
+            partesCangrejo = new List<Enemigo>() { this.pinza1, this.pinza2, this.cuerpo};
         }
         public void Draw(GameTime gameTime, SpriteBatch sprite)
         {
-            sprite.Draw(pinza1.Textura, new Rectangle((int)pinza1.Posicion.X, (int)pinza1.Posicion.Y, (int)pinza1.Tamaño.X, (int)pinza1.Tamaño.Y),ColorE);
-            sprite.Draw(pinza2.Textura, new Rectangle((int)pinza2.Posicion.X, (int)pinza2.Posicion.Y, (int)pinza2.Tamaño.X, (int)pinza2.Tamaño.Y),ColorE);
-            sprite.Draw(cuerpo.Textura, new Rectangle((int)cuerpo.Posicion.X, (int)cuerpo.Posicion.Y, (int)cuerpo.Tamaño.X, (int)cuerpo.Tamaño.Y),ColorE);
+            HP = pinza1.HP + pinza2.HP + cuerpo.HP;
+            sprite.Draw(pinza1.Textura, new Rectangle((int)pinza1.Posicion.X, (int)pinza1.Posicion.Y, (int)pinza1.Tamaño.X, (int)pinza1.Tamaño.Y),null, pinza1.ColorE, 0, pinza1.Origin, SpriteEffects.None, 0);
+            sprite.Draw(pinza2.Textura, new Rectangle((int)pinza2.Posicion.X, (int)pinza2.Posicion.Y, (int)pinza2.Tamaño.X, (int)pinza2.Tamaño.Y), null, pinza2.ColorE, 0, pinza2.Origin, SpriteEffects.None, 0);
+            sprite.Draw(cuerpo.Textura, new Rectangle((int)cuerpo.Posicion.X, (int)cuerpo.Posicion.Y, (int)cuerpo.Tamaño.X, (int)cuerpo.Tamaño.Y),cuerpo.ColorE);
         }
     }
 }
