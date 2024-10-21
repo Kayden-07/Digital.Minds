@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\HUD_V120_10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\user\\desktop\\hud_v120_10\\betafoesandbones\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\user\\desktop\\hud_v120_10\\betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\user\\desktop\\hud_v120_10\\betafoesandbones\\controles\\disparo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\controles\\disparo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VistaJuego.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HUD_V120_10\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\HUD_V120_10\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T19:47:45.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Disparo.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HUD_V120_10\\BetaFoesAndBones\\Controles\\Disparo.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Controles\\Disparo.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\HUD_V120_10\\BetaFoesAndBones\\Controles\\Disparo.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Controles\\Disparo.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T21:53:28.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Felix.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HUD_V120_10\\BetaFoesAndBones\\Personajes\\Felix.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Personajes\\Felix.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\HUD_V120_10\\BetaFoesAndBones\\Personajes\\Felix.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Personajes\\Felix.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAuwEIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T21:53:11.964Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
