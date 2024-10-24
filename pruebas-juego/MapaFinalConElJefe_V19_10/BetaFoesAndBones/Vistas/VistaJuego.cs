@@ -17,6 +17,7 @@ namespace BetaFoesAndBones.Vistas
     internal class VistaJuego : Vista
     {
         private float vidaCangrejo;
+        private JefeCangrejo jC;
         
         private Felix felix;
         private Mapa Mapa;
@@ -70,7 +71,7 @@ namespace BetaFoesAndBones.Vistas
             spriteBatch.DrawString(_fuen, felix.disparo.Disparos.ToString(), new Vector2(400, 50), Color.White);
             //spriteBatch.DrawString(_fuen, puntos.ToString() + " "+ felix.cambioH + " " + (Mapa.numCambioH / 93) + " " + Mapa.H, new Vector2(100, 100), Color.White);
 
-            spriteBatch.DrawString(_fuen, puntos.ToString() + " " + vidaCangrejo, new Vector2(100, 100), Color.White);
+            spriteBatch.DrawString(_fuen, puntos.ToString() + " " + vidaCangrejo , new Vector2(100, 100), Color.White);
 
             spriteBatch.Draw(_corazon,new Rectangle(50,50, 40, 40), Color.White);
             spriteBatch.Draw(cuadro,new Rectangle(100,50,( felix.vida * 2), 40), Color.Red);
@@ -91,6 +92,10 @@ namespace BetaFoesAndBones.Vistas
             foreach (Enemigo e in enemigo.enemigos)
             {
                 vidaCangrejo = e.HP;
+                if(e is JefeCangrejo)
+                {
+                    jC = (JefeCangrejo)e;
+                }
             }
 
             enemigo.felixTieneArma = felix.tieneArma;

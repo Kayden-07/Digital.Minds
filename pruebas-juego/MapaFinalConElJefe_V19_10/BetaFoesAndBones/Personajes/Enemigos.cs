@@ -38,6 +38,7 @@ namespace BetaFoesAndBones.Personajes
         private Texture2D cuerpoC;
         private Texture2D pinza1C;
         private Texture2D pinza2C;
+        private Texture2D cuadrado;
         private AnimationManager ab, slime_ab, vulne_bacte, elvira_ab;
         private float segundosVulnerable = 0;
 
@@ -60,6 +61,7 @@ namespace BetaFoesAndBones.Personajes
             cuerpoC = _content.Load<Texture2D>("Enemigos/jefeCangrejo/cuerpo");
             pinza1C = _content.Load<Texture2D>("Enemigos/jefeCangrejo/pinza1");
             pinza2C = _content.Load<Texture2D>("Enemigos/jefeCangrejo/pinza2");
+            cuadrado = _content.Load<Texture2D>("Controles/boton");
 
             felix_posicion = new Vector2(300, 300);
             puntos = 0;
@@ -118,7 +120,7 @@ namespace BetaFoesAndBones.Personajes
             mapaHabitaciones[1] = new List<Enemigo>
             {
 
-                new JefeCangrejo(cuerpoC,pinza1C,pinza2C, new Vector2(150, 100)),
+                new JefeCangrejo(cuerpoC,pinza1C,pinza2C,cuadrado, new Vector2(150, 100)),
             };
 
             //mapaHabitaciones[2] = new List<Enemigo>();
@@ -207,6 +209,11 @@ namespace BetaFoesAndBones.Personajes
             foreach (var enemigo in enemigos)
             {
                 enemigo.Update(gameTime, felix_posicion, _game.w, _game.h);
+                if(enemigo is JefeCangrejo)
+                {
+                    JefeCangrejo j = (JefeCangrejo)enemigo;
+                    j.Actualizar(gameTime);
+                }
             }
 
             foreach (Enemigo enemy in enemigos.ToList())
@@ -261,13 +268,31 @@ namespace BetaFoesAndBones.Personajes
                         }
                         foreach (Magia p in proyectilesE.ToList())
                         {
-                            if (new Rectangle((int)p.Posicion.X, (int)p.Posicion.Y, (int)p.Textura.Width, (int)p.Textura.Height).Intersects(new Rectangle((int)pC.Posicion.X, (int)pC.Posicion.Y - (int)enemy.Posicion.Y, (int)pC.Tamaño.X, (int)pC.Tamaño.Y)))
+                            if(pC is CuerpoC)
                             {
-                                proyectilesE.Remove(p);
-                                daño = 0f;
-                                pC.HP -= p.Daño;
-                                pC.ColorE = Color.Red;
+                                if (new Rectangle((int)p.Posicion.X, (int)p.Posicion.Y, (int)p.Textura.Width, (int)p.Textura.Height).Intersects(new Rectangle((int)pC.Posicion.X, (int)pC.Posicion.Y - (int)enemy.Posicion.Y, (int)pC.Tamaño.X, (int)pC.Tamaño.Y)))
+                                {
+                                    proyectilesE.Remove(p);
+                                    daño = 0f;
+                                    pC.HP -= p.Daño;
+                                    pC.ColorE = Color.Red;
+                                }
                             }
+                            else if(pC is Pinza) 
+                            {
+                                Pinza pinza = (Pinza)pC;
+                                foreach (Rectangle rPinza in pinza.colisions)
+                                {
+                                    if (new Rectangle((int)p.Posicion.X, (int)p.Posicion.Y, (int)p.Textura.Width, (int)p.Textura.Height).Intersects(rPinza))
+                                    {
+                                        proyectilesE.Remove(p);
+                                        daño = 0f;
+                                        pC.HP -= p.Daño;
+                                        pC.ColorE = Color.Red;
+                                    }
+                                }
+                            }
+                            
                         }
                     }
                     
