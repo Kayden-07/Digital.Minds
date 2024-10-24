@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\",
+  "WorkspaceRootPath": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\mapafinalconeljefe_v19_10\\betafoesandbones\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\a-04\\desktop\\muriel\\digital.minds\\pruebas-juego\\mapafinalconeljefe_v19_10\\betafoesandbones\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\mapafinalconeljefe_v19_10\\betafoesandbones\\personajes\\enemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\enemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\a-04\\desktop\\muriel\\digital.minds\\pruebas-juego\\mapafinalconeljefe_v19_10\\betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\mapafinalconeljefe_v19_10\\betafoesandbones\\personajes\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\a-04\\desktop\\muriel\\digital.minds\\pruebas-juego\\mapafinalconeljefe_v19_10\\betafoesandbones\\personajes\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\mapafinalconeljefe_v19_10\\betafoesandbones\\data\\jefe_hab.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\data\\jefe_hab.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\a-04\\desktop\\muriel\\digital.minds\\pruebas-juego\\mapafinalconeljefe_v19_10\\betafoesandbones\\personajes\\enemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\enemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\muriel\\desktop\\github\\digital.minds\\pruebas-juego\\mapafinalconeljefe_v19_10\\betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\a-04\\desktop\\muriel\\digital.minds\\pruebas-juego\\mapafinalconeljefe_v19_10\\betafoesandbones\\data\\jefe_hab.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\data\\jefe_hab.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,38 +30,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "jefe_hab.csv",
+              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\BetaFoesAndBones\\Data\\jefe_hab.csv",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Data\\jefe_hab.csv",
+              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\BetaFoesAndBones\\Data\\jefe_hab.csv",
+              "RelativeToolTip": "BetaFoesAndBones\\Data\\jefe_hab.csv",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-10-19T02:19:41.789Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "jefe_hab.csv",
-              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\BetaFoesAndBones\\Data\\jefe_hab.csv",
-              "RelativeDocumentMoniker": "BetaFoesAndBones\\Data\\jefe_hab.csv",
-              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\BetaFoesAndBones\\Data\\jefe_hab.csv",
-              "RelativeToolTip": "BetaFoesAndBones\\Data\\jefe_hab.csv",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2024-10-19T02:19:41.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Enemigo.cs",
-              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\BetaFoesAndBones\\Personajes\\Enemigo.cs",
+              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\BetaFoesAndBones\\Personajes\\Enemigo.cs",
               "RelativeDocumentMoniker": "BetaFoesAndBones\\Personajes\\Enemigo.cs",
-              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\BetaFoesAndBones\\Personajes\\Enemigo.cs",
+              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\BetaFoesAndBones\\Personajes\\Enemigo.cs",
               "RelativeToolTip": "BetaFoesAndBones\\Personajes\\Enemigo.cs",
-              "ViewState": "AQIAANwAAAAAAAAAAAAAwPQAAABAAAAA",
+              "ViewState": "AQIAALQAAAAAAAAAAAAcwMgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T00:42:50.125Z",
               "EditorCaption": ""
@@ -70,36 +61,37 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Enemigos.cs",
-              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\BetaFoesAndBones\\Personajes\\Enemigos.cs",
+              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\BetaFoesAndBones\\Personajes\\Enemigos.cs",
               "RelativeDocumentMoniker": "BetaFoesAndBones\\Personajes\\Enemigos.cs",
-              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\BetaFoesAndBones\\Personajes\\Enemigos.cs",
+              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\BetaFoesAndBones\\Personajes\\Enemigos.cs",
               "RelativeToolTip": "BetaFoesAndBones\\Personajes\\Enemigos.cs",
-              "ViewState": "AQIAAAwBAAAAAAAAAAAkwCABAAAyAAAA",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAuwHcAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T16:12:48.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Felix.cs",
-              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\BetaFoesAndBones\\Personajes\\Felix.cs",
+              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\BetaFoesAndBones\\Personajes\\Felix.cs",
               "RelativeDocumentMoniker": "BetaFoesAndBones\\Personajes\\Felix.cs",
-              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\BetaFoesAndBones\\Personajes\\Felix.cs",
+              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\BetaFoesAndBones\\Personajes\\Felix.cs",
               "RelativeToolTip": "BetaFoesAndBones\\Personajes\\Felix.cs",
               "ViewState": "AQIAALIBAAAAAAAAAAAIwNoBAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T19:13:20.532Z"
+              "WhenOpened": "2024-09-26T19:13:20.532Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "VistaJuego.cs",
-              "DocumentMoniker": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "DocumentMoniker": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
               "RelativeDocumentMoniker": "BetaFoesAndBones\\Vistas\\VistaJuego.cs",
-              "ToolTip": "C:\\Users\\MURIEL\\Desktop\\gitHub\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "ToolTip": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\MapaFinalConElJefe_V19_10\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
               "RelativeToolTip": "BetaFoesAndBones\\Vistas\\VistaJuego.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAAAFEAAAAeAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAqwEkAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T13:33:18.299Z",
               "EditorCaption": ""

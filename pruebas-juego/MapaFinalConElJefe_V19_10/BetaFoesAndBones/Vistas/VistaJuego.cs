@@ -75,7 +75,7 @@ namespace BetaFoesAndBones.Vistas
 
             spriteBatch.Draw(_corazon,new Rectangle(50,50, 40, 40), Color.White);
             spriteBatch.Draw(cuadro,new Rectangle(100,50,( felix.vida * 2), 40), Color.Red);
-            if(felix.habitacion == 1)
+            if(felix.habitacion == 11)
             {
                 spriteBatch.Draw(cuadro, new Rectangle(400, 850, (int)vidaCangrejo, 40), Color.Red);
             }

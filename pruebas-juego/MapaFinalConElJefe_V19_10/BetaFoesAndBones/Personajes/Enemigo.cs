@@ -165,7 +165,7 @@ namespace BetaFoesAndBones.Personajes
 
             for (int i = 1; i <= 4; i++)
             {
-                radious = i * 100 + 50;
+                radious = i * 100 + 100;
                 colisionX = posicion.X + (float)Math.Cos(rotation) * radious;
                 colisionY = posicion.Y - 40 + (float)Math.Sin(rotation) * radious;
                 colision1 = new Rectangle((int)colisionX, (int)colisionY, 100, 100);
@@ -176,28 +176,37 @@ namespace BetaFoesAndBones.Personajes
         {
             if (giroArriba)
             {
-                if (rotation >= 2) reversa = false;
+                if (rotation >= 1.5) reversa = false;
                 else if (rotation <= 0.2) reversa = true;
                 if (reversa) rotation += 1f * (float)gameTime.ElapsedGameTime.TotalSeconds;
                 else rotation -= 1f * (float)gameTime.ElapsedGameTime.TotalSeconds;
-                
-            }
-            else
-            {
-                if (rotation <= -2) reversa = false;
-                else if (rotation >= -0.2) reversa = true;
-
-                if (reversa) rotation -= 1f * (float)gameTime.ElapsedGameTime.TotalSeconds;
-                else rotation += 1f * (float)gameTime.ElapsedGameTime.TotalSeconds;
-            }
-            for (int i = 0; i <= 3; i++)
+                for (int i = 0; i <= 3; i++)
                 {
-                    radious = i * 100 + 50;
+                    radious = i * 100 + 100;
                     colisionX = Posicion.X + (float)Math.Cos(rotation) * radious;
                     colisionY = Posicion.Y - 40 + (float)Math.Sin(rotation) * radious;
                     colision1 = new Rectangle((int)colisionX, (int)colisionY, 100, 100);
                     colisions[i] = colision1;
                 }
+
+            }
+            else
+            {
+                if (rotation <= -1.5) reversa = false;
+                else if (rotation >= -0.2) reversa = true;
+
+                if (reversa) rotation -= 1f * (float)gameTime.ElapsedGameTime.TotalSeconds;
+                else rotation += 1f * (float)gameTime.ElapsedGameTime.TotalSeconds;
+                for (int i = 0; i <= 3; i++)
+                {
+                    radious = i * 100 + 150;
+                    colisionX = Posicion.X + (float)Math.Cos(rotation) * radious;
+                    colisionY = Posicion.Y - 40 + (float)Math.Sin(rotation) * radious;
+                    colision1 = new Rectangle((int)colisionX, (int)colisionY, 100, 100);
+                    colisions[i] = colision1;
+                }
+            }
+            
             
         }
     }
@@ -222,8 +231,8 @@ namespace BetaFoesAndBones.Personajes
         private bool reversa2;
         public JefeCangrejo(Texture2D cuerpo, Texture2D pinza1, Texture2D pinza2, Texture2D colisionCuadrado, Vector2 posicion) : base(cuerpo, posicion, 0f, 5f,500, 2000, new Vector2(565, 630), 20)
         {
-            rotacionPinza1 = MathHelper.ToRadians(30);
-            rotacionPinza2 = MathHelper.ToRadians(-30);
+            rotacionPinza1 = MathHelper.ToRadians(15);
+            rotacionPinza2 = MathHelper.ToRadians(-80);
             this.pinza1 = new Pinza(pinza1, new Vector2((int)posicion.X + 450, (int)posicion.Y + 10),rotacionPinza1, true);
             this.pinza2 = new Pinza(pinza2, new Vector2((int)posicion.X + 450, (int)posicion.Y + 850), rotacionPinza2, false);
             this.cuerpo = new CuerpoC(cuerpo, new Vector2((int)posicion.X, (int)posicion.Y));
@@ -239,10 +248,10 @@ namespace BetaFoesAndBones.Personajes
             sprite.Draw(pinza1.Textura, new Rectangle((int)pinza1.Posicion.X, (int)pinza1.Posicion.Y, (int)pinza1.Tamaño.X, (int)pinza1.Tamaño.Y),null, pinza1.ColorE, pinza1.rotation, pinza1.Origin, SpriteEffects.None, 0);
             sprite.Draw(pinza2.Textura, new Rectangle((int)pinza2.Posicion.X, (int)pinza2.Posicion.Y, (int)pinza2.Tamaño.X, (int)pinza2.Tamaño.Y), null, pinza2.ColorE, pinza2.rotation, pinza2.Origin, SpriteEffects.None, 0);
             sprite.Draw(cuerpo.Textura, new Rectangle((int)cuerpo.Posicion.X, (int)cuerpo.Posicion.Y, (int)cuerpo.Tamaño.X, (int)cuerpo.Tamaño.Y),cuerpo.ColorE);
-            //foreach(Rectangle colision in pinza1.colisions)
-            //sprite.Draw(colCuerpo, colision, Color.White);
-            //foreach (Rectangle colision in pinza2.colisions)
-            //    sprite.Draw(colCuerpo, colision, Color.White);
+            foreach (Rectangle colision in pinza1.colisions)
+                sprite.Draw(colCuerpo, colision, Color.White);
+            foreach (Rectangle colision in pinza2.colisions)
+                sprite.Draw(colCuerpo, colision, Color.White);
         }
         public void Actualizar(GameTime gameTime)
         {

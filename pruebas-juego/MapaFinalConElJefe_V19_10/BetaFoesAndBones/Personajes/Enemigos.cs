@@ -117,7 +117,7 @@ namespace BetaFoesAndBones.Personajes
                 new Bacteriano(bacterianoTextura, new Vector2(1000, 800)),
                 new Bacteriano(bacterianoTextura, new Vector2(1400, 800)),
             };
-            mapaHabitaciones[1] = new List<Enemigo>
+            mapaHabitaciones[11] = new List<Enemigo>
             {
 
                 new JefeCangrejo(cuerpoC,pinza1C,pinza2C,cuadrado, new Vector2(150, 100)),
