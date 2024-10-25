@@ -22,6 +22,7 @@
     <File>C:/Users/A-03/Desktop/Digital.Minds/pruebas-juego/MapaFinalConElJefe_V19_10/BetaFoesAndBones/Content/Enemigos/Viruseanop.png</File>
     <File>C:/Users/A-03/Desktop/Digital.Minds/pruebas-juego/MapaFinalConElJefe_V19_10/BetaFoesAndBones/Content/Enemigos/Vuln_slime.png</File>
     <File>C:/Users/A-03/Desktop/Digital.Minds/pruebas-juego/MapaFinalConElJefe_V19_10/BetaFoesAndBones/Content/Enemigos/Vulne_bacteriano.png</File>
+    <File>C:/Users/A-03/Desktop/Digital.Minds/pruebas-juego/MapaFinalConElJefe_V19_10/BetaFoesAndBones/Content/Enemigos/Vulne_elvira.png</File>
     <File>C:/Users/A-03/Desktop/Digital.Minds/pruebas-juego/MapaFinalConElJefe_V19_10/BetaFoesAndBones/Content/espada.png</File>
     <File>C:/Users/A-03/Desktop/Digital.Minds/pruebas-juego/MapaFinalConElJefe_V19_10/BetaFoesAndBones/Content/Felix/abajo_V2.png</File>
     <File>C:/Users/A-03/Desktop/Digital.Minds/pruebas-juego/MapaFinalConElJefe_V19_10/BetaFoesAndBones/Content/Felix/Animacion_caminata_abajo_V4.png</File>
@@ -51,6 +52,7 @@
   <DestFiles>
     <File>HUD/Corazon.png</File>
     <File>HUD/Guita.png</File>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

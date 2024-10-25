@@ -2905,3 +2905,4 @@ C:\Users\A-03\Desktop\Digital.Minds\pruebas-juego\MapaFinalConElJefe_V19_10\Beta
 C:\Users\A-03\Desktop\Digital.Minds\pruebas-juego\MapaFinalConElJefe_V19_10\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.pdb
 C:\Users\A-03\Desktop\Digital.Minds\pruebas-juego\MapaFinalConElJefe_V19_10\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.genruntimeconfig.cache
 C:\Users\A-03\Desktop\Digital.Minds\pruebas-juego\MapaFinalConElJefe_V19_10\BetaFoesAndBones\obj\Debug\net6.0-windows\ref\BetaFoesAndBones.dll
+C:\Users\A-03\Desktop\Digital.Minds\pruebas-juego\MapaFinalConElJefe_V19_10\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\Vulne_elvira.xnb

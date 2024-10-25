@@ -23,6 +23,7 @@ namespace BetaFoesAndBones.Personajes
         private float velocidad;
         private float tiempoAparicion;
         private float hp;
+        private int id;
         private int puntos;
         private int dañoEnemigo;
         private Color colorE;
@@ -87,8 +88,13 @@ namespace BetaFoesAndBones.Personajes
             get { return hp; }
             set { hp = value; }
         }
+        public int ID
+        {
+            get { return id; }
+            set { id = value; }
+        }
 
-        public Enemigo(Texture2D textura, Vector2 posicion, float velocidad, float tiempoAparicion, float hp, int puntos, Vector2 tamaño, int dañoEnemigo)
+        public Enemigo(Texture2D textura, Vector2 posicion, float velocidad, float tiempoAparicion, float hp, int puntos, Vector2 tamaño, int dañoEnemigo, int id)
         {
             meAtacaron = false;
             ColorE = Color.White;
@@ -97,6 +103,7 @@ namespace BetaFoesAndBones.Personajes
             Velocidad = velocidad;
             TiempoAparicion = tiempoAparicion;
             HP = hp;
+            ID = id;
             Puntos = puntos;
             Tamaño = tamaño;
             DañoEnemigo = dañoEnemigo;
@@ -122,7 +129,7 @@ namespace BetaFoesAndBones.Personajes
     public class Slime : Enemigo
     {
         public Slime(Texture2D textura, Vector2 posicion)
-            : base(textura, posicion, 160f, 3f, 20, 100,new Vector2(100,100), 5)
+            : base(textura, posicion, 160f, 3f, 20, 100,new Vector2(100,100), 5,1)
         {
         }
     }
@@ -130,7 +137,7 @@ namespace BetaFoesAndBones.Personajes
     public class Bacteriano : Enemigo
     {
         public Bacteriano(Texture2D textura, Vector2 posicion)
-            : base(textura, posicion, 100f, 9f, 60, 300, new Vector2(150, 230), 10)
+            : base(textura, posicion, 100f, 9f, 60, 300, new Vector2(150, 230), 10, 2)
         {
 
         }
@@ -139,7 +146,7 @@ namespace BetaFoesAndBones.Personajes
     public class Draconario : Enemigo
     {
         public Draconario(Texture2D textura, Vector2 posicion)
-            : base(textura, posicion, 80f, 20f, 100, 500, new Vector2(165, 230), 13)
+            : base(textura, posicion, 80f, 20f, 100, 500, new Vector2(165, 230), 13, 3)
         {
         }
     }
@@ -155,7 +162,7 @@ namespace BetaFoesAndBones.Personajes
         private bool reversa;
 
         public Pinza(Texture2D textura, Vector2 posicion, float _rotation, bool _giroArriba)
-            : base(textura, posicion, 80f, 2f, 200, 500, new Vector2(500, 200), 30)
+            : base(textura, posicion, 80f, 2f, 200, 500, new Vector2(500, 200), 30, 4)
         {
             colisions = new List<Rectangle>();
             reversa = false;
@@ -213,7 +220,7 @@ namespace BetaFoesAndBones.Personajes
     public class CuerpoC : Enemigo
     {
         public CuerpoC(Texture2D textura, Vector2 posicion)
-            : base(textura, posicion, 80f, 2f, 400, 500, new Vector2(400, 900), 30)
+            : base(textura, posicion, 80f, 2f, 400, 500, new Vector2(400, 900), 30, 5)
         {
         }
     }
@@ -229,7 +236,7 @@ namespace BetaFoesAndBones.Personajes
         public CuerpoC cuerpo;
         private bool reversa1;
         private bool reversa2;
-        public JefeCangrejo(Texture2D cuerpo, Texture2D pinza1, Texture2D pinza2, Texture2D colisionCuadrado, Vector2 posicion) : base(cuerpo, posicion, 0f, 5f,500, 2000, new Vector2(565, 630), 20)
+        public JefeCangrejo(Texture2D cuerpo, Texture2D pinza1, Texture2D pinza2, Texture2D colisionCuadrado, Vector2 posicion) : base(cuerpo, posicion, 0f, 5f,500, 2000, new Vector2(565, 630), 20, 6)
         {
             rotacionPinza1 = MathHelper.ToRadians(15);
             rotacionPinza2 = MathHelper.ToRadians(-80);
