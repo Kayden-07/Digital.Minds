@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/User/Desktop/HUD_V120_10/BetaFoesAndBones/Content/Felix/Animacion_caminata_arriba_V4.png</SourceFile>
-  <SourceTime>2024-10-19T11:25:14.0938232-03:00</SourceTime>
-  <DestFile>C:/Users/User/Desktop/HUD_V120_10/BetaFoesAndBones/Content/bin/Windows/Content/Felix/Animacion_caminata_arriba_V4.xnb</DestFile>
-  <DestTime>2024-10-20T13:47:21.4845729-03:00</DestTime>
+  <SourceFile>C:/Users/A-03/Desktop/Digital.Minds/pruebas-juego/HUDmej_V20_10/BetaFoesAndBones/Content/Felix/Animacion_caminata_arriba_V4.png</SourceFile>
+  <SourceTime>2024-10-25T13:37:53.7555786-03:00</SourceTime>
+  <DestFile>C:/Users/A-03/Desktop/Digital.Minds/pruebas-juego/HUDmej_V20_10/BetaFoesAndBones/Content/bin/Windows/Content/Felix/Animacion_caminata_arriba_V4.xnb</DestFile>
+  <DestTime>2024-10-25T13:40:41.1426747-03:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T08:44:56-03:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

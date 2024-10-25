@@ -32,8 +32,15 @@ namespace BetaFoesAndBones.Vistas
 
         private SpriteFont _fuente;
         private SpriteFont _fuen;
-        private Texture2D _corazon;
+        private Texture2D CirculoUlti;
         private Texture2D cuadro;
+        private Texture2D cuadroVidaVacio;
+        private Texture2D cuadroHabilidad;
+        private Texture2D disparoMagia;
+        private Texture2D disparoMagia1;
+        private Texture2D disparoMagia2;
+        private Texture2D disparoMagia0;
+
         private Texture2D _guita;
 
         private Texture2D chocar;
@@ -47,9 +54,16 @@ namespace BetaFoesAndBones.Vistas
             arma = new Armas(game, contenedor);
             _fuente = _content.Load<SpriteFont>("Fuentes/fuente");
             _fuen = _content.Load<SpriteFont>("Fuentes/arial");
-            _corazon = _content.Load<Texture2D>("HUD/corazon");
+            CirculoUlti = _content.Load<Texture2D>("HUD/UltInactivo");
+            disparoMagia = _content.Load<Texture2D>("HUD/MagiaCompleta");
+            disparoMagia2 = _content.Load<Texture2D>("HUD/CargaEs1");
+            disparoMagia1 = _content.Load<Texture2D>("HUD/CargaEs2");
+            disparoMagia0 = _content.Load<Texture2D>("HUD/CargaEs3");
+
+            cuadro = _content.Load<Texture2D>("HUD/VidaFelix");
+            cuadroVidaVacio = _content.Load<Texture2D>("HUD/VidaIncompleta");
+            cuadroHabilidad = _content.Load<Texture2D>("HUD/Habilidad");
             _guita = _content.Load<Texture2D>("HUD/Guita");
-            cuadro = _content.Load<Texture2D>("Controles/boton");
             chocar = _content.Load<Texture2D>("Controles/boton");
             rChocar = new Rectangle(1900, 500, 40, 200);
         }
@@ -58,24 +72,50 @@ namespace BetaFoesAndBones.Vistas
 
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
-            
+
             _game.GraphicsDevice.Clear(Color.Black);
             spriteBatch.Begin(samplerState: SamplerState.PointClamp);
             Mapa.Draw(gameTime, spriteBatch);
             enemigo.Draw(gameTime, spriteBatch);
             felix.Draw(gameTime, spriteBatch);
             arma.Draw(gameTime, spriteBatch);
-            spriteBatch.Draw(_guita, new Rectangle(50, 100, 40, 40), Color.White);
-            spriteBatch.Draw(cuadro, new Rectangle(450, 50, 70, 40), Color.Red);
-            spriteBatch.Draw(cuadro, new Rectangle(450, 50, felix.disparo.TiempoDisparos, 40), Color.White);
-            spriteBatch.DrawString(_fuen, felix.disparo.Disparos.ToString(), new Vector2(400, 50), Color.White);
+            spriteBatch.Draw(_guita, new Rectangle(50, 155, 35, 35), Color.White);
+            //spriteBatch.Draw(llaves, new Rectangle(52, 200, 28, 45), Color.White);
+            //
+            //spriteBatch.Draw(cuadro, new Rectangle(450, 300, felix.disparo.TiempoDisparos, 40), Color.White);
+            //spriteBatch.DrawString(_fuen, felix.disparo.Disparos.ToString(), new Vector2(400, 300), Color.White);
             //spriteBatch.DrawString(_fuen, puntos.ToString() + " "+ felix.cambioH + " " + (Mapa.numCambioH / 93) + " " + Mapa.H, new Vector2(100, 100), Color.White);
 
-            spriteBatch.DrawString(_fuen, puntos.ToString() + " " + vidaCangrejo , new Vector2(100, 100), Color.White);
+            // if (felix.armasPiso.Count > 0)
+            //{
+            spriteBatch.DrawString(_fuen, puntos.ToString()/* + "  " + Mapa.cambio + "  " + Mapa.cambioV + "  " + felix.armasPiso[0].PosicionArma.X.ToString()*/, new Vector2(100, 147), Color.White);
+            //}
+            //else spriteBatch.DrawString(_fuen, puntos.ToString() + "  " + Mapa.cambio + "  " + Mapa.cambioV + "  " + Mapa.cambioH, new Vector2(50, 155), Color.White);
 
-            spriteBatch.Draw(_corazon,new Rectangle(50,50, 40, 40), Color.White);
-            spriteBatch.Draw(cuadro,new Rectangle(100,50,( felix.vida * 2), 40), Color.Red);
-            if(felix.habitacion == 11)
+            spriteBatch.Draw(CirculoUlti, new Rectangle(30, 30, 100, 100), Color.White);
+
+            if (felix.disparo.Disparos == 3)
+            {
+                spriteBatch.Draw(disparoMagia, new Rectangle(27, 15, 122, 132), Color.White);
+            }
+            else if (felix.disparo.Disparos == 2)
+            {
+                spriteBatch.Draw(disparoMagia2, new Rectangle(27, 15, 122, 132), Color.White);
+            }
+            else if (felix.disparo.Disparos == 1)
+            {
+                spriteBatch.Draw(disparoMagia1, new Rectangle(27, 15, 122, 132), Color.White);
+            }
+            else if (felix.disparo.Disparos == 0)
+            {
+                spriteBatch.Draw(disparoMagia0, new Rectangle(27, 15, 122, 132), Color.White);
+            }
+
+            spriteBatch.Draw(cuadro, new Rectangle(150, 50, (felix.vida * 3), 40), Color.White); //cuadro de vida
+            spriteBatch.Draw(cuadroVidaVacio, new Rectangle(150, 50, 302, 40), Color.White * 0.4f);
+            spriteBatch.Draw(cuadroHabilidad, new Rectangle(138, 95, 311, 70), Color.White);
+
+            if (felix.habitacion == 11)
             {
                 spriteBatch.Draw(cuadro, new Rectangle(400, 850, (int)vidaCangrejo, 40), Color.Red);
             }
