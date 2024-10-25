@@ -143,7 +143,7 @@ namespace BetaFoesAndBones.Personajes
             //_position = posicion;
             //_tamaño = tamaño;
             cuadrado = _content.Load<Texture2D>("Controles/boton");
-            _position = new Vector2(740, 440);
+            _position = new Vector2(880, 400);
             _velocity = new Vector2(40, 40);
 
 

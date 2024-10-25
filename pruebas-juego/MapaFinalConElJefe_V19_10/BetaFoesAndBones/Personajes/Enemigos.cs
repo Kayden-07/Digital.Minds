@@ -38,7 +38,6 @@ namespace BetaFoesAndBones.Personajes
         private Texture2D vulne_slime;
         private Texture2D vulne_elvira;
 
-
         private Texture2D cuerpoC;
         private Texture2D pinza1C;
         private Texture2D pinza2C;

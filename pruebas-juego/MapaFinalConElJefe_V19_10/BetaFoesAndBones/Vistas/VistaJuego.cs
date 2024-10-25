@@ -41,6 +41,9 @@ namespace BetaFoesAndBones.Vistas
         private Texture2D disparoMagia2;
         private Texture2D disparoMagia0;
 
+        private Texture2D Hab1Tuto;
+        private Texture2D Hab2Tuto;
+
         private Texture2D _guita;
 
         private Texture2D chocar;
@@ -60,6 +63,9 @@ namespace BetaFoesAndBones.Vistas
             disparoMagia1 = _content.Load<Texture2D>("HUD/CargaEs2");
             disparoMagia0 = _content.Load<Texture2D>("HUD/CargaEs3");
 
+            Hab1Tuto = _content.Load<Texture2D>("Tutorial/TutoHab1");
+            Hab2Tuto = _content.Load<Texture2D>("Tutorial/TutoHab2");
+
             cuadro = _content.Load<Texture2D>("HUD/VidaFelix");
             cuadroVidaVacio = _content.Load<Texture2D>("HUD/VidaIncompleta");
             cuadroHabilidad = _content.Load<Texture2D>("HUD/Habilidad");
@@ -72,14 +78,22 @@ namespace BetaFoesAndBones.Vistas
 
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
-
             _game.GraphicsDevice.Clear(Color.Black);
             spriteBatch.Begin(samplerState: SamplerState.PointClamp);
             Mapa.Draw(gameTime, spriteBatch);
+            if (felix.habitacion == 1)
+            {
+                spriteBatch.Draw(Hab1Tuto, new Rectangle(610, 420, 600, 600), Color.White * 0.59f);
+            }
+            if (felix.habitacion == 2)
+            {
+                spriteBatch.Draw(Hab2Tuto, new Rectangle(550, 450, 830, 700), Color.White * 0.59f);
+            }
             enemigo.Draw(gameTime, spriteBatch);
             felix.Draw(gameTime, spriteBatch);
             arma.Draw(gameTime, spriteBatch);
             spriteBatch.Draw(_guita, new Rectangle(50, 155, 35, 35), Color.White);
+
             //spriteBatch.Draw(llaves, new Rectangle(52, 200, 28, 45), Color.White);
             //
             //spriteBatch.Draw(cuadro, new Rectangle(450, 300, felix.disparo.TiempoDisparos, 40), Color.White);

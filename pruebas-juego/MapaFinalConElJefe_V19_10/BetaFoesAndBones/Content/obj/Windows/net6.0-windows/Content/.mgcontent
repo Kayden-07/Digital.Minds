@@ -4,6 +4,7 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Users/A-03/Desktop/Digital.Minds/pruebas-juego/MapaFinalConElJefe_V19_10/BetaFoesAndBones/Content/../../../../../TutoHab2.png</File>
     <File>C:/Users/A-03/Desktop/Digital.Minds/pruebas-juego/MapaFinalConElJefe_V19_10/BetaFoesAndBones/Content/../../../HUDmej_V20_10/BetaFoesAndBones/Content/HUD/Corazon.png</File>
     <File>C:/Users/A-03/Desktop/Digital.Minds/pruebas-juego/MapaFinalConElJefe_V19_10/BetaFoesAndBones/Content/../../../HUDmej_V20_10/BetaFoesAndBones/Content/HUD/Guita.png</File>
     <File>C:/Users/A-03/Desktop/Digital.Minds/pruebas-juego/MapaFinalConElJefe_V19_10/BetaFoesAndBones/Content/Controles/boton.png</File>
@@ -48,10 +49,13 @@
     <File>C:/Users/A-03/Desktop/Digital.Minds/pruebas-juego/MapaFinalConElJefe_V19_10/BetaFoesAndBones/Content/HUD/VidaIncompleta.png</File>
     <File>C:/Users/A-03/Desktop/Digital.Minds/pruebas-juego/MapaFinalConElJefe_V19_10/BetaFoesAndBones/Content/portada_inicio.png</File>
     <File>C:/Users/A-03/Desktop/Digital.Minds/pruebas-juego/MapaFinalConElJefe_V19_10/BetaFoesAndBones/Content/Tiles-SandstoneDungeons.png</File>
+    <File>C:/Users/A-03/Desktop/Digital.Minds/pruebas-juego/MapaFinalConElJefe_V19_10/BetaFoesAndBones/Content/Tutorial/TutoHab1.png</File>
   </SourceFiles>
   <DestFiles>
+    <File>Tutorial/TutoHab2.png</File>
     <File>HUD/Corazon.png</File>
     <File>HUD/Guita.png</File>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
