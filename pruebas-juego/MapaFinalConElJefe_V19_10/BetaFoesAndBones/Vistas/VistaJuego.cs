@@ -74,8 +74,6 @@ namespace BetaFoesAndBones.Vistas
             rChocar = new Rectangle(1900, 500, 40, 200);
         }
 
-        
-
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             _game.GraphicsDevice.Clear(Color.Black);
@@ -89,22 +87,13 @@ namespace BetaFoesAndBones.Vistas
             {
                 spriteBatch.Draw(Hab2Tuto, new Rectangle(550, 450, 830, 700), Color.White * 0.59f);
             }
+
             enemigo.Draw(gameTime, spriteBatch);
             felix.Draw(gameTime, spriteBatch);
             arma.Draw(gameTime, spriteBatch);
             spriteBatch.Draw(_guita, new Rectangle(50, 155, 35, 35), Color.White);
 
-            //spriteBatch.Draw(llaves, new Rectangle(52, 200, 28, 45), Color.White);
-            //
-            //spriteBatch.Draw(cuadro, new Rectangle(450, 300, felix.disparo.TiempoDisparos, 40), Color.White);
-            //spriteBatch.DrawString(_fuen, felix.disparo.Disparos.ToString(), new Vector2(400, 300), Color.White);
-            //spriteBatch.DrawString(_fuen, puntos.ToString() + " "+ felix.cambioH + " " + (Mapa.numCambioH / 93) + " " + Mapa.H, new Vector2(100, 100), Color.White);
-
-            // if (felix.armasPiso.Count > 0)
-            //{
             spriteBatch.DrawString(_fuen, puntos.ToString()/* + "  " + Mapa.cambio + "  " + Mapa.cambioV + "  " + felix.armasPiso[0].PosicionArma.X.ToString()*/, new Vector2(100, 147), Color.White);
-            //}
-            //else spriteBatch.DrawString(_fuen, puntos.ToString() + "  " + Mapa.cambio + "  " + Mapa.cambioV + "  " + Mapa.cambioH, new Vector2(50, 155), Color.White);
 
             spriteBatch.Draw(CirculoUlti, new Rectangle(30, 30, 100, 100), Color.White);
 
