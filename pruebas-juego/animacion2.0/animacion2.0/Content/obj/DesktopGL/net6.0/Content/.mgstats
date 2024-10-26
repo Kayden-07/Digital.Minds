@@ -1,6 +1,0 @@
-Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-<<<<<<< HEAD
-"C:/Users/Alumno/Desktop/muriel/Digital.Minds/pruebas-juego/animacion2.0/animacion2.0/Content/derecha.png","C:/Users/Alumno/Desktop/muriel/Digital.Minds/pruebas-juego/animacion2.0/animacion2.0/Content/bin/DesktopGL/Content/derecha.xnb","TextureProcessor","Texture2DContent",154504,3299281,0,2059023
-=======
-"C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/animacion2.0/animacion2.0/Content/derecha.png","C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/animacion2.0/animacion2.0/Content/bin/DesktopGL/Content/derecha.xnb","TextureProcessor","Texture2DContent",154504,3299281,0,2998475
->>>>>>> 7b2cf0ef7d9dd65f1c7356dc5730d744fab5d32a
