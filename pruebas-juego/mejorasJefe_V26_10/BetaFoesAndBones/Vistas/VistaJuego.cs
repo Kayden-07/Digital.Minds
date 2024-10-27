@@ -50,6 +50,7 @@ namespace BetaFoesAndBones.Vistas
         private Rectangle rChocar;
         public VistaJuego(Game1 game, GraphicsDevice graphicsDevice, ContentManager contenedor) : base(game, graphicsDevice, contenedor)
         {
+            
             vidaCangrejo = 0;
             Mapa = new Mapa(contenedor);
             felix = new Felix(game, graphicsDevice, contenedor, Mapa.coli, Mapa.habitaciones);
@@ -72,6 +73,7 @@ namespace BetaFoesAndBones.Vistas
             _guita = _content.Load<Texture2D>("HUD/Guita");
             chocar = _content.Load<Texture2D>("Controles/boton");
             rChocar = new Rectangle(1900, 500, 40, 200);
+            jC = new JefeCangrejo(_guita, _guita, _guita, _guita, _guita, _guita, new Vector2(0,0));
         }
 
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)

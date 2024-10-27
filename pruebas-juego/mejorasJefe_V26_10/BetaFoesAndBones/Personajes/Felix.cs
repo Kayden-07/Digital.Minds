@@ -17,6 +17,8 @@ namespace BetaFoesAndBones.Personajes
 {
     internal class Felix : Componentes
     {
+        private Vector2 Ptemp;
+
         public int H;
         private int Hsumando;
         private int procisionArmaHabitacionesGrandes;
@@ -95,6 +97,8 @@ namespace BetaFoesAndBones.Personajes
         private Dictionary<Vector2, int> habitacines;
         public Felix(Game1 game, GraphicsDevice graphicsDevice, ContentManager contenedor, Dictionary<Vector2, int> _coli, Dictionary<Vector2, int> habitacines)
         {
+            Ptemp = new Vector2(0,0);
+
             H = 0;
             Hsumando = 0;
 
@@ -215,7 +219,7 @@ namespace BetaFoesAndBones.Personajes
             enemigoHabitacionesGrandes();
 
             // Intersicciones
-            Vector2 temp = _position;
+            Ptemp = _position;
              _position.X += _velocity.X;
             intersections = getIntersectingTilesHorizontal(new Rectangle((int)_position.X, (int)_position.Y, 120, 120));
 
@@ -228,7 +232,7 @@ namespace BetaFoesAndBones.Personajes
                 {
                     if((enemigoList.Count > 0 || (enemigoList.Count <= 0 && _val != 5 && _val != 4 && _val != 57)) && _val != 0)
                     {
-                        _position = temp;
+                        _position = Ptemp;
                     }
                 }
             }
@@ -386,17 +390,53 @@ namespace BetaFoesAndBones.Personajes
             }
             foreach (Enemigo enemy in enemigoList.ToList())
             {
-                if (rCuerpo.Intersects(new Rectangle((int)enemy.Posicion.X, (int)enemy.Posicion.Y, 100, 100)))
+                if(enemy is not JefeCangrejo)
                 {
-                    daño = 0f;
-                    vida -= enemy.DañoEnemigo;
-                    enemy.Posicion = enemy.temp;
-                    colorF = Color.Red;
+                    if (rCuerpo.Intersects(new Rectangle((int)enemy.Posicion.X, (int)enemy.Posicion.Y, 100, 100)))
+                    {
+                        daño = 0f;
+                        vida -= enemy.DañoEnemigo;
+                        enemy.Posicion = enemy.temp;
+                        colorF = Color.Red;
+                    }
                 }
-                if (vida <= 0)
+                else
                 {
-                    _game.ChangeState(new VistaPerdiste(_game, _graphicsDevice, _content));
+                    JefeCangrejo c = (JefeCangrejo)enemy;
+                    foreach (Enemigo pC in c.partesCangrejo)
+                    {
+                        if (pC is CuerpoC)
+                        {
+                            if (rCuerpo.Intersects(new Rectangle((int)pC.Posicion.X, (int)pC.Posicion.Y - (int)enemy.Posicion.Y, (int)pC.Tamaño.X, (int)pC.Tamaño.Y)))
+                            {
+                                daño = 0f;
+                                vida -= pC.DañoEnemigo;
+                                colorF = Color.Red;
+                            }
+                        }
+                        else
+                        {
+                            Pinza pinza = (Pinza)pC;
+                            foreach (Rectangle rPinza in pinza.colisions)
+                            {
+                                if (rCuerpo.Intersects(rPinza))
+                                {
+                                    if(!pinza.reversa)
+                                    _position.X = _position.X + 40;
+                                    else _position.X = _position.X - 40;
+                                    daño = 0f;
+                                    vida -= pinza.DañoEnemigo;
+                                    colorF = Color.Red;
+                                }
+                            }
+                        }
+                    }
                 }
+                
+            }
+            if (vida <= 0)
+            {
+                _game.ChangeState(new VistaPerdiste(_game, _graphicsDevice, _content));
             }
         }
         private void desaparecerArmas()

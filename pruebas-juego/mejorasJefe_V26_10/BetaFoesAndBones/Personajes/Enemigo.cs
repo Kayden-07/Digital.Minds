@@ -161,10 +161,10 @@ namespace BetaFoesAndBones.Personajes
         public float radious;
         public List<Rectangle> colisions;
         private bool giroArriba;
-        private bool reversa;
+        public bool reversa;
 
         public Pinza(Texture2D textura, Texture2D texturaRota, Vector2 posicion, float _rotation, bool _giroArriba)
-            : base(textura, posicion, 80f, 2f, 200, 500, new Vector2(500, 200), 30, 4)
+            : base(textura, posicion, 80f, 2f, 200, 500, new Vector2(500, 200), 3, 4)
         {
             pinzaTex = textura;
             pinzaRotaTex = texturaRota;
@@ -247,8 +247,8 @@ namespace BetaFoesAndBones.Personajes
         {
             rotacionPinza1 = MathHelper.ToRadians(15);
             rotacionPinza2 = MathHelper.ToRadians(-80);
-            this.pinza1 = new Pinza(pinza1, pinza1ro, new Vector2((int)posicion.X + 450, (int)posicion.Y + 10),rotacionPinza1, true);
-            this.pinza2 = new Pinza(pinza2, pinza2ro, new Vector2((int)posicion.X + 450, (int)posicion.Y + 850), rotacionPinza2, false);
+            this.pinza1 = new Pinza(pinza1, pinza1ro, new Vector2((int)posicion.X + 410, (int)posicion.Y + 10),rotacionPinza1, true);
+            this.pinza2 = new Pinza(pinza2, pinza2ro, new Vector2((int)posicion.X + 410, (int)posicion.Y + 850), rotacionPinza2, false);
             this.cuerpo = new CuerpoC(cuerpo, new Vector2((int)posicion.X, (int)posicion.Y));
             partesCangrejo = new List<Enemigo>() { this.pinza1, this.pinza2, this.cuerpo};
             colCuerpo = colisionCuadrado;

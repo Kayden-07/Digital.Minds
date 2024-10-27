@@ -279,6 +279,7 @@ namespace BetaFoesAndBones.Personajes
                 }
                 else
                 {
+                    if (enemy.HP <= 0) enemigos.Remove(enemy);
                     JefeCangrejo c = (JefeCangrejo)enemy;
                     foreach(Enemigo pC in c.partesCangrejo)
                     {
@@ -296,7 +297,10 @@ namespace BetaFoesAndBones.Personajes
                                 {
                                     proyectilesE.Remove(p);
                                     daño = 0f;
-                                    pC.HP -= p.Daño;
+                                    if(c.pinza1.HP > 0 || c.pinza2.HP > 0)
+                                        pC.HP -= p.Daño / 4;
+                                    else
+                                        pC.HP -= p.Daño;
                                     pC.ColorE = Color.Red;
                                 }
                             }
