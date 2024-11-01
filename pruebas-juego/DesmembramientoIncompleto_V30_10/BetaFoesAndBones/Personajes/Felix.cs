@@ -94,6 +94,7 @@ namespace BetaFoesAndBones.Personajes
         private Texture2D cuadrado;
 
         public Armas armaver;
+        public List<Enemigo> enemigosMuertos;
 
         private int tilesTamaño = 93;
 
@@ -101,6 +102,7 @@ namespace BetaFoesAndBones.Personajes
         private Dictionary<Vector2, int> habitacines;
         public Felix(Game1 game, GraphicsDevice graphicsDevice, ContentManager contenedor, Dictionary<Vector2, int> _coli, Dictionary<Vector2, int> habitacines)
         {
+            enemigosMuertos = new List<Enemigo>();
             Ptemp = new Vector2(0,0);
 
             H = 0;
@@ -284,7 +286,22 @@ namespace BetaFoesAndBones.Personajes
             cambioHab = habitacion;
             if (cambioHab != habAnterior) 
             {
+                
+                
                 if(numArma == "a") armasPiso.Clear();
+                else
+                {
+                    int numero = int.Parse(numArma);
+                    for (int i = armasPiso.Count - 1; i >= 0; i--)
+                    {
+                        numArma = "a";
+                        if (i != numero)
+                        {
+                            armasPiso.RemoveAt(i);
+                        }
+                    }
+                    numArma = "0";
+                }
                 disparo.Borrar();
                 habAnterior = cambioHab;
             }
@@ -457,6 +474,7 @@ namespace BetaFoesAndBones.Personajes
                     var armaSuelta = armaver.SoltarArmaEnemy();
                     if (armaSuelta != null) // Verificar que no sea null
                     {
+                        enemigosMuertos.Add(enemy);
                         armasPiso.Add(armaSuelta);
                     }
                 }
@@ -495,7 +513,10 @@ namespace BetaFoesAndBones.Personajes
                 {
                         if (armasPiso[i].TiempoAntesDeDesaparecer > 1000)
                         {
+                            if(numArma!= "a" && (int.Parse(numArma) > i))
+                                numArma = (int.Parse(numArma) - 1).ToString();
                             armasPiso.Remove(armasPiso[i]);
+                            
                         }
                 }
             }
@@ -504,14 +525,38 @@ namespace BetaFoesAndBones.Personajes
         private void AgarrarArmaPiso()
         {
             if (numArma != "a")
-                armasPiso[int.Parse(numArma)].PosicionArma = new Vector2(rCuerpo.X, rCuerpo.Y);
+            {
+                if(armasPiso[int.Parse(numArma)] is PistolaElvira)
+                    armasPiso[int.Parse(numArma)].PosicionArma = new Vector2(rCuerpo.X + 50, rCuerpo.Y + 50);
+                else if (armasPiso[int.Parse(numArma)] is BastonBacteriano)
+                    armasPiso[int.Parse(numArma)].PosicionArma = new Vector2(rCuerpo.X + 50, rCuerpo.Y + 10);
+                else
+                    armasPiso[int.Parse(numArma)].PosicionArma = new Vector2(rCuerpo.X, rCuerpo.Y);
+            }
+
             for (int i = 0; i < armasPiso.Count; i++)
             {
-                if (rCuerpo.Intersects(new Rectangle((int)armasPiso[i].PosicionArma.X, (int)armasPiso[i].PosicionArma.Y, 100, 100)) && Keyboard.GetState().IsKeyDown(Keys.E) && yaToco == 1)
+                
+                if (rCuerpo.Intersects(new Rectangle((int)armasPiso[i].PosicionArma.X, (int)armasPiso[i].PosicionArma.Y, 100, 100)) && Keyboard.GetState().IsKeyDown(Keys.E))
                 {
-                    numArma = i.ToString();
-                    tieneArma = true;
+                    if ((numArma != "a" && i != int.Parse(numArma)) && yaToco == 0)
+                    {
+                        yaToco = 1;
+                        numArma = i.ToString();
+                        tieneArma = true;
+                    }
+                    if (numArma == "a")
+                    {
+                        numArma = i.ToString();
+                        tieneArma = true;
+                    }
+                    
                 }
+                if (Keyboard.GetState().IsKeyUp(Keys.E))
+                {
+                    yaToco = 0;
+                }
+
             }
         }
         private void moverseHabitacionesHorrizontal()
@@ -520,7 +565,7 @@ namespace BetaFoesAndBones.Personajes
             posicionParedesH = cambioH;
             foreach (var reac in intersections)
                 {
-                    for(int i = 8 ;i> 0; i--) { 
+                    for(int i = 9 ;i> 0; i--) { 
                         if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioH + i , reac.Y + cambioV), out int _val))
                         {
                             a = 1;
@@ -571,7 +616,7 @@ namespace BetaFoesAndBones.Personajes
             foreach (var reac in intersections)
             {
                 
-                for (int i = 7; i >= 0; i--)
+                for (int i = 8; i >= 0; i--)
                 {
                     if (coli.TryGetValue(new Vector2(reac.X - 1 + cambioH - i, reac.Y + cambioV), out int _val))
                     {

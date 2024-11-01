@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using SpriteBatch = Microsoft.Xna.Framework.Graphics.SpriteBatch;
 using BetaFoesAndBones.Vistas;
 using BetaFoesAndBones.Personajes;
+using SharpDX.Direct2D1;
 
 
 namespace BetaFoesAndBones.ArmasUniversal
@@ -40,7 +41,10 @@ namespace BetaFoesAndBones.ArmasUniversal
         public override void Draw(GameTime gameTime, SpriteBatch sprite)
         {
             if(ArmasLista.Count > 0)
-            sprite.Draw(ArmasLista[0].TexturaArma, new Rectangle((int)ArmasLista[0].PosicionArma.X, (int)ArmasLista[0].PosicionArma.Y, 130, 140), Color.White);
+                foreach (var arma in ArmasLista)
+                    sprite.Draw(arma.TexturaArma, new Rectangle((int)arma.PosicionArma.X, (int)arma.PosicionArma.Y, (int)arma.TamañoArma.X, (int)arma.TamañoArma.Y), Color.White);
+
+            //sprite.Draw(ArmasLista[0].TexturaArma, new Rectangle((int)ArmasLista[0].PosicionArma.X, (int)ArmasLista[0].PosicionArma.Y, 130, 140), Color.White);
 
         }
         public override void Update(GameTime gameTime)

@@ -43,6 +43,7 @@ namespace BetaFoesAndBones.Vistas
 
         private Texture2D Hab1Tuto;
         private Texture2D Hab2Tuto;
+        private Texture2D TirarArmaTuto;
 
         private Texture2D _guita;
 
@@ -66,6 +67,7 @@ namespace BetaFoesAndBones.Vistas
 
             Hab1Tuto = _content.Load<Texture2D>("Tutorial/TutoHab1");
             Hab2Tuto = _content.Load<Texture2D>("Tutorial/TutoHab2");
+            TirarArmaTuto = _content.Load<Texture2D>("Tutorial/LanzaeArma");
 
             cuadro = _content.Load<Texture2D>("HUD/VidaFelix");
             cuadroVidaVacio = _content.Load<Texture2D>("HUD/VidaIncompleta");
@@ -87,7 +89,8 @@ namespace BetaFoesAndBones.Vistas
             }
             if (felix.habitacion == 2)
             {
-                spriteBatch.Draw(Hab2Tuto, new Rectangle(550, 450, 830, 700), Color.White * 0.59f);
+                spriteBatch.Draw(TirarArmaTuto, new Rectangle(550, -50, 830, 700), Color.White * 0.59f);
+                spriteBatch.Draw(Hab2Tuto, new Rectangle(550, 550, 830, 700), Color.White * 0.59f);
             }
 
             enemigo.Draw(gameTime, spriteBatch);
@@ -95,7 +98,7 @@ namespace BetaFoesAndBones.Vistas
             arma.Draw(gameTime, spriteBatch);
             spriteBatch.Draw(_guita, new Rectangle(50, 155, 35, 35), Color.White);
 
-            spriteBatch.DrawString(_fuen, puntos.ToString() + "  " + jC.pinza1.HP, new Vector2(100, 147), Color.White);
+            //spriteBatch.DrawString(_fuen, puntos.ToString() + "  " + felix.tieneArma + "  felixArma:" + felix.numArma, new Vector2(100, 147), Color.White);
 
             spriteBatch.Draw(CirculoUlti, new Rectangle(30, 30, 100, 100), Color.White);
 
@@ -147,6 +150,7 @@ namespace BetaFoesAndBones.Vistas
             enemigo.felixLanzaArma = felix.lanzaArma;
             enemigo.armasPiso = felix.armasPiso;
             enemigo.numArma = felix.numArma;
+            enemigo.RecibirEnemigosMuertos(felix.enemigosMuertos);
             
             enemigo.proyectilesE = felix.disparo.proyectiles;
             enemigo.felix_posicion = felix._position;

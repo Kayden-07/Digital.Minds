@@ -75,14 +75,14 @@ namespace BetaFoesAndBones.ArmasUniversal
     }
     public class BastonBacteriano : Arma
     {
-        public BastonBacteriano(Texture2D texturaArma, Vector2 posicionArma) : base(texturaArma, posicionArma, new Vector2(150, 230), 3, 0)
+        public BastonBacteriano(Texture2D texturaArma, Vector2 posicionArma) : base(texturaArma, posicionArma, new Vector2(50, 100), 3, 0)
         {
 
         }
     }
     public class PistolaElvira : Arma
     {
-        public PistolaElvira(Texture2D texturaArma, Vector2 posicionArma) : base(texturaArma, posicionArma, new Vector2(150, 230), 3, 0)
+        public PistolaElvira(Texture2D texturaArma, Vector2 posicionArma) : base(texturaArma, posicionArma, new Vector2(90, 60), 3, 0)
         {
             {
 

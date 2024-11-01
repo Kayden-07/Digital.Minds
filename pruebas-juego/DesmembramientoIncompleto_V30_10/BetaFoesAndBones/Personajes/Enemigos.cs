@@ -53,7 +53,7 @@ namespace BetaFoesAndBones.Personajes
         private Dictionary<int, List<Enemigo>> mapaHabitaciones; //creo diccionario 
         private HashSet<int> habitacionesVisitadas; //creo una colección de elementos únicos
 
-
+        Slime slimeTuto;
 
         public Enemigos(Game1 game, ContentManager contenedor)
         {
@@ -90,6 +90,8 @@ namespace BetaFoesAndBones.Personajes
             vulne_elvir = new(7, 7, new System.Numerics.Vector2(300, 300));
             mapaHabitaciones = new Dictionary<int, List<Enemigo>>(); //creo un diccionario que almacena relación entre las habitaciones y los enemigos 
             habitacionesVisitadas = new HashSet<int>(); //creo una colección de elementos únicos
+
+            
 
             // Inicializar enemigos por habitación
             InicializarEnemigosPorHabitacion();
@@ -135,10 +137,9 @@ namespace BetaFoesAndBones.Personajes
             };
             mapaHabitaciones[1] = new List<Enemigo>
             {
-                                new Slime(slimeTextura, new Vector2(1400, 800)),
-
-                new Draconario(draconanioTextura, new Vector2(50, 50)),
-                //new JefeCangrejo(cuerpoC,pinza1C, pinza1roC,pinza2C,pinza2roC,cuadrado, new Vector2(150, 100)),
+                new Slime(slimeTextura, new Vector2(500, 800)),
+                new Slime(slimeTextura, new Vector2(1000, 800)),
+                new Slime(slimeTextura, new Vector2(1400, 800)),
             };
 
             //mapaHabitaciones[2] = new List<Enemigo>();
@@ -392,6 +393,26 @@ namespace BetaFoesAndBones.Personajes
                     else if (enemy.meAtacaron && !cuerpoEnemigo.Intersects(new Rectangle((int)armasPiso[numArmaLanzar].PosicionArma.X, (int)armasPiso[numArmaLanzar].PosicionArma.Y, 100, 100)))
                     {
                         enemy.meAtacaron = false;
+                    }
+                }
+            }
+        }
+
+        public void RecibirEnemigosMuertos(List<Enemigo> ene)
+        {
+            if(ene.Count > 0)
+            {
+                foreach (Enemigo enemy in enemigos.ToList()) 
+                { 
+                    foreach(Enemigo enemy2 in ene.ToList())
+                    {
+                        if (enemy == enemy2)
+                        {
+                            murio = 1;
+                            puntos += (int)enemy.Puntos;
+                            muerte = enemy.Posicion;
+                            enemigos.Remove(enemy);
+                        }
                     }
                 }
             }

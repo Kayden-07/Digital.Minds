@@ -203,6 +203,45 @@ namespace BetaFoesAndBones.Controles
                     disparos--;
             }
             }
+
+            if (armalanzar != "a" && armasAlanzar[int.Parse(armalanzar)] is PistolaElvira)
+            {
+                if (Keyboard.GetState().IsKeyDown(Keys.Space) && !disparoRealizado)
+                {
+                    if (ultimaTecla == Keys.W)
+                    {
+                        Vector2 direccion = new Vector2(felix_posicion.X, felix_posicion.Y - 10000) - felix_posicion;
+                        direccion.Normalize();
+                        Magia nuevoProyectil = new Magia(new Vector2(felix_posicion.X - 5, felix_posicion.Y - 65), direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
+                        proyectiles.Add(nuevoProyectil);
+                    }
+                    else if (ultimaTecla == Keys.S)
+                    {
+                        Vector2 direccion = new Vector2(felix_posicion.X, felix_posicion.Y + 10000) - felix_posicion;
+                        direccion.Normalize();
+                        Magia nuevoProyectil = new Magia(new Vector2(felix_posicion.X - 5, felix_posicion.Y + 100), direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
+                        proyectiles.Add(nuevoProyectil);
+                    }
+                    else if (ultimaTecla == Keys.A)
+                    {
+                        Vector2 direccion = new Vector2(felix_posicion.X - 10000, felix_posicion.Y) - felix_posicion;
+                        direccion.Normalize();
+                        Magia nuevoProyectil = new Magia(new Vector2(felix_posicion.X - 50, felix_posicion.Y + 20), direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
+                        proyectiles.Add(nuevoProyectil);
+                    }
+                    else if (ultimaTecla == Keys.D)
+                    {
+                        Vector2 direccion = new Vector2(felix_posicion.X + 10000, felix_posicion.Y) - felix_posicion;
+                        direccion.Normalize();
+                        Magia nuevoProyectil = new Magia(new Vector2(felix_posicion.X + 30, felix_posicion.Y + 20), direccion, magia_velocidad, magia_textura, 20); // Crea un nuevo objeto Magia
+                        proyectiles.Add(nuevoProyectil);
+                    }
+                    disparoRealizado = true;
+                    disparos--;
+                }
+            } 
+
+            if (armalanzar != "a") numArmaLanzar = int.Parse(armalanzar);
             if (felixTieneArma)
             {
                 if(armalanzar != "a") numArmaLanzar = int.Parse(armalanzar);
