@@ -419,7 +419,7 @@ namespace BetaFoesAndBones.Personajes
                             Pinza pinza = (Pinza)pC;
                             foreach (Rectangle rPinza in pinza.colisions)
                             {
-                                if (rCuerpo.Intersects(rPinza))
+                                if (rCuerpo.Intersects(rPinza) && pC.HP>0)
                                 {
                                     if(!pinza.reversa)
                                     _position.X = _position.X + 40;

@@ -350,12 +350,42 @@ namespace BetaFoesAndBones.Personajes
             {
                 foreach (Enemigo enemy in enemigos.ToList())
                 {
-                    if (areaAtaqueCortoAlcanze.Intersects(new Rectangle((int)enemy.Posicion.X, (int)enemy.Posicion.Y, (int)enemy.Tamaño.X, (int)enemy.Tamaño.Y)))
+                    if(enemy is not JefeCangrejo)
                     {
-                        // Recordar despues cambiar el daño del arma a una variable
-                        enemy.HP -= 10;
-                        enemy.Posicion = enemy.temp;
-                        enemy.ColorE = Color.Red;
+                        if (areaAtaqueCortoAlcanze.Intersects(new Rectangle((int)enemy.Posicion.X, (int)enemy.Posicion.Y, (int)enemy.Tamaño.X, (int)enemy.Tamaño.Y)))
+                        {
+                            // Recordar despues cambiar el daño del arma a una variable
+                            enemy.HP -= 10;
+                            enemy.Posicion = enemy.temp;
+                            enemy.ColorE = Color.Red;
+                        }
+                    }
+                    else
+                    {
+                        JefeCangrejo c = (JefeCangrejo)enemy;
+                        foreach (Enemigo pC in c.partesCangrejo)
+                        {
+                            if (pC is CuerpoC)
+                            {
+                                if (areaAtaqueCortoAlcanze.Intersects(new Rectangle((int)pC.Posicion.X, (int)pC.Posicion.Y - (int)enemy.Posicion.Y, (int)pC.Tamaño.X, (int)pC.Tamaño.Y)))
+                                {
+                                    pC.HP -= 10;
+                                    pC.ColorE = Color.Red;
+                                }
+                            }
+                            else
+                            {
+                                Pinza pinza = (Pinza)pC;
+                                foreach (Rectangle rPinza in pinza.colisions)
+                                {
+                                    if (areaAtaqueCortoAlcanze.Intersects(rPinza))
+                                    {
+                                        pC.HP -= 10;
+                                        pC.ColorE = Color.Red;
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
