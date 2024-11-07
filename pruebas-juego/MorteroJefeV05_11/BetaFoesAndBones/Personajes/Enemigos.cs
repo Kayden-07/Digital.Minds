@@ -141,7 +141,6 @@ namespace BetaFoesAndBones.Personajes
             };
             mapaHabitaciones[1] = new List<Enemigo>
             {
-                new Slime(slimeTextura, new Vector2(1000, 800)),
                 new JefeCangrejo(cuerpoC,pinza1C, pinza1roC,pinza2C,pinza2roC,cuadrado, new Vector2(150, 100), balaMortero)
 
             };

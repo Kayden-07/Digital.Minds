@@ -147,7 +147,6 @@ namespace BetaFoesAndBones.Vistas
                     {
                         felix.vida -= 20;
                     }
-
                 }
             }
 

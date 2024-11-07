@@ -67,7 +67,7 @@ namespace BetaFoesAndBones.Vistas
             disparoMagia0 = _content.Load<Texture2D>("HUD/CargaEs3");
 
             Hab1Tuto = _content.Load<Texture2D>("Tutorial/TutoHab1");
-            Hab2Tuto = _content.Load<Texture2D>("Tutorial/TutoHab2");
+            Hab2Tuto = _content.Load<Texture2D>("Tutorial/DesmemAgarrarTuto");
             TirarArmaTuto = _content.Load<Texture2D>("Tutorial/LanzaeArma");
 
             cuadro = _content.Load<Texture2D>("HUD/VidaFelix");
@@ -90,8 +90,8 @@ namespace BetaFoesAndBones.Vistas
             }
             if (felix.habitacion == 2)
             {
-                spriteBatch.Draw(TirarArmaTuto, new Rectangle(550, -50, 830, 700), Color.White * 0.59f);
-                spriteBatch.Draw(Hab2Tuto, new Rectangle(550, 550, 830, 700), Color.White * 0.59f);
+                spriteBatch.Draw(TirarArmaTuto, new Rectangle(600, 100, 750, 420), Color.White * 0.59f);
+                spriteBatch.Draw(Hab2Tuto, new Rectangle(550, 450, 830, 700), Color.White * 0.59f);
             }
 
             enemigo.Draw(gameTime, spriteBatch);
