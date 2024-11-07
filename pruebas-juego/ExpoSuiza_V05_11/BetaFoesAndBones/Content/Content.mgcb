@@ -555,6 +555,18 @@
 /processorParam:TextureFormat=Color
 /build:HUD/VidaIncompleta.png
 
+#begin portada_ganaste.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:portada_ganaste.png
+
 #begin portada_inicio.png
 /importer:TextureImporter
 /processor:TextureProcessor

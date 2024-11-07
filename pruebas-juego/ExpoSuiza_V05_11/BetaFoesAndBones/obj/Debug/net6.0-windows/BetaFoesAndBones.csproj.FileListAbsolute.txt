@@ -3334,3 +3334,4 @@ C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\ExpoSuiza_V05_11\Beta
 C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\ExpoSuiza_V05_11\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.pdb
 C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\ExpoSuiza_V05_11\BetaFoesAndBones\obj\Debug\net6.0-windows\BetaFoesAndBones.genruntimeconfig.cache
 C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\ExpoSuiza_V05_11\BetaFoesAndBones\obj\Debug\net6.0-windows\ref\BetaFoesAndBones.dll
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\ExpoSuiza_V05_11\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\portada_ganaste.xnb

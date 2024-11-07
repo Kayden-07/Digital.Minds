@@ -99,7 +99,7 @@ namespace BetaFoesAndBones.Vistas
             arma.Draw(gameTime, spriteBatch);
             spriteBatch.Draw(_guita, new Rectangle(50, 155, 35, 35), Color.White);
 
-            spriteBatch.DrawString(_fuen, puntos.ToString() + "  " + posicionSlie + "  felixArma:" + felix.numArma, new Vector2(100, 147), Color.White);
+            spriteBatch.DrawString(_fuen, puntos.ToString() , new Vector2(100, 147), Color.White);
 
             spriteBatch.Draw(CirculoUlti, new Rectangle(30, 30, 100, 100), Color.White);
 

@@ -50,6 +50,7 @@
     <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/ExpoSuiza_V05_11/BetaFoesAndBones/Content/HUD/UltInactivo.png</File>
     <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/ExpoSuiza_V05_11/BetaFoesAndBones/Content/HUD/VidaFelix.png</File>
     <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/ExpoSuiza_V05_11/BetaFoesAndBones/Content/HUD/VidaIncompleta.png</File>
+    <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/ExpoSuiza_V05_11/BetaFoesAndBones/Content/portada_ganaste.png</File>
     <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/ExpoSuiza_V05_11/BetaFoesAndBones/Content/portada_inicio.png</File>
     <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/ExpoSuiza_V05_11/BetaFoesAndBones/Content/Tiles-SandstoneDungeons.png</File>
     <File>C:/Users/MURIEL/Desktop/gitHub/Digital.Minds/pruebas-juego/ExpoSuiza_V05_11/BetaFoesAndBones/Content/Tutorial/LanzaeArma.png</File>
@@ -58,6 +59,7 @@
   <DestFiles>
     <File>HUD/Corazon.png</File>
     <File>HUD/Guita.png</File>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

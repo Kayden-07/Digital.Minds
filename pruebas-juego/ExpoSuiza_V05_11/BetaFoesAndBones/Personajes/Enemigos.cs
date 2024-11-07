@@ -1,4 +1,5 @@
 ﻿using BetaFoesAndBones.ArmasUniversal;
+using BetaFoesAndBones.Vistas;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
@@ -13,6 +14,7 @@ namespace BetaFoesAndBones.Personajes
 {
     internal class Enemigos : Componentes
     {
+        private bool finalJuego;
         public string numArma = "a";
         private int numArmaLanzar = 999;
         public List<Arma> armasPiso;
@@ -57,6 +59,7 @@ namespace BetaFoesAndBones.Personajes
 
         public Enemigos(Game1 game, ContentManager contenedor)
         {
+            finalJuego = false;
             armasPiso = new List<Arma>();
             areaAtaqueCortoAlcanze = new Rectangle((int)felix_posicion.X - 45, (int)felix_posicion.Y - 25, 170, 180);
             felixLanzaArma = false;
@@ -161,8 +164,10 @@ namespace BetaFoesAndBones.Personajes
                 new Slime(slimeTextura, new Vector2(1000, 800)),
                 new Bacteriano(bacterianoTextura, new Vector2(1400, 700)),
             };
-            mapaHabitaciones[11] = new List<Enemigo>
+            mapaHabitaciones[1] = new List<Enemigo>
             {
+                new Slime(slimeTextura, new Vector2(1000, 800)),
+
                 new JefeCangrejo(cuerpoC,pinza1C, pinza1roC,pinza2C,pinza2roC,cuadrado, new Vector2(150, 100))
             };
 
@@ -256,12 +261,21 @@ namespace BetaFoesAndBones.Personajes
             foreach (var enemigo in enemigos)
             {
                 enemigo.Update(gameTime, felix_posicion, _game.w, _game.h);
-                if(enemigo is JefeCangrejo)
+                if (enemigo is JefeCangrejo)
                 {
+                    finalJuego = true;
                     JefeCangrejo j = (JefeCangrejo)enemigo;
                     j.Actualizar(gameTime);
+                    if (finalJuego)
+                    {
+                        if (j.HP<= 0)
+                        {
+                            _game.ChangeState(new VistaGanaste(_game, _graphicsDevice, _content));
+                        }
+                    }
                 }
             }
+            
 
             foreach (Enemigo enemy in enemigos.ToList())
             {
@@ -409,7 +423,7 @@ namespace BetaFoesAndBones.Personajes
                                 Pinza pinza = (Pinza)pC;
                                 foreach (Rectangle rPinza in pinza.colisions)
                                 {
-                                    if (areaAtaqueCortoAlcanze.Intersects(rPinza))
+                                    if (areaAtaqueCortoAlcanze.Intersects(rPinza) && pC.HP > 0)
                                     {
                                         pC.HP -= 10;
                                         pC.ColorE = Color.Red;
