@@ -11,6 +11,7 @@ namespace BetaFoesAndBones.Controles
 {
     public class Boton : Componentes
     {
+        private bool presionoEspacio;
         //----------Variables-----------
         private MouseState _mouseActual;
 
@@ -46,6 +47,8 @@ namespace BetaFoesAndBones.Controles
 
         public Boton(Texture2D texture, SpriteFont fuente, int valor)
         {
+            presionoEspacio = false;
+
             _textura = texture;
             _fuente = fuente;
             LetraColor = Color.Black;
@@ -76,6 +79,7 @@ namespace BetaFoesAndBones.Controles
 
         public override void Update(GameTime gameTime)
         {
+            
             _mouseAnterior = _mouseActual;
             _mouseActual = Mouse.GetState();
 
@@ -85,9 +89,18 @@ namespace BetaFoesAndBones.Controles
             //_sobreBtn = false;
 
             // Pregunto si el mouse toca al rectangulo del boton
-            if (Keyboard.GetState().IsKeyDown(Keys.Enter) && _sobreBtn)
+            if (Keyboard.GetState().IsKeyDown(Keys.Space) && _sobreBtn)
             {
-                Click?.Invoke(this, new EventArgs());
+                presionoEspacio = true;
+                
+            }
+            if (presionoEspacio) 
+            {
+                if (Keyboard.GetState().IsKeyUp(Keys.Space) && _sobreBtn)
+                {
+                    Click?.Invoke(this, new EventArgs());
+                    presionoEspacio = false;
+                }
             }
             //if (mouse.Intersects(Rectangulo))
             //{

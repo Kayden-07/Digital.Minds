@@ -414,7 +414,7 @@ namespace BetaFoesAndBones.Personajes
             {
                 if(enemy is not JefeCangrejo)
                 {
-                    if (rCuerpo.Intersects(new Rectangle((int)enemy.Posicion.X, (int)enemy.Posicion.Y, (int)enemy.Tamaño.X, (int)enemy.Tamaño.X)))
+                    if (!enemy.EnemigoVulnerable && rCuerpo.Intersects(new Rectangle((int)enemy.Posicion.X, (int)enemy.Posicion.Y, (int)enemy.Tamaño.X, (int)enemy.Tamaño.X)))
                     {
                         daño = 0f;
                         vida -= enemy.DañoEnemigo;

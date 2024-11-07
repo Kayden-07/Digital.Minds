@@ -109,14 +109,14 @@ namespace BetaFoesAndBones.Vistas
                 else componente.SobreBtn = false;
                 componente.Update(gameTime);
             }
-            if (Keyboard.GetState().IsKeyDown(Keys.Right)) siguienteBtn = true;
-            if (Keyboard.GetState().IsKeyDown(Keys.Left)) anteriorBtn = true;
-            if (Keyboard.GetState().IsKeyUp(Keys.Right) && siguienteBtn)
+            if (Keyboard.GetState().IsKeyDown(Keys.D)) siguienteBtn = true;
+            if (Keyboard.GetState().IsKeyDown(Keys.A)) anteriorBtn = true;
+            if (Keyboard.GetState().IsKeyUp(Keys.D) && siguienteBtn)
             {
                 siguienteBtn = false;
                 valorActual = (valorActual < _componentes.Count) ? valorActual + 1 : 1;
             }
-            if (Keyboard.GetState().IsKeyUp(Keys.Left) && anteriorBtn)
+            if (Keyboard.GetState().IsKeyUp(Keys.A) && anteriorBtn)
             {
                 anteriorBtn = false;
                 valorActual = (valorActual > 1) ? valorActual - 1 : _componentes.Count;
