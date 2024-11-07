@@ -18,12 +18,6 @@ namespace BetaFoesAndBones.Controles
 {
     internal class Disparo : Componentes
     {
-
-        private List<Mortero> morteros;
-        private Texture2D morteroTextura;
-        private float tiempoTranscurrido;
-        private const float intervaloDisparo = 3f;
-
         private int disparos;
         private int tiemposDisparos;
         public int Disparos { get { return disparos; } }
@@ -78,14 +72,12 @@ namespace BetaFoesAndBones.Controles
             _content = contenedor;
             _game = game1;
             magia_textura = _content.Load<Texture2D>("Disparos/Disparito");
-            morteroTextura = _content.Load<Texture2D>("Enemigos/Slimep");
 
             magia_velocidad = 400f;
             felix_posicion = posicion;
 
             proyectiles = new List<Magia>();
-            morteros = new List<Mortero>();
-            tiempoTranscurrido = 0f;
+
         }
         public Texture2D Textura { get { return magia_textura; } set { magia_textura = value; } }
         public class Magia
@@ -150,9 +142,6 @@ namespace BetaFoesAndBones.Controles
                 //_spriteBatch.Draw(magia_textura, (proyectil.Posicion.X, proyectil.Posicion.Y), Color.White);
                 sprite.Draw(magia_textura, new Rectangle((int)proyectil.Posicion.X + 25, (int)proyectil.Posicion.Y + 25, 50, 50), Color.White);
             }
-
-            foreach (var mortero in morteros)
-                mortero.Draw(sprite);
         }
         public override void Update(GameTime gameTime)
         {
@@ -166,18 +155,7 @@ namespace BetaFoesAndBones.Controles
                 }
             }
 
-            tiempoTranscurrido += (float)gameTime.ElapsedGameTime.TotalSeconds; //mortero-------------
-
-            if (tiempoTranscurrido >= intervaloDisparo)
-            {
-                Mortero nuevoMortero = new Mortero(new Vector2(felix_posicion.X, felix_posicion.Y + -500), felix_posicion, 300f, morteroTextura, 50);
-                morteros.Add(nuevoMortero); 
-                tiempoTranscurrido = 0f; 
-            }
-            foreach (var mortero in morteros)
-                mortero.Actualizar(gameTime);
-
-            morteros.RemoveAll(m => m.AlcanzoDestino); //mortero-------------
+            
 
             if (Keyboard.GetState().IsKeyDown(Keys.W)) ultimaTecla = Keys.W;
 

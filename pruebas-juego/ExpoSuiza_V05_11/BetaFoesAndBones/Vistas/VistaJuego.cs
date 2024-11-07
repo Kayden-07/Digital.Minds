@@ -124,7 +124,7 @@ namespace BetaFoesAndBones.Vistas
             spriteBatch.Draw(cuadroVidaVacio, new Rectangle(150, 50, 302, 40), Color.White * 0.4f);
             spriteBatch.Draw(cuadroHabilidad, new Rectangle(138, 95, 311, 70), Color.White);
 
-            if (felix.habitacion == 1)
+            if (felix.habitacion == 11)
             {
                 spriteBatch.Draw(cuadro, new Rectangle(400, 850, (int)vidaCangrejo, 40), Color.Red);
             }

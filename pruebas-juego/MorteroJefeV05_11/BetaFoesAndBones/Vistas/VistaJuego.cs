@@ -75,7 +75,7 @@ namespace BetaFoesAndBones.Vistas
             _guita = _content.Load<Texture2D>("HUD/Guita");
             chocar = _content.Load<Texture2D>("Controles/boton");
             rChocar = new Rectangle(1900, 500, 40, 200);
-            jC = new JefeCangrejo(_guita, _guita, _guita, _guita, _guita, _guita, new Vector2(0,0));
+            jC = new JefeCangrejo(_guita, _guita, _guita, _guita, _guita, _guita, new Vector2(0,0), _guita);
         }
 
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
@@ -143,6 +143,11 @@ namespace BetaFoesAndBones.Vistas
                 {
                     jC = (JefeCangrejo)e;
                     vidaCangrejo = e.HP;
+                    if (jC.DañoExplosion)
+                    {
+                        felix.vida -= 20;
+                    }
+
                 }
             }
 

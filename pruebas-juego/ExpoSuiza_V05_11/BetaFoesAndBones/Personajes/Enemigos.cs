@@ -164,7 +164,7 @@ namespace BetaFoesAndBones.Personajes
                 new Slime(slimeTextura, new Vector2(1000, 800)),
                 new Bacteriano(bacterianoTextura, new Vector2(1400, 700)),
             };
-            mapaHabitaciones[1] = new List<Enemigo>
+            mapaHabitaciones[11] = new List<Enemigo>
             {
                 new Slime(slimeTextura, new Vector2(1000, 800)),
 
