@@ -5,10 +5,12 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using SharpDX.Direct3D9;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Metadata;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using static BetaFoesAndBones.Controles.Disparo;
@@ -20,9 +22,13 @@ namespace BetaFoesAndBones.Personajes
         private Vector2 Ptemp;
 
         public int H;
+        public int x;
         private int Hsumando;
         private int procisionArmaHabitacionesGrandes;
         private Rectangle areaAtaqueCortoAlcanze;
+
+
+        private Texture2D vulne_elvira;
 
         private Vector2 posicionOriginalArma;
         public string numArma = "a";
@@ -85,6 +91,7 @@ namespace BetaFoesAndBones.Personajes
         AnimationManager am;
         AnimationManager pm;
         AnimationManager pp;
+        AnimationManager des;
 
         private int activo;
         private float daño;
@@ -150,13 +157,14 @@ namespace BetaFoesAndBones.Personajes
             felix[3] = _content.Load<Texture2D>("Felix/Animacion_caminata_abajo_V4");
             felix[4] = _content.Load<Texture2D>("Felix/iddle_felix");
             felix[5] = _content.Load<Texture2D>("Felix/felix_v2");
+            vulne_elvira = _content.Load<Texture2D>("Enemigos/vulne_elvira");
             //_position = posicion;
             //_tamaño = tamaño;
             cuadrado = _content.Load<Texture2D>("Controles/boton");
             _position = new Vector2(880, 400);
             _velocity = new Vector2(40, 40);
 
-
+            des = new(5, 5, new System.Numerics.Vector2(300, 300));
             am = new(7, 7, new System.Numerics.Vector2(310, 215));
             pm = new(7, 7, new System.Numerics.Vector2(198, 215));
             pp = new(7, 7, new System.Numerics.Vector2(249, 225));
@@ -187,11 +195,14 @@ namespace BetaFoesAndBones.Personajes
                 sprite.Draw(felix[activo], new Rectangle((int)_position.X, (int)_position.Y, 100, 130), colorF);
 
             disparo.Draw(gameTime, sprite);
+
+           
             
         }
 
         public override void Update(GameTime gameTime)
         {
+            des.Update();
             if (H > 90) 
             {
                 Hsumando += 90;
@@ -464,12 +475,14 @@ namespace BetaFoesAndBones.Personajes
         private void Desmembramiento()
         {
             KeyboardState teclado = Keyboard.GetState();
-
+           
             foreach (Enemigo enemy in enemigoList.ToList())
             {
                 if (rCuerpo.Intersects(new Rectangle((int)enemy.Posicion.X, (int)enemy.Posicion.Y, (int)enemy.Tamaño.X, (int)enemy.Tamaño.Y))
-                    && teclado.IsKeyDown(Keys.E) && enemy.EnemigoVulnerable && yaToco == 0)
+                    && teclado.IsKeyDown(Keys.E) && enemy.EnemigoVulnerable && yaToco == 0  )
                 {
+                  
+
                     yaToco = 1;
                     var armaSuelta = armaver.SoltarArmaEnemy();
                     if (armaSuelta != null) // Verificar que no sea null
@@ -530,6 +543,8 @@ namespace BetaFoesAndBones.Personajes
                     armasPiso[int.Parse(numArma)].PosicionArma = new Vector2(rCuerpo.X + 50, rCuerpo.Y + 50);
                 else if (armasPiso[int.Parse(numArma)] is BastonBacteriano)
                     armasPiso[int.Parse(numArma)].PosicionArma = new Vector2(rCuerpo.X + 50, rCuerpo.Y + 10);
+                else if (armasPiso[int.Parse(numArma)] is LatigoSlime)
+                    armasPiso[int.Parse(numArma)].PosicionArma = new Vector2(rCuerpo.X + 60, rCuerpo.Y + 20);
                 else
                     armasPiso[int.Parse(numArma)].PosicionArma = new Vector2(rCuerpo.X, rCuerpo.Y);
             }
@@ -541,6 +556,7 @@ namespace BetaFoesAndBones.Personajes
                 {
                     if ((numArma != "a" && i != int.Parse(numArma)) && yaToco == 0)
                     {
+                      
                         yaToco = 1;
                         numArma = i.ToString();
                         tieneArma = true;

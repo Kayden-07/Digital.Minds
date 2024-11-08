@@ -7,6 +7,7 @@ using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Xml.Serialization;
 using static BetaFoesAndBones.Controles.Disparo;
 
@@ -76,9 +77,9 @@ namespace BetaFoesAndBones.Personajes
 
             cuerpoC = _content.Load<Texture2D>("Enemigos/jefeCangrejo/cuerpo");
             pinza1C = _content.Load<Texture2D>("Enemigos/jefeCangrejo/pinza1");
-            pinza1roC = _content.Load<Texture2D>("Enemigos/jefeCangrejo/pinza1r");
+            pinza1roC = _content.Load<Texture2D>("Enemigos/jefeCangrejo/Brazo_izquierdo_roto");
             pinza2C = _content.Load<Texture2D>("Enemigos/jefeCangrejo/pinza2");
-            pinza2roC = _content.Load<Texture2D>("Enemigos/jefeCangrejo/pinza2r");
+            pinza2roC = _content.Load<Texture2D>("Enemigos/jefeCangrejo/Brazo_derecho_roto");
             cuadrado = _content.Load<Texture2D>("Controles/boton");
 
             felix_posicion = new Vector2(300, 300);
@@ -244,6 +245,9 @@ namespace BetaFoesAndBones.Personajes
                 murio = 0;
             }
 
+           
+
+                
         }
 
         public override void Update(GameTime gameTime)

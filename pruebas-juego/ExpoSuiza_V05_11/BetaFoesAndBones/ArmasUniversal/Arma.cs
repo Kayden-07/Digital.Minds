@@ -68,7 +68,7 @@ namespace BetaFoesAndBones.ArmasUniversal
     }
     public class LatigoSlime : Arma
     {
-        public LatigoSlime(Texture2D texturaArma, Vector2 posicionArma) : base(texturaArma, posicionArma, new Vector2(150, 230), 3, 0)
+        public LatigoSlime(Texture2D texturaArma, Vector2 posicionArma) : base(texturaArma, posicionArma, new Vector2(80, 100), 3, 0)
         {
 
         }

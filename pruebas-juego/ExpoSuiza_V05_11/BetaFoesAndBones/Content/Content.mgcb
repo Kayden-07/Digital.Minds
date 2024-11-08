@@ -61,6 +61,18 @@
 /processorParam:TextureFormat=Color
 /build:Armas/Arma-elvira.png
 
+#begin Armas/Arma-slime.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Armas/Arma-slime.png
+
 #begin Controles/boton.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -144,6 +156,30 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Enemigos/explosion.png
+
+#begin Enemigos/jefeCangrejo/Brazo_derecho_roto.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Enemigos/jefeCangrejo/Brazo_derecho_roto.png
+
+#begin Enemigos/jefeCangrejo/Brazo_izquierdo_roto.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Enemigos/jefeCangrejo/Brazo_izquierdo_roto.png
 
 #begin Enemigos/jefeCangrejo/cuerpo.png
 /importer:TextureImporter

@@ -11,6 +11,8 @@ using SpriteBatch = Microsoft.Xna.Framework.Graphics.SpriteBatch;
 using BetaFoesAndBones.Vistas;
 using BetaFoesAndBones.Personajes;
 using SharpDX.Direct2D1;
+using SharpDX.Direct3D9;
+using System.Security.Policy;
 
 
 namespace BetaFoesAndBones.ArmasUniversal
@@ -20,9 +22,11 @@ namespace BetaFoesAndBones.ArmasUniversal
 
         public List<Arma> ArmasLista = new List<Arma>();
 
+        
         private Texture2D garroteTextura;
         private Texture2D ArmaBacteriano;
         private Texture2D ArmaElvira;
+        private Texture2D Arma_slime;
         public List<Enemigo> EnemigoLista;
 
         Garrote garrote;
@@ -31,9 +35,11 @@ namespace BetaFoesAndBones.ArmasUniversal
         {
             _content = contenedor;
             _game = game;
+            
             garroteTextura = _content.Load<Texture2D>("espada");
             ArmaBacteriano = _content.Load<Texture2D>("Armas/Arma-bactereano");
             ArmaElvira = _content.Load<Texture2D>("Armas/Arma-elvira");
+            Arma_slime = _content.Load<Texture2D>("Armas/Arma-slime");
             //garrote = new Garrote(garroteTextura, new Vector2(200, 100), new Vector2(0, 0));
             //ArmasLista.Add(garrote);
         }
@@ -62,7 +68,7 @@ namespace BetaFoesAndBones.ArmasUniversal
                         yatoco = 1;
                         if (EnemigoLista[EnemigoLista.Count - 1] is Slime && yatoco == 1)
                         {
-                            return new BastonBacteriano(ArmaBacteriano, EnemigoLista[EnemigoLista.Count - 1].Posicion);
+                            return new LatigoSlime(Arma_slime, EnemigoLista[EnemigoLista.Count - 1].Posicion);
                         }
                         else if (EnemigoLista[EnemigoLista.Count - 1] is Bacteriano && yatoco == 1)
                         {
