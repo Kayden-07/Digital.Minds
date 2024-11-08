@@ -188,6 +188,7 @@ namespace BetaFoesAndBones.Personajes
         public void Actualizar(GameTime gameTime)
         {
             Textura = (HP <= 0) ? pinzaRotaTex : pinzaTex;
+            Tamaño = (HP <= 0) ? new Vector2(200, 100) : new Vector2(500, 200);
 
 
             if (giroArriba)

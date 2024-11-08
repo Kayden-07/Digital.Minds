@@ -89,14 +89,14 @@ namespace BetaFoesAndBones.Controles
             //_sobreBtn = false;
 
             // Pregunto si el mouse toca al rectangulo del boton
-            if (Keyboard.GetState().IsKeyDown(Keys.Space) && _sobreBtn)
+            if (Keyboard.GetState().IsKeyDown(Keys.Enter) && _sobreBtn)
             {
                 presionoEspacio = true;
                 
             }
             if (presionoEspacio) 
             {
-                if (Keyboard.GetState().IsKeyUp(Keys.Space) && _sobreBtn)
+                if (Keyboard.GetState().IsKeyUp(Keys.Enter) && _sobreBtn)
                 {
                     Click?.Invoke(this, new EventArgs());
                     presionoEspacio = false;

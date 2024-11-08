@@ -3601,3 +3601,7 @@ C:\Users\kluni\Desktop\dip\Digital.Minds\pruebas-juego\ExpoSuiza_V05_11\BetaFoes
 C:\Users\kluni\Desktop\dip\Digital.Minds\pruebas-juego\ExpoSuiza_V05_11\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Armas\Arma-slime.xnb
 C:\Users\kluni\Desktop\dip\Digital.Minds\pruebas-juego\ExpoSuiza_V05_11\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\jefeCangrejo\Brazo_derecho_roto.xnb
 C:\Users\kluni\Desktop\dip\Digital.Minds\pruebas-juego\ExpoSuiza_V05_11\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\jefeCangrejo\Brazo_izquierdo_roto.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\ExpoSuiza_V05_11\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Armas\Arma-slime.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\ExpoSuiza_V05_11\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\jefeCangrejo\Brazo_derecho_roto.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\ExpoSuiza_V05_11\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Enemigos\jefeCangrejo\Brazo_izquierdo_roto.xnb
+C:\Users\MURIEL\Desktop\gitHub\Digital.Minds\pruebas-juego\ExpoSuiza_V05_11\BetaFoesAndBones\bin\Debug\net6.0-windows\Content\Tutorial\DesmemAgarrarTuto.xnb
