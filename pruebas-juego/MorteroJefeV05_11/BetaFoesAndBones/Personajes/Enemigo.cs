@@ -329,9 +329,10 @@ namespace BetaFoesAndBones.Personajes
                 }
             }
             
-            for(int i = morteros.Count - 1; i == 0; i--)
+            for(int i = morteros.Count - 1; i >= 0; i--)
             {
-                if (morteros[i].AlcanzoDestino) areaImpact.RemoveAt(i);
+                if (morteros[i].AlcanzoDestino)
+                    areaImpact.RemoveAt(i);
             }
             morteros.RemoveAll(m => m.AlcanzoDestino); //mortero-------------
         }

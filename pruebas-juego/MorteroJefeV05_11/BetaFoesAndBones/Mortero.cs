@@ -25,7 +25,7 @@ namespace BetaFoesAndBones
             this.velocidad = 200;
         }
 
-        public bool AlcanzoDestino => Vector2.Distance(posicion, objetivo) < 5f; // Verifica si alcanzó el objetivo
+        public bool AlcanzoDestino => Vector2.Distance(posicion, objetivo) < 50f; // Verifica si alcanzó el objetivo
 
         //public Mortero(Vector2 posicionInicial, Vector2 posicionObjetivo, float velocidad, Texture2D textura, float daño)
         //{
