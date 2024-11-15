@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\alumno\\desktop\\digital.minds\\pruebas-juego\\desmenbramiento_a_v15_11\\betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\alumno\\desktop\\digital.minds\\pruebas-juego\\desmenbramiento_a_v15_11\\betafoesandbones\\personajes\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\alumno\\desktop\\digital.minds\\pruebas-juego\\desmenbramiento_a_v15_11\\betafoesandbones\\personajes\\enemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\enemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\alumno\\desktop\\digital.minds\\pruebas-juego\\desmenbramiento_a_v15_11\\betafoesandbones\\vistas\\vistamenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\vistas\\vistamenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\alumno\\desktop\\digital.minds\\pruebas-juego\\desmenbramiento_a_v15_11\\betafoesandbones\\vistas\\vistaperdiste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\vistas\\vistaperdiste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\alumno\\desktop\\digital.minds\\pruebas-juego\\desmenbramiento_a_v15_11\\betafoesandbones\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\alumno\\desktop\\digital.minds\\pruebas-juego\\desmenbramiento_a_v15_11\\betafoesandbones\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\alumno\\desktop\\digital.minds\\pruebas-juego\\desmenbramiento_a_v15_11\\betafoesandbones\\controles\\boton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\controles\\boton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\alumno\\desktop\\digital.minds\\pruebas-juego\\desmenbramiento_a_v15_11\\betafoesandbones\\armasuniversal\\armas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\armasuniversal\\armas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\alumno\\desktop\\digital.minds\\pruebas-juego\\desmenbramiento_a_v15_11\\betafoesandbones\\armasuniversal\\arma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\armasuniversal\\arma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Felix.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\BetaFoesAndBones\\Personajes\\Felix.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Personajes\\Felix.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\BetaFoesAndBones\\Personajes\\Felix.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Personajes\\Felix.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAkwN4AAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T20:17:01.1Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enemigos.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\BetaFoesAndBones\\Personajes\\Enemigos.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Personajes\\Enemigos.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\BetaFoesAndBones\\Personajes\\Enemigos.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Personajes\\Enemigos.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAiwKcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T16:12:48.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Arma.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\BetaFoesAndBones\\ArmasUniversal\\Arma.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\ArmasUniversal\\Arma.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\BetaFoesAndBones\\ArmasUniversal\\Arma.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\ArmasUniversal\\Arma.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAYwEYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T01:34:43.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Armas.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\BetaFoesAndBones\\ArmasUniversal\\Armas.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\ArmasUniversal\\Armas.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\BetaFoesAndBones\\ArmasUniversal\\Armas.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\ArmasUniversal\\Armas.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwEYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T00:30:22.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Boton.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\BetaFoesAndBones\\Controles\\Boton.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Controles\\Boton.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\BetaFoesAndBones\\Controles\\Boton.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Controles\\Boton.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAcwGIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T19:01:33.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VistaJuego.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T18:27:50.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\BetaFoesAndBones\\Game1.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Game1.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\BetaFoesAndBones\\Game1.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Game1.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA1wCwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:33:48.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VistaMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\BetaFoesAndBones\\Vistas\\VistaMenu.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Vistas\\VistaMenu.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\BetaFoesAndBones\\Vistas\\VistaMenu.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Vistas\\VistaMenu.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwHUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:29:44.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VistaPerdiste.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\BetaFoesAndBones\\Vistas\\VistaPerdiste.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Vistas\\VistaPerdiste.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\BetaFoesAndBones\\Vistas\\VistaPerdiste.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Vistas\\VistaPerdiste.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T00:15:36.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Enemigo.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\BetaFoesAndBones\\Personajes\\Enemigo.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Personajes\\Enemigo.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\Desmenbramiento_A_V15_11\\BetaFoesAndBones\\Personajes\\Enemigo.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Personajes\\Enemigo.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwL4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T00:42:50.125Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
