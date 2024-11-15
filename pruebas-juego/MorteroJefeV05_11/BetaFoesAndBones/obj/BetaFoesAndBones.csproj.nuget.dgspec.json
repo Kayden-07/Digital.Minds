@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\MorteroJefeV05_11\\BetaFoesAndBones\\BetaFoesAndBones.csproj": {}
+    "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\MorteroJefeV05_11\\BetaFoesAndBones\\BetaFoesAndBones.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\MorteroJefeV05_11\\BetaFoesAndBones\\BetaFoesAndBones.csproj": {
+    "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\MorteroJefeV05_11\\BetaFoesAndBones\\BetaFoesAndBones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\MorteroJefeV05_11\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
+        "projectUniqueName": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\MorteroJefeV05_11\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
         "projectName": "BetaFoesAndBones",
-        "projectPath": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\MorteroJefeV05_11\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
-        "packagesPath": "C:\\Users\\A-04\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\MorteroJefeV05_11\\BetaFoesAndBones\\obj\\",
+        "projectPath": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\MorteroJefeV05_11\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
+        "packagesPath": "C:\\Users\\A-03\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\MorteroJefeV05_11\\BetaFoesAndBones\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\A-04\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\A-03\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

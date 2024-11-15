@@ -19,7 +19,6 @@ namespace BetaFoesAndBones.Personajes
 {
     public abstract class Enemigo 
     {
-        private Vector2 posicionFelix; 
         private Texture2D textura;
         private Vector2 posicion;
         private float velocidad;
@@ -35,11 +34,6 @@ namespace BetaFoesAndBones.Personajes
         private bool enemigoVulnerable = false;
         private float tiempoVulnerable;
 
-        public Vector2 PosicionFelix
-        {
-            get { return posicionFelix; }
-            set { posicionFelix = value; }
-        }
         public bool EnemigoVulnerable
         {
             get { return enemigoVulnerable; }
@@ -117,7 +111,6 @@ namespace BetaFoesAndBones.Personajes
             EnemigoVulnerable = enemigoVulnerable;
             this.tiempoVulnerable = 0;
             this.enemigoVulnerable = false;
-            posicionFelix = new Vector2(0,0);
         }
 
         public void Update(GameTime gameTime, Vector2 felix_posicion, int windowWidth, int windowHeight)

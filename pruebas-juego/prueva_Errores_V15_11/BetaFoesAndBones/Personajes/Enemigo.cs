@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using BetaFoesAndBones.ArmasUniversal;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using SharpDX;
@@ -17,7 +18,7 @@ using Vector2 = Microsoft.Xna.Framework.Vector2;
 
 namespace BetaFoesAndBones.Personajes
 {
-    public abstract class Enemigo 
+    public abstract class Enemigo
     {
         private Texture2D textura;
         private Vector2 posicion;
@@ -130,7 +131,7 @@ namespace BetaFoesAndBones.Personajes
     public class Slime : Enemigo
     {
         public Slime(Texture2D textura, Vector2 posicion)
-            : base(textura, posicion, 160f, 3f, 20, 100,new Vector2(100,100), 5,1)
+            : base(textura, posicion, 160f, 3f, 20, 100, new Vector2(100, 100), 5, 1)
         {
 
         }
@@ -237,6 +238,14 @@ namespace BetaFoesAndBones.Personajes
 
     public class JefeCangrejo : Enemigo
     {
+        public bool DañoExplosion;
+        List<Rectangle> areaImpact = new List<Rectangle>();
+        private List<Mortero> morteros;
+        private Texture2D morteroTextura;
+        private float tiempoTranscurrido;
+        private const float intervaloDisparo = 3f;
+        private Vector2 posicionFelix;
+
         float rotacionPinza1;
         float rotacionPinza2;
         Texture2D colCuerpo;
@@ -246,8 +255,10 @@ namespace BetaFoesAndBones.Personajes
         public CuerpoC cuerpo;
         private bool reversa1;
         private bool reversa2;
-        public JefeCangrejo(Texture2D cuerpo, Texture2D pinza1, Texture2D pinza1ro, Texture2D pinza2, Texture2D pinza2ro, Texture2D colisionCuadrado, Vector2 posicion) : base(cuerpo, posicion, 0f, 5f, 500, 2000, new Vector2(565, 630), 20, 6)
+        public JefeCangrejo(Texture2D cuerpo, Texture2D pinza1, Texture2D pinza1ro, Texture2D pinza2, Texture2D pinza2ro, Texture2D colisionCuadrado, Vector2 posicion, Texture2D texturaMortero) : base(cuerpo, posicion, 0f, 5f, 500, 2000, new Vector2(565, 630), 20, 6)
         {
+            DañoExplosion = false;
+            morteroTextura = texturaMortero;
             rotacionPinza1 = MathHelper.ToRadians(15);
             rotacionPinza2 = MathHelper.ToRadians(-80);
             this.pinza1 = new Pinza(pinza1, pinza1ro, new Vector2((int)posicion.X + 410, (int)posicion.Y + 10), rotacionPinza1, true);
@@ -258,6 +269,10 @@ namespace BetaFoesAndBones.Personajes
             reversa1 = false;
             reversa2 = false;
 
+            morteros = new List<Mortero>();
+            areaImpact = new List<Rectangle>();
+            tiempoTranscurrido = 0f;
+            posicionFelix = new Vector2(0, 0);
         }
         public void Draw(GameTime gameTime, SpriteBatch sprite)
         {
@@ -269,11 +284,52 @@ namespace BetaFoesAndBones.Personajes
             //    sprite.Draw(colCuerpo, colision, Color.White);
             //foreach (Rectangle colision in pinza2.colisions)
             //    sprite.Draw(colCuerpo, colision, Color.White);
+            foreach (var mortero in morteros)
+                mortero.Draw(sprite);
+            foreach (var area in areaImpact)
+                sprite.Draw(morteroTextura, area, cuerpo.ColorE);
         }
-        public void Actualizar(GameTime gameTime)
+        public void Actualizar(GameTime gameTime, Vector2 felixPosicion)
         {
+            if (DañoExplosion)
+                DañoExplosion = false;
+            posicionFelix = felixPosicion;
+
             pinza1.Actualizar(gameTime);
             pinza2.Actualizar(gameTime);
+
+            tiempoTranscurrido += (float)gameTime.ElapsedGameTime.TotalSeconds; //mortero-------------
+
+            if (tiempoTranscurrido >= intervaloDisparo)
+            {
+                Mortero nuevoMortero = new Mortero(posicionFelix, morteroTextura, new Vector2(posicionFelix.X, -10), 50, 10, 1, 0, new Vector2(50, 50), 20, 6);
+                morteros.Add(nuevoMortero);
+                areaImpact.Add(new Rectangle((int)posicionFelix.X, (int)posicionFelix.Y, 100, 100));
+                tiempoTranscurrido = 0f;
+            }
+            foreach (var mortero in morteros)
+                mortero.Actualizar(gameTime);
+
+            if (morteros.Count != 0)
+            {
+                for (int i = 0; i < morteros.Count; i++)
+                {
+                    if (morteros[i].AlcanzoDestino)
+                    {
+                        if (areaImpact[i].Intersects(new Rectangle((int)posicionFelix.X + 15, (int)posicionFelix.Y, 50, 120)))
+                        {
+                            DañoExplosion = true;
+                        }
+                    }
+                }
+            }
+
+            for (int i = morteros.Count - 1; i >= 0; i--)
+            {
+                if (morteros[i].AlcanzoDestino)
+                    areaImpact.RemoveAt(i);
+            }
+            morteros.RemoveAll(m => m.AlcanzoDestino); //mortero-------------
         }
     }
 }

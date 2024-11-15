@@ -1,33 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\",
+  "WorkspaceRootPath": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\alumno\\desktop\\digital.minds\\pruebas-juego\\prueva_errores_v15_11\\betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\alumno\\desktop\\digital.minds\\pruebas-juego\\prueva_errores_v15_11\\betafoesandbones\\controles\\disparo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\controles\\disparo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\alumno\\desktop\\digital.minds\\pruebas-juego\\prueva_errores_v15_11\\betafoesandbones\\personajes\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\a-03\\desktop\\digital.minds\\pruebas-juego\\prueva_errores_v15_11\\betafoesandbones\\personajes\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\enemigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\alumno\\desktop\\digital.minds\\pruebas-juego\\prueva_errores_v15_11\\betafoesandbones\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\a-03\\desktop\\digital.minds\\pruebas-juego\\prueva_errores_v15_11\\betafoesandbones\\controles\\disparo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\controles\\disparo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\a-03\\desktop\\digital.minds\\pruebas-juego\\prueva_errores_v15_11\\betafoesandbones\\armasuniversal\\mortero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\armasuniversal\\mortero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\a-03\\desktop\\digital.minds\\pruebas-juego\\prueva_errores_v15_11\\betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\felix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\a-03\\desktop\\digital.minds\\pruebas-juego\\prueva_errores_v15_11\\betafoesandbones\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\vistas\\vistajuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\alumno\\desktop\\digital.minds\\pruebas-juego\\prueva_errores_v15_11\\betafoesandbones\\controles\\boton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\a-03\\desktop\\digital.minds\\pruebas-juego\\prueva_errores_v15_11\\betafoesandbones\\personajes\\enemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\personajes\\enemigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\a-03\\desktop\\digital.minds\\pruebas-juego\\prueva_errores_v15_11\\betafoesandbones\\controles\\boton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\controles\\boton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\alumno\\desktop\\digital.minds\\pruebas-juego\\prueva_errores_v15_11\\betafoesandbones\\armasuniversal\\arma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\a-03\\desktop\\digital.minds\\pruebas-juego\\prueva_errores_v15_11\\betafoesandbones\\armasuniversal\\arma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\armasuniversal\\arma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\alumno\\desktop\\digital.minds\\pruebas-juego\\prueva_errores_v15_11\\betafoesandbones\\armasuniversal\\armas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|c:\\users\\a-03\\desktop\\digital.minds\\pruebas-juego\\prueva_errores_v15_11\\betafoesandbones\\armasuniversal\\armas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{712D7DFD-0E25-49C9-9B07-AAF89C4B9744}|BetaFoesAndBones\\BetaFoesAndBones.csproj|solutionrelative:betafoesandbones\\armasuniversal\\armas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,82 +46,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Felix.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Personajes\\Felix.cs",
+              "DocumentMoniker": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Personajes\\Felix.cs",
               "RelativeDocumentMoniker": "BetaFoesAndBones\\Personajes\\Felix.cs",
-              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Personajes\\Felix.cs",
+              "ToolTip": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Personajes\\Felix.cs",
               "RelativeToolTip": "BetaFoesAndBones\\Personajes\\Felix.cs",
-              "ViewState": "AgIAAMAAAAAAAAAAAAAYwNgAAABvAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T20:17:01.1Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Enemigo.cs",
+              "DocumentMoniker": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Personajes\\Enemigo.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\Personajes\\Enemigo.cs",
+              "ToolTip": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Personajes\\Enemigo.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\Personajes\\Enemigo.cs",
+              "ViewState": "AQIAADwBAAAAAAAAAADwv04BAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T20:37:11.072Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mortero.cs",
+              "DocumentMoniker": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\ArmasUniversal\\Mortero.cs",
+              "RelativeDocumentMoniker": "BetaFoesAndBones\\ArmasUniversal\\Mortero.cs",
+              "ToolTip": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\ArmasUniversal\\Mortero.cs",
+              "RelativeToolTip": "BetaFoesAndBones\\ArmasUniversal\\Mortero.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T20:36:00.579Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Disparo.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Controles\\Disparo.cs",
+              "DocumentMoniker": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Controles\\Disparo.cs",
               "RelativeDocumentMoniker": "BetaFoesAndBones\\Controles\\Disparo.cs",
-              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Controles\\Disparo.cs",
+              "ToolTip": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Controles\\Disparo.cs",
               "RelativeToolTip": "BetaFoesAndBones\\Controles\\Disparo.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYBAAAnAAAAAAAAAA==",
+              "ViewState": "AQIAACYAAAAAAAAAAAAWwDYAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T17:30:06.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Enemigos.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Personajes\\Enemigos.cs",
+              "DocumentMoniker": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Personajes\\Enemigos.cs",
               "RelativeDocumentMoniker": "BetaFoesAndBones\\Personajes\\Enemigos.cs",
-              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Personajes\\Enemigos.cs",
+              "ToolTip": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Personajes\\Enemigos.cs",
               "RelativeToolTip": "BetaFoesAndBones\\Personajes\\Enemigos.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAArwHgAAABKAAAA",
+              "ViewState": "AQIAAOIAAAAAAAAAAAAjwPMAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T16:12:48.147Z"
+              "WhenOpened": "2024-10-04T16:12:48.147Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Arma.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\ArmasUniversal\\Arma.cs",
+              "DocumentMoniker": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\ArmasUniversal\\Arma.cs",
               "RelativeDocumentMoniker": "BetaFoesAndBones\\ArmasUniversal\\Arma.cs",
-              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\ArmasUniversal\\Arma.cs",
+              "ToolTip": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\ArmasUniversal\\Arma.cs",
               "RelativeToolTip": "BetaFoesAndBones\\ArmasUniversal\\Arma.cs",
               "ViewState": "AQIAAEAAAAAAAAAAAAAYwEYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -121,11 +128,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Armas.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\ArmasUniversal\\Armas.cs",
+              "DocumentMoniker": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\ArmasUniversal\\Armas.cs",
               "RelativeDocumentMoniker": "BetaFoesAndBones\\ArmasUniversal\\Armas.cs",
-              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\ArmasUniversal\\Armas.cs",
+              "ToolTip": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\ArmasUniversal\\Armas.cs",
               "RelativeToolTip": "BetaFoesAndBones\\ArmasUniversal\\Armas.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAAgwEYAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -133,11 +140,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Boton.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Controles\\Boton.cs",
+              "DocumentMoniker": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Controles\\Boton.cs",
               "RelativeDocumentMoniker": "BetaFoesAndBones\\Controles\\Boton.cs",
-              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Controles\\Boton.cs",
+              "ToolTip": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Controles\\Boton.cs",
               "RelativeToolTip": "BetaFoesAndBones\\Controles\\Boton.cs",
               "ViewState": "AQIAAFcAAAAAAAAAAAAcwGIAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -145,15 +152,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "VistaJuego.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "DocumentMoniker": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
               "RelativeDocumentMoniker": "BetaFoesAndBones\\Vistas\\VistaJuego.cs",
-              "ToolTip": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
+              "ToolTip": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\Vistas\\VistaJuego.cs",
               "RelativeToolTip": "BetaFoesAndBones\\Vistas\\VistaJuego.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAhwHsAAABdAAAA",
+              "ViewState": "AQIAAD0AAAAAAAAAAADwv08AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T18:27:50.241Z"
+              "WhenOpened": "2024-11-07T18:27:50.241Z",
+              "EditorCaption": ""
             }
           ]
         }
