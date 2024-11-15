@@ -19,6 +19,9 @@ namespace BetaFoesAndBones.Personajes
 {
     internal class Felix : Componentes
     {
+        private int tiempo;
+        private int ejecucion;
+
         private Vector2 Ptemp;
 
         public int H;
@@ -28,7 +31,9 @@ namespace BetaFoesAndBones.Personajes
         private Rectangle areaAtaqueCortoAlcanze;
 
 
-        private Texture2D vulne_elvira;
+        private Texture2D ejec_slime;
+        private Texture2D ejec_elvira;
+        private Texture2D ejec_bacteriano;
 
         private Vector2 posicionOriginalArma;
         public string numArma = "a";
@@ -61,7 +66,7 @@ namespace BetaFoesAndBones.Personajes
         private int tempCambioV;
         public int cambioH;
         private int cambioV;
-        public  int Mapa;
+        public int Mapa;
         public int MapaHorizontal;
         public int MapaVertical;
 
@@ -92,7 +97,9 @@ namespace BetaFoesAndBones.Personajes
         AnimationManager pm;
         AnimationManager pp;
         AnimationManager des;
-
+        AnimationManager ejec1;
+        AnimationManager ejec2;
+        AnimationManager ejec3;
         private int activo;
         private float daño;
 
@@ -157,7 +164,10 @@ namespace BetaFoesAndBones.Personajes
             felix[3] = _content.Load<Texture2D>("Felix/Animacion_caminata_abajo_V4");
             felix[4] = _content.Load<Texture2D>("Felix/iddle_felix");
             felix[5] = _content.Load<Texture2D>("Felix/felix_v2");
-            vulne_elvira = _content.Load<Texture2D>("Enemigos/vulne_elvira");
+            ejec_slime = _content.Load<Texture2D>("Enemigos/Desmenbramiento_slim");
+            ejec_elvira = _content.Load<Texture2D>("Enemigos/Desmenbramiento_elvira");
+            ejec_bacteriano = _content.Load<Texture2D>("Enemigos/Desmenbramiento_bacteriano");
+
             //_position = posicion;
             //_tamaño = tamaño;
             cuadrado = _content.Load<Texture2D>("Controles/boton");
@@ -165,6 +175,9 @@ namespace BetaFoesAndBones.Personajes
             _velocity = new Vector2(40, 40);
 
             des = new(5, 5, new System.Numerics.Vector2(300, 300));
+            ejec1 = new(10, 10, new System.Numerics.Vector2(300, 300));
+            ejec2 = new(11, 11, new System.Numerics.Vector2(300, 300));
+            ejec3 = new(10, 10, new System.Numerics.Vector2(300, 300));
             am = new(7, 7, new System.Numerics.Vector2(310, 215));
             pm = new(7, 7, new System.Numerics.Vector2(198, 215));
             pp = new(7, 7, new System.Numerics.Vector2(249, 225));
@@ -181,27 +194,53 @@ namespace BetaFoesAndBones.Personajes
         {
             //sprite.Draw(cuadrado, areaAtaqueCortoAlcanze, Color.Blue);
             //sprite.Draw(cuadrado, new Rectangle((int)_position.X + 15, (int)_position.Y, 50, 120), Color.Red);
-            if (activo <= 0)
-                sprite.Draw(felix[activo], new Rectangle(rFelix.X - 70, rFelix.Y, rFelix.Width, rFelix.Height), am.GetFrame(), colorF);
-            else if (activo == 1)
-                sprite.Draw(felix[activo], new Rectangle((int)_position.X, (int)_position.Y, 200, 150), am.GetFrame(), colorF);
-            else if (activo == 2)
-                sprite.Draw(felix[activo], new Rectangle((int)_position.X - 20, (int)_position.Y, 140, 150), pm.GetFrame(), colorF);
-            else if (activo == 3)
-                sprite.Draw(felix[activo], new Rectangle((int)_position.X - 20, (int)_position.Y, 120, 140), pm.GetFrame(), colorF);
-            else if (activo == 4)
-                sprite.Draw(felix[activo], new Rectangle((int)_position.X - 20, (int)_position.Y, 130, 140), pp.GetFrame(), colorF);
-            else if (activo == 5)
-                sprite.Draw(felix[activo], new Rectangle((int)_position.X, (int)_position.Y, 100, 130), colorF);
+            if (ejecucion == 0)
+            {
+                if (activo <= 0)
+                    sprite.Draw(felix[activo], new Rectangle(rFelix.X - 70, rFelix.Y, rFelix.Width, rFelix.Height), am.GetFrame(), colorF);
+                else if (activo == 1)
+                    sprite.Draw(felix[activo], new Rectangle((int)_position.X, (int)_position.Y, 200, 150), am.GetFrame(), colorF);
+                else if (activo == 2)
+                    sprite.Draw(felix[activo], new Rectangle((int)_position.X - 20, (int)_position.Y, 140, 150), pm.GetFrame(), colorF);
+                else if (activo == 3)
+                    sprite.Draw(felix[activo], new Rectangle((int)_position.X - 20, (int)_position.Y, 120, 140), pm.GetFrame(), colorF);
+                else if (activo == 4)
+                    sprite.Draw(felix[activo], new Rectangle((int)_position.X - 20, (int)_position.Y, 130, 140), pp.GetFrame(), colorF);
+                else if (activo == 5)
+                    sprite.Draw(felix[activo], new Rectangle((int)_position.X, (int)_position.Y, 100, 130), colorF);
+            }
+            else
+            {
+                if (ejecucion == 1)
+                    sprite.Draw(ejec_slime, new Rectangle((int)_position.X - 20, (int)_position.Y, 200, 200), ejec1.GetFrame(), colorF);
+                else if (ejecucion == 2)
+                    sprite.Draw(ejec_bacteriano, new Rectangle((int)_position.X - 20, (int)_position.Y, 250, 250), ejec2.GetFrame(), colorF);
+                else if (ejecucion == 3)
+                    sprite.Draw(ejec_elvira, new Rectangle((int)_position.X - 20, (int)_position.Y, 300, 300), ejec3.GetFrame(), colorF);
+            }
 
             disparo.Draw(gameTime, sprite);
 
-           
-            
-        }
 
+
+
+        }
+        public void Ejecucion()
+        {
+            if (ejecucion != 0)
+                tiempo++;
+
+            if (tiempo > 100)
+            {
+                ejecucion = 0;
+                tiempo = 0;
+            }
+        }
         public override void Update(GameTime gameTime)
         {
+            ejec1.Update();
+            ejec2.Update();
+            ejec3.Update();
             des.Update();
             if (H > 90) 
             {
@@ -216,6 +255,7 @@ namespace BetaFoesAndBones.Personajes
 
             areaAtaqueCortoAlcanze = new Rectangle((int)_position.X - 45, (int)_position.Y - 25, 170, 180);
 
+            Ejecucion();
             Desmembramiento();
             desaparecerArmas();
             AgarrarArmaPiso();
@@ -475,14 +515,18 @@ namespace BetaFoesAndBones.Personajes
         private void Desmembramiento()
         {
             KeyboardState teclado = Keyboard.GetState();
-           
+
             foreach (Enemigo enemy in enemigoList.ToList())
             {
                 if (rCuerpo.Intersects(new Rectangle((int)enemy.Posicion.X, (int)enemy.Posicion.Y, (int)enemy.Tamaño.X, (int)enemy.Tamaño.Y))
-                    && teclado.IsKeyDown(Keys.E) && enemy.EnemigoVulnerable && yaToco == 0  )
+                    && teclado.IsKeyDown(Keys.E) && enemy.EnemigoVulnerable && yaToco == 0)
                 {
-                  
-
+                    if (enemy is Slime)
+                        ejecucion = 1;
+                    else if (enemy is Bacteriano)
+                        ejecucion = 2;
+                    else if (enemy is Draconario)
+                        ejecucion = 3;
                     yaToco = 1;
                     var armaSuelta = armaver.SoltarArmaEnemy();
                     if (armaSuelta != null) // Verificar que no sea null

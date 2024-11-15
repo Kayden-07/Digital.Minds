@@ -1,20 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\BetaFoesAndBones.csproj": {}
+    "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\BetaFoesAndBones.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\BetaFoesAndBones.csproj": {
+    "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\BetaFoesAndBones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
         "projectName": "BetaFoesAndBones",
-        "projectPath": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
-        "packagesPath": "C:\\Users\\A-04\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A-04\\Desktop\\Muriel\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\obj\\",
+        "projectPath": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
+        "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alumno\\Desktop\\Digital.Minds\\pruebas-juego\\prueva_Errores_V15_11\\BetaFoesAndBones\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\Alumno\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\A-04\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,7 +80,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -121,6 +121,42 @@
 /processorParam:TextureFormat=Color
 /build:Enemigos/bacte_movimiento.png
 
+#begin Enemigos/Desmenbramiento_bacteriano.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Enemigos/Desmenbramiento_bacteriano.png
+
+#begin Enemigos/Desmenbramiento_elvira.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Enemigos/Desmenbramiento_elvira.png
+
+#begin Enemigos/Desmenbramiento_slim.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Enemigos/Desmenbramiento_slim.png
+
 #begin Enemigos/Draconariop.png
 /importer:TextureImporter
 /processor:TextureProcessor
