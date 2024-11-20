@@ -46,6 +46,7 @@ namespace BetaFoesAndBones.Personajes
         private Texture2D vulne_elvira;
 
         private Texture2D balaMortero;
+        private Texture2D radioMortero;
 
         private Texture2D cuerpoC;
         private Texture2D pinza1C;
@@ -80,7 +81,8 @@ namespace BetaFoesAndBones.Personajes
             vulne_slime = _content.Load<Texture2D>("Enemigos/Vuln_slime");
             vulne_elvira = _content.Load<Texture2D>("Enemigos/Vulne_elvira");
 
-            balaMortero = _content.Load<Texture2D>("Enemigos/Slimep");
+            balaMortero = _content.Load<Texture2D>("Disparos/balaMortero");
+            radioMortero = _content.Load<Texture2D>("Disparos/cuadrado");
 
             cuerpoC = _content.Load<Texture2D>("Enemigos/jefeCangrejo/cuerpo");
             pinza1C = _content.Load<Texture2D>("Enemigos/jefeCangrejo/pinza1");
@@ -172,11 +174,11 @@ namespace BetaFoesAndBones.Personajes
                 new Slime(slimeTextura, new Vector2(1000, 800)),
                 new Bacteriano(bacterianoTextura, new Vector2(1400, 700)),
             };
-            mapaHabitaciones[11] = new List<Enemigo>
+            mapaHabitaciones[1] = new List<Enemigo>
             {
                 new Slime(slimeTextura, new Vector2(1000, 800)),
 
-                new JefeCangrejo(cuerpoC,pinza1C, pinza1roC,pinza2C,pinza2roC,cuadrado, new Vector2(150, 100), balaMortero)
+                new JefeCangrejo(cuerpoC,pinza1C, pinza1roC,pinza2C,pinza2roC,cuadrado, new Vector2(150, 100), balaMortero, radioMortero)
             };
 
         }

@@ -242,6 +242,7 @@ namespace BetaFoesAndBones.Personajes
         List<Rectangle> areaImpact = new List<Rectangle>();
         private List<Mortero> morteros;
         private Texture2D morteroTextura;
+        private Texture2D radioMortero;
         private float tiempoTranscurrido;
         private const float intervaloDisparo = 3f;
         private Vector2 posicionFelix;
@@ -255,7 +256,7 @@ namespace BetaFoesAndBones.Personajes
         public CuerpoC cuerpo;
         private bool reversa1;
         private bool reversa2;
-        public JefeCangrejo(Texture2D cuerpo, Texture2D pinza1, Texture2D pinza1ro, Texture2D pinza2, Texture2D pinza2ro, Texture2D colisionCuadrado, Vector2 posicion, Texture2D texturaMortero) : base(cuerpo, posicion, 0f, 5f, 500, 2000, new Vector2(565, 630), 20, 6)
+        public JefeCangrejo(Texture2D cuerpo, Texture2D pinza1, Texture2D pinza1ro, Texture2D pinza2, Texture2D pinza2ro, Texture2D colisionCuadrado, Vector2 posicion, Texture2D texturaMortero, Texture2D radioMortero) : base(cuerpo, posicion, 0f, 5f, 500, 2000, new Vector2(565, 630), 20, 6)
         {
             DañoExplosion = false;
             morteroTextura = texturaMortero;
@@ -273,6 +274,7 @@ namespace BetaFoesAndBones.Personajes
             areaImpact = new List<Rectangle>();
             tiempoTranscurrido = 0f;
             posicionFelix = new Vector2(0, 0);
+            this.radioMortero = radioMortero;
         }
         public void Draw(GameTime gameTime, SpriteBatch sprite)
         {
@@ -287,7 +289,7 @@ namespace BetaFoesAndBones.Personajes
             foreach (var mortero in morteros)
                 mortero.Draw(sprite);
             foreach (var area in areaImpact)
-                sprite.Draw(morteroTextura, area, cuerpo.ColorE);
+                sprite.Draw(radioMortero, area, Color.Red*0.30f);
         }
         public void Actualizar(GameTime gameTime, Vector2 felixPosicion)
         {
@@ -304,7 +306,7 @@ namespace BetaFoesAndBones.Personajes
             {
                 Mortero nuevoMortero = new Mortero(posicionFelix, morteroTextura, new Vector2(posicionFelix.X, -10), 50, 10, 1, 0, new Vector2(50, 50), 20, 6);
                 morteros.Add(nuevoMortero);
-                areaImpact.Add(new Rectangle((int)posicionFelix.X, (int)posicionFelix.Y, 100, 100));
+                areaImpact.Add(new Rectangle((int)posicionFelix.X - 50, (int)posicionFelix.Y - 30, 200, 200));
                 tiempoTranscurrido = 0f;
             }
             foreach (var mortero in morteros)
