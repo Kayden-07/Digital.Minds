@@ -97,6 +97,18 @@
 /processorParam:TextureFormat=Color
 /build:Controles/felix_sticker.png
 
+#begin creditos/logoSticker.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:creditos/logoSticker.png
+
 #begin Disparos/Disparito.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -487,6 +499,20 @@
 /processorParam:PremultiplyAlpha=True
 /processorParam:TextureFormat=Compressed
 /build:Fuentes/arial.spritefont
+
+#begin Fuentes/creditos.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fuentes/creditos.spritefont
+
+#begin Fuentes/creditosTitulos.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fuentes/creditosTitulos.spritefont
 
 #begin Fuentes/fuente.spritefont
 /importer:FontDescriptionImporter

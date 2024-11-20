@@ -3,6 +3,7 @@ using BetaFoesAndBones.Personajes;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,6 +26,12 @@ namespace BetaFoesAndBones.Vistas
         private int felixX;
         private int felixY;
         private Boton botonRestart;
+        private Boton botonCreditos;
+        private List<Boton> _componentes;
+
+        private int valorActual;
+        private bool siguienteBtn;
+        private bool anteriorBtn;
 
         public VistaGanaste(Game1 game, GraphicsDevice graphicsDevice, ContentManager contenedor) : base(game, graphicsDevice, contenedor)
         {
@@ -42,28 +49,47 @@ namespace BetaFoesAndBones.Vistas
             y = (h / 2) - 150;
             botonRestart = new Boton(cuadrado, botonFuente, 1)
             {
-                Posicion = new Vector2(x - 50, y + 450),
+                Posicion = new Vector2(x - 250, y + 450),
                 Texto = "Volver al menu",
             };
             botonRestart.Click += BotonRestart_Click;
+            botonCreditos = new Boton(cuadrado, botonFuente, 2)
+            {
+                Posicion = new Vector2(x + 200, y + 450),
+                Texto = "Ver Creditos",
+            };
+            botonCreditos.Click += botonCreditos_Click;
+
+            _componentes = new List<Boton>()
+            {
+                botonRestart,
+                botonCreditos
+            };
+
+            siguienteBtn = false;
+            anteriorBtn = false;
+            valorActual = 1;
         }
 
         private void BotonRestart_Click(object sender, EventArgs e)
         {
             _game.ChangeState(new VistaMenu(_game, _graphicsDevice, _content));
         }
-
+        private void botonCreditos_Click(object sender, EventArgs e)
+        {
+            _game.ChangeState(new VistaCreditos(_game, _graphicsDevice, _content));
+        }
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             _game.GraphicsDevice.Clear(Color.Black);
             spriteBatch.Begin();
             spriteBatch.Draw(fondo, new Rectangle(0, 0, w, h), Color.White);
-            botonRestart.Draw(gameTime, spriteBatch);
+            foreach (var componente in _componentes)
+                componente.Draw(gameTime, spriteBatch);
             spriteBatch.Draw(felix, new Rectangle(felixX, felixY, 500, 300), Color.White);
             spriteBatch.DrawString(_fuen, texto, new Vector2(x, y), Color.Black);
             spriteBatch.Draw(cuadrado, new Rectangle(-20, 80, w + 50, 150), Color.BurlyWood);
-            spriteBatch.DrawString(_fuen, "Felicidades, ahora felix va a poder tener una vida feliz y tranquila fuera de la mazmorra", new Vector2(50, 100), Color.Black);
-            spriteBatch.DrawString(_fuen, "gracias a ti", new Vector2(50, 150), Color.Black);
+            spriteBatch.DrawString(_fuen, "Felicidades, ahora felix va a poder tener una vida feliz y tranquila fuera de la mazmorra \n \"gracias a ti", new Vector2(50, 100), Color.Black);
             spriteBatch.End();
         }
 
@@ -73,8 +99,24 @@ namespace BetaFoesAndBones.Vistas
 
         public override void Update(GameTime gameTime)
         {
-            botonRestart.Update(gameTime);
-            botonRestart.SobreBtn = true;
+            foreach (var componente in _componentes)
+            {
+                if (valorActual == componente.Valor) componente.SobreBtn = true;
+                else componente.SobreBtn = false;
+                componente.Update(gameTime);
+            }
+            if (Keyboard.GetState().IsKeyDown(Keys.D)) siguienteBtn = true;
+            if (Keyboard.GetState().IsKeyDown(Keys.A)) anteriorBtn = true;
+            if (Keyboard.GetState().IsKeyUp(Keys.D) && siguienteBtn)
+            {
+                siguienteBtn = false;
+                valorActual = (valorActual < _componentes.Count) ? valorActual + 1 : 1;
+            }
+            if (Keyboard.GetState().IsKeyUp(Keys.A) && anteriorBtn)
+            {
+                anteriorBtn = false;
+                valorActual = (valorActual > 1) ? valorActual - 1 : _componentes.Count;
+            }
         }
     }
 }

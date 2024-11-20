@@ -77,7 +77,8 @@ namespace BetaFoesAndBones.Vistas
 
         private void BotonCargarJuego_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("LoadGame");
+            //Console.WriteLine("LoadGame");
+            _game.ChangeState(new VistaCreditos(_game, _graphicsDevice, _content));
         }
 
         private void BotonNuevoJuego_Click(object sender, EventArgs e)

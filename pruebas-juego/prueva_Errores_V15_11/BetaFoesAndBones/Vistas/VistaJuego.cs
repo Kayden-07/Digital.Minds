@@ -22,7 +22,6 @@ namespace BetaFoesAndBones.Vistas
         
         private Felix felix;
         private Mapa Mapa;
-        private Slime Slime;
         private Enemigos enemigo;
         private Armas arma;
         public int puntos;

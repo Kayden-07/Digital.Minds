@@ -15,6 +15,7 @@ using BetaFoesAndBones.ArmasUniversal;
 
 namespace BetaFoesAndBones.Controles
 {
+
     internal class Disparo : Componentes
     {
         private int disparos;
@@ -55,6 +56,8 @@ namespace BetaFoesAndBones.Controles
         MouseState estadoRaton;
         bool disparoRealizado = false;
 
+
+        public Texture2D Textura { get { return magia_textura; } set { magia_textura = value; } }
         public Disparo(ContentManager contenedor, Vector2 posicion , Game1 game1, Dictionary<Vector2, int> _coli)
         {
             estoyLanzandoElArma = false;
@@ -77,62 +80,8 @@ namespace BetaFoesAndBones.Controles
 
             proyectiles = new List<Magia>();
         }
-        public Texture2D Textura { get { return magia_textura; } set { magia_textura = value; } }
-        public class Magia
-        {
-            private Vector2 posicion;
-            private Vector2 direccion;
-            private float velocidad;
-            private Texture2D textura;
-            private float daño;
-            
-
-            public Vector2 Posicion
-            {
-                get { return posicion; }
-                set { posicion = value; }
-            }
-            public Vector2 Direccion
-            {
-                get { return direccion; }
-                set { direccion = value; }
-            }
-            public float Velocidad
-            {
-                get { return velocidad; }
-                set { velocidad = value; }
-            }
-            public Texture2D Textura
-            {
-                get { return textura; }
-                set { textura = value; }
-            }
-            public float Daño
-            {
-                get { return daño; }
-                set { daño = value; }
-            }
-            public Magia(Vector2 posicion, Vector2 direccion, float velocidad, Texture2D textura, float daño)
-            {
-                Posicion = posicion;
-                Direccion = direccion;
-                Velocidad = velocidad;
-                Textura = textura;
-                Daño = daño;
-                
-
-            }
-
-            public void Actualizar(GameTime gameTime)
-            {
-                Posicion += Direccion * Velocidad * (float)gameTime.ElapsedGameTime.TotalSeconds;
-
-            }
-
-
-
-
-        }
+        
+        
         public override void Draw(GameTime gameTime, SpriteBatch sprite)
         {
             foreach (Magia proyectil in proyectiles)
@@ -427,5 +376,60 @@ namespace BetaFoesAndBones.Controles
         {
             proyectiles.Clear();
         }
+    }
+    public class Magia
+    {
+        private Vector2 posicion;
+        private Vector2 direccion;
+        private float velocidad;
+        private Texture2D textura;
+        private float daño;
+
+
+        public Vector2 Posicion
+        {
+            get { return posicion; }
+            set { posicion = value; }
+        }
+        public Vector2 Direccion
+        {
+            get { return direccion; }
+            set { direccion = value; }
+        }
+        public float Velocidad
+        {
+            get { return velocidad; }
+            set { velocidad = value; }
+        }
+        public Texture2D Textura
+        {
+            get { return textura; }
+            set { textura = value; }
+        }
+        public float Daño
+        {
+            get { return daño; }
+            set { daño = value; }
+        }
+        public Magia(Vector2 posicion, Vector2 direccion, float velocidad, Texture2D textura, float daño)
+        {
+            Posicion = posicion;
+            Direccion = direccion;
+            Velocidad = velocidad;
+            Textura = textura;
+            Daño = daño;
+
+
+        }
+
+        public void Actualizar(GameTime gameTime)
+        {
+            Posicion += Direccion * Velocidad * (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+        }
+
+
+
+
     }
 }
