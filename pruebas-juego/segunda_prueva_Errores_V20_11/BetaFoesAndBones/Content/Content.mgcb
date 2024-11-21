@@ -13,30 +13,6 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin ../../../../../../Downloads/cuadrado.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:../../../../../../Downloads/cuadrado.png;Disparos/cuadrado.png
-
-#begin ../../../../../../Downloads/cuadrado.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:../../../../../../Downloads/cuadrado.png;Disparos/cuadrado.png
-
 #begin ../../../HUDmej_V20_10/BetaFoesAndBones/Content/HUD/Corazon.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -96,6 +72,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:Armas/Arma-slime.png
+
+#begin Controles/Boton_A.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Controles/Boton_A.png
 
 #begin Controles/boton.png
 /importer:TextureImporter
@@ -737,7 +725,7 @@
 /processorParam:TextureFormat=Color
 /build:Tiles-SandstoneDungeons.png
 
-#begin Tutorial/DesmemAgarrarTuto.png
+#begin Tutorial/DesmemAgarrar1.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -747,9 +735,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Tutorial/DesmemAgarrarTuto.png
+/build:Tutorial/DesmemAgarrar1.png
 
-#begin Tutorial/LanzaeArma.png
+#begin Tutorial/Hab1Tuto1.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -759,9 +747,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Tutorial/LanzaeArma.png
+/build:Tutorial/Hab1Tuto1.png
 
-#begin Tutorial/TutoHab1.png
+#begin Tutorial/LanzaeArmaTuto1.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -771,5 +759,5 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Tutorial/TutoHab1.png
+/build:Tutorial/LanzaeArmaTuto1.png
 

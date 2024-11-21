@@ -286,10 +286,11 @@ namespace BetaFoesAndBones.Personajes
             //    sprite.Draw(colCuerpo, colision, Color.White);
             //foreach (Rectangle colision in pinza2.colisions)
             //    sprite.Draw(colCuerpo, colision, Color.White);
+            foreach (var area in areaImpact)
+                sprite.Draw(radioMortero, area, Color.Red * 0.30f);
             foreach (var mortero in morteros)
                 mortero.Draw(sprite);
-            foreach (var area in areaImpact)
-                sprite.Draw(radioMortero, area, Color.Red*0.30f);
+           
         }
         public void Actualizar(GameTime gameTime, Vector2 felixPosicion)
         {

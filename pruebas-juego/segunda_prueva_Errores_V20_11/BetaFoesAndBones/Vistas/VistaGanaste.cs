@@ -36,7 +36,7 @@ namespace BetaFoesAndBones.Vistas
         public VistaGanaste(Game1 game, GraphicsDevice graphicsDevice, ContentManager contenedor) : base(game, graphicsDevice, contenedor)
         {
             _fuen = _content.Load<SpriteFont>("Fuentes/arial");
-            cuadrado = _content.Load<Texture2D>("Controles/boton");
+            cuadrado = _content.Load<Texture2D>("Controles/Boton_A");
             fondo = _content.Load<Texture2D>("portada_ganaste");
             var botonFuente = _content.Load<SpriteFont>("Fuentes/fuente");
             felix = _content.Load<Texture2D>("Controles/felix_sticker");
@@ -68,7 +68,7 @@ namespace BetaFoesAndBones.Vistas
 
             siguienteBtn = false;
             anteriorBtn = false;
-            valorActual = 1;
+            valorActual = 2;
         }
 
         private void BotonRestart_Click(object sender, EventArgs e)
@@ -87,9 +87,9 @@ namespace BetaFoesAndBones.Vistas
             foreach (var componente in _componentes)
                 componente.Draw(gameTime, spriteBatch);
             spriteBatch.Draw(felix, new Rectangle(felixX, felixY, 500, 300), Color.White);
-            spriteBatch.DrawString(_fuen, texto, new Vector2(x, y), Color.Black);
+            spriteBatch.DrawString(_fuen, texto, new Vector2(x, y), Color.White);
             spriteBatch.Draw(cuadrado, new Rectangle(-20, 80, w + 50, 150), Color.BurlyWood);
-            spriteBatch.DrawString(_fuen, "Felicidades, ahora felix va a poder tener una vida feliz y tranquila fuera de la mazmorra \n \"gracias a ti", new Vector2(50, 100), Color.Black);
+            spriteBatch.DrawString(_fuen, "Felicidades, ahora felix va a poder tener una vida feliz y tranquila fuera de \n la mazmorra gracias a ti", new Vector2(90, 100), Color.White);
             spriteBatch.End();
         }
 

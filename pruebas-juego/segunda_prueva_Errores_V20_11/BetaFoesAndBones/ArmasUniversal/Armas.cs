@@ -101,7 +101,7 @@ namespace BetaFoesAndBones.ArmasUniversal
                 atacando = true;
                 t = 0f;
             }
-            if (atacando)
+            if (atacando && numArma != "a")
             {
                 t += tiempo;
                 if (t < duracionGolpe / 2)

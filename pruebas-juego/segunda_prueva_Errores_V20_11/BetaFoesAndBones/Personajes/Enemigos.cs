@@ -417,7 +417,7 @@ namespace BetaFoesAndBones.Personajes
                         if (areaAtaqueCortoAlcanze.Intersects(new Rectangle((int)enemy.Posicion.X, (int)enemy.Posicion.Y, (int)enemy.Tamaño.X, (int)enemy.Tamaño.Y)))
                         {
                             // Recordar despues cambiar el daño del arma a una variable
-                            enemy.HP -= 10;
+                            enemy.HP -= armasPiso[int.Parse(numArma)].DañoMelee;
                             enemy.Posicion = enemy.temp;
                             enemy.ColorE = Color.Red;
                         }

@@ -27,7 +27,7 @@ namespace BetaFoesAndBones.Vistas
         public VistaPerdiste(Game1 game, GraphicsDevice graphicsDevice, ContentManager contenedor) : base(game, graphicsDevice, contenedor)
         {
             _fuen = _content.Load<SpriteFont>("Fuentes/arial");
-            var botonTexture = _content.Load<Texture2D>("Controles/boton");
+            var botonTexture = _content.Load<Texture2D>("Controles/Boton_A");
             var botonFuente = _content.Load<SpriteFont>("Fuentes/fuente");
             felix = _content.Load<Texture2D>("Controles/felix_sticker");
             texto = "Perdiste";

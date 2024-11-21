@@ -11,6 +11,7 @@ namespace BetaFoesAndBones.Controles
 {
     public class Boton : Componentes
     {
+        private bool yaTOco;
         private bool presionoEspacio;
         //----------Variables-----------
         private MouseState _mouseActual;
@@ -36,32 +37,33 @@ namespace BetaFoesAndBones.Controles
 
         public Vector2 Posicion {  get; set; }
         
+        public String Texto { get; set; }
         public Rectangle Rectangulo
         {
-            get { return new Rectangle((int)Posicion.X, (int)Posicion.Y, _textura.Width, _textura.Height); }
+            get { return new Rectangle((int)Posicion.X, (int)Posicion.Y, (Texto.Length > 15) ? Texto.Length * 20 : 300, 100); }
         }
 
-        public String Texto { get; set; }
 
         // ------------Metodos-------------------
 
         public Boton(Texture2D texture, SpriteFont fuente, int valor)
         {
+            yaTOco = false;
             presionoEspacio = false;
 
             _textura = texture;
             _fuente = fuente;
-            LetraColor = Color.Black;
+            LetraColor = Color.White;
             _valor = valor;
             _sobreBtn = false;
         }
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
-            var color = Color.White;
+            var color = Color.Gray;
 
             //
             if (_sobreBtn)
-                color = Color.Gray;
+                color = Color.Yellow;
 
             spriteBatch.Draw(_textura, Rectangulo, color);
 
@@ -89,14 +91,14 @@ namespace BetaFoesAndBones.Controles
             //_sobreBtn = false;
 
             // Pregunto si el mouse toca al rectangulo del boton
-            if (Keyboard.GetState().IsKeyDown(Keys.Enter) && _sobreBtn)
+            if (Keyboard.GetState().IsKeyDown(Keys.Space) && _sobreBtn)
             {
                 presionoEspacio = true;
                 
             }
             if (presionoEspacio) 
             {
-                if (Keyboard.GetState().IsKeyUp(Keys.Enter) && _sobreBtn)
+                if (Keyboard.GetState().IsKeyUp(Keys.Space) && _sobreBtn)
                 {
                     Click?.Invoke(this, new EventArgs());
                     presionoEspacio = false;

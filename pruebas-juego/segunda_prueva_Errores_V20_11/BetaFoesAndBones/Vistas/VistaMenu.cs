@@ -32,7 +32,7 @@ namespace BetaFoesAndBones.Vistas
             anteriorBtn = false;
             valorActual = 1;
             _portada = _content.Load<Texture2D>("portada_inicio");
-            var botonTexture = _content.Load<Texture2D>("Controles/boton");
+            var botonTexture = _content.Load<Texture2D>("Controles/Boton_A");
             var botonFuente = _content.Load<SpriteFont>("Fuentes/fuente");
             w = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
             h = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
@@ -41,20 +41,12 @@ namespace BetaFoesAndBones.Vistas
 
             var botonNuevoJuego = new Boton(botonTexture, botonFuente, 1)
             {
-                Posicion = new Vector2(x - 400, y + 600),
+                Posicion = new Vector2(x, y + 600),
                 Texto = "Nuevo Juego",
             };
             botonNuevoJuego.Click += BotonNuevoJuego_Click;
 
-            var botonCargarJuego = new Boton(botonTexture, botonFuente, 2)
-            {
-                Posicion = new Vector2(x, y + 600),
-                Texto = "Cargar Juego",
-            };
-
-            botonCargarJuego.Click += BotonCargarJuego_Click;
-
-            var botonSalir = new Boton(botonTexture, botonFuente, 3)
+            var botonSalir = new Boton(botonTexture, botonFuente, 2)
             {
                 Posicion = new Vector2(x + 400, y + 600),
                 Texto = "Salir",
@@ -65,7 +57,6 @@ namespace BetaFoesAndBones.Vistas
             _componentes = new List<Boton>()
             {
                 botonNuevoJuego,
-                botonCargarJuego,
                 botonSalir,
             };
         }
@@ -73,12 +64,6 @@ namespace BetaFoesAndBones.Vistas
         private void BotonSalir_Click(object sender, EventArgs e)
         {
             _game.Exit();
-        }
-
-        private void BotonCargarJuego_Click(object sender, EventArgs e)
-        {
-            //Console.WriteLine("LoadGame");
-            _game.ChangeState(new VistaCreditos(_game, _graphicsDevice, _content));
         }
 
         private void BotonNuevoJuego_Click(object sender, EventArgs e)
