@@ -57,9 +57,9 @@ namespace BetaFoesAndBones.Controles
 
             _content = contenedor;
             textureAtlas = _content.Load<Texture2D>("Tiles-SandstoneDungeons");
-            tilemap = loadMap("../../../Data/jefe_piso.csv");
-            coli = loadMap("../../../Data/jefe_colis.csv");
-            habitaciones = loadMap("../../../Data/jefe_hab.csv");
+            tilemap = loadMap("Data/jefe_piso.csv");
+            coli = loadMap("Data/jefe_colis.csv");
+            habitaciones = loadMap("Data/jefe_hab.csv");
             textureStore = new() {
                 new Rectangle(0,0,8,8),
                 new Rectangle(0,8,8,8),

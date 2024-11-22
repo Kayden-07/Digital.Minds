@@ -227,7 +227,12 @@ namespace BetaFoesAndBones.Controles
 
                 if (elArmaColisiono)
                     estoyLanzandoElArma = false;
-                intersection = getIntersectingTilesHorizontal(new Rectangle((int)armasAlanzar[numArmaLanzar].PosicionArma.X, (int)armasAlanzar[numArmaLanzar].PosicionArma.Y, 190, 150));
+                if(numArmaLanzar < armalanzar.Count())
+                    intersection = getIntersectingTilesHorizontal(new Rectangle((int)armasAlanzar[numArmaLanzar].PosicionArma.X, (int)armasAlanzar[numArmaLanzar].PosicionArma.Y, 190, 150));
+                else
+                {
+                    elArmaColisiono = true;
+                }
 
                 foreach (var reac in intersection)
                 {

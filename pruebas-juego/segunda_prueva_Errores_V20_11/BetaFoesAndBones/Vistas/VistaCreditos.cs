@@ -90,7 +90,7 @@ namespace BetaFoesAndBones.Vistas
 
         public override void Update(GameTime gameTime)
         {
-            if(movimiento < 3400)
+            if(movimiento < 3500)
             movimiento += 85*(float)gameTime.ElapsedGameTime.TotalSeconds;
         }
         private void losCreditos()
