@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "APlCTY6lvIU=",
+  "dgSpecHash": "jDYub5Lv95s=",
   "success": true,
-  "projectFilePath": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\pruebas-juego\\segunda_prueva_Errores_V20_11\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
+  "projectFilePath": "C:\\Users\\A-03\\Desktop\\Digital.Minds\\FoesAndBone(JUEGO)\\BetaFoesAndBones\\BetaFoesAndBones.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A-03\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\A-03\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",

@@ -13,30 +13,6 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin ../../../HUDmej_V20_10/BetaFoesAndBones/Content/HUD/Corazon.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:../../../HUDmej_V20_10/BetaFoesAndBones/Content/HUD/Corazon.png;HUD/Corazon.png
-
-#begin ../../../HUDmej_V20_10/BetaFoesAndBones/Content/HUD/Guita.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:../../../HUDmej_V20_10/BetaFoesAndBones/Content/HUD/Guita.png;HUD/Guita.png
-
 #begin Armas/Arma-bactereano.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -592,30 +568,6 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:HUD/CargaEs3.png
-
-#begin HUD/Corazon.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:HUD/Corazon.png
-
-#begin HUD/Guita.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:HUD/Guita.png
 
 #begin HUD/Habilidad.png
 /importer:TextureImporter
